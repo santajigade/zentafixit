@@ -69,11 +69,16 @@ const year = new Date().getFullYear();
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
           <span class="hide-sm">Search</span> <kbd>/</kbd>
         </button>
-        <details class="menu">
+        <details class="menu" id="mega">
           <summary>Categories</summary>
-          <ul class="menu-grid">
-            {CATEGORIES.map((c) => <li><a href={`/${c.slug}/`}>{c.name}</a></li>)}
-          </ul>
+          <div class="mega" role="region" aria-label="All categories">
+            {CATEGORIES.map((c) => (
+              <div class="mega-cat">
+                <a class="mega-title" href={`/${c.slug}/`}>{c.name}</a>
+                <ul>{c.subcategories.map((sc) => <li><a href={`/${c.slug}/#${sc.slug}`}>{sc.name}</a></li>)}</ul>
+              </div>
+            ))}
+          </div>
         </details>
         <a href="/about/" class="hide-sm">About</a>
         <button class="icon-btn" type="button" id="theme-toggle" aria-label="Switch dark or light mode">
@@ -113,6 +118,11 @@ const year = new Date().getFullYear();
   </dialog>
 
   <script>
+    // Close the categories menu on outside click or Escape
+    const mega = document.getElementById('mega') as HTMLDetailsElement | null;
+    document.addEventListener('click', (e) => { if (mega?.open && !mega.contains(e.target as Node)) mega.open = false; });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && mega?.open) { mega.open = false; mega.querySelector('summary')?.focus(); } });
+
     // Theme toggle
     const root = document.documentElement;
     document.getElementById('theme-toggle')?.addEventListener('click', () => {
