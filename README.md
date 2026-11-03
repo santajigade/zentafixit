@@ -43,4 +43,4 @@ The GitHub Action `.github/workflows/deploy.yml` builds the site and uploads `di
 
 ## Hostinger setup
 
-Add these GitHub secrets (Settings → Secrets and variables → Actions): `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD` — from hPanel → Files → FTP Accounts. Files upload to `public_html/`.
+Add these GitHub secrets (Settings → Secrets and variables → Actions): `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD` — from hPanel → Files → FTP Accounts. The FTP account is rooted at `public_html`, so files upload to its root.
