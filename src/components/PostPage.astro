@@ -1,0 +1,190 @@
+---
+import { render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import AuthorBox from './AuthorBox.astro';
+import AdSlot from './AdSlot.astro';
+import Meter from './Meter.astro';
+import { postUrl, formatDate, type Post } from '../lib/posts';
+import { getCategory, getSubcategory } from '../data/categories';
+import { SITE, AUTHOR } from '../data/site';
+
+const { post, all } = Astro.props as { post: Post; all: Post[] };
+const { data } = post;
+const { Content, headings } = await render(post);
+const cat = getCategory(data.category)!;
+const sub = getSubcategory(data.category, data.subcategory)!;
+const url = new URL(postUrl(post), SITE.url).href;
+const toc = headings.filter((h) => h.depth === 2);
+const slugs = new Set(headings.map((h) => h.slug));
+for (const s of data.symptoms) if (!slugs.has(s.to)) throw new Error(`Post "${post.id}": symptom "${s.label}" points to missing heading #${s.to}`);
+const related = all
+  .filter((p) => p.id !== post.id && p.data.category === data.category)
+  .sort((a, b) => Number(b.data.subcategory === data.subcategory) - Number(a.data.subcategory === data.subcategory))
+  .slice(0, 5);
+const reviewed = data.reviewedBy && data.reviewedDate;
+const shareImg = data.image ? data.image.src.replace(/\.webp$/, '.jpg') : undefined;
+const diffLabel = { easy: 'Easy', moderate: 'Moderate', hard: 'Hard' }[data.difficulty];
+const riskLabel = { low: 'Low', caution: 'Use caution', danger: 'Shock / fire risk' }[data.risk];
+
+const authorUrl = new URL(`/author/${AUTHOR.slug}/`, SITE.url).href;
+const schema: object[] = [
+  {
+    '@context': 'https://schema.org', '@type': 'Article', headline: data.title, description: data.description,
+    datePublished: data.pubDate.toISOString(), dateModified: (data.updatedDate ?? data.pubDate).toISOString(),
+    author: { '@type': 'Person', name: AUTHOR.name, url: authorUrl },
+    publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+    mainEntityOfPage: url, articleSection: cat.name,
+    ...(shareImg ? { image: new URL(shareImg, SITE.url).href } : {}),
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE.url + '/' },
+      { '@type': 'ListItem', position: 2, name: cat.name, item: `${SITE.url}/${cat.slug}/` },
+      { '@type': 'ListItem', position: 3, name: sub.name, item: `${SITE.url}/${cat.slug}/${sub.slug}/` },
+      { '@type': 'ListItem', position: 4, name: data.title, item: url },
+    ],
+  },
+];
+if (reviewed) {
+  schema.push({ '@context': 'https://schema.org', '@type': 'WebPage', url,
+    reviewedBy: { '@type': 'Person', name: data.reviewedBy }, lastReviewed: data.reviewedDate!.toISOString().slice(0, 10) });
+}
+if (data.faq.length) {
+  schema.push({ '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: data.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) });
+}
+---
+<Base title={data.title} description={data.description} type="article" schema={schema} progress image={shareImg}>
+  <header slot="band" class="band blueprint">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href={`/${cat.slug}/`}>{cat.name}</a> / <a href={`/${cat.slug}/${sub.slug}/`}>{sub.name}</a></nav>
+      <h1>{data.title}</h1>
+      <p class="lede">{data.description}</p>
+      <dl class="spec">
+        <div><dt>Difficulty</dt><dd><Meter level={data.difficulty} /> {diffLabel}</dd></div>
+        <div><dt>Time</dt><dd>{data.time}</dd></div>
+        <div><dt>Tools</dt><dd>{data.tools.length ? `${data.tools.length} item${data.tools.length > 1 ? 's' : ''}` : 'None'}</dd></div>
+        <div><dt>Risk</dt><dd class={data.risk}>{riskLabel}</dd></div>
+      </dl>
+      <div class="byline-row">
+        <span>By <a href={`/author/${AUTHOR.slug}/`}>{AUTHOR.name}</a> · Updated {formatDate(data.updatedDate ?? data.pubDate)}</span>
+        {reviewed && <span class="stamp">✓ Reviewed {formatDate(data.reviewedDate!)}</span>}
+      </div>
+    </div>
+  </header>
+
+  <div class="post-layout">
+    <aside class="rail-left" aria-label="Advertisement"><AdSlot kind="rail" /></aside>
+    <article class="post-body">
+      {data.image && <figure class="featured"><img src={data.image.src} alt={data.image.alt} width="1200" height="630" fetchpriority="high" /></figure>}
+      {data.symptoms.length > 0 && (
+        <section class="trouble" aria-labelledby="trouble-h">
+          <h2 id="trouble-h">{data.fixcheck ? 'Start here: what are you seeing?' : 'Start here: what do you need?'}</h2>
+          <p>{data.fixcheck ? 'Pick the closest match to jump to the fix.' : 'Pick a topic to jump straight to it.'}</p>
+          <div class="trouble-opts">{data.symptoms.map((s) => <a href={`#${s.to}`} data-jump>{s.label}</a>)}</div>
+        </section>
+      )}
+      <div class="prose" data-post={post.id} data-fixcheck={String(data.fixcheck)}><Content /></div>
+      <AdSlot />
+      {data.faq.length > 0 && (
+        <section class="faq">
+          <h2 id="faq">Questions people ask</h2>
+          {data.faq.map((f) => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}
+        </section>
+      )}
+      <AuthorBox pubDate={data.pubDate} updatedDate={data.updatedDate} reviewedBy={data.reviewedBy} reviewedDate={data.reviewedDate} />
+    </article>
+
+    <aside class="side">
+      {data.tools.length > 0 && <><h2>Tools you'll need</h2><ul class="tools-list">{data.tools.map((t) => <li>{t}</li>)}</ul></>}
+      {toc.length > 2 && (
+        <nav class="toc" aria-label="On this page"><h2>On this page</h2><ul>{toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ul></nav>
+      )}
+      {related.length > 0 && <><h2>More in {cat.name}</h2><ul class="tools-list">{related.map((p) => <li><a href={postUrl(p)}>{p.data.title}</a></li>)}</ul></>}
+      <AdSlot kind="rail" />
+    </aside>
+  </div>
+
+  <script>
+    const prose = document.querySelector<HTMLElement>('.prose');
+    const key = `zf-steps-${prose?.dataset.post}`;
+    let saved: string[] = [];
+    try { saved = JSON.parse(localStorage.getItem(key) || '[]'); } catch {}
+
+    // Turn top-level numbered lists into tickable checklists (progress kept in this browser).
+    prose?.querySelectorAll<HTMLOListElement>(':scope > ol').forEach((ol, li) => {
+      ol.classList.add('steps');
+      const note = document.createElement('p');
+      note.className = 'steps-note';
+      note.textContent = 'Tap a step to mark it done.';
+      ol.before(note);
+      ol.querySelectorAll<HTMLLIElement>(':scope > li').forEach((item, i) => {
+        const id = `${li}-${i}`;
+        item.tabIndex = 0;
+        item.setAttribute('role', 'checkbox');
+        const set = (on: boolean) => { item.classList.toggle('done', on); item.setAttribute('aria-checked', String(on)); };
+        set(saved.includes(id));
+        const toggle = (e: Event) => {
+          if ((e.target as HTMLElement).closest('a')) return;
+          const on = !item.classList.contains('done');
+          set(on);
+          saved = on ? [...saved, id] : saved.filter((x) => x !== id);
+          try { localStorage.setItem(key, JSON.stringify(saved)); } catch {}
+        };
+        item.addEventListener('click', toggle);
+        item.addEventListener('keydown', (e) => { if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); toggle(e); } });
+      });
+    });
+
+    // Troubleshooter: highlight the section it jumps to
+    document.querySelectorAll<HTMLAnchorElement>('[data-jump]').forEach((a) =>
+      a.addEventListener('click', () => {
+        const h = document.getElementById(a.hash.slice(1));
+        h?.classList.remove('flash'); void h?.offsetWidth; h?.classList.add('flash');
+      }),
+    );
+
+    // "Did this fix it?" after each numbered cause/fix section (h2 starting with a number)
+    const h2s = [...(prose?.querySelectorAll<HTMLHeadingElement>(':scope > h2') ?? [])];
+    if (prose?.dataset.fixcheck !== 'false') h2s.forEach((h, i) => {
+      if (!/^\d+\./.test(h.textContent?.trim() ?? '')) return;
+      const next = h2s[i + 1];
+      const box = document.createElement('div');
+      box.className = 'fixcheck';
+      box.innerHTML = `<span>Did this fix it?</span><button type="button" data-yes>Yes, fixed</button>` +
+        (next ? `<button type="button" data-no>No, show the next fix</button>` : '') + `<p class="fixcheck-msg" role="status"></p>`;
+      if (next) next.before(box); else prose!.append(box);
+      const msg = box.querySelector<HTMLElement>('.fixcheck-msg')!;
+      box.querySelector('[data-yes]')!.addEventListener('click', () => {
+        box.classList.add('is-fixed');
+        msg.textContent = 'Nice work. Test it again in a day or two to make sure the fix holds.';
+      });
+      box.querySelector('[data-no]')?.addEventListener('click', () => {
+        next!.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+        next!.classList.remove('flash'); void next!.offsetWidth; next!.classList.add('flash');
+      });
+    });
+
+    // Tap a diagram to view it larger
+    prose?.querySelectorAll<HTMLElement>('figure img, figure svg.diagram').forEach((img) =>
+      img.addEventListener('click', () => {
+        const o = document.createElement('div');
+        o.className = 'zoomed';
+        o.append(img.cloneNode(true));
+        const close = () => { o.remove(); removeEventListener('keydown', esc); };
+        const esc = (e: KeyboardEvent) => { if (e.key === 'Escape') close(); };
+        o.addEventListener('click', close); addEventListener('keydown', esc);
+        document.body.append(o);
+      }),
+    );
+
+    // Highlight the current section in the contents list
+    const links = [...document.querySelectorAll<HTMLAnchorElement>('.toc a')];
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach((en) => {
+        if (en.isIntersecting) links.forEach((l) => l.classList.toggle('active', l.hash === `#${en.target.id}`));
+      });
+    }, { rootMargin: '-80px 0px -70% 0px' });
+    links.forEach((l) => { const t = document.getElementById(l.hash.slice(1)); if (t) obs.observe(t); });
+  </script>
+</Base>

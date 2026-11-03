@@ -43,7 +43,7 @@ Final URLs of all planned posts (use these exact paths for internal links):
 /appliances/dishwasher-not-draining/
 /appliances/microwave-not-heating/
 /appliances/no-hot-water/
-/appliances/appliance-error-codes/
+/appliances/how-to-read-appliance-error-codes/
 /plumbing/toilet-keeps-running/
 /plumbing/leaky-faucet/
 /plumbing/clogged-sink-drain/

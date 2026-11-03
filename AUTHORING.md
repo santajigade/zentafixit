@@ -8,7 +8,7 @@ Every post follows the GFCI post (`src/content/blog/gfci-outlet-keeps-tripping.m
 - **No dashes between phrases.** Never use em dash (—) or en dash (–). Use commas, colons, full stops or brackets. Ranges use "to" (`10 to 30 min`, `$15 to $30`). Hyphens inside words are fine (worn-out, step-by-step, non-contact, USB-C, Wi-Fi).
 
 ## File
-`src/content/blog/<slug>.md`. The slug is the URL, lowercase with hyphens, matching the main search phrase (e.g. `ac-not-cooling`).
+`src/content/blog/<slug>.md`. The slug is the URL, lowercase with hyphens, matching the main search phrase (e.g. `ac-not-cooling`). It must not equal any subcategory slug in its category (subcategories have their own pages at `/<category>/<subcategory>/`); the build stops if it does.
 
 ## Front matter (all fields)
 ```yaml

@@ -28,14 +28,14 @@ const schema = [{
       <h1>{cat.name}</h1>
       <p class="lede">{cat.description}</p>
       <ul class="sub-list">
-        {groups.map((g) => <li>{g.posts.length ? <a href={`#${g.slug}`}>{g.name}</a> : <span>{g.name}</span>}</li>)}
+        {groups.map((g) => <li>{g.posts.length ? <a href={`/${cat.slug}/${g.slug}/`}>{g.name} ({g.posts.length})</a> : <span>{g.name}</span>}</li>)}
       </ul>
     </div>
   </header>
   {posts.length === 0 && <p class="empty">{cat.name} guides are being written and reviewed now. Try <button class="icon-btn" style="color:var(--brand);padding:0" data-open-search>searching</button> for your problem in the meantime.</p>}
   {groups.filter((g) => g.posts.length).map((g) => (
     <section>
-      <div class="section-head"><h2 id={g.slug}>{g.name}</h2></div>
+      <div class="section-head"><h2 id={g.slug}><a href={`/${cat.slug}/${g.slug}/`} class="h-link">{g.name}</a></h2></div>
       <ul class="tickets">{g.posts.map((p) => <PostCard post={p} showCat={false} />)}</ul>
     </section>
   ))}

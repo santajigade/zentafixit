@@ -80,7 +80,7 @@ const countSub = (c: string, sc: string) => live.filter((p) => p.data.category =
             {CATEGORIES.map((c) => (
               <div class="mega-cat">
                 <a class="mega-title" href={`/${c.slug}/`}>{c.name}{countCat(c.slug) > 0 && <span class="count"> ({countCat(c.slug)})</span>}</a>
-                <ul>{c.subcategories.map((sc) => <li><a href={`/${c.slug}/#${sc.slug}`}>{sc.name}{countSub(c.slug, sc.slug) > 0 && <span class="count">&nbsp;({countSub(c.slug, sc.slug)})</span>}</a></li>)}</ul>
+                <ul>{c.subcategories.map((sc) => <li><a href={`/${c.slug}/${sc.slug}/`}>{sc.name}{countSub(c.slug, sc.slug) > 0 && <span class="count">&nbsp;({countSub(c.slug, sc.slug)})</span>}</a></li>)}</ul>
               </div>
             ))}
           </div>

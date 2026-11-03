@@ -7,7 +7,7 @@ reviewedDate: 2026-11-03
 category: appliances
 subcategory: appliance-error-codes
 tags: [error codes, appliances, washer, dryer, refrigerator, dishwasher, oven, model number]
-image: { src: /images/featured/appliance-error-codes.webp, alt: "Illustration of a front-load washer with a small display panel and a highlighted model number tag" }
+image: { src: /images/featured/how-to-read-appliance-error-codes.webp, alt: "Illustration of a front-load washer with a small display panel and a highlighted model number tag" }
 fixcheck: false
 difficulty: easy
 time: 10 to 30 min
@@ -36,7 +36,7 @@ Modern appliances watch themselves. When a washer can't drain, a dishwasher can'
 
 The catch is that codes aren't universal. The same letters can mean different things on two brands, or even two models from the same brand. The way to get the real meaning is always the same: **write down the exact code**, **find your model number**, then check the **manual or the technician's sheet** hidden inside many appliances.
 
-<figure><img src="/images/posts/appliance-error-codes-lookup.svg" alt="Flowchart for looking up an appliance error code: write down the exact code, find the model number tag, check the owner's manual, look for the tech sheet inside the appliance, fix the simple cause and power cycle once; if the code comes back, contact the manufacturer or a repair technician" width="640" height="440" loading="lazy" /><figcaption>Same steps for any brand: code, model number, manual, tech sheet.</figcaption></figure>
+<figure><img src="/images/posts/how-to-read-appliance-error-codes-lookup.svg" alt="Flowchart for looking up an appliance error code: write down the exact code, find the model number tag, check the owner's manual, look for the tech sheet inside the appliance, fix the simple cause and power cycle once; if the code comes back, contact the manufacturer or a repair technician" width="640" height="440" loading="lazy" /><figcaption>Same steps for any brand: code, model number, manual, tech sheet.</figcaption></figure>
 
 <div class="key"><strong>Quick answer</strong><p>Write down the exact code, find the model number on the tag (often inside the door frame or behind a drawer), and look the code up in the owner's manual or the tech sheet tucked inside the appliance. Fix the simple cause, power cycle it once, and call for service if the code returns.</p></div>
 
@@ -65,7 +65,7 @@ Small details matter. A code can show on a digital display, as a **number of fla
 
 The model number (and serial number) is on a sticker or metal plate. You need the **full model number**, not just the brand or series name, because codes and parts often differ between versions.
 
-<figure><img src="/images/posts/appliance-error-codes-model-tags.svg" alt="Common model number tag locations: top-load washer under the lid or on the back of the control panel; front-load washer and dryer inside the door frame or opening; refrigerator on an inside wall of the fresh food section or behind a drawer; dishwasher on the edge of the door or the side of the tub opening; range behind the storage drawer or on the oven frame behind the door; water heater on the side of the tank" width="640" height="440" loading="lazy" /><figcaption>Common places to look. Exact spots vary by brand and model.</figcaption></figure>
+<figure><img src="/images/posts/how-to-read-appliance-error-codes-model-tags.svg" alt="Common model number tag locations: top-load washer under the lid or on the back of the control panel; front-load washer and dryer inside the door frame or opening; refrigerator on an inside wall of the fresh food section or behind a drawer; dishwasher on the edge of the door or the side of the tub opening; range behind the storage drawer or on the oven frame behind the door; water heater on the side of the tank" width="640" height="440" loading="lazy" /><figcaption>Common places to look. Exact spots vary by brand and model.</figcaption></figure>
 
 Common places to look:
 

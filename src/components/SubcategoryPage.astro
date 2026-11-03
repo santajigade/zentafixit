@@ -1,0 +1,29 @@
+---
+import Base from '../layouts/Base.astro';
+import PostCard from './PostCard.astro';
+import type { Category, Subcategory } from '../data/categories';
+import type { Post } from '../lib/posts';
+import { SITE } from '../data/site';
+interface Props { cat: Category; sub: Subcategory; posts: Post[] }
+const { cat, sub, posts } = Astro.props;
+const schema = [{
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE.url + '/' },
+    { '@type': 'ListItem', position: 2, name: cat.name, item: `${SITE.url}/${cat.slug}/` },
+    { '@type': 'ListItem', position: 3, name: sub.name, item: `${SITE.url}/${cat.slug}/${sub.slug}/` },
+  ],
+}];
+const others = cat.subcategories.filter((s) => s.slug !== sub.slug);
+---
+<Base title={`${sub.name} Guides`} description={`Step-by-step ${sub.name.toLowerCase()} guides for US homes: causes, fixes and when to call a pro.`} schema={schema} noindex={posts.length === 0}>
+  <header slot="band" class="band blueprint">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href={`/${cat.slug}/`}>{cat.name}</a> / {sub.name}</nav>
+      <h1>{sub.name}</h1>
+      <p class="lede">{posts.length} {posts.length === 1 ? 'guide' : 'guides'} in {cat.name}.</p>
+      <ul class="sub-list">{others.map((s) => <li><a href={`/${cat.slug}/${s.slug}/`}>{s.name}</a></li>)}</ul>
+    </div>
+  </header>
+  {posts.length === 0 && <p class="empty">{sub.name} guides are being written and reviewed now.</p>}
+  {posts.length > 0 && <ul class="tickets">{posts.map((p) => <PostCard post={p} showCat={false} />)}</ul>}
+</Base>
