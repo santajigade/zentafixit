@@ -16,6 +16,8 @@ const blog = defineCollection({
     draft: z.boolean().default(false),
     // Featured image: 1200×630. Put `<slug>.webp` (page) and `<slug>.jpg` (social share) in public/images/featured/
     image: z.object({ src: z.string(), alt: z.string() }).optional(),
+    // Show the "Did this fix it?" prompt after numbered sections (turn off for how-to guides)
+    fixcheck: z.boolean().default(true),
     difficulty: z.enum(['easy', 'moderate', 'hard']).default('easy'),
     time: z.string().default('15 min'), // e.g. '10 to 30 min'
     tools: z.array(z.string()).default([]),

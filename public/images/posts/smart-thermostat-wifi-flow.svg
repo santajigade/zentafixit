@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="340" fill="#f3f6fa"/>
+  <defs><marker id="tw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Never connected, or keeps dropping?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="56" width="280" height="64" rx="8"/><rect x="336" y="56" width="280" height="64" rx="8"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="164" y="84" font-weight="700">Never connected</text><text x="164" y="104" font-size="12" fill="#566475">since setup or a new router</text>
+    <text x="476" y="84" font-weight="700">Worked, now drops offline</text><text x="476" y="104" font-size="12" fill="#566475">shows offline in the app</text>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#tw)"><path d="M164 120v28"/><path d="M476 120v28"/></g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="24" y="150" width="280" height="166" rx="8"/><rect x="336" y="150" width="280" height="166" rx="8"/></g>
+  <g font-size="13" fill="#14202c">
+    <text x="40" y="176" font-weight="700">Network settings</text>
+    <text x="40" y="202">5 GHz band picked, not 2.4 GHz</text><text x="40" y="222">Wrong or old password</text><text x="40" y="242">Router security blocks it</text><text x="40" y="262">Guest or sign-in network</text>
+    <text x="40" y="296" font-weight="700">Try: Fixes 1, 2, 7, 8</text>
+    <text x="352" y="176" font-weight="700">Signal or power</text>
+    <text x="352" y="202">Weak signal at the wall</text><text x="352" y="222">Low power, no C-wire</text><text x="352" y="242">Router glitch after a restart</text><text x="352" y="262">Old thermostat firmware</text>
+    <text x="352" y="296" font-weight="700">Try: Fixes 3, 4, 5, 6</text>
+  </g>
+</svg>

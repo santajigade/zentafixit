@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <defs><marker id="rff" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Why is only the fridge warm?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="160" y="54" width="320" height="44" rx="8"/>
+    <path d="M320 126l130 34-130 34-130-34z"/>
+    <path d="M320 228l130 34-130 34-130-34z"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="24" y="330" width="184" height="76" rx="8"/><rect x="228" y="330" width="184" height="76" rx="8"/><rect x="432" y="330" width="184" height="76" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#rff)">
+    <path d="M320 98v26"/><path d="M450 160H524V328"/><path d="M320 194v32"/><path d="M190 262H116V328"/><path d="M320 296v32"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">1. Check settings, clear the vents</text>
+    <text x="320" y="156" font-weight="700">Thick frost on the</text><text x="320" y="173" font-weight="700">freezer back wall?</text>
+    <text x="320" y="258" font-weight="700">Fan running with the</text><text x="320" y="275" font-weight="700">door switch pressed?</text>
+    <text x="476" y="152" font-size="12" fill="#566475">yes</text><text x="334" y="214" font-size="12" fill="#566475">no</text>
+    <text x="164" y="254" font-size="12" fill="#566475">no</text><text x="336" y="316" font-size="12" fill="#566475">yes</text>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="38" y="354" font-weight="700">Fan not running</text><text x="38" y="372">ice-jammed or failed</text><text x="38" y="394" font-weight="700">Check cause 4</text>
+    <text x="242" y="354" font-weight="700">Fridge gets no air</text><text x="242" y="372">vent blocked or damper</text><text x="242" y="394" font-weight="700">Check causes 2, 5</text>
+    <text x="446" y="354" font-weight="700">Frost buildup</text><text x="446" y="372">defrost system failed</text><text x="446" y="394" font-weight="700">Check cause 3</text>
+  </g>
+</svg>

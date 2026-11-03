@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Parts of a central air system</text>
+  <!-- indoor unit -->
+  <rect x="150" y="56" width="130" height="330" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M172 148L215 82L258 148" fill="none" stroke="#1d5fae" stroke-width="5" stroke-linejoin="round"/>
+  <g stroke="#1d5fae" stroke-width="1.5"><path d="M190 120l10 6M200 105l10 6M228 105l-10 6M238 120l-10 6"/></g>
+  <rect x="166" y="152" width="98" height="12" rx="3" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <rect x="246" y="140" width="16" height="14" rx="3" fill="#ffd23f" stroke="#0f2240" stroke-width="1.5"/>
+  <circle cx="215" cy="245" r="38" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <g stroke="#0f2240" stroke-width="2"><path d="M215 213v64M183 245h64M192 222l46 46M238 222l-46 46"/></g>
+  <circle cx="215" cy="245" r="8" fill="#0f2240"/>
+  <rect x="162" y="328" width="106" height="20" rx="3" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <g stroke="#566475" stroke-width="1.2"><path d="M174 330v16M186 330v16M198 330v16M210 330v16M222 330v16M234 330v16M246 330v16M258 330v16"/></g>
+  <!-- thermostat -->
+  <rect x="318" y="58" width="38" height="50" rx="6" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <circle cx="337" cy="83" r="11" fill="none" stroke="#1d5fae" stroke-width="2"/>
+  <!-- refrigerant lines -->
+  <path d="M280 128H380V300H430" fill="none" stroke="#566475" stroke-width="7"/>
+  <path d="M280 144H366V316H430" fill="none" stroke="#0f2240" stroke-width="3"/>
+  <!-- disconnect -->
+  <rect x="392" y="332" width="28" height="40" rx="4" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M420 352h10" stroke="#0f2240" stroke-width="2"/>
+  <!-- outdoor unit -->
+  <rect x="430" y="240" width="150" height="146" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <g stroke="#1d5fae" stroke-width="1.5"><path d="M440 250v126M448 250v126M456 250v126M554 250v126M562 250v126M570 250v126"/></g>
+  <circle cx="505" cy="300" r="38" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <g fill="#0f2240"><path d="M505 300l-6-30h12z"/><path d="M505 300l29 9-7 10z"/><path d="M505 300l-24 19-5-11z"/></g>
+  <rect x="490" y="352" width="30" height="20" rx="5" fill="#ffd23f" stroke="#0f2240" stroke-width="2"/>
+  <!-- leaders -->
+  <g stroke="#566475" stroke-width="1.5" fill="none" stroke-dasharray="4 4">
+    <path d="M128 115H192"/><path d="M128 158H166"/><path d="M128 338H162"/><path d="M104 245H177"/><path d="M362 83H378"/><path d="M406 372V396"/><path d="M505 372V384H478V400"/><path d="M505 222V240"/>
+  </g>
+  <!-- number badges -->
+  <g fill="#0f2240"><circle cx="34" cy="110" r="10"/><circle cx="34" cy="154" r="10"/><circle cx="34" cy="334" r="10"/><circle cx="392" cy="78" r="10"/><circle cx="402" cy="182" r="10"/><circle cx="350" cy="410" r="10"/><circle cx="478" cy="410" r="10"/><circle cx="454" cy="208" r="10"/></g>
+  <g font-size="12" font-weight="700" fill="#fff" text-anchor="middle">
+    <text x="34" y="114">5</text><text x="34" y="158">6</text><text x="34" y="338">2</text><text x="392" y="82">1</text><text x="402" y="186">8</text><text x="350" y="414">3</text><text x="478" y="414">7</text><text x="454" y="212">4</text>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="50" y="106" font-weight="700">Evaporator</text><text x="50" y="122" font-weight="700">coil</text>
+    <text x="50" y="150" font-weight="700">Drain pan,</text><text x="50" y="166" font-weight="700">float switch</text>
+    <text x="50" y="330" font-weight="700">Air filter</text><text x="50" y="346" fill="#566475">return air in</text>
+    <text x="50" y="250" fill="#566475">Blower</text>
+    <text x="408" y="83" font-weight="700">Thermostat</text>
+    <text x="418" y="187" font-weight="700">Refrigerant lines</text>
+    <text x="364" y="415" font-weight="700">Disconnect</text>
+    <text x="494" y="415" font-weight="700">Capacitor</text><text x="494" y="431" font-size="12" fill="#566475">behind panel</text>
+    <text x="470" y="213" font-weight="700">Condenser coil</text>
+    <text x="215" y="378" font-size="12" fill="#566475" text-anchor="middle">Indoor unit</text>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- globe -->
+  <circle cx="220" cy="190" r="90" fill="none" stroke="#f3f6fa" stroke-width="7"/>
+  <ellipse cx="220" cy="190" rx="40" ry="90" fill="none" stroke="#f3f6fa" stroke-width="5"/>
+  <path d="M130 190h180M145 145h150M145 235h150" stroke="#f3f6fa" stroke-width="5" fill="none"/>
+  <!-- broken link globe to router -->
+  <path d="M240 290c20 60 60 90 110 120" fill="none" stroke="#9fc4f0" stroke-width="5" stroke-dasharray="12 12"/>
+  <g stroke="#d9442b" stroke-width="10" stroke-linecap="round"><path d="M270 330l40 40M310 330l-40 40"/></g>
+  <!-- router -->
+  <rect x="330" y="420" width="250" height="90" rx="16" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <g stroke="#ffffff" stroke-width="10" stroke-linecap="round"><path d="M370 420l-24-110M540 420l24-110"/></g>
+  <g fill="#0f2240"><circle cx="380" cy="465" r="8"/><circle cx="410" cy="465" r="8"/><circle cx="440" cy="465" r="8"/></g>
+  <rect x="480" y="458" width="70" height="14" rx="7" fill="#9fb7da"/>
+  <!-- laptop -->
+  <rect x="700" y="130" width="400" height="260" rx="16" fill="#16305a" stroke="#ffffff" stroke-width="5"/>
+  <rect x="722" y="152" width="356" height="216" rx="6" fill="#f3f6fa"/>
+  <path d="M650 390h500l-34 46H684z" fill="#f3f6fa" stroke="#ffffff" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="860" y="400" width="80" height="10" rx="5" fill="#9fb7da"/>
+  <!-- full wi-fi bars on screen -->
+  <g transform="translate(0 22)" fill="none" stroke="#0f2240" stroke-width="14" stroke-linecap="round">
+    <path d="M845 270a75 75 0 0 1 110 0"/><path d="M810 232a125 125 0 0 1 180 0"/><path d="M775 194a175 175 0 0 1 250 0"/>
+  </g>
+  <circle cx="900" cy="330" r="14" fill="#0f2240"/>
+  <!-- warning badge -->
+  <circle cx="1040" cy="330" r="34" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+  <path d="M1040 310v24" stroke="#0f2240" stroke-width="8" stroke-linecap="round"/><circle cx="1040" cy="348" r="5" fill="#0f2240"/>
+  <!-- wi-fi from router -->
+  <g fill="none" stroke="#ffd23f" stroke-width="8" stroke-linecap="round"><path d="M610 300a60 60 0 0 1 50 30"/><path d="M610 260a100 100 0 0 1 80 50"/></g>
+  <!-- dimension -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M700 100h400M700 90v20M1100 90v20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

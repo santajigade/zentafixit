@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="380" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Chirp or alarm? What the sound usually means</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="56" width="280" height="80" rx="8"/><rect x="24" y="148" width="280" height="80" rx="8"/><rect x="24" y="240" width="280" height="80" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="330" y="56" width="286" height="80" rx="8"/><rect x="330" y="148" width="286" height="80" rx="8"/></g>
+  <rect x="330" y="240" width="286" height="80" rx="8" fill="#fff" stroke="#d9442b" stroke-width="2"/>
+  <g fill="#1d5fae">
+    <rect x="44" y="90" width="8" height="12" rx="2"/><rect x="74" y="92" width="4" height="8" rx="2" fill="#d5dee8"/>
+    <rect x="44" y="182" width="8" height="12" rx="2"/><rect x="58" y="182" width="8" height="12" rx="2"/><rect x="74" y="184" width="4" height="8" rx="2" fill="#d5dee8"/>
+  </g>
+  <g fill="#d9442b"><rect x="40" y="268" width="6" height="24" rx="2"/><rect x="50" y="268" width="6" height="24" rx="2"/><rect x="60" y="268" width="6" height="24" rx="2"/><rect x="74" y="268" width="6" height="24" rx="2"/></g>
+  <g font-size="14" fill="#14202c">
+    <text x="100" y="90" font-weight="700">One chirp every</text><text x="100" y="110" font-weight="700">30 to 60 seconds</text>
+    <text x="100" y="182" font-weight="700">Chirps continue</text><text x="100" y="202" font-weight="700">after a new battery</text>
+    <text x="100" y="274" font-weight="700">Loud, repeating</text><text x="100" y="294" font-weight="700">alarm pattern</text>
+    <text x="346" y="84" font-weight="700">Usually a low battery</text><text x="346" y="106" font-size="13">Replace it, then hold test</text><text x="346" y="124" font-size="13" fill="#566475">(cause 1)</text>
+    <text x="346" y="176" font-weight="700">Stored warning or end of life</text><text x="346" y="198" font-size="13">Reset it (cause 3), then check</text><text x="346" y="216" font-size="13">the date on the back (cause 4)</text>
+    <text x="346" y="268" font-weight="700" fill="#d9442b">This is an alarm, not a chirp</text><text x="346" y="290" font-size="13">Get everyone out, then call 911</text><text x="346" y="308" font-size="13" fill="#566475">from outside</text>
+  </g>
+  <text x="24" y="352" font-size="12" fill="#566475">Patterns vary by brand and between smoke and CO alarms. Check the label or manual.</text>
+</svg>

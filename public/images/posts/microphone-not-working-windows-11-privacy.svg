@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Settings &gt; Privacy &amp; security &gt; Microphone</text>
+  <rect x="24" y="56" width="592" height="290" rx="8" fill="#fff" stroke="#d5dee8" stroke-width="2"/>
+  <path d="M40 150H600M40 246H600" stroke="#d5dee8" stroke-width="1.5"/>
+  <rect x="34" y="252" width="572" height="86" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g font-size="14" fill="#14202c" font-weight="700">
+    <text x="48" y="96">Microphone access</text>
+    <text x="48" y="192">Let apps access your microphone</text>
+    <text x="48" y="288">Let desktop apps access your microphone</text>
+  </g>
+  <g font-size="12" fill="#566475">
+    <text x="48" y="118">Main switch for the whole PC</text>
+    <text x="48" y="214">Also check your app is on in the list below it</text>
+    <text x="48" y="310">Apps installed from a website or installer</text>
+  </g>
+  <g font-size="13" fill="#14202c" text-anchor="end"><text x="538" y="105">On</text><text x="538" y="201">On</text><text x="538" y="297">On</text></g>
+  <g fill="#1d5fae"><rect x="548" y="88" width="48" height="24" rx="12"/><rect x="548" y="184" width="48" height="24" rx="12"/><rect x="548" y="280" width="48" height="24" rx="12"/></g>
+  <g fill="#fff"><circle cx="584" cy="100" r="7"/><circle cx="584" cy="196" r="7"/><circle cx="584" cy="292" r="7"/></g>
+  <text x="24" y="378" font-size="13" fill="#566475">Often missed: scroll down the page to find the desktop apps switch.</text>
+</svg>

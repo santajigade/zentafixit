@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <defs><marker id="iph1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">What is your iPhone doing?</text>
+  <g font-size="12" font-weight="700" fill="#566475"><text x="40" y="62">WHAT YOU SEE</text><text x="428" y="62">TRY</text></g>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="72" width="356" height="42" rx="8"/><rect x="24" y="122" width="356" height="42" rx="8"/><rect x="24" y="172" width="356" height="42" rx="8"/>
+    <rect x="24" y="222" width="356" height="42" rx="8"/><rect x="24" y="272" width="356" height="42" rx="8"/><rect x="24" y="322" width="356" height="42" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="412" y="72" width="204" height="42" rx="8"/><rect x="412" y="122" width="204" height="42" rx="8"/><rect x="412" y="172" width="204" height="42" rx="8"/>
+    <rect x="412" y="222" width="204" height="42" rx="8"/><rect x="412" y="272" width="204" height="42" rx="8"/><rect x="412" y="322" width="204" height="42" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#iph1)">
+    <path d="M380 93h30"/><path d="M380 143h30"/><path d="M380 193h30"/><path d="M380 243h30"/><path d="M380 293h30"/><path d="M380 343h30"/>
+  </g>
+  <g font-size="14" fill="#14202c">
+    <text x="40" y="98">Nothing happens when you plug in</text>
+    <text x="40" y="148">Charges to 80%, then stops</text>
+    <text x="40" y="198">"Charging On Hold" message</text>
+    <text x="40" y="248">Wireless charger does nothing</text>
+    <text x="40" y="298">"Liquid Detected" alert</text>
+    <text x="40" y="348">Drains fast or a service message</text>
+  </g>
+  <g font-size="14" fill="#14202c" font-weight="700">
+    <text x="428" y="98">Fixes 1, 2 and 5</text>
+    <text x="428" y="148">Fix 3 (or 4 if warm)</text>
+    <text x="428" y="198">Fix 4: let it cool</text>
+    <text x="428" y="248">Fix 6</text>
+    <text x="428" y="298">Fix 7: let it dry</text>
+    <text x="428" y="348">Fix 9: battery health</text>
+  </g>
+  <text x="24" y="396" font-size="12" fill="#566475">Fix numbers match the sections in this guide.</text>
+</svg>

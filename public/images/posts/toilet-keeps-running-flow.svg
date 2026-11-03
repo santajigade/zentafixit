@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="tkf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where is the water going?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="160" y="54" width="320" height="44" rx="8"/>
+    <path d="M320 126l130 34-130 34-130-34z"/>
+    <rect x="160" y="218" width="320" height="44" rx="8"/>
+    <path d="M320 290l130 28-130 28-130-28z"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="24" y="368" width="184" height="62" rx="8"/><rect x="228" y="368" width="184" height="62" rx="8"/><rect x="432" y="368" width="184" height="62" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#tkf)">
+    <path d="M320 98v26"/><path d="M450 160H524V366"/><path d="M320 194v22"/><path d="M320 262v26"/><path d="M190 318H116V366"/><path d="M320 346v20"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">1. Lift the lid, watch the water</text>
+    <text x="320" y="156" font-weight="700">Water spilling into</text><text x="320" y="173" font-weight="700">the overflow tube?</text>
+    <text x="320" y="245">2. Add dye, wait 15 to 30 min</text>
+    <text x="320" y="323" font-weight="700">Color in the bowl?</text>
+    <text x="476" y="152" font-size="12" fill="#566475">yes</text><text x="334" y="210" font-size="12" fill="#566475">no</text>
+    <text x="166" y="310" font-size="12" fill="#566475">yes</text><text x="334" y="362" font-size="12" fill="#566475">no</text>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="38" y="392" font-weight="700">Leak into the bowl</text><text x="38" y="414">Fix: steps 1, 4, 5</text>
+    <text x="242" y="392" font-weight="700">Tank seals fine</text><text x="242" y="414">Fix: steps 3, 6</text>
+    <text x="446" y="392" font-weight="700">Water level too high</text><text x="446" y="414">Fix: steps 2, 6</text>
+  </g>
+</svg>

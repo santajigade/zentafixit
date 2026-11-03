@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- microphone -->
+  <rect x="250" y="90" width="170" height="270" rx="85" fill="#f3f6fa" stroke="#ffffff" stroke-width="5"/>
+  <g stroke="#0f2240" stroke-width="4" stroke-linecap="round"><path d="M285 150h100M275 190h120M275 230h120M275 270h120M285 310h100"/></g>
+  <rect x="250" y="236" width="170" height="10" fill="#9fb7da"/>
+  <path d="M220 230v40a115 115 0 0 0 230 0v-40" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+  <path d="M335 385v120" stroke="#ffffff" stroke-width="14" stroke-linecap="round"/>
+  <rect x="225" y="500" width="220" height="34" rx="17" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <!-- cable -->
+  <path d="M445 517c90 0 110-40 170-40h70" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  <!-- laptop -->
+  <rect x="640" y="140" width="420" height="270" rx="16" fill="#16305a" stroke="#ffffff" stroke-width="5"/>
+  <rect x="662" y="162" width="376" height="226" rx="6" fill="#f3f6fa"/>
+  <path d="M590 410h520l-34 46H624z" fill="#f3f6fa" stroke="#ffffff" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="810" y="420" width="80" height="10" rx="5" fill="#9fb7da"/>
+  <!-- input level meter on screen -->
+  <rect x="700" y="300" width="300" height="26" rx="13" fill="#d5dee8"/>
+  <rect x="700" y="300" width="70" height="26" rx="13" fill="#ffd23f"/>
+  <circle cx="770" cy="313" r="17" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- small mic icon on screen with slash -->
+  <rect x="826" y="196" width="48" height="70" rx="24" fill="none" stroke="#0f2240" stroke-width="8"/>
+  <path d="M812 246a38 38 0 0 0 76 0" fill="none" stroke="#0f2240" stroke-width="8" stroke-linecap="round"/>
+  <path d="M808 194l84 84" stroke="#d9442b" stroke-width="9" stroke-linecap="round"/>
+  <!-- sound waves -->
+  <g fill="none" stroke="#ffd23f" stroke-width="6" stroke-linecap="round"><path d="M470 180a90 90 0 0 1 0 120"/><path d="M505 150a140 140 0 0 1 0 180"/></g>
+  <!-- dimension -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M640 110h420M640 100v20M1060 100v20"/><path d="M190 90v270M180 90h20M180 360h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

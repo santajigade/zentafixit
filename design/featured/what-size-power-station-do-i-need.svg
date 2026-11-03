@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- sun -->
+  <circle cx="190" cy="130" r="46" fill="#ffd23f"/>
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round"><path d="M190 52v-18M190 208v18M112 130H94M268 130h18M135 75l-12-12M245 185l12 12M245 75l12-12M135 185l-12 12"/></g>
+  <!-- solar panel -->
+  <path d="M90 300h250l-40 180H50z" fill="#16305a" stroke="#ffffff" stroke-width="5" stroke-linejoin="round"/>
+  <g stroke="#9fb7da" stroke-width="3"><path d="M160 300l-28 180M235 300l-35 180M80 360h247M66 420h248"/></g>
+  <path d="M195 480v60M150 540h90" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <!-- cable -->
+  <path d="M240 540c80 0 70-80 150-80h40" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  <!-- power station -->
+  <path d="M520 210v-46a26 26 0 0 1 26-26h148a26 26 0 0 1 26 26v46" fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round"/>
+  <rect x="420" y="200" width="420" height="320" rx="30" fill="#f3f6fa" stroke="#ffffff" stroke-width="5"/>
+  <rect x="456" y="236" width="180" height="120" rx="12" fill="#16305a" stroke="#0f2240" stroke-width="4"/>
+  <rect x="482" y="266" width="110" height="60" rx="8" fill="none" stroke="#f3f6fa" stroke-width="6"/>
+  <rect x="594" y="284" width="12" height="24" rx="3" fill="#f3f6fa"/>
+  <rect x="492" y="276" width="62" height="40" rx="3" fill="#ffd23f"/>
+  <rect x="668" y="236" width="68" height="88" rx="12" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="752" y="236" width="68" height="88" rx="12" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="6" stroke-linecap="round"><path d="M690 260v20M714 260v16M774 260v20M798 260v16"/></g>
+  <path d="M694 306a8 8 0 0 1 16 0v8h-16z M778 306a8 8 0 0 1 16 0v8h-16z" fill="#0f2240"/>
+  <g fill="#0f2240"><rect x="460" y="400" width="44" height="18" rx="5"/><rect x="520" y="400" width="44" height="18" rx="5"/><rect x="580" y="400" width="30" height="18" rx="9"/><rect x="626" y="400" width="30" height="18" rx="9"/></g>
+  <circle cx="790" cy="470" r="22" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="456" y="456" width="160" height="12" rx="6" fill="#9fb7da"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M420 560h420M420 550v20M840 550v20"/><path d="M890 200v320M880 200h20M880 520h20"/></g>
+  <!-- small fridge outline -->
+  <rect x="960" y="250" width="150" height="270" rx="16" fill="none" stroke="#ffffff" stroke-width="5"/>
+  <path d="M960 340h150M980 280v36M980 370v60" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

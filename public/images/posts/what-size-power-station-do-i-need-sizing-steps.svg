@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="ps1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Size a power station in 5 steps</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="56" width="300" height="56" rx="8"/>
+    <rect x="24" y="128" width="300" height="56" rx="8"/>
+    <rect x="24" y="200" width="300" height="56" rx="8"/>
+    <rect x="24" y="272" width="300" height="56" rx="8"/>
+    <rect x="24" y="344" width="300" height="56" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="372" y="56" width="244" height="56" rx="8"/>
+    <rect x="372" y="128" width="244" height="56" rx="8"/>
+    <rect x="372" y="200" width="244" height="56" rx="8"/>
+    <rect x="372" y="272" width="244" height="56" rx="8"/>
+    <rect x="372" y="344" width="244" height="56" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#ps1)">
+    <path d="M174 112v14"/><path d="M174 184v14"/><path d="M174 256v14"/><path d="M174 328v14"/>
+    <path d="M324 84h46"/><path d="M324 156h46"/><path d="M324 228h46"/><path d="M324 300h46"/><path d="M324 372h46"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="174" y="89">1. List your essentials</text>
+    <text x="174" y="161">2. Add the running watts</text>
+    <text x="174" y="233">3. Find the biggest surge</text>
+    <text x="174" y="305">4. Watts × hours, then add</text>
+    <text x="174" y="377">5. Divide the total by 0.85</text>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="388" y="80" font-weight="700">Note each item's watts</text><text x="388" y="98" font-size="12" fill="#566475">from the nameplate or manual</text>
+    <text x="388" y="152" font-weight="700">= Minimum output rating</text><text x="388" y="170" font-size="12" fill="#566475">plus about 20% headroom</text>
+    <text x="388" y="224" font-weight="700">= Minimum surge rating</text><text x="388" y="242" font-size="12" fill="#566475">fridge, freezer or pump</text>
+    <text x="388" y="296" font-weight="700">= Energy you need (Wh)</text><text x="388" y="314" font-size="12" fill="#566475">for the hours you need</text>
+    <text x="388" y="368" font-weight="700">= Battery size (Wh)</text><text x="388" y="386" font-size="12" fill="#566475">allows for inverter losses</text>
+  </g>
+  <text x="24" y="426" font-size="12" fill="#566475">Appliance watts vary a lot. Always check each nameplate.</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- wall plate -->
+  <rect x="250" y="110" width="340" height="400" rx="30" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <!-- round thermostat -->
+  <circle cx="420" cy="310" r="140" fill="#fff" stroke="#0f2240" stroke-width="6"/>
+  <circle cx="420" cy="310" r="108" fill="#16305a" stroke="#0f2240" stroke-width="4"/>
+  <path d="M340 370a100 100 0 1 1 160 0" fill="none" stroke="#ffd23f" stroke-width="10" stroke-linecap="round" stroke-dasharray="2 18"/>
+  <circle cx="420" cy="300" r="34" fill="none" stroke="#f3f6fa" stroke-width="8"/>
+  <path d="M420 266v34" stroke="#f3f6fa" stroke-width="8" stroke-linecap="round"/>
+  <rect x="396" y="350" width="48" height="12" rx="6" fill="#9fb7da"/>
+  <!-- router -->
+  <rect x="800" y="400" width="250" height="90" rx="16" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <g stroke="#ffffff" stroke-width="10" stroke-linecap="round"><path d="M840 400l-24-110M1010 400l24-110"/></g>
+  <g fill="#0f2240"><circle cx="850" cy="445" r="8"/><circle cx="880" cy="445" r="8"/><circle cx="910" cy="445" r="8"/></g>
+  <rect x="950" y="438" width="70" height="14" rx="7" fill="#9fb7da"/>
+  <!-- broken wi-fi arcs -->
+  <g fill="none" stroke="#ffd23f" stroke-width="10" stroke-linecap="round">
+    <path d="M880 290a60 60 0 0 1 90 0"/>
+    <path d="M850 255a105 105 0 0 1 150 0" stroke-dasharray="40 26"/>
+    <path d="M820 220a150 150 0 0 1 210 0" stroke-dasharray="26 40" opacity=".6"/>
+  </g>
+  <circle cx="925" cy="326" r="10" fill="#ffd23f"/>
+  <!-- X mark -->
+  <g stroke="#d9442b" stroke-width="10" stroke-linecap="round"><path d="M680 180l50 50M730 180l-50 50"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M250 80h340M250 70v20M590 70v20"/><path d="M200 110v400M190 110h20M190 510h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

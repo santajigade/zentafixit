@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Back of a smoke alarm and how to reset it</text>
+  <circle cx="170" cy="225" r="140" fill="#fff" stroke="#0f2240" stroke-width="2.5"/>
+  <g fill="#f3f6fa" stroke="#0f2240" stroke-width="2"><rect x="18" y="210" width="20" height="30" rx="4"/><rect x="302" y="210" width="20" height="30" rx="4"/></g>
+  <rect x="80" y="112" width="180" height="50" rx="6" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <text x="170" y="133" font-size="12" font-weight="700" fill="#0f2240" text-anchor="middle">Date of manufacture</text>
+  <text x="170" y="151" font-size="12" fill="#14202c" text-anchor="middle">Replace after 10 years</text>
+  <rect x="95" y="180" width="150" height="66" rx="8" fill="#f3f6fa" stroke="#0f2240" stroke-width="2"/>
+  <rect x="122" y="196" width="72" height="30" rx="4" fill="#fff" stroke="#0f2240" stroke-width="2"/><rect x="194" y="204" width="8" height="14" rx="2" fill="#0f2240"/>
+  <text x="170" y="240" font-size="12" fill="#14202c" text-anchor="middle">Battery door</text>
+  <rect x="112" y="268" width="116" height="34" rx="6" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <text x="170" y="290" font-size="12" font-weight="700" fill="#0f2240" text-anchor="middle">Wiring plug</text>
+  <text x="170" y="390" font-size="13" fill="#566475" text-anchor="middle">Wiring plug on hardwired units only</text>
+  <rect x="340" y="56" width="276" height="216" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g font-size="14" fill="#14202c">
+    <text x="356" y="84" font-weight="700">Clear a stored warning</text>
+    <text x="356" y="114">1. Breaker off (hardwired)</text>
+    <text x="356" y="142">2. Remove alarm and battery</text>
+    <text x="356" y="170">3. Hold test 15 to 20 seconds</text>
+    <text x="356" y="198">4. New battery, power on</text>
+    <text x="356" y="226">5. Press test to check it</text>
+    <text x="356" y="256" font-size="12" fill="#566475">Times vary: check your manual</text>
+  </g>
+  <rect x="340" y="290" width="276" height="86" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <g font-size="14" fill="#14202c">
+    <text x="356" y="318" font-weight="700">Still chirping?</text>
+    <text x="356" y="342" font-size="13">Check the date. 10 years or</text>
+    <text x="356" y="360" font-size="13">older: replace the alarm.</text>
+  </g>
+</svg>

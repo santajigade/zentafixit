@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="380" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Which charging port does your iPhone have?</text>
+  <g fill="#fff" stroke="#d5dee8" stroke-width="2"><rect x="24" y="52" width="284" height="222" rx="8"/><rect x="332" y="52" width="284" height="222" rx="8"/></g>
+  <g text-anchor="middle">
+    <text x="166" y="80" font-size="14" font-weight="700" fill="#14202c">Lightning</text><text x="166" y="100" font-size="13" fill="#566475">iPhone 14 and earlier</text>
+    <text x="474" y="80" font-size="14" font-weight="700" fill="#14202c">USB-C</text><text x="474" y="100" font-size="13" fill="#566475">iPhone 15 and later</text>
+  </g>
+  <!-- bottom edge views -->
+  <g fill="#f3f6fa" stroke="#0f2240" stroke-width="2"><rect x="46" y="120" width="240" height="40" rx="20"/><rect x="354" y="120" width="240" height="40" rx="20"/></g>
+  <rect x="140" y="134" width="52" height="12" rx="6" fill="#0f2240"/>
+  <rect x="444" y="131" width="60" height="18" rx="9" fill="#0f2240"/>
+  <g fill="#566475"><circle cx="78" cy="140" r="3"/><circle cx="90" cy="140" r="3"/><circle cx="102" cy="140" r="3"/><circle cx="114" cy="140" r="3"/><circle cx="218" cy="140" r="3"/><circle cx="230" cy="140" r="3"/><circle cx="242" cy="140" r="3"/><circle cx="254" cy="140" r="3"/>
+    <circle cx="386" cy="140" r="3"/><circle cx="398" cy="140" r="3"/><circle cx="410" cy="140" r="3"/><circle cx="422" cy="140" r="3"/><circle cx="526" cy="140" r="3"/><circle cx="538" cy="140" r="3"/><circle cx="550" cy="140" r="3"/><circle cx="562" cy="140" r="3"/></g>
+  <!-- plugs -->
+  <rect x="155" y="182" width="22" height="34" rx="3" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <g fill="#c9a10a"><rect x="161" y="188" width="10" height="4"/><rect x="161" y="196" width="10" height="4"/><rect x="161" y="204" width="10" height="4"/></g>
+  <rect x="461" y="182" width="26" height="34" rx="7" fill="#d5dee8" stroke="#0f2240" stroke-width="2"/>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2"><rect x="148" y="214" width="36" height="40" rx="6"/><rect x="456" y="214" width="36" height="40" rx="6"/></g>
+  <g stroke="#0f2240" stroke-width="5" stroke-linecap="round"><path d="M166 254v12M474 254v12"/></g>
+  <g font-size="12" fill="#566475"><text x="200" y="204">Flat plug,</text><text x="200" y="220">reversible</text><text x="508" y="204">Oval plug,</text><text x="508" y="220">reversible</text></g>
+  <rect x="24" y="292" width="592" height="72" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g font-size="13" fill="#14202c">
+    <text x="44" y="320" font-weight="700">Lint packs into the back of either port over time.</text>
+    <text x="44" y="344">Phone off: use a wooden or plastic toothpick, never metal.</text>
+  </g>
+</svg>

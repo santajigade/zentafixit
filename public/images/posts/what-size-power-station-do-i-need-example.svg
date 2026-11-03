@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Example: energy used in a 24-hour outage</text>
+  <path d="M200 56V276" stroke="#d5dee8" stroke-width="2"/>
+  <g font-size="13" fill="#14202c">
+    <text x="24" y="83">Refrigerator, 24 h</text>
+    <text x="24" y="123">Router + modem, 24 h</text>
+    <text x="24" y="163">Laptop, 4 h</text>
+    <text x="24" y="203">Two LED bulbs, 5 h</text>
+    <text x="24" y="243">Two phone charges</text>
+  </g>
+  <g fill="#1d5fae">
+    <rect x="200" y="66" width="320" height="26" rx="4"/>
+    <rect x="200" y="106" width="110" height="26" rx="4"/>
+    <rect x="200" y="146" width="46" height="26" rx="4"/>
+    <rect x="200" y="186" width="23" height="26" rx="4"/>
+    <rect x="200" y="226" width="9" height="26" rx="4"/>
+  </g>
+  <g font-size="13" fill="#14202c" font-weight="700">
+    <text x="530" y="84">1,400 Wh</text>
+    <text x="320" y="124">480 Wh</text>
+    <text x="256" y="164">200 Wh</text>
+    <text x="233" y="204">100 Wh</text>
+    <text x="219" y="244">40 Wh</text>
+  </g>
+  <rect x="24" y="290" width="592" height="80" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g font-size="14" fill="#14202c">
+    <text x="44" y="320" font-weight="700">Total used: 2,220 Wh</text>
+    <text x="44" y="348">2,220 Wh ÷ 0.85 for inverter losses = about 2,600 Wh</text>
+  </g>
+  <text x="24" y="398" font-size="12" fill="#566475">Example figures only. Check your own appliance labels.</text>
+</svg>

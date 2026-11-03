@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- TV -->
+  <rect x="250" y="100" width="620" height="370" rx="18" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="276" y="124" width="568" height="318" rx="8" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <path d="M520 470h80l20 60h-120z" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <rect x="440" y="526" width="240" height="16" rx="8" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <!-- no signal symbol on screen -->
+  <circle cx="560" cy="283" r="78" fill="none" stroke="#0f2240" stroke-width="10"/>
+  <path d="M505 228l110 110" stroke="#0f2240" stroke-width="10" stroke-linecap="round"/>
+  <path d="M520 264h80v20l-12 14h-56l-12-14z" fill="#ffd23f" stroke="#0f2240" stroke-width="5"/>
+  <!-- loose HDMI cable -->
+  <path d="M1110 560C1060 470 1000 420 1000 340" fill="none" stroke="#f3f6fa" stroke-width="16" stroke-linecap="round"/>
+  <rect x="972" y="274" width="56" height="58" rx="6" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <path d="M968 236h64v30l-10 12h-44l-10-12z" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+  <path d="M980 250h40" stroke="#0f2240" stroke-width="4" stroke-linecap="round"/>
+  <!-- gap to the TV port -->
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round"><path d="M910 230l34 -20M914 262h40M910 294l34 20"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M250 70h620M250 60v20M870 60v20"/><path d="M200 100v370M190 100h20M190 470h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

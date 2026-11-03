@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="340" fill="#f3f6fa"/>
+  <defs><marker id="wn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Is it the network or just this device?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="110" y="52" width="420" height="48" rx="8"/>
+    <rect x="24" y="142" width="280" height="56" rx="8"/><rect x="336" y="142" width="280" height="56" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#wn)">
+    <path d="M250 100v16H164v24"/><path d="M390 100v16h86v24"/><path d="M164 198v24"/><path d="M476 198v24"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81" font-weight="700">Do other devices on this Wi-Fi have internet?</text>
+    <text x="200" y="111" font-size="12" fill="#566475">no</text><text x="440" y="111" font-size="12" fill="#566475">yes</text>
+    <text x="164" y="167" font-weight="700">No device works</text><text x="164" y="187" font-size="12" fill="#566475">phone, TV and laptop all offline</text>
+    <text x="476" y="167" font-weight="700">Only this device</text><text x="476" y="187" font-size="12" fill="#566475">other devices load fine</text>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="24" y="224" width="280" height="100" rx="8"/><rect x="336" y="224" width="280" height="100" rx="8"/></g>
+  <g font-size="13" fill="#14202c">
+    <text x="40" y="248" font-weight="700">Modem, router or provider</text>
+    <text x="40" y="270">Restart in order, check for an</text><text x="40" y="288">outage, check the cables</text>
+    <text x="40" y="312" font-weight="700">Try: Fixes 1, 2, 3, 9</text>
+    <text x="352" y="248" font-weight="700">Settings on this device</text>
+    <text x="352" y="270">VPN, IP address, DNS, saved</text><text x="352" y="288">network or Wi-Fi driver</text>
+    <text x="352" y="312" font-weight="700">Try: Fixes 4 to 8</text>
+  </g>
+</svg>
