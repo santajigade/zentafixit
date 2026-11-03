@@ -2,6 +2,8 @@
 title: "Whole-House Surge Protector: Do You Need One?"
 description: "What a whole-house surge protector does, Type 1 vs Type 2, how it works with plug-in strips, what joules and VPR mean, its limits, cost and code rules."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: electrical
 subcategory: surge-protection
 tags: [surge protector, whole-house surge protector, spd, electrical panel, lightning, electronics]

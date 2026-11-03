@@ -2,6 +2,8 @@
 title: "Mac Running Slow? 9 Fixes to Speed It Up"
 description: "Mac running slow? Find the cause in Activity Monitor, then free storage, trim login items, tame browser tabs and check memory pressure, step by step."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: pc-laptops
 subcategory: mac-problems
 tags: [mac, macos, slow mac, activity monitor, storage, memory]

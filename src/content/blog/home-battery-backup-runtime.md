@@ -2,6 +2,8 @@
 title: "Home Battery Backup: How Long Will It Run My House?"
 description: "Estimate how long a home battery will run your house in an outage: kWh vs kW, usable capacity, essential loads, a worked example and solar recharge."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: solar-power
 subcategory: battery-backup
 tags: [home battery, battery backup, power outage, kwh, essential loads, solar battery]

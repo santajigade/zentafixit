@@ -2,6 +2,8 @@
 title: "Furnace Blinking Light: How to Read the Code"
 description: "Your furnace's blinking light is a fault code. Find the control board LED, count the blinks, match them to the chart on the door and know when to call a pro."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: hvac
 subcategory: hvac-error-codes
 tags: [furnace, error codes, blinking light, control board, pressure switch, flame sensor, heating]

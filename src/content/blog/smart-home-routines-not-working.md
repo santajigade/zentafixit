@@ -2,6 +2,8 @@
 title: "Smart Home Routines Not Running? 8 Causes and Fixes"
 description: "Smart home routine or automation not running? Check offline devices, time zone, trigger conditions, conflicts, account links, hubs and app updates step by step."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: smart-home
 subcategory: automation
 tags: [smart home, routines, automations, alexa, google home, apple home, smartthings, hub]

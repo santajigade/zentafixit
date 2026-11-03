@@ -2,6 +2,8 @@
 title: "Thermostat Wire Colors Explained (R, C, W, Y, G)"
 description: "What thermostat wire colors and terminals mean: R, Rh, Rc, C, W, Y, G and O/B, why the letters matter more than colors, and how to swap a thermostat safely."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: hvac
 subcategory: thermostat-wiring
 tags: [thermostat, thermostat wiring, c wire, heat pump, smart thermostat, hvac, 24v]

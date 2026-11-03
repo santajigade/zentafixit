@@ -2,6 +2,8 @@
 title: "How to Secure Your Home Wi-Fi Router in 10 Steps"
 description: "Lock down your home Wi-Fi router in 10 steps: admin password, WPA3 or WPA2-AES, firmware updates, WPS, remote access, a guest network for smart devices."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: networking
 subcategory: network-security
 tags: [router, wi-fi, security, wpa3, guest network, firmware, smart home]

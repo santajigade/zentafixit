@@ -2,6 +2,8 @@
 title: "Smart Lock Not Locking or Unlocking? 8 Causes and Fixes"
 description: "Smart lock not locking or unlocking? Check the batteries, door alignment, calibration, Bluetooth or Wi-Fi bridge, auto-lock settings and the keypad."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: smart-home
 subcategory: smart-locks
 tags: [smart lock, deadbolt, batteries, keypad, bluetooth, wi-fi bridge, auto-lock]

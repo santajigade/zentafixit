@@ -2,6 +2,8 @@
 title: "Smart Plug Won't Connect to Wi-Fi? 9 Fixes That Work"
 description: "Smart plug won't connect to Wi-Fi? Use the 2.4 GHz band, put it in pairing mode, pause band steering, turn off your phone's VPN and reset if needed."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: smart-home
 subcategory: smart-lighting-and-plugs
 tags: [smart plug, wi-fi, 2.4 ghz, pairing, band steering, setup]

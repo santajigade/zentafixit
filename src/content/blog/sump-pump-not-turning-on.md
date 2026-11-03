@@ -2,6 +2,8 @@
 title: "Sump Pump Not Turning On? Fixes"
 description: "Sump pump won't turn on? Check power and the GFCI, free a stuck float switch, clear debris, check the discharge line and test it with a bucket of water."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: plumbing
 subcategory: sump-pumps
 tags: [sump pump, basement, float switch, check valve, flooding, battery backup]

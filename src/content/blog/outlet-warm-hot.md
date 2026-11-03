@@ -2,6 +2,8 @@
 title: "Outlet Warm or Hot? 7 Causes and When It's an Emergency"
 description: "Why an outlet feels warm or hot (overload, space heaters, loose plugs or wires, aluminum wiring) and the warning signs that mean shut off the breaker now."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: home-safety
 subcategory: electrical-safety
 tags: [outlets, hot outlet, electrical fire, space heater, aluminum wiring, safety]

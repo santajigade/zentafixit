@@ -2,6 +2,8 @@
 title: "Heat Pump Blowing Cold Air in Heat Mode? Causes and Fixes"
 description: "Heat pump blowing cold air in heat mode? Check the defrost cycle, thermostat settings, aux heat, filter and an iced outdoor unit before calling a pro."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: hvac
 subcategory: heat-pumps
 tags: [heat pump, heating, cold air, defrost, aux heat, thermostat, hvac]

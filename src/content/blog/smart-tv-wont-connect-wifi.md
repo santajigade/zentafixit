@@ -2,6 +2,8 @@
 title: "Smart TV Won't Connect to Wi-Fi? Fixes"
 description: "Smart TV won't connect to Wi-Fi? Restart the TV from the wall, check the router, password and band, fix DNS and date settings, update firmware or use Ethernet."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: tv-audio
 subcategory: smart-tvs
 tags: [smart tv, wifi, router, dns, ethernet, streaming]

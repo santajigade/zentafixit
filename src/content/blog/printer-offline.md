@@ -2,6 +2,8 @@
 title: "Printer Offline? How to Fix It in Windows 11 and 10"
 description: "Printer showing offline in Windows? Check power and Wi-Fi, a changed IP address, Use Printer Offline, the print spooler and drivers, step by step."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: gadgets
 subcategory: printers-and-scanners
 tags: [printer, offline, windows 11, windows 10, wifi, print spooler, drivers]

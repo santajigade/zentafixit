@@ -2,6 +2,8 @@
 title: "Modem Lights Meaning: What Each Light Tells You"
 description: "What your modem lights mean: power, downstream, upstream, online, Ethernet and Wi-Fi, solid vs blinking, and what to do when the online light is off."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: networking
 subcategory: routers-and-modems
 tags: [modem, modem lights, cable modem, router, internet, isp, ethernet]

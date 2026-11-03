@@ -2,6 +2,8 @@
 title: "Windows 11 Update Stuck? 8 Fixes That Work"
 description: "Windows 11 update stuck at a percentage or on Working on updates? Learn how long to wait, then free space, clear the update cache and use Safe Mode."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: pc-laptops
 subcategory: windows-problems
 tags: [windows 11, windows update, stuck update, safe mode, troubleshooting, pc]

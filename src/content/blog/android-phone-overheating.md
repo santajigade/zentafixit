@@ -2,6 +2,8 @@
 title: "Android Phone Overheating? Causes and Fixes"
 description: "Why your Android phone gets hot (charging while gaming, a rogue app, sun, a thick case or a new update) and how to cool it down and stop it happening."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: phones-tablets
 subcategory: android-problems
 tags: [android, overheating, battery, charging, samsung, pixel]

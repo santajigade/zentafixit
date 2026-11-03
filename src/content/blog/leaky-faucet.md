@@ -2,6 +2,8 @@
 title: "Leaky Faucet? How to Fix a Dripping Faucet"
 description: "Fix a dripping faucet: identify compression, cartridge, ball or ceramic disc types, shut off the water and replace the worn washer, O-ring or cartridge."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: plumbing
 subcategory: leaks-and-drips
 tags: [faucet, leaks, dripping faucet, cartridge, washer, o-ring]

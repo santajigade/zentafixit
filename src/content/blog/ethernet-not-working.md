@@ -2,6 +2,8 @@
 title: "Ethernet Not Working? Fixes for a Wired Connection"
 description: "Ethernet not working on your PC, console or TV? Check link lights, cables and ports, then fix adapter, driver, IP and powerline adapter problems step by step."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: networking
 subcategory: ethernet-and-powerline
 tags: [ethernet, wired, network cable, router, powerline, windows, adapter]

@@ -2,6 +2,8 @@
 title: "No Hot Water? Water Heater Troubleshooting"
 description: "No hot water at home? Check the breaker, reset button and elements on electric heaters, the pilot and gas valve on gas, and error codes on tankless units."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: appliances
 subcategory: water-heaters
 tags: [water heater, no hot water, pilot light, reset button, heating element, tankless, sediment]

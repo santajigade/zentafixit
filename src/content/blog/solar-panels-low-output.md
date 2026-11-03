@@ -2,6 +2,8 @@
 title: "Solar Panels Not Producing Enough Power? 8 Causes and Fixes"
 description: "Why your solar panels are producing less than expected: season, shading, dirt, heat, inverter faults, a tripped breaker or just a monitoring glitch."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: solar-power
 subcategory: home-solar
 tags: [solar panels, solar inverter, low output, rapid shutdown, solar monitoring, home solar]

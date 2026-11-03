@@ -2,6 +2,8 @@
 title: "How Often Should You Change Your Furnace Filter? (And Which MERV)"
 description: "How often to change a furnace filter by thickness, when pets or allergies mean sooner, which MERV rating to buy and how to fit it the right way round."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: hvac
 subcategory: air-filters-and-air-quality
 tags: [furnace filter, air filter, merv, hvac, indoor air quality, allergies, pets]

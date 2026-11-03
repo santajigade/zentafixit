@@ -2,6 +2,8 @@
 title: "Outlet Not Working? How to Find the Problem"
 description: "Outlet suddenly dead? Check for a tripped GFCI in another room, a tripped breaker, a switched outlet, a loose backstab wire or a burnt outlet, step by step."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: electrical
 subcategory: wiring-basics
 tags: [outlets, dead outlet, gfci, breakers, wiring, receptacle]

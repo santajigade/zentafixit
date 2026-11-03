@@ -2,6 +2,8 @@
 title: "Level 1 vs Level 2 EV Charging: Which Do You Need?"
 description: "Level 1 vs Level 2 EV charging compared: 120 V vs 240 V, miles of range per hour, cost, and when a regular outlet is enough for your daily driving."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: ev-charging
 subcategory: level-1-and-level-2-chargers
 tags: [ev charging, level 1, level 2, 120 v, 240 v, home charger]

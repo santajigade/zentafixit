@@ -2,6 +2,8 @@
 title: "Clogged Sink Drain? Fixes Without Harsh Chemicals"
 description: "Unclog a slow or blocked sink without caustic cleaners: clean the stopper, plunge the right way, clean the P-trap and use a drain snake."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: plumbing
 subcategory: clogged-drains
 tags: [clogged drain, sink, p-trap, plunger, drain snake, kitchen sink, bathroom sink]

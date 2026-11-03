@@ -2,6 +2,8 @@
 title: "How to Use a Non-Contact Voltage Tester"
 description: "How to use a non-contact voltage tester on outlets, cords and switches, why it can give false readings, and why it isn't proof a wire is safe to touch."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: tools
 subcategory: how-to-use-guides
 tags: [voltage-tester, non-contact, electrical-safety, outlets, testing, multimeter]

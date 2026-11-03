@@ -2,6 +2,8 @@
 title: "Keyboard Not Working? Fixes for Windows"
 description: "Keyboard not working on Windows? Check the USB port or receiver, batteries, Bluetooth pairing, Filter Keys, drivers and laptop key locks with these fixes."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: gadgets
 subcategory: keyboards-and-mice
 tags: [keyboard, windows 11, wireless keyboard, bluetooth, laptop keyboard, filter keys]

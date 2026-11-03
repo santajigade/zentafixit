@@ -2,6 +2,8 @@
 title: "How to Update Drivers in Windows 11 Safely"
 description: "Update drivers in Windows 11 the safe way: Windows Update, Device Manager, your PC maker's app and GPU drivers, plus how to roll back a bad driver."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: pc-laptops
 subcategory: drivers-and-updates
 tags: [drivers, windows 11, device manager, graphics card, windows update, restore point]

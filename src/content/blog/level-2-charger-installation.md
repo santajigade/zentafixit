@@ -2,6 +2,8 @@
 title: "Installing a Level 2 EV Charger: What to Know First"
 description: "Before installing a Level 2 EV charger: panel capacity, circuit sizing, permits, plug-in vs hardwired, where to mount it, rough costs and utility rebates."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: ev-charging
 subcategory: charger-installation
 tags: [ev charger, level 2, installation, electrical panel, permit, nema 14-50, rebates]

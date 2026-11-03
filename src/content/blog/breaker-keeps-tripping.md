@@ -2,6 +2,8 @@
 title: "Circuit Breaker Keeps Tripping? Causes and Fixes"
 description: "Why a circuit breaker keeps tripping (overload, short circuit, ground fault, AFCI or GFCI trips, a worn breaker) and how to reset it and fix it safely."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: electrical
 subcategory: breakers-and-panels
 tags: [breakers, electrical panel, tripping, overload, afci, gfci]

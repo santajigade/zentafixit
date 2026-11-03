@@ -2,6 +2,8 @@
 title: "Mesh Wi-Fi Placement: Where to Put Your Nodes"
 description: "Where to put mesh Wi-Fi nodes: main node by the modem, satellites halfway to dead zones, up high and in the open, plus wired backhaul and how to test signal."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: networking
 subcategory: mesh-wi-fi
 tags: [mesh wi-fi, wi-fi, router, dead zones, wired backhaul, signal strength]

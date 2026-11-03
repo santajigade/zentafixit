@@ -2,6 +2,8 @@
 title: "Controller Stick Drift: How to Fix Joystick Drift"
 description: "Controller stick drift makes your character or camera move on its own. Try firmware updates, recalibration, deadzone settings and cleaning before repair."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: gadgets
 subcategory: gaming-controllers
 tags: [controller, stick drift, joystick, gamepad, deadzone, calibration, gaming]

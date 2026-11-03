@@ -2,6 +2,8 @@
 title: "Furnace Not Turning On? 9 Causes and Fixes"
 description: "Furnace not turning on? Check the thermostat, power switch, breaker, door switch, filter, flame sensor, condensate trap and gas supply, in a safe order."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: hvac
 subcategory: furnaces
 tags: [furnace, heating, no heat, thermostat, flame sensor, gas furnace, hvac]

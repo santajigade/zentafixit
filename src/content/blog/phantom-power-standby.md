@@ -2,6 +2,8 @@
 title: "Phantom Power: How to Find and Cut Standby Power Use"
 description: "Find the devices drawing phantom power with a plug-in watt meter, work out what standby use costs you, and cut it with smart strips and settings."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: solar-power
 subcategory: energy-saving
 tags: [phantom power, standby power, vampire power, energy saving, smart power strip, electric bill]

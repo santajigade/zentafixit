@@ -2,6 +2,8 @@
 title: "Low Water Pressure in the House? Causes and Fixes"
 description: "Find out why your water pressure is low: one fixture or the whole house, clogged aerators, a half-closed valve, a failing regulator, leaks or a well switch."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: plumbing
 subcategory: water-pressure
 tags: [water pressure, low pressure, aerator, pressure regulator, prv, well pump, plumbing]

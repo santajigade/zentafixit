@@ -2,6 +2,8 @@
 title: "Internet Keeps Disconnecting? Fixes"
 description: "Internet keeps dropping out? Find out if it's Wi-Fi or the whole connection, then check modem lights and logs, coax splitters, heat, channels and power saving."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: networking
 subcategory: isp-guides
 tags: [internet, disconnecting, modem, router, wi-fi, coax, isp]

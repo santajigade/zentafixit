@@ -2,6 +2,8 @@
 title: "Streaming Keeps Buffering? Fixes"
 description: "Streaming keeps buffering on your TV? Check your speed against what the stream needs, improve Wi-Fi to the TV, go wired, clear the app cache, rule out your ISP."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: tv-audio
 subcategory: streaming-problems
 tags: [streaming, buffering, smart tv, wi-fi, streaming stick, internet speed]

@@ -2,6 +2,8 @@
 title: "Matter Device Won't Pair? 9 Fixes That Work"
 description: "Matter device won't pair or setup fails? Check your controller, Thread border router, Bluetooth, setup code, 2.4 GHz Wi-Fi, multi-admin sharing and firmware."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: smart-home
 subcategory: smart-home-troubleshooting
 tags: [matter, thread, smart home, pairing, setup code, hub, wi-fi, bluetooth]

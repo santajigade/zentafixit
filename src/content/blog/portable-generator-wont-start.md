@@ -2,6 +2,8 @@
 title: "Portable Generator Won't Start? 7 Causes and Fixes"
 description: "Portable generator won't start? Check fuel, the fuel valve, choke, low-oil shutoff, spark plug, stale fuel in the carburetor and the battery, step by step."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: electrical
 subcategory: generators-and-transfer-switches
 tags: [generator, portable-generator, small-engine, carburetor, spark-plug, power-outage]

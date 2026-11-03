@@ -2,6 +2,8 @@
 title: "Appliance Error Codes: How to Find What Yours Means"
 description: "How to look up any washer, dryer, fridge, dishwasher or oven error code: find the model number, the manual and the hidden tech sheet, then reset safely."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: appliances
 subcategory: appliance-error-codes
 tags: [error codes, appliances, washer, dryer, refrigerator, dishwasher, oven, model number]

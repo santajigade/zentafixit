@@ -2,6 +2,8 @@
 title: "Washer Won't Drain? 7 Causes and Fixes"
 description: "Washer full of water? Check the lid lock, a kinked drain hose, the drain pump filter, a blocked pump and the standpipe, step by step and safely."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: appliances
 subcategory: washers-and-dryers
 tags: [washer, washing machine, wont drain, drain pump, drain hose, front loader, top loader]

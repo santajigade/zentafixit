@@ -2,6 +2,8 @@
 title: "Cordless Drill Battery Not Charging? 8 Fixes"
 description: "Cordless drill battery not charging? Learn what the charger light means, fix hot or cold packs, dirty contacts and deep discharge, and when to replace it."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: tools
 subcategory: power-tools
 tags: [cordless-drill, battery, charger, lithium-ion, power-tools]

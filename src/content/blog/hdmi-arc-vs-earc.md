@@ -2,6 +2,8 @@
 title: "HDMI ARC vs eARC: What's the Difference and How to Set It Up"
 description: "HDMI ARC vs eARC explained: what each can carry, when you need eARC for lossless audio and Atmos, which cable to use and how to set up your soundbar."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: tv-audio
 subcategory: home-theater-setup
 tags: [hdmi, arc, earc, soundbar, receiver, dolby-atmos, hdmi-cec, home-theater]

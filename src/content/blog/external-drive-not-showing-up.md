@@ -2,6 +2,8 @@
 title: "External Hard Drive Not Showing Up? 8 Fixes for Windows and Mac"
 description: "External hard drive not showing up? Check the cable, port and power, give it a drive letter in Disk Management and fix Mac or Windows format issues safely."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: gadgets
 subcategory: external-drives-and-usb
 tags: [external hard drive, usb, disk management, windows, mac, exfat, data recovery]

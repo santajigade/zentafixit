@@ -2,6 +2,8 @@
 title: "How to Use a Fire Extinguisher (PASS) and Which Type to Buy"
 description: "How to use a fire extinguisher with the PASS method, when to fight a fire or get out, what classes A, B, C and K mean, and which type to buy for your home."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: home-safety
 subcategory: fire-safety
 tags: [fire-extinguisher, fire-safety, pass-method, kitchen-fire, home-safety]

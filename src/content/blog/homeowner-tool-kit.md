@@ -2,6 +2,8 @@
 title: "Basic Tool Kit for Homeowners: What to Buy First"
 description: "The basic tool kit every homeowner needs: which hand tools, power tools and electrical testers to buy first, what features matter and what can wait."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: tools
 subcategory: tool-buying-guides
 tags: [tool-kit, hand-tools, cordless-drill, voltage-tester, multimeter, homeowner, buying-guide]

@@ -2,6 +2,8 @@
 title: "AC Maintenance Checklist Before Summer"
 description: "A pre-summer AC maintenance checklist: change the filter, clear and rinse the outdoor unit, flush the drain, check line insulation and test the thermostat."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: hvac
 subcategory: seasonal-maintenance
 tags: [ac, air conditioner, maintenance, spring, condenser, filter, condensate drain]

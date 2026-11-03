@@ -2,6 +2,8 @@
 title: "How Much Does It Cost to Charge an EV at Home?"
 description: "Work out what charging an EV at home costs: kWh times your rate, charging losses, miles per kWh, a worked example and how time-of-use rates cut the bill."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: ev-charging
 subcategory: charging-costs
 tags: [ev charging, charging cost, electricity rate, kwh, time-of-use, home charging]

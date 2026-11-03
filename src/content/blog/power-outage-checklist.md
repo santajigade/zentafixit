@@ -2,6 +2,8 @@
 title: "Power Outage Checklist: What to Do Before, During and After"
 description: "A power outage checklist for US homes: what to stock before, how to keep food cold and run a generator safely during, and what to check after power returns."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: home-safety
 subcategory: storm-and-outage-prep
 tags: [power-outage, storm-prep, generator-safety, food-safety, carbon-monoxide, emergency-kit]

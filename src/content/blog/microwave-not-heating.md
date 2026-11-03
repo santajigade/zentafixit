@@ -2,6 +2,8 @@
 title: "Microwave Not Heating? Causes and What's Safe to Check"
 description: "Microwave runs but food stays cold? Check demo mode, power level, the door, the outlet and vents safely, and learn which faults need a technician."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: appliances
 subcategory: ovens-and-microwaves
 tags: [microwave, not heating, magnetron, door switch, demo mode, high voltage]

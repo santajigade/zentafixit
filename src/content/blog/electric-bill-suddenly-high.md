@@ -2,6 +2,8 @@
 title: "Electric Bill Suddenly High? 10 Causes to Check"
 description: "Electric bill suddenly high? Check kWh first, then weather, rate changes, estimated reads, space heaters, water heaters, pumps and old fridges."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: solar-power
 subcategory: electric-bill-reduction
 tags: [electric bill, energy saving, electric meter, kwh, space heater, water heater, well pump]

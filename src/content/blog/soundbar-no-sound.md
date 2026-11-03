@@ -2,6 +2,8 @@
 title: "Soundbar No Sound From TV? Fixes"
 description: "Soundbar on but no sound from the TV? Check the soundbar input, TV audio output, the HDMI ARC port, HDMI-CEC and the optical PCM setting step by step."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: tv-audio
 subcategory: soundbars-and-speakers
 tags: [soundbar, tv, hdmi arc, earc, optical, cec, home theater]

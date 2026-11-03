@@ -2,6 +2,8 @@
 title: "Ceiling Fan Not Working? Troubleshooting Guide"
 description: "Ceiling fan won't turn on, hums or only the light works? Check the switch, pull chain, remote, reverse switch, capacitor and wiring, step by step."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: electrical
 subcategory: lighting-and-ceiling-fans
 tags: [ceiling fan, fan remote, capacitor, pull chain, wiring, lighting]

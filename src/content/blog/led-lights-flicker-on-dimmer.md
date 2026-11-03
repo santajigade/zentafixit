@@ -2,6 +2,8 @@
 title: "LED Lights Flickering or Buzzing on a Dimmer? Fixes"
 description: "Why LED bulbs flicker or buzz on a dimmer (non-dimmable bulbs, an old dimmer, minimum load, trim setting, a poor match) and how to fix each one."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: electrical
 subcategory: switches-and-dimmers
 tags: [led, dimmer, flickering, buzzing, light bulbs, switches]

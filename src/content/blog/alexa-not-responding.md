@@ -2,6 +2,8 @@
 title: "Alexa Not Responding? 9 Fixes for Echo Speakers"
 description: "Alexa not responding on your Echo? Check the mic button, Wi-Fi, wake word, placement and volume, then restart, and reset only as a last resort."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: smart-home
 subcategory: smart-speakers
 tags: [alexa, echo, smart speaker, wi-fi, wake word, voice assistant]

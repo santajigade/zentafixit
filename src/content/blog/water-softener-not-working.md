@@ -2,6 +2,8 @@
 title: "Water Softener Not Working? 7 Causes and Fixes"
 description: "Hard water again? Check the salt level, salt bridges, the bypass valve, the clock after an outage and the hardness setting, then test with strips."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: plumbing
 subcategory: water-filters-and-softeners
 tags: [water softener, hard water, salt bridge, brine tank, regeneration, plumbing]

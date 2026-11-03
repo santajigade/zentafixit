@@ -2,6 +2,8 @@
 title: "Video Doorbell Keeps Going Offline? 8 Fixes That Work"
 description: "Video doorbell keeps going offline? Check the Wi-Fi signal at the door, the 2.4 GHz band, transformer power, the battery in cold weather and router changes."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: smart-home
 subcategory: cameras-and-doorbells
 tags: [video doorbell, doorbell camera, wi-fi, offline, transformer, battery, mesh wifi]

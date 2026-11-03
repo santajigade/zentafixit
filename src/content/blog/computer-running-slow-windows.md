@@ -2,6 +2,8 @@
 title: "Computer Running Slow? 9 Windows Fixes That Work"
 description: "Windows PC running slow? Use Task Manager to find the cause, then cut startup apps, free disk space, scan for malware and check your drive and RAM."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: pc-laptops
 subcategory: slow-pc-fixes
 tags: [windows 11, slow pc, task manager, startup apps, ssd, ram]

@@ -2,6 +2,8 @@
 title: "UPS Beeping? What It Means and How to Fix It"
 description: "Why your UPS battery backup is beeping (outage, brownout, overload, low or worn-out battery, self-test) and how to stop it, step by step."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: solar-power
 subcategory: ups
 tags: [ups, battery backup, beeping, ups battery, overload, power outage]

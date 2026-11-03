@@ -2,6 +2,8 @@
 title: "Where Are GFCI and AFCI Required? A Plain-English Guide"
 description: "Where GFCI and AFCI protection is typically required in US homes, how the two differ, dual-function devices, older homes and why local code rules vary."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: electrical
 subcategory: electrical-codes
 tags: [gfci, afci, electrical code, nec, outlets, breakers]
