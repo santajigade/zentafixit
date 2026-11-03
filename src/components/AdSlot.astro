@@ -1,13 +1,18 @@
 ---
-// Ad slot. Renders nothing until SITE.adsenseClient is set.
+// Ad slot. Renders nothing on the live site until SITE.adsenseClient is set.
+// In review previews (SHOW_DRAFTS=1) a placeholder shows where ads will go.
 // Keep slots away from buttons and interactive elements (AdSense policy).
 import { SITE } from '../data/site';
-interface Props { slot?: string }
-const { slot = '' } = Astro.props;
+interface Props { slot?: string; kind?: 'rail' | 'inline' }
+const { slot = '', kind = 'inline' } = Astro.props;
+const preview = process.env.SHOW_DRAFTS === '1';
 ---
-{SITE.adsenseClient && (
-  <div class="ad-slot">
-    <ins class="adsbygoogle" style="display:block" data-ad-client={SITE.adsenseClient} data-ad-slot={slot} data-ad-format="auto" data-full-width-responsive="true"></ins>
+{SITE.adsenseClient ? (
+  <div class={`ad-slot ad-${kind}`}>
+    <ins class="adsbygoogle" style="display:block" data-ad-client={SITE.adsenseClient} data-ad-slot={slot}
+      data-ad-format={kind === 'rail' ? 'vertical' : 'auto'} data-full-width-responsive={kind === 'rail' ? 'false' : 'true'}></ins>
     <script is:inline>(adsbygoogle = window.adsbygoogle || []).push({});</script>
   </div>
+) : preview && (
+  <div class={`ad-slot ad-${kind} ad-placeholder`} aria-hidden="true">Ad {kind === 'rail' ? '160×600' : 'responsive'}</div>
 )}

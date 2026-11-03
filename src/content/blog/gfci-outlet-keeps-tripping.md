@@ -33,9 +33,17 @@ A GFCI (ground-fault circuit interrupter) outlet cuts power in a fraction of a s
 
 When one keeps tripping, the cause is usually **moisture, a faulty appliance, or something wired downstream**. Here's how to find which.
 
+<figure><img src="/images/posts/gfci-anatomy.svg" alt="Diagram of a GFCI outlet showing the TEST and RESET buttons, status light, hot slot, neutral slot and ground hole" width="640" height="400" loading="lazy" /><figcaption>Tap the diagram to enlarge. The TEST and RESET buttons sit between the two receptacles.</figcaption></figure>
+
+It works by comparing the current going out on the hot wire with the current coming back on the neutral. If they differ, some current is escaping — and the GFCI cuts power. (For the engineering side of grounding, see this explainer on [earthing systems and how fault current returns](https://www.instrumentationblog.in/tn-tt-it-earthing-systems/).)
+
+<div class="key"><strong>Quick answer</strong><p>Most tripping GFCIs are caused by water in an outlet box, an appliance with a small insulation fault, or a problem on an outlet wired after the GFCI. A GFCI that trips with nothing connected and no moisture is often simply worn out.</p></div>
+
 > **Safety first:** Work only with dry hands and dry floors. Before removing any cover plate or outlet, turn off the circuit at the breaker and confirm it's dead with a non-contact voltage tester. If you're not comfortable working inside a box, stop at Step 4 and call a licensed electrician.
 
 ## How to tell what's causing it: quick test
+
+<figure><img src="/images/posts/gfci-diagnosis-flow.svg" alt="Flowchart: unplug everything, press reset and wait 10 minutes; if it trips again the problem is wiring, moisture or the GFCI, otherwise plug devices back one at a time" width="640" height="430" loading="lazy" /><figcaption>The 10-minute test splits the problem in two.</figcaption></figure>
 
 1. **Unplug everything** from the GFCI and from any outlets it might protect (often other outlets in the same bathroom, kitchen, garage or outside wall).
 2. **Press RESET.** If it won't reset at all, skip to the "Won't reset" section below.
@@ -66,6 +74,8 @@ Appliances with heating elements or motors — hair dryers, space heaters, kettl
 ## 3. Something on the downstream (LOAD) side
 
 A single GFCI often protects other regular outlets wired after it through its **LOAD** terminals. A fault anywhere downstream — a wet outdoor outlet, a damaged cable, a loose connection — trips the first GFCI, even if that outlet looks fine.
+
+<figure><img src="/images/posts/gfci-line-load.svg" alt="Back of a GFCI outlet: incoming hot and neutral wires on the LINE terminals, wires to other outlets on the LOAD terminals" width="640" height="440" loading="lazy" /><figcaption>Anything connected to LOAD is protected by this GFCI — and a fault there trips it.</figcaption></figure>
 
 **Fix:**
 

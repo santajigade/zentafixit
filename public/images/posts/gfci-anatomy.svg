@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Parts of a GFCI outlet</text>
+  <rect x="230" y="50" width="180" height="320" rx="16" fill="#fff" stroke="#0f2240" stroke-width="2.5"/>
+  <rect x="258" y="78" width="124" height="104" rx="12" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="258" y="238" width="124" height="104" rx="12" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <g stroke="#0f2240" stroke-width="5" stroke-linecap="round"><path d="M298 108v26M342 108v22M298 268v26M342 268v22"/></g>
+  <path d="M310 158a10 10 0 0 1 20 0v10h-20z M310 318a10 10 0 0 1 20 0v10h-20z" fill="#0f2240"/>
+  <rect x="262" y="196" width="50" height="28" rx="5" fill="#ffd23f" stroke="#0f2240" stroke-width="2"/>
+  <text x="287" y="215" font-size="12" font-weight="700" fill="#0f2240" text-anchor="middle">TEST</text>
+  <rect x="328" y="196" width="50" height="28" rx="5" fill="#ffd23f" stroke="#0f2240" stroke-width="2"/>
+  <text x="353" y="215" font-size="11" font-weight="700" fill="#0f2240" text-anchor="middle">RESET</text>
+  <circle cx="320" cy="64" r="6" fill="#1f8a5b"/>
+  <g stroke="#566475" stroke-width="1.5" fill="none" stroke-dasharray="4 4">
+    <path d="M326 64H460"/><path d="M262 210H170"/><path d="M378 210H460"/><path d="M298 120H170"/><path d="M342 120H460"/><path d="M320 318V384H170" />
+  </g>
+  <g font-size="14" fill="#14202c">
+    <text x="468" y="60" font-weight="700">Status light</text><text x="468" y="78" fill="#566475">Green = protected. Red or</text><text x="468" y="94" fill="#566475">blinking = tripped or failed</text>
+    <text x="24" y="206" font-weight="700">TEST button</text><text x="24" y="224" fill="#566475">Press monthly: power</text><text x="24" y="240" fill="#566475">should cut off with a click</text>
+    <text x="468" y="206" font-weight="700">RESET button</text><text x="468" y="224" fill="#566475">Press to restore power</text><text x="468" y="240" fill="#566475">after a trip or test</text>
+    <text x="24" y="116" font-weight="700">Hot slot (short)</text><text x="24" y="134" fill="#566475">Connected to the brass</text><text x="24" y="150" fill="#566475">screws and black wire</text>
+    <text x="468" y="116" font-weight="700">Neutral slot (tall)</text><text x="468" y="134" fill="#566475">Silver screws, white wire</text>
+    <text x="24" y="380" font-weight="700">Ground hole</text><text x="24" y="396" fill="#566475" font-size="12">Green screw, bare/green wire</text>
+  </g>
+</svg>

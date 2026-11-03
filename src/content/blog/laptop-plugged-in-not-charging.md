@@ -28,6 +28,10 @@ faq:
 
 "Plugged in, not charging" usually has a simple cause: a **battery-saving setting**, a **charger that isn't powerful enough**, a **loose connection**, or a **driver glitch**. Work through these fixes in order — the quick ones come first.
 
+<figure><img src="/images/posts/laptop-charge-flow.svg" alt="Chart: stops at 60–80% points to a charge limit setting; stays at the same percent points to charger wattage, heat or drivers; no charging at all points to charger, cable, port or battery" width="640" height="320" loading="lazy" /><figcaption>Match what you see to jump to the most likely fixes.</figcaption></figure>
+
+<div class="key"><strong>Quick answer</strong><p>If it stops at 60–80%, a battery-saving charge limit is on — that's normal. If it never charges, check the charger's wattage, try another USB-C port, and reinstall the Windows battery driver before blaming the battery.</p></div>
+
 ## 1. Check whether a charge limit is turned on
 
 If your laptop stops at a fixed level like 60% or 80%, it's probably not broken. Many laptops include a feature that caps charging to slow battery wear.
@@ -54,7 +58,9 @@ Turn the limit off (or pick "full charge") if you need 100% today. Many people l
 
 Every laptop needs a minimum power level — typically **45 W to 100 W**, and more for gaming laptops. A lower-wattage charger may keep the laptop running without charging the battery, especially under load.
 
-- Check your laptop's original charger or the label on the bottom for the required watts.
+- Check your laptop's original charger or the label on the bottom for the required watts. If the label lists volts and amps instead, multiply them — or use this [amps to watts calculator](https://zentacalculator.com/electrical/amps-to-watts/).
+
+<figure><img src="/images/posts/charger-label-watts.svg" alt="A laptop charger label reading OUTPUT 20V 3.25A, which equals 65 watts" width="640" height="300" loading="lazy" /><figcaption>Volts × amps on the OUTPUT line gives the charger's wattage.</figcaption></figure>
 - Windows may show **"Slow charger"** or a warning in the manufacturer's app.
 - With **USB-C**, both the charger and the cable must support enough power. Many cheap cables are limited to 60 W.
 
@@ -105,6 +111,8 @@ Batteries wear out. Most laptop batteries are designed to keep a large share of 
 **Mac:** **System Settings → Battery** → click the info button next to Battery Health. "Service Recommended" means it's time for a replacement.
 
 If capacity is well below design, or Windows shows **"Consider replacing your battery,"** a new battery is the fix.
+
+Heat, deep discharges and age are the usual reasons batteries lose capacity — here's a deeper look at the [common causes of battery failure](https://www.instrumentationblog.in/causes-of-battery-failure/).
 
 ## When to get it repaired
 

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="320" fill="#f3f6fa"/>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where is your laptop stuck?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="60" width="180" height="70" rx="8"/><rect x="230" y="60" width="180" height="70" rx="8"/><rect x="436" y="60" width="180" height="70" rx="8"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="114" y="90" font-weight="700">Stops at 60–80%</text><text x="114" y="110" font-size="12" fill="#566475">every time</text>
+    <text x="320" y="90" font-weight="700">Stays at same %</text><text x="320" y="110" font-size="12" fill="#566475">"plugged in, not charging"</text>
+    <text x="526" y="90" font-weight="700">No charging at all</text><text x="526" y="110" font-size="12" fill="#566475">no light, no icon</text>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#a)"><path d="M114 130v40"/><path d="M320 130v40"/><path d="M526 130v40"/></g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="24" y="172" width="180" height="124" rx="8"/><rect x="230" y="172" width="180" height="124" rx="8"/><rect x="436" y="172" width="180" height="124" rx="8"/></g>
+  <g font-size="13" fill="#14202c">
+    <text x="40" y="198" font-weight="700">Likely a setting</text><text x="40" y="224">Battery charge limit /</text><text x="40" y="242">conservation mode is on</text><text x="40" y="276" font-weight="700">Try: Fix 1</text>
+    <text x="246" y="198" font-weight="700">Likely power or software</text><text x="246" y="224">Low-watt charger, hot</text><text x="246" y="242">battery, driver glitch</text><text x="246" y="276" font-weight="700">Try: Fixes 3, 5, 6, 7</text>
+    <text x="452" y="198" font-weight="700">Likely hardware</text><text x="452" y="224">Charger, cable, port,</text><text x="452" y="242">or a worn battery</text><text x="452" y="276" font-weight="700">Try: Fixes 2, 4, 9</text>
+  </g>
+</svg>

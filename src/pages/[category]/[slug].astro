@@ -79,6 +79,7 @@ if (data.faq.length) {
   </header>
 
   <div class="post-layout">
+    <aside class="rail-left" aria-label="Advertisement"><AdSlot kind="rail" /></aside>
     <article class="post-body">
       {data.symptoms.length > 0 && (
         <section class="trouble" aria-labelledby="trouble-h">
@@ -104,7 +105,7 @@ if (data.faq.length) {
         <nav class="toc" aria-label="On this page"><h2>On this page</h2><ul>{toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ul></nav>
       )}
       {related.length > 0 && <><h2>More in {cat.name}</h2><ul class="tools-list">{related.map((p) => <li><a href={postUrl(p)}>{p.data.title}</a></li>)}</ul></>}
-      <AdSlot />
+      <AdSlot kind="rail" />
     </aside>
   </div>
 
@@ -144,6 +145,40 @@ if (data.faq.length) {
       a.addEventListener('click', () => {
         const h = document.getElementById(a.hash.slice(1));
         h?.classList.remove('flash'); void h?.offsetWidth; h?.classList.add('flash');
+      }),
+    );
+
+    // "Did this fix it?" after each numbered cause/fix section (h2 starting with a number)
+    const h2s = [...(prose?.querySelectorAll<HTMLHeadingElement>(':scope > h2') ?? [])];
+    h2s.forEach((h, i) => {
+      if (!/^\d+\./.test(h.textContent?.trim() ?? '')) return;
+      const next = h2s[i + 1];
+      const box = document.createElement('div');
+      box.className = 'fixcheck';
+      box.innerHTML = `<span>Did this fix it?</span><button type="button" data-yes>Yes, fixed</button>` +
+        (next ? `<button type="button" data-no>No, show the next fix</button>` : '') + `<p class="fixcheck-msg" role="status"></p>`;
+      if (next) next.before(box); else prose!.append(box);
+      const msg = box.querySelector<HTMLElement>('.fixcheck-msg')!;
+      box.querySelector('[data-yes]')!.addEventListener('click', () => {
+        box.classList.add('is-fixed');
+        msg.textContent = 'Nice work. Test it again in a day or two to make sure the fix holds.';
+      });
+      box.querySelector('[data-no]')?.addEventListener('click', () => {
+        next!.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+        next!.classList.remove('flash'); void next!.offsetWidth; next!.classList.add('flash');
+      });
+    });
+
+    // Tap a diagram to view it larger
+    prose?.querySelectorAll<HTMLImageElement>('figure img').forEach((img) =>
+      img.addEventListener('click', () => {
+        const o = document.createElement('div');
+        o.className = 'zoomed';
+        o.innerHTML = `<img src="${img.src}" alt="${img.alt}">`;
+        const close = () => { o.remove(); removeEventListener('keydown', esc); };
+        const esc = (e: KeyboardEvent) => { if (e.key === 'Escape') close(); };
+        o.addEventListener('click', close); addEventListener('keydown', esc);
+        document.body.append(o);
       }),
     );
 
