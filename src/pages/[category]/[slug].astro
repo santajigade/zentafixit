@@ -30,6 +30,7 @@ const related = all
   .sort((a, b) => Number(b.data.subcategory === data.subcategory) - Number(a.data.subcategory === data.subcategory))
   .slice(0, 5);
 const reviewed = data.reviewedBy && data.reviewedDate;
+const shareImg = data.image ? data.image.src.replace(/\.webp$/, '.jpg') : undefined;
 const diffLabel = { easy: 'Easy', moderate: 'Moderate', hard: 'Hard' }[data.difficulty];
 const riskLabel = { low: 'Low', caution: 'Use caution', danger: 'Shock / fire risk' }[data.risk];
 
@@ -41,6 +42,7 @@ const schema: object[] = [
     author: { '@type': 'Person', name: AUTHOR.name, url: authorUrl },
     publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url },
     mainEntityOfPage: url, articleSection: cat.name,
+    ...(shareImg ? { image: new URL(shareImg, SITE.url).href } : {}),
   },
   {
     '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
@@ -59,7 +61,7 @@ if (data.faq.length) {
     mainEntity: data.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) });
 }
 ---
-<Base title={data.title} description={data.description} type="article" schema={schema} progress>
+<Base title={data.title} description={data.description} type="article" schema={schema} progress image={shareImg}>
   <header slot="band" class="band blueprint">
     <div class="wrap">
       <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> / <a href={`/${cat.slug}/`}>{cat.name}</a> / <a href={`/${cat.slug}/#${sub.slug}`}>{sub.name}</a></nav>
@@ -81,6 +83,7 @@ if (data.faq.length) {
   <div class="post-layout">
     <aside class="rail-left" aria-label="Advertisement"><AdSlot kind="rail" /></aside>
     <article class="post-body">
+      {data.image && <figure class="featured"><img src={data.image.src} alt={data.image.alt} width="1200" height="630" fetchpriority="high" /></figure>}
       {data.symptoms.length > 0 && (
         <section class="trouble" aria-labelledby="trouble-h">
           <h2 id="trouble-h">Start here: what are you seeing?</h2>

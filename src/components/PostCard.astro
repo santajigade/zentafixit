@@ -9,8 +9,9 @@ const cat = getCategory(d.category);
 const diff = { easy: 'Easy', moderate: 'Moderate', hard: 'Hard' }[d.difficulty];
 ---
 <li class="ticket">
-  <div class="ticket-cat">{showCat ? <a href={`/${cat?.slug}/`}>{cat?.name}</a> : cat?.subcategories.find((s) => s.slug === d.subcategory)?.name}</div>
+  <a class="ticket-thumb" href={postUrl(post)} tabindex="-1" aria-hidden="true">{d.image && <img src={d.image.src} alt="" width="168" height="88" loading="lazy" />}</a>
   <div>
+    <div class="ticket-cat">{showCat ? <a href={`/${cat?.slug}/`}>{cat?.name}</a> : cat?.subcategories.find((s) => s.slug === d.subcategory)?.name}</div>
     <h3><a href={postUrl(post)}>{d.title}</a></h3>
     <p>{d.description}</p>
   </div>

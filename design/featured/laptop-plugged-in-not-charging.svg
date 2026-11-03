@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- laptop -->
+  <rect x="300" y="110" width="520" height="330" rx="18" fill="#16305a" stroke="#ffffff" stroke-width="5"/>
+  <rect x="326" y="136" width="468" height="278" rx="6" fill="#f3f6fa"/>
+  <path d="M240 440h640l-40 52H280z" fill="#f3f6fa" stroke="#ffffff" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="520" y="452" width="80" height="10" rx="5" fill="#9fb7da"/>
+  <!-- battery on screen -->
+  <rect x="420" y="215" width="250" height="120" rx="16" fill="none" stroke="#0f2240" stroke-width="10"/>
+  <rect x="672" y="250" width="22" height="50" rx="5" fill="#0f2240"/>
+  <rect x="438" y="233" width="170" height="84" rx="6" fill="#ffd23f"/>
+  <path d="M608 233h44v84h-44z" fill="#d5dee8"/>
+  <path d="M552 222l-40 58h32l-22 56 58-72h-34l26-42z" fill="#0f2240"/>
+  <!-- cable + usb-c plug -->
+  <path d="M880 470c80 0 100-40 100-110s40-120 120-120" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+  <rect x="842" y="452" width="56" height="34" rx="12" fill="#9fb7da" stroke="#ffffff" stroke-width="4"/>
+  <!-- question mark -->
+  <circle cx="1010" cy="160" r="54" fill="none" stroke="#ffd23f" stroke-width="7"/>
+  <path d="M990 145a20 20 0 1 1 30 18c-8 5-10 10-10 18" fill="none" stroke="#ffd23f" stroke-width="8" stroke-linecap="round"/><circle cx="1010" cy="196" r="6" fill="#ffd23f"/>
+  <!-- dimension -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M300 80h520M300 70v20M820 70v20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

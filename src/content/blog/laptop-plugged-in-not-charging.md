@@ -5,6 +5,7 @@ pubDate: 2026-11-11
 category: pc-laptops
 subcategory: laptop-battery-and-charging
 tags: [laptop, battery, charging, windows, mac, usb-c]
+image: { src: /images/featured/laptop-plugged-in-not-charging.webp, alt: "Illustration of a laptop plugged in with a partly charged battery icon" }
 difficulty: easy
 time: 5–20 min
 risk: low

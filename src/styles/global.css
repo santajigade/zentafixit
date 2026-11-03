@@ -91,8 +91,12 @@ dialog#search input { width: 100%; font: 400 19px var(--body); padding: 12px 14p
 
 /* Repair tickets (post list rows) */
 .tickets { list-style: none; padding: 0; margin: 0; border-top: 2px solid var(--ink); }
-.ticket { display: grid; grid-template-columns: 150px 1fr auto; gap: 20px; align-items: start; padding: 18px 4px; border-bottom: 1px solid var(--line); }
-.ticket-cat { font: 500 13px var(--mono); color: var(--muted); padding-top: 4px; }
+.ticket { display: grid; grid-template-columns: 168px 1fr auto; gap: 20px; align-items: start; padding: 18px 4px; border-bottom: 1px solid var(--line); }
+.ticket-thumb { display: block; aspect-ratio: 1200 / 630; border-radius: 4px; overflow: hidden; background: var(--navy); }
+.ticket-thumb img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.featured { margin: 0 0 28px; }
+.featured img { display: block; width: 100%; height: auto; border-radius: var(--r); }
+.ticket-cat { font: 500 13px var(--mono); color: var(--muted); margin-bottom: 2px; }
 .ticket-cat a { color: inherit; text-decoration: none; }
 .ticket h3 { margin: 0 0 4px; font-size: 22px; font-stretch: 90%; }
 .ticket h3 a { color: var(--ink); text-decoration: none; }
@@ -258,7 +262,8 @@ main:has(.post-layout) { max-width: 1300px; }
   .spec > div:nth-child(3) { border-left: 0; }
   .spec > div:nth-child(n+3) { border-top: 1px solid #3d5a88; }
   .footer-grid { grid-template-columns: 1fr; }
-  .ticket { grid-template-columns: 1fr; gap: 6px; }
+  .ticket { grid-template-columns: 120px 1fr; gap: 6px 14px; }
+  .ticket-spec { grid-column: 1 / -1; }
   .ticket-spec { justify-content: flex-start; }
 }
 @media (max-width: 620px) {

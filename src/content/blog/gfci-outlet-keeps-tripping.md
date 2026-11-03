@@ -5,6 +5,7 @@ pubDate: 2026-11-10
 category: electrical
 subcategory: outlets-and-gfci
 tags: [gfci, outlets, tripping, bathroom, kitchen, outdoor]
+image: { src: /images/featured/gfci-outlet-keeps-tripping.webp, alt: "Illustration of a tripped GFCI outlet with water droplets and a spark" }
 difficulty: easy
 time: 10–30 min
 risk: caution

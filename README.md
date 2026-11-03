@@ -44,3 +44,9 @@ The GitHub Action `.github/workflows/deploy.yml` builds the site and uploads `di
 ## Hostinger setup
 
 Add these GitHub secrets (Settings → Secrets and variables → Actions): `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD` — from hPanel → Files → FTP Accounts. The FTP account is rooted at `public_html`, so files upload to its root.
+
+## Featured images
+
+Each post has a 1200×630 featured image. Source SVGs live in `design/featured/<slug>.svg`.
+Render them with `node design/render-featured.cjs` (needs Playwright), then convert each PNG to
+`public/images/featured/<slug>.webp` (shown on the page) and `<slug>.jpg` (used for social sharing).
