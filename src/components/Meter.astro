@@ -1,0 +1,5 @@
+---
+interface Props { level: 'easy' | 'moderate' | 'hard' }
+const n = { easy: 1, moderate: 2, hard: 3 }[Astro.props.level];
+---
+<span class="meter" aria-hidden="true"><i class={n >= 1 ? 'on' : ''}></i><i class={n >= 2 ? 'on' : ''}></i><i class={n >= 3 ? 'on' : ''}></i></span>

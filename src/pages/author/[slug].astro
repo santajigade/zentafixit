@@ -13,8 +13,8 @@ const schema = [{
 }];
 ---
 <Base title={`${AUTHOR.name} — ${AUTHOR.role}`} description={AUTHOR.bio} schema={schema}>
-  <nav class="crumbs"><a href="/">Home</a> › Author</nav>
-  <div class="author-box">
+  <div style="height:40px"></div>
+    <div class="author-box">
     {AUTHOR.photo ? <img src={AUTHOR.photo} alt={AUTHOR.name} width="72" height="72" /> : <div class="avatar">{AUTHOR.name[0]}</div>}
     <div>
       <h1 style="margin:0 0 4px;font-size:30px">{AUTHOR.name}</h1>
@@ -26,5 +26,5 @@ const schema = [{
   </div>
   <h2>How I review guides</h2>
   <p>Every guide is checked for technical accuracy and safety before it's published. The "Reviewed by" date on each guide shows when that check was done. <a href="/editorial-policy/">Read the editorial policy</a>.</p>
-  {posts.length > 0 && <><h2>Guides by {AUTHOR.name}</h2><div class="card-grid">{posts.map((p) => <PostCard post={p} />)}</div></>}
+  {posts.length > 0 && <><h2>Guides by {AUTHOR.name}</h2><ul class="tickets">{posts.map((p) => <PostCard post={p} />)}</ul></>}
 </Base>

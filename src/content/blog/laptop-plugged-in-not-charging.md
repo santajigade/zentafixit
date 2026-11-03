@@ -5,6 +5,16 @@ pubDate: 2026-11-11
 category: pc-laptops
 subcategory: laptop-battery-and-charging
 tags: [laptop, battery, charging, windows, mac, usb-c]
+difficulty: easy
+time: 5–20 min
+risk: low
+tools: [Your laptop's original charger]
+symptoms:
+  - { label: "Stops at 60% or 80%", to: "1-check-whether-a-charge-limit-is-turned-on" }
+  - { label: "Says “slow charger”", to: "3-use-a-charger-with-enough-wattage" }
+  - { label: "USB-C charger does nothing", to: "4-use-the-right-usb-c-port" }
+  - { label: "Plugged in, not charging (Windows)", to: "6-reinstall-the-battery-driver-windows" }
+  - { label: "Battery drains fast / old laptop", to: "9-check-battery-health" }
 faq:
   - q: "Why does my laptop stop charging at 80%?"
     a: "Most likely a battery-saving setting is on. Lenovo, Dell, HP, ASUS and Apple all offer features that cap charging at around 60–80% to extend battery life. It's normal, and you can turn it off in the manufacturer's app or battery settings."

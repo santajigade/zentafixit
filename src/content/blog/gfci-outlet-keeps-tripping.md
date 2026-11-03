@@ -5,6 +5,17 @@ pubDate: 2026-11-10
 category: electrical
 subcategory: outlets-and-gfci
 tags: [gfci, outlets, tripping, bathroom, kitchen, outdoor]
+difficulty: easy
+time: 10–30 min
+risk: caution
+tools: [Non-contact voltage tester, Plug-in GFCI tester, Screwdriver]
+symptoms:
+  - { label: "Trips with nothing plugged in", to: "1-moisture-in-an-outlet-or-box" }
+  - { label: "Trips when I use one appliance", to: "2-a-faulty-appliance-or-cord" }
+  - { label: "Other outlets went dead too", to: "3-something-on-the-downstream-load-side" }
+  - { label: "Trips when it rains", to: "1-moisture-in-an-outlet-or-box" }
+  - { label: "Old outlet, trips at random", to: "4-a-worn-out-gfci" }
+  - { label: "Won't reset at all", to: "gfci-wont-reset-at-all" }
 faq:
   - q: "Is it dangerous if my GFCI keeps tripping?"
     a: "A tripping GFCI is doing its job — it has detected current leaking somewhere it shouldn't. The danger is ignoring it or replacing it with a regular outlet. Find the cause, and call an electrician if it trips with nothing plugged in and no moisture present."

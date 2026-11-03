@@ -1,13 +1,22 @@
 ---
-import { postUrl, formatDate, type Post } from '../lib/posts';
+import { postUrl, type Post } from '../lib/posts';
 import { getCategory } from '../data/categories';
-interface Props { post: Post }
-const { post } = Astro.props;
-const cat = getCategory(post.data.category);
+import Meter from './Meter.astro';
+interface Props { post: Post; showCat?: boolean }
+const { post, showCat = true } = Astro.props;
+const d = post.data;
+const cat = getCategory(d.category);
+const diff = { easy: 'Easy', moderate: 'Moderate', hard: 'Hard' }[d.difficulty];
 ---
-<article class="card">
-  <p class="eyebrow"><a href={`/${cat?.slug}/`}>{cat?.name}</a></p>
-  <h3><a href={postUrl(post)}>{post.data.title}</a></h3>
-  <p class="muted">{post.data.description}</p>
-  <p class="small muted">{formatDate(post.data.updatedDate ?? post.data.pubDate)}</p>
-</article>
+<li class="ticket">
+  <div class="ticket-cat">{showCat ? <a href={`/${cat?.slug}/`}>{cat?.name}</a> : cat?.subcategories.find((s) => s.slug === d.subcategory)?.name}</div>
+  <div>
+    <h3><a href={postUrl(post)}>{d.title}</a></h3>
+    <p>{d.description}</p>
+  </div>
+  <div class="ticket-spec">
+    <span class="badge" title="Difficulty"><Meter level={d.difficulty} />{diff}</span>
+    <span class="badge" title="Time needed">{d.time}</span>
+    {d.risk !== 'low' && <span class={`badge risk-${d.risk}`}>{d.risk === 'danger' ? 'Shock risk' : 'Use caution'}</span>}
+  </div>
+</li>
