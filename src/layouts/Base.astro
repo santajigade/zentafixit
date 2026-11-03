@@ -123,6 +123,15 @@ const year = new Date().getFullYear();
     document.addEventListener('click', (e) => { if (mega?.open && !mega.contains(e.target as Node)) mega.open = false; });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && mega?.open) { mega.open = false; mega.querySelector('summary')?.focus(); } });
 
+    // Open on mouse hover (desktop with a mouse); click still works everywhere
+    if (mega && matchMedia('(hover: hover) and (pointer: fine)').matches) {
+      let t: number | undefined;
+      mega.addEventListener('mouseenter', () => { clearTimeout(t); if (innerWidth > 700) mega.open = true; });
+      mega.addEventListener('mouseleave', () => { t = window.setTimeout(() => { mega.open = false; }, 200); });
+      // A mouse click on the button keeps it open (hover already opened it)
+      mega.querySelector('summary')?.addEventListener('click', (e) => { if (e.detail > 0 && innerWidth > 700) { e.preventDefault(); mega.open = true; } });
+    }
+
     // Theme toggle
     const root = document.documentElement;
     document.getElementById('theme-toggle')?.addEventListener('click', () => {
