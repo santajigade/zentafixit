@@ -12,7 +12,7 @@ const schema = [{
     url: `${SITE.url}/author/${AUTHOR.slug}/`, ...(AUTHOR.linkedin ? { sameAs: [AUTHOR.linkedin] } : {}) },
 }];
 ---
-<Base title={`${AUTHOR.name} — ${AUTHOR.role}`} description={AUTHOR.bio} schema={schema}>
+<Base title={`${AUTHOR.name}, ${AUTHOR.role}`} description={AUTHOR.bio} schema={schema}>
   <div style="height:40px"></div>
     <div class="author-box">
     {AUTHOR.photo ? <img src={AUTHOR.photo} alt={AUTHOR.name} width="72" height="72" /> : <div class="avatar">{AUTHOR.name[0]}</div>}

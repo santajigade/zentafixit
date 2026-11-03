@@ -17,7 +17,7 @@ const blog = defineCollection({
     // Featured image: 1200×630. Put `<slug>.webp` (page) and `<slug>.jpg` (social share) in public/images/featured/
     image: z.object({ src: z.string(), alt: z.string() }).optional(),
     difficulty: z.enum(['easy', 'moderate', 'hard']).default('easy'),
-    time: z.string().default('15 min'), // e.g. '10–30 min'
+    time: z.string().default('15 min'), // e.g. '10 to 30 min'
     tools: z.array(z.string()).default([]),
     risk: z.enum(['low', 'caution', 'danger']).default('low'), // electrical/gas work = caution or danger
     // "What are you seeing?" troubleshooter: label + heading anchor it jumps to

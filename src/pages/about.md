@@ -4,7 +4,7 @@ title: About ZentaFixit
 description: ZentaFixit publishes clear, safety-first fix-it guides for home electrical, smart home, HVAC, appliances, PCs and gadgets.
 ---
 
-ZentaFixit helps homeowners and renters fix everyday problems themselves — a tripped GFCI, a smart thermostat that won't connect, a laptop that won't charge — and know when it's time to call a professional.
+ZentaFixit helps homeowners and renters fix everyday problems themselves (a tripped GFCI, a smart thermostat that won't connect, a laptop that won't charge) and know when it's time to call a professional.
 
 ## What we cover
 

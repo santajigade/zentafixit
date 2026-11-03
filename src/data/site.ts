@@ -1,4 +1,4 @@
-// Site-wide settings. Edit author details here — only true information.
+// Site-wide settings. Edit author details here. Only true information.
 export const SITE = {
   name: 'ZentaFixit',
   url: 'https://zentafixit.com',
@@ -16,7 +16,7 @@ export const AUTHOR = {
   slug: 'santaji-gadepatil',
   name: 'Santaji Gadepatil',
   role: 'Founder & Editor',
-  // Edit freely — keep it true.
+  // Edit freely, but keep it true.
   bio: 'Electronics and Telecommunication engineer working in industrial instrumentation and automation. I write and review every ZentaFixit guide for technical accuracy and safety.',
   credentials: ['B.E. Electronics and Telecommunication Engineering'] as string[],
   linkedin: 'https://www.linkedin.com/in/santaji-gadepatil6680/',

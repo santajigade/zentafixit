@@ -20,7 +20,7 @@ const ogImage = image ? new URL(image, SITE.url).href : undefined;
 // Review previews (SHOW_DRAFTS=1) must never be indexed.
 const noindex = Astro.props.noindex || process.env.SHOW_DRAFTS === '1';
 const canonical = new URL(Astro.url.pathname, SITE.url).href;
-const fullTitle = title === SITE.name ? `${SITE.name} — ${SITE.tagline}` : `${title} | ${SITE.name}`;
+const fullTitle = title === SITE.name ? `${SITE.name} | ${SITE.tagline}` : `${title} | ${SITE.name}`;
 const year = new Date().getFullYear();
 ---
 <!doctype html>

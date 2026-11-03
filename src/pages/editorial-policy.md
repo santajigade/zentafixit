@@ -14,7 +14,7 @@ No guide is published until a person has reviewed it for technical accuracy and 
 
 ## Safety
 
-Some tasks — especially electrical, gas, and panel work — can be dangerous. Our guides say clearly when to turn off power, which tools to use, and when to call a licensed professional. Local codes and permit rules vary; always follow them.
+Some tasks, especially electrical, gas, and panel work, can be dangerous. Our guides say clearly when to turn off power, which tools to use, and when to call a licensed professional. Local codes and permit rules vary; always follow them.
 
 ## Updates and corrections
 

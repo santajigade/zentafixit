@@ -31,7 +31,7 @@ export const CATEGORIES: Category[] = [
     subcategories: ['iPhone Problems', 'Android Problems', 'Charging & Battery', 'Bluetooth & Pairing'].map(s) },
   { slug: 'tv-audio', name: 'TV & Audio', description: 'Smart TVs, streaming devices, soundbars, HDMI and home theater.',
     subcategories: ['Smart TVs', 'Soundbars & Speakers', 'HDMI & Connectivity', 'Streaming Problems', 'Home Theater Setup'].map(s) },
-  { slug: 'tools', name: 'Tools & Testing', description: 'Multimeters, testers and power tools — what to buy and how to use them.',
+  { slug: 'tools', name: 'Tools & Testing', description: 'Multimeters, testers and power tools: what to buy and how to use them.',
     subcategories: ['Multimeters & Testers', 'Power Tools', 'Tool Buying Guides', 'How-to-Use Guides'].map(s) },
   { slug: 'home-safety', name: 'Home Safety', description: 'Smoke and CO detectors, electrical and fire safety, outage prep.',
     subcategories: ['Smoke & CO Detectors', 'Electrical Safety', 'Fire Safety', 'Storm & Outage Prep'].map(s) },

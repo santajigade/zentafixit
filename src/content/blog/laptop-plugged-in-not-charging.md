@@ -7,7 +7,7 @@ subcategory: laptop-battery-and-charging
 tags: [laptop, battery, charging, windows, mac, usb-c]
 image: { src: /images/featured/laptop-plugged-in-not-charging.webp, alt: "Illustration of a laptop plugged in with a partly charged battery icon" }
 difficulty: easy
-time: 5–20 min
+time: 5 to 20 min
 risk: low
 tools: [Your laptop's original charger]
 symptoms:
@@ -18,20 +18,20 @@ symptoms:
   - { label: "Battery drains fast / old laptop", to: "9-check-battery-health" }
 faq:
   - q: "Why does my laptop stop charging at 80%?"
-    a: "Most likely a battery-saving setting is on. Lenovo, Dell, HP, ASUS and Apple all offer features that cap charging at around 60–80% to extend battery life. It's normal, and you can turn it off in the manufacturer's app or battery settings."
+    a: "Most likely a battery-saving setting is on. Lenovo, Dell, HP, ASUS and Apple all offer features that cap charging at around 60 to 80% to extend battery life. It's normal, and you can turn it off in the manufacturer's app or battery settings."
   - q: "Can I use a phone charger to charge a USB-C laptop?"
-    a: "Sometimes, but slowly or not at all. Laptops usually need 45–100 W. A 20–30 W phone charger may only slow the drain or show 'slow charger' warnings. Use a charger that matches your laptop's rated wattage."
+    a: "Sometimes, but slowly or not at all. Laptops usually need 45 to 100 W. A 20 to 30 W phone charger may only slow the drain or show 'slow charger' warnings. Use a charger that matches your laptop's rated wattage."
   - q: "How do I check my laptop battery health?"
     a: "On Windows, open Command Prompt and run 'powercfg /batteryreport', then open the HTML file it creates and compare 'Full charge capacity' to 'Design capacity'. On a Mac, go to System Settings > Battery and check Battery Health."
   - q: "Is it bad to keep my laptop plugged in all the time?"
     a: "Modern laptops manage this well, especially with a charge limit or optimized charging turned on. Keeping the battery cool matters more than unplugging."
 ---
 
-"Plugged in, not charging" usually has a simple cause: a **battery-saving setting**, a **charger that isn't powerful enough**, a **loose connection**, or a **driver glitch**. Work through these fixes in order — the quick ones come first.
+"Plugged in, not charging" usually has a simple cause: a **battery-saving setting**, a **charger that isn't powerful enough**, a **loose connection**, or a **driver glitch**. Work through these fixes in order. The quick ones come first.
 
-<figure><img src="/images/posts/laptop-charge-flow.svg" alt="Chart: stops at 60–80% points to a charge limit setting; stays at the same percent points to charger wattage, heat or drivers; no charging at all points to charger, cable, port or battery" width="640" height="320" loading="lazy" /><figcaption>Match what you see to jump to the most likely fixes.</figcaption></figure>
+<figure><img src="/images/posts/laptop-charge-flow.svg" alt="Chart: stops at 60 to 80% points to a charge limit setting; stays at the same percent points to charger wattage, heat or drivers; no charging at all points to charger, cable, port or battery" width="640" height="320" loading="lazy" /><figcaption>Match what you see to jump to the most likely fixes.</figcaption></figure>
 
-<div class="key"><strong>Quick answer</strong><p>If it stops at 60–80%, a battery-saving charge limit is on — that's normal. If it never charges, check the charger's wattage, try another USB-C port, and reinstall the Windows battery driver before blaming the battery.</p></div>
+<div class="key"><strong>Quick answer</strong><p>If it stops at 60 to 80%, a battery-saving charge limit is on. That's normal. If it never charges, check the charger's wattage, try another USB-C port, and reinstall the Windows battery driver before blaming the battery.</p></div>
 
 ## 1. Check whether a charge limit is turned on
 
@@ -51,15 +51,15 @@ Turn the limit off (or pick "full charge") if you need 100% today. Many people l
 ## 2. Check the basics
 
 - **Plug the charger directly into a wall outlet**, not a power strip, and try a different outlet.
-- **Reseat both ends** of the cable — the brick connection on two-part chargers often works loose.
+- **Reseat both ends** of the cable. The brick connection on two-part chargers often works loose.
 - **Look for a charger LED.** No light on a charger that has one usually means a dead adapter or cable.
 - Inspect the cable for kinks, fraying or a bent connector.
 
 ## 3. Use a charger with enough wattage
 
-Every laptop needs a minimum power level — typically **45 W to 100 W**, and more for gaming laptops. A lower-wattage charger may keep the laptop running without charging the battery, especially under load.
+Every laptop needs a minimum power level, typically **45 W to 100 W**, and more for gaming laptops. A lower-wattage charger may keep the laptop running without charging the battery, especially under load.
 
-- Check your laptop's original charger or the label on the bottom for the required watts. If the label lists volts and amps instead, multiply them — or use this [amps to watts calculator](https://zentacalculator.com/electrical/amps-to-watts/).
+- Check your laptop's original charger or the label on the bottom for the required watts. If the label lists volts and amps instead, multiply them, or use this [amps to watts calculator](https://zentacalculator.com/electrical/amps-to-watts/).
 
 <figure><img src="/images/posts/charger-label-watts.svg" alt="A laptop charger label reading OUTPUT 20V 3.25A, which equals 65 watts" width="640" height="300" loading="lazy" /><figcaption>Volts × amps on the OUTPUT line gives the charger's wattage.</figcaption></figure>
 - Windows may show **"Slow charger"** or a warning in the manufacturer's app.
@@ -75,10 +75,10 @@ This clears temporary power-controller glitches.
 
 1. Shut down the laptop and unplug the charger.
 2. Disconnect all USB devices.
-3. **Hold the power button for 15–30 seconds.**
+3. **Hold the power button for 15 to 30 seconds.**
 4. Plug the charger back in, wait a minute, then turn the laptop on.
 
-Some laptops have a tiny **battery reset pinhole** on the bottom — check your manual.
+Some laptops have a tiny **battery reset pinhole** on the bottom. Check your manual.
 
 **Mac with an Intel chip:** reset the SMC (System Management Controller) using Apple's steps for your model. **Apple silicon Macs** (M1 and later): simply shut down, wait 30 seconds, and restart.
 
@@ -93,7 +93,7 @@ A corrupted battery driver is a classic cause of "plugged in, not charging."
 
 ## 7. Let it cool down
 
-Laptop batteries stop charging when they're too hot, to protect themselves. If the laptop is warm — on a bed, in sunlight, or running a game — let it cool, give the vents space, and try again.
+Laptop batteries stop charging when they're too hot, to protect themselves. If the laptop is warm (on a bed, in sunlight, or running a game), let it cool, give the vents space, and try again.
 
 ## 8. Update BIOS and power software
 
@@ -113,13 +113,13 @@ Batteries wear out. Most laptop batteries are designed to keep a large share of 
 
 If capacity is well below design, or Windows shows **"Consider replacing your battery,"** a new battery is the fix.
 
-Heat, deep discharges and age are the usual reasons batteries lose capacity — here's a deeper look at the [common causes of battery failure](https://www.instrumentationblog.in/causes-of-battery-failure/).
+Heat, deep discharges and age are the usual reasons batteries lose capacity. Here's a deeper look at the [common causes of battery failure](https://www.instrumentationblog.in/causes-of-battery-failure/).
 
 ## When to get it repaired
 
 Stop using the laptop and get it checked by an authorized service center if:
 
-- The battery is **swollen** — the case bulges, the trackpad lifts, or the lid won't close flat.
+- The battery is **swollen**: the case bulges, the trackpad lifts, or the lid won't close flat.
 - The charging port is loose, burnt or damaged.
 - It won't charge with a known-good charger after all the steps above.
 

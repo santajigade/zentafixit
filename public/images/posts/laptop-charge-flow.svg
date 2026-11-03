@@ -6,7 +6,7 @@
     <rect x="24" y="60" width="180" height="70" rx="8"/><rect x="230" y="60" width="180" height="70" rx="8"/><rect x="436" y="60" width="180" height="70" rx="8"/>
   </g>
   <g font-size="14" fill="#14202c" text-anchor="middle">
-    <text x="114" y="90" font-weight="700">Stops at 60–80%</text><text x="114" y="110" font-size="12" fill="#566475">every time</text>
+    <text x="114" y="90" font-weight="700">Stops at 60 to 80%</text><text x="114" y="110" font-size="12" fill="#566475">every time</text>
     <text x="320" y="90" font-weight="700">Stays at same %</text><text x="320" y="110" font-size="12" fill="#566475">"plugged in, not charging"</text>
     <text x="526" y="90" font-weight="700">No charging at all</text><text x="526" y="110" font-size="12" fill="#566475">no light, no icon</text>
   </g>
