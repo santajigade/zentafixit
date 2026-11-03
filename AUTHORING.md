@@ -49,8 +49,8 @@ Length: 1,200 to 1,800 words. Tables are welcome for brand or model comparisons.
 
 ## Links (only when genuinely relevant, 0 to 3 per post, in normal sentences)
 Use ONLY URLs from these verified lists, never invent or guess one:
-- `/home/claude/calc-urls.txt` (zentacalculator.com calculators)
-- `/home/claude/ib-urls.txt` (instrumentationblog.in articles)
+- `design/calc-urls.txt` (zentacalculator.com calculators)
+- `design/ib-urls.txt` (instrumentationblog.in articles)
 Internal links to other ZentaFixit posts: `/electrical/gfci-outlet-keeps-tripping/`, `/pc-laptops/laptop-plugged-in-not-charging/` (and others in `src/content/blog/`, URL `/<category>/<slug>/`).
 
 ## Diagrams (2 per post)

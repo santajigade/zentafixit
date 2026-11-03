@@ -22,7 +22,7 @@ You are writing guides for ZentaFixit (zentafixit.com), a US home and tech fix-i
 - US audience: °F, inches, gallons, 120/240 V, $ prices only as broad ranges. Accuracy and safety first. Never invent statistics, model-specific menu paths, error-code meanings or code sections you are not sure of. Say "check your manual/label" instead.
 - No em dash (—) and no en dash (–) anywhere: text, alt text, FAQ, figure captions, SVG labels. Use commas, colons, full stops, brackets; ranges use "to". Hyphens inside words (Wi-Fi, step-by-step) are fine.
 - Every `symptoms[].to` must exactly equal a generated `##` heading anchor (see AUTHORING.md).
-- External links: only URLs listed in `/home/claude/calc-urls.txt` or `/home/claude/ib-urls.txt`, only if genuinely relevant. Never invent a URL. It is fine to have none.
+- External links: only URLs listed in `design/calc-urls.txt` or `design/ib-urls.txt`, only if genuinely relevant. Never invent a URL. It is fine to have none.
 - Internal links: you may link 1 or 2 closely related ZentaFixit guides using the exact paths in `design/batch2-slugs.txt`. Never link a path not in that list.
 - Do NOT add `reviewedBy` or `reviewedDate`.
 - Diagram labels must sit at least 20px from the right edge of the 640 viewBox and fit inside their boxes (Open Sans is about 7.5px per character at 13px, 8px at 14px, 9.5px at 17px bold). Arrow marker ids must be unique within the file.
