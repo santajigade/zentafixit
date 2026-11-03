@@ -41,13 +41,13 @@ const quick = posts.slice(0, 6);
 
   {posts.length > 0 && (
     <section>
-      <div class="section-head"><h2>Latest fixes</h2></div>
-      <ul class="tickets">{posts.slice(0, 8).map((p) => <PostCard post={p} />)}</ul>
+      <div class="section-head"><h2>Latest fixes</h2>{posts.length > 5 && <a href="#categories">All {posts.length} guides by category</a>}</div>
+      <ul class="tickets">{posts.slice(0, 5).map((p) => <PostCard post={p} />)}</ul>
     </section>
   )}
 
   <section>
-    <div class="section-head"><h2>Browse by part of the house</h2></div>
+    <div class="section-head"><h2 id="categories">Browse by part of the house</h2></div>
     <div class="drawers">
       {CATEGORIES.map((c) => (
         <a class="drawer" href={`/${c.slug}/`}>
