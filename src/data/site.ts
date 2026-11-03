@@ -10,6 +10,8 @@ export const SITE = {
   requireReview: true,
   // AdSense publisher ID, e.g. 'ca-pub-1234567890123456'. Leave empty until approved.
   adsenseClient: '',
+  // Google Analytics 4 measurement ID
+  ga4: 'G-26F4V2JBS4',
   social: {
     instagram: 'https://www.instagram.com/zentafixit/',
     facebook: 'https://www.facebook.com/zentafixit/',
