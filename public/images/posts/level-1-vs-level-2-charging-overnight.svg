@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="380" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Range added in a 10-hour overnight charge</text>
+  <text x="24" y="54" font-size="13" fill="#566475">Typical ranges, assuming 2.5 to 4 miles per kWh</text>
+  <g stroke="#d5dee8" stroke-width="1.5"><path d="M170 74v168"/><path d="M313 74v168"/><path d="M457 74v168"/><path d="M600 74v168"/></g>
+  <g font-size="14" fill="#14202c">
+    <text x="24" y="110" font-weight="700">Level 1</text><text x="24" y="128" font-size="12" fill="#566475">120 V, 12 A</text>
+    <text x="24" y="190" font-weight="700">Level 2</text><text x="24" y="208" font-size="12" fill="#566475">240 V, 32 A</text>
+  </g>
+  <rect x="170" y="96" width="44" height="36" fill="#1d5fae"/>
+  <rect x="214" y="96" width="26" height="36" fill="#1d5fae" fill-opacity=".4"/>
+  <text x="250" y="119" font-size="13" fill="#14202c">about 30 to 50 miles</text>
+  <rect x="170" y="176" width="244" height="36" fill="#1d5fae"/>
+  <rect x="414" y="176" width="157" height="36" fill="#1d5fae" fill-opacity=".4"/>
+  <text x="182" y="199" font-size="13" font-weight="700" fill="#fff">about 170 to 280 miles</text>
+  <g font-size="12" fill="#566475" text-anchor="middle">
+    <text x="170" y="260">0</text><text x="313" y="260">100</text><text x="457" y="260">200</text><text x="600" y="260">300</text>
+    <text x="385" y="278">miles of range added</text>
+  </g>
+  <rect x="24" y="294" width="592" height="66" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <text x="320" y="320" font-size="14" font-weight="700" fill="#14202c" text-anchor="middle">Drive 30 miles a day? Either level covers it.</text>
+  <text x="320" y="342" font-size="13" fill="#14202c" text-anchor="middle">Drive 70 miles or more a day? Plan on Level 2.</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- monitor -->
+  <rect x="220" y="80" width="620" height="380" rx="18" fill="#16305a" stroke="#ffffff" stroke-width="5"/>
+  <rect x="246" y="106" width="568" height="328" rx="6" fill="#f3f6fa"/>
+  <path d="M490 460h80l20 70h-120z" fill="#f3f6fa" stroke="#ffffff" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="400" y="530" width="260" height="20" rx="10" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <!-- empty signal box on screen -->
+  <rect x="420" y="220" width="220" height="100" rx="12" fill="#fff" stroke="#0f2240" stroke-width="7"/>
+  <g stroke="#0f2240" stroke-width="10" stroke-linecap="round"><path d="M470 270h20M520 270h20M570 270h20"/></g>
+  <!-- cable and loose plug -->
+  <path d="M1120 560c-60 0-90-40-90-110s-30-110-90-110" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+  <path d="M900 318h44v44h-44z" fill="#9fb7da" stroke="#ffffff" stroke-width="4"/>
+  <path d="M870 324h30v32h-30l-8-8v-16z" fill="#ffd23f" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/>
+  <!-- gap spark -->
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round"><path d="M846 300l-14-18M846 380l-14 18M834 340h-20"/></g>
+  <!-- dimension -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M220 50h620M220 40v20M840 40v20"/><path d="M170 80v380M160 80h20M160 460h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

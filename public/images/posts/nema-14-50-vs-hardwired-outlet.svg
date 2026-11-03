@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Inside a NEMA 14-50 connection</text>
+  <rect x="230" y="60" width="180" height="230" rx="14" fill="#fff" stroke="#0f2240" stroke-width="2.5"/>
+  <circle cx="320" cy="170" r="72" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <g stroke="#0f2240" stroke-width="7" stroke-linecap="round">
+    <path d="M282 140v28"/><path d="M358 140v28"/><path d="M320 194v24"/>
+  </g>
+  <path d="M310 118a10 10 0 0 1 20 0v14h-20z" fill="#0f2240"/>
+  <g stroke="#566475" stroke-width="1.5" fill="none" stroke-dasharray="4 4">
+    <path d="M280 150H180"/><path d="M360 150H460"/><path d="M320 120V100H460"/><path d="M320 216v54H180"/>
+  </g>
+  <g font-size="14" fill="#14202c">
+    <text x="24" y="146" font-weight="700">Hot 1 (X)</text><text x="24" y="164" fill="#566475" font-size="13">120 V to ground</text>
+    <text x="468" y="146" font-weight="700">Hot 2 (Y)</text><text x="468" y="164" fill="#566475" font-size="13">240 V between hots</text>
+    <text x="468" y="96" font-weight="700">Ground</text><text x="468" y="114" fill="#566475" font-size="13">Safety path, needed</text>
+    <text x="24" y="266" font-weight="700">Neutral (W)</text><text x="24" y="284" fill="#566475" font-size="13">Most EV chargers</text><text x="24" y="300" fill="#566475" font-size="13">don't use it</text>
+  </g>
+  <rect x="24" y="318" width="284" height="88" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <rect x="332" y="318" width="284" height="88" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <g font-size="13" fill="#14202c">
+    <text x="40" y="342" font-weight="700">Where heat builds up</text>
+    <text x="40" y="362">Weak contacts in cheap outlets</text>
+    <text x="40" y="380">Loose terminal screws</text>
+    <text x="40" y="398">Daily plugging and unplugging</text>
+    <text x="348" y="342" font-weight="700">How to prevent it</text>
+    <text x="348" y="362">Industrial or commercial grade</text>
+    <text x="348" y="380">Terminals torqued to spec</text>
+    <text x="348" y="398">Leave the charger plugged in</text>
+  </g>
+</svg>

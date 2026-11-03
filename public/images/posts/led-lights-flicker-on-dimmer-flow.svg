@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="ledf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Fix the flicker in three checks</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <path d="M220 62l160 30-160 30-160-30z"/>
+    <path d="M220 160l160 30-160 30-160-30z"/>
+    <path d="M220 258l160 30-160 30-160-30z"/>
+    <rect x="416" y="70" width="200" height="44" rx="8"/>
+    <rect x="416" y="168" width="200" height="44" rx="8"/>
+    <rect x="416" y="262" width="200" height="52" rx="8"/>
+  </g>
+  <rect x="20" y="346" width="400" height="74" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#ledf)">
+    <path d="M380 92h34"/><path d="M380 190h34"/><path d="M380 288h34"/>
+    <path d="M220 122v36"/><path d="M220 220v36"/><path d="M220 318v26"/>
+  </g>
+  <g font-size="12" fill="#566475"><text x="390" y="86">no</text><text x="390" y="184">no</text><text x="388" y="282">yes</text><text x="228" y="144">yes</text><text x="228" y="242">yes</text><text x="228" y="336">no</text></g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="220" y="97" font-weight="700">1. Bulbs say dimmable?</text>
+    <text x="220" y="195" font-weight="700">2. Dimmer rated for LED?</text>
+    <text x="220" y="293" font-weight="700" font-size="13">3. Flickers at full brightness?</text>
+    <g font-size="13"><text x="516" y="97">Replace with dimmable</text>
+    <text x="516" y="195">Fit an LED-rated dimmer</text>
+    <text x="516" y="284">Tighten bulbs, check</text><text x="516" y="302">connections (cause 7)</text></g>
+    <text x="220" y="372" font-weight="700">Raise the low-end trim or add bulbs</text>
+    <text x="220" y="392" font-size="12">Causes 3 and 4. Still flickers? Check the</text>
+    <text x="220" y="408" font-size="12">dimmer maker's compatibility list (cause 5).</text>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="430" fill="#f3f6fa"/>
+  <defs><marker id="enwf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Start with the port lights</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="180" y="54" width="280" height="44" rx="8"/>
+    <rect x="180" y="124" width="280" height="44" rx="8"/>
+    <path d="M320 192l130 36-130 36-130-36z"/>
+    <rect x="30" y="300" width="260" height="56" rx="8"/>
+    <rect x="350" y="300" width="260" height="56" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="30" y="368" width="260" height="48" rx="8"/><rect x="350" y="368" width="260" height="48" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#enwf)">
+    <path d="M320 98v24"/><path d="M320 168v22"/><path d="M190 228H160v70"/><path d="M450 228h30v70"/><path d="M160 356v10"/><path d="M480 356v10"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">1. Plug in, wait 10 seconds</text>
+    <text x="320" y="151">2. Check the lights on both ends</text>
+    <text x="320" y="233" font-weight="700">Link light on?</text>
+    <text x="176" y="220" font-size="12" fill="#566475">no</text><text x="466" y="220" font-size="12" fill="#566475">yes</text>
+    <text x="160" y="324">Cable, port or adapter</text><text x="160" y="342">is the problem</text>
+    <text x="480" y="324">Wiring is fine, check</text><text x="480" y="342">settings and software</text>
+    <text x="160" y="390" font-weight="700">Try fixes 1 to 4</text><text x="160" y="406" font-size="12">cable, router port, adapter</text>
+    <text x="480" y="390" font-weight="700">Try fixes 4 to 6</text><text x="480" y="406" font-size="12">adapter, driver, IP settings</text>
+  </g>
+</svg>

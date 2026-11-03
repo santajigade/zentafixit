@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="solflow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Low solar output: where to start</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="200" y="52" width="240" height="44" rx="8"/>
+    <path d="M320 116l110 36-110 36-110-36z"/>
+    <rect x="20" y="236" width="190" height="60" rx="8"/>
+    <rect x="225" y="236" width="190" height="60" rx="8"/>
+    <rect x="430" y="236" width="190" height="60" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="20" y="320" width="190" height="96" rx="8"/>
+    <rect x="225" y="320" width="190" height="96" rx="8"/>
+    <rect x="430" y="320" width="190" height="96" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#solflow)">
+    <path d="M320 96v18"/><path d="M210 152H115v82"/><path d="M320 188v46"/><path d="M430 152h95v82"/>
+    <path d="M115 296v22"/><path d="M320 296v22"/><path d="M525 296v22"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="79">1. Look at the inverter</text>
+    <text x="320" y="157" font-weight="700">Making power?</text>
+    <text x="115" y="262">No output, or a</text><text x="115" y="282">fault light</text>
+    <text x="320" y="262">Producing, but less</text><text x="320" y="282">than you expect</text>
+    <text x="525" y="262">Producing, but the</text><text x="525" y="282">app shows zero</text>
+    <text x="115" y="344" font-weight="700">Causes 5 and 6</text>
+    <text x="320" y="344" font-weight="700">Causes 1 to 4</text>
+    <text x="525" y="344" font-weight="700">Cause 7</text>
+  </g>
+  <g font-size="12" fill="#566475">
+    <text x="105" y="214" text-anchor="end">no</text>
+    <text x="328" y="214">yes, low</text>
+    <text x="533" y="214">yes, app 0</text>
+  </g>
+  <g font-size="12" fill="#14202c" text-anchor="middle">
+    <text x="115" y="366">check the solar breaker,</text><text x="115" y="383">rapid shutdown switch</text><text x="115" y="400">and the fault code</text>
+    <text x="320" y="366">compare the same month</text><text x="320" y="383">last year, then look for</text><text x="320" y="400">shade, dirt and heat</text>
+    <text x="525" y="366">reconnect the Wi-Fi,</text><text x="525" y="383">then check the utility</text><text x="525" y="400">meter to confirm</text>
+  </g>
+</svg>

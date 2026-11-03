@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <defs><marker id="fpa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker><marker id="fpb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1d5fae"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">PASS: four steps, in order</text>
+  <text x="24" y="54" font-size="13" fill="#566475">Keep your back to a clear exit the whole time</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="72" width="128" height="140" rx="8"/>
+    <rect x="176" y="72" width="128" height="140" rx="8"/>
+    <rect x="328" y="72" width="128" height="140" rx="8"/>
+    <rect x="480" y="72" width="128" height="140" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#fpa)"><path d="M154 142h20"/><path d="M306 142h20"/><path d="M458 142h20"/></g>
+  <g text-anchor="middle">
+    <g font-size="28" font-weight="700" fill="#1d5fae"><text x="88" y="108">P</text><text x="240" y="108">A</text><text x="392" y="108">S</text><text x="544" y="108">S</text></g>
+    <g font-size="14" font-weight="700" fill="#14202c"><text x="88" y="134">Pull</text><text x="240" y="134">Aim</text><text x="392" y="134">Squeeze</text><text x="544" y="134">Sweep</text></g>
+    <g font-size="13" fill="#566475">
+      <text x="88" y="160">Twist and pull</text><text x="88" y="178">out the pin</text><text x="88" y="196">(breaks seal)</text>
+      <text x="240" y="160">Nozzle low,</text><text x="240" y="178">at the base</text><text x="240" y="196">of the fire</text>
+      <text x="392" y="160">Squeeze the</text><text x="392" y="178">handle slowly</text><text x="392" y="196">and evenly</text>
+      <text x="544" y="160">Side to side</text><text x="544" y="178">at the base</text><text x="544" y="196">until it's out</text>
+    </g>
+  </g>
+  <line x1="24" y1="360" x2="616" y2="360" stroke="#d5dee8" stroke-width="2"/>
+  <rect x="70" y="262" width="44" height="98" rx="14" fill="#d9442b" stroke="#0f2240" stroke-width="2"/>
+  <rect x="80" y="244" width="24" height="20" rx="4" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M104 250h22l-6 10" fill="none" stroke="#0f2240" stroke-width="2"/>
+  <path d="M84 270c-24 10-10 40 30 40h70" fill="none" stroke="#0f2240" stroke-width="3"/>
+  <path d="M184 304l18 3v6l-18 3z" fill="#0f2240"/>
+  <g stroke="#1d5fae" stroke-width="1.6" stroke-dasharray="5 5" fill="none"><path d="M206 309L380 350"/><path d="M206 309L380 336"/><path d="M206 309L380 362" /></g>
+  <path d="M420 356c-30 0-38-26-22-50 4 14 12 18 16 10-6-20 6-40 20-50 0 22 22 30 22 58 0 18-14 32-36 32z" fill="#d9442b" stroke="#0f2240" stroke-width="2"/>
+  <path d="M424 356c-12 0-16-12-8-24 2 6 8 6 8 0 6 6 14 12 12 20-2 4-6 4-12 4z" fill="#ffd23f"/>
+  <path d="M372 374q46 14 92 0" fill="none" stroke="#1d5fae" stroke-width="2" marker-end="url(#fpb)" marker-start="url(#fpb)"/>
+  <g stroke="#566475" stroke-width="1.5" fill="none"><path d="M114 382h262"/><path d="M114 376v12"/><path d="M376 376v12"/></g>
+  <text x="245" y="402" font-size="13" fill="#566475" text-anchor="middle">stand about 6 to 8 ft back</text>
+  <rect x="476" y="262" width="140" height="72" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g font-size="13" fill="#14202c" text-anchor="middle"><text x="546" y="286" font-weight="700">Aim at the fuel,</text><text x="546" y="304">not the flames.</text><text x="546" y="322">Sweep the base.</text></g>
+</svg>

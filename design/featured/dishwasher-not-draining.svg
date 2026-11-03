@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- dishwasher body -->
+  <rect x="400" y="60" width="400" height="320" rx="20" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="400" y="60" width="400" height="44" rx="12" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="740" cy="82" r="10" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <rect x="440" y="74" width="120" height="16" rx="6" fill="#dfe9f7" stroke="#0f2240" stroke-width="3"/>
+  <!-- tub interior -->
+  <rect x="440" y="130" width="320" height="230" rx="10" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="4" stroke-linecap="round"><path d="M470 180v80M510 180v80M550 180v80M590 180v80M630 180v80M670 180v80M710 180v80"/><path d="M455 262h290"/></g>
+  <!-- standing water -->
+  <path d="M444 318c40-14 80 14 136 0s100-14 176 0v30a10 10 0 0 1-10 10H454a10 10 0 0 1-10-10z" fill="#7aace8"/>
+  <path d="M470 312c26-8 52 8 78 0" stroke="#fff" stroke-width="4" fill="none" stroke-linecap="round" opacity=".7"/>
+  <!-- open door -->
+  <path d="M400 380h400l70 170H330z" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <path d="M420 400h360l50 130H370z" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- filter accent -->
+  <circle cx="600" cy="340" r="16" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M400 30h400M400 20v20M800 20v20"/><path d="M350 60v320M340 60h20M340 380h20"/></g>
+  <!-- droplets -->
+  <g fill="#7aace8"><path d="M960 300c18 26 28 40 28 54a28 28 0 0 1-56 0c0-14 10-28 28-54z"/><path d="M1010 200c12 17 18 26 18 35a18 18 0 0 1-36 0c0-9 6-18 18-35z" opacity=".75"/><path d="M920 180c9 13 14 20 14 27a14 14 0 0 1-28 0c0-7 5-14 14-27z" opacity=".55"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

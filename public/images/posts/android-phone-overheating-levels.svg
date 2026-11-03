@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Warm, too hot or stop now?</text>
+  <g stroke-width="2">
+    <rect x="24" y="54" width="184" height="320" rx="8" fill="#fff" stroke="#1f8a5b"/>
+    <rect x="228" y="54" width="184" height="320" rx="8" fill="#fff" stroke="#c9a10a"/>
+    <rect x="432" y="54" width="184" height="320" rx="8" fill="#fff" stroke="#d9442b"/>
+  </g>
+  <rect x="24" y="54" width="184" height="40" rx="8" fill="#1f8a5b"/>
+  <rect x="228" y="54" width="184" height="40" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="2"/>
+  <rect x="432" y="54" width="184" height="40" rx="8" fill="#d9442b"/>
+  <g font-size="14" font-weight="700" text-anchor="middle">
+    <text x="116" y="79" fill="#fff">Warm: normal</text>
+    <text x="320" y="79" fill="#14202c">Too hot</text>
+    <text x="524" y="79" fill="#fff">Stop now</text>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="38" y="122">During charging,</text>
+    <text x="38" y="140">games, video calls</text>
+    <text x="38" y="158">or GPS navigation</text>
+    <text x="38" y="190">Comfortable to hold</text>
+    <text x="38" y="222">Cools within minutes</text>
+    <text x="38" y="240">when you stop</text>
+
+    <text x="242" y="122">Uncomfortable</text>
+    <text x="242" y="140">to hold</text>
+    <text x="242" y="172">Heat warning shows</text>
+    <text x="242" y="204">Hot while idle</text>
+    <text x="242" y="236">Screen dims, apps</text>
+    <text x="242" y="254">slow or close</text>
+
+    <text x="446" y="122">Screen or back is</text>
+    <text x="446" y="140">bulging or lifting</text>
+    <text x="446" y="172">Burning smell,</text>
+    <text x="446" y="190">hissing or smoke</text>
+    <text x="446" y="222">Too hot to touch</text>
+  </g>
+  <line x1="38" y1="276" x2="194" y2="276" stroke="#d5dee8" stroke-width="2"/>
+  <line x1="242" y1="276" x2="398" y2="276" stroke="#d5dee8" stroke-width="2"/>
+  <line x1="446" y1="276" x2="602" y2="276" stroke="#d5dee8" stroke-width="2"/>
+  <g font-size="13" fill="#566475">
+    <text x="38" y="304" font-weight="700" fill="#1f8a5b">What to do</text>
+    <text x="38" y="324">Nothing to fix.</text>
+    <text x="38" y="342">Rest it if you like</text>
+    <text x="242" y="304" font-weight="700" fill="#14202c">What to do</text>
+    <text x="242" y="324">Unplug, remove case,</text>
+    <text x="242" y="342">find the cause</text>
+    <text x="446" y="304" font-weight="700" fill="#d9442b">What to do</text>
+    <text x="446" y="324">Stop using it,</text>
+    <text x="446" y="342">don't charge it,</text>
+    <text x="446" y="360">get it checked</text>
+  </g>
+</svg>

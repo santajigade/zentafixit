@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="380" fill="#f3f6fa"/>
+  <defs><marker id="slk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Lock problem or door problem?</text>
+  <rect x="170" y="52" width="300" height="48" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <text x="320" y="82" font-size="14" fill="#14202c" text-anchor="middle">1. Fit fresh batteries</text>
+  <rect x="170" y="124" width="300" height="48" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <text x="320" y="154" font-size="14" fill="#14202c" text-anchor="middle">2. Lock it with the door open</text>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#slk)">
+    <path d="M320 100v22"/><path d="M220 172L110 210"/><path d="M320 172v38"/><path d="M420 172L530 210"/>
+  </g>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="212" width="180" height="64" rx="8"/><rect x="230" y="212" width="180" height="64" rx="8"/><rect x="436" y="212" width="180" height="64" rx="8"/>
+  </g>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="114" y="238" font-weight="700">Works when open,</text><text x="114" y="258">jams when closed</text>
+    <text x="320" y="238" font-weight="700">Struggles even</text><text x="320" y="258">with the door open</text>
+    <text x="526" y="238" font-weight="700">Works at the door,</text><text x="526" y="258">not from the app</text>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#slk)"><path d="M114 276v20"/><path d="M320 276v20"/><path d="M526 276v20"/></g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="24" y="298" width="180" height="64" rx="8"/><rect x="230" y="298" width="180" height="64" rx="8"/><rect x="436" y="298" width="180" height="64" rx="8"/>
+  </g>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="114" y="324" font-weight="700">Door alignment</text><text x="114" y="344" font-size="12">strike, hinges (fix 2)</text>
+    <text x="320" y="324" font-weight="700">Calibration, install</text><text x="320" y="344" font-size="12">fixes 3 and 7</text>
+    <text x="526" y="324" font-weight="700">Connection, settings</text><text x="526" y="344" font-size="12">fixes 4 and 5</text>
+  </g>
+</svg>

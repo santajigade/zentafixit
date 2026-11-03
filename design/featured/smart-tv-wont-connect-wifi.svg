@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- TV -->
+  <rect x="150" y="90" width="620" height="370" rx="18" fill="#16305a" stroke="#ffffff" stroke-width="6"/>
+  <rect x="172" y="112" width="576" height="326" rx="8" fill="#f3f6fa"/>
+  <path d="M400 460l-40 70h200l-40-70z" fill="#f3f6fa" stroke="#ffffff" stroke-width="5"/>
+  <rect x="330" y="526" width="260" height="18" rx="9" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <!-- wifi symbol on screen -->
+  <g fill="none" stroke="#0f2240" stroke-width="16" stroke-linecap="round">
+    <path d="M360 260a140 140 0 0 1 200 0"/>
+    <path d="M395 300a90 90 0 0 1 130 0"/>
+  </g>
+  <path d="M325 222a190 190 0 0 1 270 0" fill="none" stroke="#9fb7da" stroke-width="16" stroke-linecap="round" stroke-dasharray="30 26"/>
+  <circle cx="460" cy="345" r="16" fill="#0f2240"/>
+  <!-- warning badge -->
+  <circle cx="640" cy="350" r="48" fill="#ffd23f" stroke="#0f2240" stroke-width="5"/>
+  <g stroke="#0f2240" stroke-width="10" stroke-linecap="round"><path d="M620 330l40 40M660 330l-40 40"/></g>
+  <!-- router -->
+  <rect x="880" y="400" width="210" height="70" rx="14" fill="#f3f6fa" stroke="#ffffff" stroke-width="5"/>
+  <g stroke="#ffffff" stroke-width="10" stroke-linecap="round"><path d="M915 400l-20-110M1055 400l20-110"/></g>
+  <g fill="#0f2240"><circle cx="925" cy="435" r="7"/><circle cx="950" cy="435" r="7"/><circle cx="975" cy="435" r="7"/></g>
+  <circle cx="1040" cy="435" r="9" fill="#ffd23f"/>
+  <!-- ethernet cable -->
+  <path d="M985 470c0 60-60 80-180 80H760" fill="none" stroke="#9fb7da" stroke-width="8" stroke-linecap="round" stroke-dasharray="14 12"/>
+  <!-- dimension -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M150 60h620M150 50v20M770 50v20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

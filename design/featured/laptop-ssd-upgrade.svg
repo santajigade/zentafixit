@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- laptop base, underside open -->
+  <rect x="140" y="120" width="620" height="400" rx="24" fill="#f3f6fa" stroke="#ffffff" stroke-width="5"/>
+  <rect x="180" y="160" width="250" height="150" rx="10" fill="#dfe9f7" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="3"><path d="M200 190h210M200 220h210M200 250h210M200 280h210"/></g>
+  <circle cx="620" cy="235" r="62" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <g stroke="#0f2240" stroke-width="4"><path d="M620 173v124M558 235h124M576 191l88 88M664 191l-88 88"/></g>
+  <!-- M.2 slot -->
+  <rect x="180" y="380" width="40" height="70" rx="4" fill="#0f2240"/>
+  <circle cx="610" cy="415" r="10" fill="#0f2240"/>
+  <!-- M.2 SSD sliding in -->
+  <g transform="rotate(-8 400 415)">
+    <rect x="236" y="390" width="360" height="54" rx="5" fill="#ffffff" stroke="#0f2240" stroke-width="5"/>
+    <rect x="236" y="393" width="22" height="48" fill="#ffd23f"/>
+    <rect x="290" y="400" width="80" height="34" rx="4" fill="#0f2240"/>
+    <rect x="390" y="400" width="80" height="34" rx="4" fill="#0f2240"/>
+    <rect x="490" y="404" width="50" height="26" rx="4" fill="#9fb7da"/>
+    <path d="M596 405a12 12 0 0 1 0 24" fill="none" stroke="#0f2240" stroke-width="4"/>
+  </g>
+  <!-- insert arrow -->
+  <path d="M700 480H630" stroke="#ffd23f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M600 480l34-20v40z" fill="#ffd23f"/>
+  <!-- 2.5-inch drive -->
+  <rect x="860" y="200" width="200" height="270" rx="14" fill="#f3f6fa" stroke="#ffffff" stroke-width="5"/>
+  <rect x="890" y="240" width="140" height="120" rx="8" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="890" y="440" width="90" height="16" fill="#0f2240"/><rect x="996" y="440" width="40" height="16" fill="#0f2240"/>
+  <!-- dimension -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M236 560h360M236 550v20M596 550v20"/><path d="M1100 200v270M1090 200h20M1090 470h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

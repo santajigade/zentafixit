@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="380" fill="#f3f6fa"/>
+  <defs><marker id="srf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Find the broken part of a routine</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="200" y="52" width="240" height="44" rx="8"/>
+    <path d="M320 118l110 34-110 34-110-34z"/>
+    <rect x="24" y="228" width="280" height="56" rx="8"/>
+    <rect x="336" y="228" width="280" height="56" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="24" y="296" width="280" height="70" rx="8"/><rect x="336" y="296" width="280" height="70" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#srf)">
+    <path d="M320 96v20"/><path d="M210 152H164v74"/><path d="M430 152h46v74"/><path d="M164 284v10"/><path d="M476 284v10"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="79">Run the routine by hand</text>
+    <text x="320" y="157" font-weight="700">Did it work?</text>
+    <text x="190" y="144" font-size="12" fill="#566475">yes</text><text x="452" y="144" font-size="12" fill="#566475">no</text>
+    <text x="164" y="252" font-weight="700">Trigger or condition</text><text x="164" y="272">problem</text>
+    <text x="476" y="252" font-weight="700">Device or service</text><text x="476" y="272">problem</text>
+    <text x="164" y="318" font-size="13">Check time zone, sensors,</text><text x="164" y="336" font-size="13">conditions and conflicts</text><text x="164" y="354" font-size="12" fill="#566475">causes 2, 3, 4, 8</text>
+    <text x="476" y="318" font-size="13">Check offline devices,</text><text x="476" y="336" font-size="13">account links and outages</text><text x="476" y="354" font-size="12" fill="#566475">causes 1, 5, 6, 7</text>
+  </g>
+</svg>

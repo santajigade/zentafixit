@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="430" fill="#f3f6fa"/>
+  <defs><marker id="lwpf-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">One fixture or the whole house?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <path d="M320 52l140 34-140 34-140-34z"/>
+    <rect x="30" y="150" width="270" height="40" rx="8"/>
+    <rect x="30" y="210" width="270" height="40" rx="8"/>
+    <rect x="340" y="150" width="270" height="40" rx="8"/>
+    <rect x="340" y="206" width="270" height="40" rx="8"/>
+    <rect x="340" y="262" width="270" height="40" rx="8"/>
+    <rect x="340" y="318" width="270" height="40" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="30" y="274" width="270" height="56" rx="8"/><rect x="340" y="372" width="270" height="44" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#lwpf-arrow)">
+    <path d="M180 86h-15v62"/><path d="M460 86h15v62"/>
+    <path d="M165 190v18"/><path d="M165 250v22"/>
+    <path d="M475 190v14"/><path d="M475 246v14"/><path d="M475 302v14"/><path d="M475 358v12"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="91" font-weight="700">Only one fixture weak?</text>
+    <text x="175" y="78" font-size="12" fill="#566475">yes</text><text x="466" y="78" font-size="12" fill="#566475">no</text>
+    <text x="165" y="175">Clean the aerator or showerhead</text>
+    <text x="165" y="235">Open the valve under the sink</text>
+    <text x="165" y="298" font-weight="700">Still weak?</text><text x="165" y="317" font-size="13">Worn faucet cartridge or valve</text>
+    <text x="475" y="175">1. Test with a pressure gauge</text>
+    <text x="475" y="231">2. Main shutoff fully open?</text>
+    <text x="475" y="287">3. Check the PRV and filters</text>
+    <text x="475" y="343">4. Check the meter for leaks</text>
+    <text x="475" y="399" font-weight="700">5. Ask neighbors or the utility</text>
+  </g>
+</svg>

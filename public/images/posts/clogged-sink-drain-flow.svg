@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <defs><marker id="csd-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where is the clog?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <path d="M320 52l130 34-130 34-130-34z"/>
+    <rect x="40" y="150" width="260" height="40" rx="8"/>
+    <rect x="40" y="206" width="260" height="40" rx="8"/>
+    <rect x="40" y="262" width="260" height="40" rx="8"/>
+    <rect x="40" y="318" width="260" height="40" rx="8"/>
+    <rect x="360" y="150" width="240" height="60" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="40" y="370" width="260" height="40" rx="8"/><rect x="360" y="240" width="240" height="56" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#csd-arrow)">
+    <path d="M190 86H170v62"/><path d="M450 86h30v62"/>
+    <path d="M170 190v14"/><path d="M170 246v14"/><path d="M170 302v14"/><path d="M480 210v28"/>
+  </g>
+  <path d="M170 358v10" stroke="#0f2240" stroke-width="1.8" fill="none"/>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="91" font-weight="700">Only one sink slow?</text>
+    <text x="178" y="78" font-size="12" fill="#566475">yes</text><text x="468" y="78" font-size="12" fill="#566475">no</text>
+    <text x="170" y="175">1. Clean the stopper</text>
+    <text x="170" y="231">2. Plunge, overflow sealed</text>
+    <text x="170" y="287">3. Empty and clean the P-trap</text>
+    <text x="170" y="343">4. Snake the wall pipe</text>
+    <text x="170" y="395" font-weight="700">Still clogged? Call a plumber</text>
+    <text x="480" y="176">Several drains slow, or</text>
+    <text x="480" y="196">backing up into each other</text>
+    <text x="480" y="264" font-weight="700">Shared or main line clog</text>
+    <text x="480" y="284" font-size="13">Stop running water, call a plumber</text>
+  </g>
+</svg>

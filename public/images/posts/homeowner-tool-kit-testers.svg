@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="340" fill="#f3f6fa"/>
+  <defs><marker id="tkA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Which tester answers which question</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2"><rect x="24" y="56" width="236" height="64" rx="8"/><rect x="24" y="140" width="236" height="64" rx="8"/><rect x="24" y="224" width="236" height="64" rx="8"/></g>
+  <g fill="#fff" stroke="#d5dee8" stroke-width="2"><rect x="290" y="56" width="326" height="64" rx="8"/><rect x="290" y="140" width="326" height="64" rx="8"/></g>
+  <rect x="290" y="224" width="326" height="64" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#tkA)"><path d="M260 88h28"/><path d="M260 172h28"/><path d="M260 256h28"/></g>
+  <g font-size="14" font-weight="700" fill="#14202c" text-anchor="middle"><text x="142" y="93">Non-contact tester</text><text x="142" y="177">Plug-in outlet tester</text><text x="142" y="261">Multimeter</text></g>
+  <g font-size="14" fill="#14202c"><text x="306" y="84">Is there voltage near this wire?</text><text x="306" y="168">Is this outlet wired right?</text><text x="306" y="252">How many volts? Is it truly dead?</text></g>
+  <g font-size="12" fill="#566475"><text x="306" y="104">Fast first check. Not proof it's dead.</text><text x="306" y="188">Lights show common wiring faults.</text><text x="306" y="272">Most reliable of the three.</text></g>
+  <text x="24" y="318" font-size="13" fill="#566475">Always check any tester on a known-live outlet first.</text>
+</svg>

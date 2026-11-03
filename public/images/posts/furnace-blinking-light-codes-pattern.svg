@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="380" fill="#f3f6fa"/>
+  <defs><marker id="fbp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">How to count a blink code</text>
+  <rect x="24" y="52" width="592" height="116" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <text x="40" y="76" font-size="14" font-weight="700" fill="#14202c">Single-number code (example)</text>
+  <path d="M40 112H560" stroke="#d5dee8" stroke-width="2"/>
+  <g fill="#ffd23f" stroke="#c9a10a" stroke-width="2">
+    <circle cx="60" cy="112" r="10"/><circle cx="92" cy="112" r="10"/><circle cx="124" cy="112" r="10"/>
+    <circle cx="300" cy="112" r="10"/><circle cx="332" cy="112" r="10"/><circle cx="364" cy="112" r="10"/>
+  </g>
+  <path d="M500 112H590" stroke="#0f2240" stroke-width="1.8" marker-end="url(#fbp)"/>
+  <g font-size="13" fill="#566475" text-anchor="middle">
+    <text x="92" y="146">count the flashes</text>
+    <text x="212" y="106">long pause</text>
+    <text x="332" y="146">same group again</text>
+    <text x="440" y="106">long pause</text>
+    <text x="540" y="146">repeats</text>
+  </g>
+  <rect x="24" y="182" width="592" height="116" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <text x="40" y="206" font-size="14" font-weight="700" fill="#14202c">Two-digit code (example)</text>
+  <path d="M40 242H560" stroke="#d5dee8" stroke-width="2"/>
+  <g fill="#ffd23f" stroke="#c9a10a" stroke-width="2">
+    <circle cx="60" cy="242" r="10"/><circle cx="92" cy="242" r="10"/>
+    <circle cx="170" cy="242" r="10"/><circle cx="202" cy="242" r="10"/><circle cx="234" cy="242" r="10"/>
+  </g>
+  <path d="M440 242H530" stroke="#0f2240" stroke-width="1.8" marker-end="url(#fbp)"/>
+  <g font-size="13" fill="#566475" text-anchor="middle">
+    <text x="76" y="276">first digit</text>
+    <text x="131" y="236">short</text>
+    <text x="202" y="276">second digit</text>
+    <text x="350" y="236">long pause</text>
+    <text x="485" y="276">repeats</text>
+  </g>
+  <rect x="24" y="312" width="592" height="52" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <text x="40" y="334" font-size="13" font-weight="700" fill="#14202c">The meaning depends on your furnace maker and model.</text>
+  <text x="40" y="352" font-size="12" fill="#566475">Match the pattern to the chart inside your furnace door or in the manual.</text>
+</svg>

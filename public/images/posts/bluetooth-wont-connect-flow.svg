@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <defs><marker id="btwf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where does pairing get stuck?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="150" y="54" width="340" height="44" rx="8"/>
+    <rect x="24" y="140" width="184" height="56" rx="8"/>
+    <rect x="228" y="140" width="184" height="56" rx="8"/>
+    <rect x="432" y="140" width="184" height="56" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="24" y="216" width="184" height="120" rx="8"/>
+    <rect x="228" y="216" width="184" height="120" rx="8"/>
+    <rect x="432" y="216" width="184" height="120" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#btwf)">
+    <path d="M250 98L130 138"/><path d="M320 98v40"/><path d="M390 98L510 138"/>
+    <path d="M116 196v18"/><path d="M320 196v18"/><path d="M524 196v18"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">Open Bluetooth in Settings</text>
+    <text x="116" y="163" font-weight="700">Not in the list</text><text x="116" y="183" font-size="12" fill="#566475">phone can't see it</text>
+    <text x="320" y="163" font-weight="700">Fails to connect</text><text x="320" y="183" font-size="12" fill="#566475">or asks to pair again</text>
+    <text x="524" y="163" font-weight="700">Connects, drops</text><text x="524" y="183" font-size="12" fill="#566475">cuts out or crackles</text>
+    <text x="116" y="242" font-size="13">Pairing mode on</text>
+    <text x="116" y="262" font-size="13">Off other devices</text>
+    <text x="116" y="282" font-size="13">Charge it</text>
+    <text x="116" y="302" font-size="13">Hold it next to phone</text>
+    <text x="116" y="324" font-size="12" fill="#566475">Fixes 2, 3, 6</text>
+    <text x="320" y="242" font-size="13">Forget the device</text>
+    <text x="320" y="262" font-size="13">Reset the accessory</text>
+    <text x="320" y="282" font-size="13">Restart both</text>
+    <text x="320" y="302" font-size="13">Pair again</text>
+    <text x="320" y="324" font-size="12" fill="#566475">Fixes 1, 4, 6</text>
+    <text x="524" y="242" font-size="13">Move closer</text>
+    <text x="524" y="262" font-size="13">Away from microwave</text>
+    <text x="524" y="282" font-size="13">and busy router</text>
+    <text x="524" y="302" font-size="13">Update both devices</text>
+    <text x="524" y="324" font-size="12" fill="#566475">Fixes 5, 7</text>
+  </g>
+  <text x="320" y="374" font-size="13" fill="#566475" text-anchor="middle">Still no luck on every phone you try? The accessory may be faulty.</text>
+  <text x="320" y="394" font-size="13" fill="#566475" text-anchor="middle">Fails only on your phone? Reset network settings (fix 8).</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="470" fill="#f3f6fa"/>
+  <defs><marker id="drA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Is it the battery or the charger?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="130" y="52" width="380" height="40" rx="8"/>
+    <rect x="130" y="112" width="380" height="40" rx="8"/>
+    <rect x="130" y="172" width="380" height="40" rx="8"/>
+    <path d="M320 228l130 36-130 36-130-36z"/>
+    <rect x="24" y="326" width="270" height="60" rx="8"/>
+    <rect x="346" y="326" width="270" height="60" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#drA)">
+    <path d="M320 92v18"/><path d="M320 152v18"/><path d="M320 212v14"/><path d="M190 264H159v60"/><path d="M450 264h31v60"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="77">1. Read the light pattern and the label</text>
+    <text x="320" y="137">2. Let a hot or cold pack reach room temp</text>
+    <text x="320" y="197">3. Clean the contacts and reseat the pack</text>
+    <text x="320" y="259" font-weight="700">Another battery</text><text x="320" y="277" font-weight="700">charges fine?</text>
+    <text x="172" y="256" font-size="12" fill="#566475">yes</text><text x="468" y="256" font-size="12" fill="#566475">no</text>
+    <text x="159" y="351" font-weight="700">Charger works</text><text x="159" y="371" font-size="13" fill="#566475">Suspect the pack: causes 4 and 5</text>
+    <text x="481" y="351" font-weight="700">Suspect the charger</text><text x="481" y="371" font-size="13" fill="#566475">or the outlet: cause 6</text>
+  </g>
+  <rect x="24" y="404" width="592" height="46" rx="8" fill="#fff" stroke="#d9442b" stroke-width="2"/>
+  <text x="320" y="432" font-size="14" font-weight="700" fill="#d9442b" text-anchor="middle">Swollen, cracked, leaking or very hot pack? Stop. Don't charge it.</text>
+</svg>

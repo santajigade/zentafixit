@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- panel -->
+  <rect x="560" y="70" width="320" height="490" rx="22" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="595" y="110" width="250" height="410" rx="12" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="665" y="128" width="110" height="56" rx="8" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <g fill="#f3f6fa" stroke="#0f2240" stroke-width="4">
+    <rect x="620" y="210" width="90" height="30" rx="5"/><rect x="730" y="210" width="90" height="30" rx="5"/>
+    <rect x="620" y="256" width="90" height="30" rx="5"/><rect x="730" y="256" width="90" height="30" rx="5"/>
+    <rect x="620" y="302" width="90" height="30" rx="5"/><rect x="730" y="302" width="90" height="30" rx="5"/>
+    <rect x="620" y="348" width="90" height="30" rx="5"/>
+  </g>
+  <rect x="730" y="348" width="90" height="140" rx="10" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="760" cy="380" r="9" fill="#1f8a5b" stroke="#0f2240" stroke-width="3"/><circle cx="790" cy="380" r="9" fill="#1f8a5b" stroke="#0f2240" stroke-width="3"/>
+  <g stroke="#0f2240" stroke-width="5" stroke-linecap="round"><path d="M750 420h50M750 444h50M750 468h50"/></g>
+  <g stroke="#0f2240" stroke-width="4"><rect x="620" y="394" width="90" height="30" rx="5" fill="#f3f6fa"/><rect x="620" y="440" width="90" height="30" rx="5" fill="#f3f6fa"/></g>
+  <!-- incoming line with spike -->
+  <path d="M80 330h120l30-200 30 360 30-160h170" fill="none" stroke="#f3f6fa" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- shield -->
+  <path d="M470 210c40 18 70 22 70 22v100c0 60-45 96-70 108-25-12-70-48-70-108V232s30-4 70-22z" fill="#ffd23f" stroke="#0f2240" stroke-width="5"/>
+  <path d="M440 324l22 22 42-48" fill="none" stroke="#0f2240" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- bolt -->
+  <path d="M190 60l-40 78h30l-20 70 62-96h-34l28-52z" fill="#7aace8"/>
+  <!-- ground -->
+  <g stroke="#f3f6fa" stroke-width="7" stroke-linecap="round"><path d="M1000 330v120M960 450h80M974 474h52M988 498h24"/><path d="M880 330h120"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M560 40h320M560 30v20M880 30v20"/><path d="M930 70v230M920 70h20M920 300h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

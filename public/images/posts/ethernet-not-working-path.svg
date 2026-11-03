@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="360" fill="#f3f6fa"/>
+  <defs><marker id="enwp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">The wired path, end to end</text>
+  <g fill="#dfe9f7" stroke="#1d5fae" stroke-width="2">
+    <rect x="24" y="56" width="130" height="50" rx="8"/><rect x="178" y="56" width="130" height="50" rx="8"/><rect x="332" y="56" width="130" height="50" rx="8"/><rect x="486" y="56" width="130" height="50" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#enwp)"><path d="M156 81h20"/><path d="M310 81h20"/><path d="M464 81h20"/></g>
+  <g font-size="14" font-weight="700" fill="#0f2240" text-anchor="middle">
+    <text x="89" y="86">Your device</text><text x="243" y="86">Cable or jack</text><text x="397" y="86">Router</text><text x="551" y="86">Modem</text>
+  </g>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="124" width="130" height="156" rx="8"/><rect x="178" y="124" width="130" height="156" rx="8"/><rect x="332" y="124" width="130" height="156" rx="8"/><rect x="486" y="124" width="130" height="156" rx="8"/>
+  </g>
+  <g font-size="12" fill="#14202c" text-anchor="middle">
+    <text x="89" y="152">Adapter enabled?</text><text x="89" y="174">Driver OK?</text><text x="89" y="196">IP set to</text><text x="89" y="214">automatic?</text><text x="89" y="236">VPN off?</text>
+    <text x="243" y="152">Clicks in firmly?</text><text x="243" y="174">Clip intact?</text><text x="243" y="196">Try a spare</text><text x="243" y="218">Bypass wall jack</text><text x="243" y="240">Not crushed?</text>
+    <text x="397" y="152">Use a LAN port,</text><text x="397" y="170">not WAN</text><text x="397" y="192">Try another port</text><text x="397" y="214">Restart it</text><text x="397" y="236">Switch powered?</text>
+    <text x="551" y="152">Online light on?</text><text x="551" y="174">Test a device</text><text x="551" y="192">plugged in here</text><text x="551" y="214">Call your ISP</text><text x="551" y="232">if it fails</text>
+  </g>
+  <rect x="24" y="298" width="592" height="44" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <text x="40" y="325" font-size="13" fill="#14202c">Lights off? Check the cable and ports. Lights on? Check device settings.</text>
+</svg>

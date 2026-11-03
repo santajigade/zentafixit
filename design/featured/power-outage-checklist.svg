@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- house -->
+  <path d="M170 300L390 120L610 300" fill="none" stroke="#ffffff" stroke-width="8" stroke-linejoin="round"/>
+  <rect x="210" y="290" width="360" height="270" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="250" y="340" width="90" height="80" fill="#0f2240" stroke="#0f2240" stroke-width="4"/>
+  <rect x="440" y="340" width="90" height="80" fill="#0f2240" stroke="#0f2240" stroke-width="4"/>
+  <path d="M295 340v80M250 380h90M485 340v80M440 380h90" stroke="#f3f6fa" stroke-width="4"/>
+  <rect x="350" y="450" width="80" height="110" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="414" cy="508" r="5" fill="#0f2240"/>
+  <!-- broken power line -->
+  <path d="M40 170h90" stroke="#9fc4f0" stroke-width="4"/>
+  <path d="M130 170l40 34" stroke="#9fc4f0" stroke-width="4" stroke-dasharray="6 8"/>
+  <!-- lantern -->
+  <rect x="770" y="380" width="110" height="160" rx="18" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="792" y="410" width="66" height="96" rx="10" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+  <path d="M790 380c0-50 70-50 70 0" fill="none" stroke="#f3f6fa" stroke-width="8"/>
+  <rect x="760" y="540" width="130" height="20" rx="6" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- flashlight with beam -->
+  <path d="M960 250l200-70v180z" fill="#ffd23f" opacity=".35"/>
+  <rect x="860" y="232" width="80" height="36" rx="8" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <path d="M940 226l24-10v68l-24-10z" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- crescent moon -->
+  <path d="M1060 90a50 50 0 1 0 40 80a40 40 0 1 1 -40 -80z" fill="#f3f6fa"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M210 585h360M210 575v20M570 575v20"/><path d="M640 290v270M630 290h20M630 560h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

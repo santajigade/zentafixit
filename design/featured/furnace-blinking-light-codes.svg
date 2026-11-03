@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- furnace cabinet -->
+  <rect x="440" y="60" width="320" height="500" rx="20" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="465" y="85" width="270" height="200" rx="12" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="5" stroke-linecap="round" stroke-opacity=".6"><path d="M510 130h180M510 165h180M510 200h180M510 235h180"/></g>
+  <rect x="465" y="300" width="270" height="235" rx="12" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="570" y="380" width="60" height="42" rx="6" fill="#dfe9f7" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="600" cy="401" r="11" fill="#ffd23f"/>
+  <!-- blink rays -->
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round">
+    <path d="M800 340l60-30M810 401h70M800 462l60 30"/>
+  </g>
+  <!-- flash sequence dots -->
+  <g fill="#ffd23f"><circle cx="930" cy="401" r="16"/><circle cx="980" cy="401" r="16"/><circle cx="1030" cy="401" r="16"/></g>
+  <g fill="#7aace8" opacity=".6"><circle cx="1090" cy="401" r="8"/><circle cx="1120" cy="401" r="8"/></g>
+  <!-- service switch -->
+  <rect x="300" y="200" width="60" height="96" rx="8" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="318" y="220" width="24" height="34" rx="4" fill="#0f2240"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M440 590h320M440 580v20M760 580v20"/><path d="M400 60v500M390 60h20M390 560h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

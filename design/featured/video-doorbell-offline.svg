@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- door -->
+  <rect x="180" y="90" width="260" height="490" rx="8" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="215" y="130" width="190" height="170" rx="8" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="215" y="340" width="190" height="200" rx="8" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="410" cy="330" r="12" fill="#0f2240"/>
+  <!-- doorbell -->
+  <rect x="490" y="250" width="90" height="190" rx="40" fill="#fff" stroke="#0f2240" stroke-width="6"/>
+  <circle cx="535" cy="300" r="26" fill="#16305a" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="535" cy="300" r="10" fill="#9fb7da"/>
+  <circle cx="535" cy="390" r="24" fill="none" stroke="#ffd23f" stroke-width="8"/>
+  <!-- router -->
+  <rect x="860" y="420" width="230" height="84" rx="16" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <g stroke="#ffffff" stroke-width="10" stroke-linecap="round"><path d="M900 420l-20-100M1050 420l20-100"/></g>
+  <g fill="#0f2240"><circle cx="905" cy="462" r="8"/><circle cx="935" cy="462" r="8"/><circle cx="965" cy="462" r="8"/></g>
+  <!-- fading arcs toward doorbell -->
+  <g fill="none" stroke="#ffd23f" stroke-width="10" stroke-linecap="round">
+    <path d="M820 250a90 90 0 0 0 0 130"/>
+    <path d="M760 220a140 140 0 0 0 0 190" stroke-dasharray="40 26"/>
+    <path d="M700 190a190 190 0 0 0 0 250" stroke-dasharray="20 40" opacity=".55"/>
+  </g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M180 60h260M180 50v20M440 50v20"/><path d="M130 90v490M120 90h20M120 580h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

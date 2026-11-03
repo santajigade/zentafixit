@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="300" fill="#f3f6fa"/>
+  <defs><marker id="wuc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Clear the update cache in 3 steps</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="56" width="176" height="140" rx="8"/><rect x="232" y="56" width="176" height="140" rx="8"/><rect x="440" y="56" width="176" height="140" rx="8"/>
+  </g>
+  <g fill="#0f2240"><circle cx="112" cy="86" r="16"/><circle cx="320" cy="86" r="16"/><circle cx="528" cy="86" r="16"/></g>
+  <g font-size="14" font-weight="700" fill="#fff" text-anchor="middle"><text x="112" y="91">1</text><text x="320" y="91">2</text><text x="528" y="91">3</text></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#wuc)"><path d="M202 126h28"/><path d="M410 126h28"/></g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="112" y="128" font-weight="700">Stop the service</text><text x="112" y="150" font-size="12" fill="#566475">Services app:</text><text x="112" y="166" font-size="12" fill="#566475">Windows Update,</text><text x="112" y="182" font-size="12" fill="#566475">right-click, Stop</text>
+    <text x="320" y="128" font-weight="700">Empty one folder</text><text x="320" y="150" font-size="12" fill="#566475">Delete everything</text><text x="320" y="166" font-size="12" fill="#566475">inside the</text><text x="320" y="182" font-size="12" fill="#566475">Download folder</text>
+    <text x="528" y="128" font-weight="700">Start the service</text><text x="528" y="150" font-size="12" fill="#566475">Right-click, Start,</text><text x="528" y="166" font-size="12" fill="#566475">restart the PC, then</text><text x="528" y="182" font-size="12" fill="#566475">check for updates</text>
+  </g>
+  <rect x="24" y="214" width="592" height="66" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g font-size="13" fill="#14202c">
+    <text x="40" y="240" font-weight="700">Folder: C:\Windows\SoftwareDistribution\Download</text>
+    <text x="40" y="262">Delete only the files inside it. Leave every other Windows folder alone.</text>
+  </g>
+</svg>

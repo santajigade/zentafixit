@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="360" fill="#f3f6fa"/>
+  <defs><marker id="spb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">One network name or two?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2"><rect x="24" y="54" width="284" height="220" rx="8"/><rect x="332" y="54" width="284" height="220" rx="8"/></g>
+  <text x="166" y="80" font-size="14" font-weight="700" fill="#14202c" text-anchor="middle">Combined (band steering)</text>
+  <text x="474" y="80" font-size="14" font-weight="700" fill="#14202c" text-anchor="middle">Separate names</text>
+  <!-- left -->
+  <rect x="106" y="96" width="120" height="36" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <text x="166" y="119" font-size="13" fill="#14202c" text-anchor="middle">"Home"</text>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#spb)"><path d="M140 132L90 170"/><path d="M192 132L242 170"/></g>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2"><rect x="40" y="172" width="104" height="34" rx="8"/><rect x="188" y="172" width="104" height="34" rx="8"/></g>
+  <g font-size="13" fill="#14202c" text-anchor="middle"><text x="92" y="194">2.4 GHz</text><text x="240" y="194">5 GHz</text></g>
+  <text x="92" y="226" font-size="12" fill="#566475" text-anchor="middle">plug needs this</text>
+  <text x="240" y="226" font-size="12" fill="#566475" text-anchor="middle">phone may sit here</text>
+  <text x="166" y="256" font-size="13" font-weight="700" fill="#d9442b" text-anchor="middle">Setup can fail</text>
+  <!-- right -->
+  <g fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"><rect x="350" y="96" width="120" height="36" rx="8"/><rect x="480" y="96" width="120" height="36" rx="8"/></g>
+  <g font-size="13" fill="#14202c" text-anchor="middle"><text x="410" y="119">"Home"</text><text x="540" y="119">"Home-5G"</text></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#spb)"><path d="M410 132v38"/><path d="M540 132v38"/></g>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2"><rect x="358" y="172" width="104" height="34" rx="8"/><rect x="488" y="172" width="104" height="34" rx="8"/></g>
+  <g font-size="13" fill="#14202c" text-anchor="middle"><text x="410" y="194">2.4 GHz</text><text x="540" y="194">5 GHz</text></g>
+  <text x="410" y="226" font-size="12" fill="#566475" text-anchor="middle">plug and phone</text>
+  <text x="540" y="226" font-size="12" fill="#566475" text-anchor="middle">other devices</text>
+  <text x="474" y="256" font-size="13" font-weight="700" fill="#1f8a5b" text-anchor="middle">Setup is simpler</text>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="24" y="290" width="592" height="54" rx="8"/></g>
+  <text x="320" y="312" font-size="13" fill="#14202c" text-anchor="middle">Split the bands only for setup if you like. Many plugs stay</text>
+  <text x="320" y="330" font-size="13" fill="#14202c" text-anchor="middle">connected after you turn band steering back on.</text>
+</svg>

@@ -86,8 +86,8 @@ if (data.faq.length) {
       {data.image && <figure class="featured"><img src={data.image.src} alt={data.image.alt} width="1200" height="630" fetchpriority="high" /></figure>}
       {data.symptoms.length > 0 && (
         <section class="trouble" aria-labelledby="trouble-h">
-          <h2 id="trouble-h">Start here: what are you seeing?</h2>
-          <p>Pick the closest match to jump to the fix.</p>
+          <h2 id="trouble-h">{data.fixcheck ? 'Start here: what are you seeing?' : 'Start here: what do you need?'}</h2>
+          <p>{data.fixcheck ? 'Pick the closest match to jump to the fix.' : 'Pick a topic to jump straight to it.'}</p>
           <div class="trouble-opts">{data.symptoms.map((s) => <a href={`#${s.to}`} data-jump>{s.label}</a>)}</div>
         </section>
       )}

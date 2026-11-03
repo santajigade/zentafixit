@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- charging handle -->
+  <path d="M190 330h120l40-30h150a30 30 0 0 1 30 30v80a30 30 0 0 1-30 30H350l-40-30H190z" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="440" cy="370" r="30" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g fill="#0f2240"><circle cx="428" cy="360" r="6"/><circle cx="452" cy="360" r="6"/><circle cx="440" cy="382" r="6"/></g>
+  <path d="M190 370H90" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+  <!-- meter -->
+  <rect x="580" y="140" width="220" height="300" rx="26" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="690" cy="270" r="88" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <rect x="632" y="245" width="116" height="44" rx="6" fill="#dfe9f7" stroke="#0f2240" stroke-width="4"/>
+  <g fill="#0f2240"><rect x="644" y="256" width="14" height="22" rx="2"/><rect x="664" y="256" width="14" height="22" rx="2"/><rect x="684" y="256" width="14" height="22" rx="2"/><rect x="704" y="256" width="14" height="22" rx="2"/><rect x="724" y="256" width="14" height="22" rx="2"/></g>
+  <path d="M530 370h50" stroke="#ffffff" stroke-width="8"/>
+  <!-- coin stacks -->
+  <g fill="#ffd23f" stroke="#0f2240" stroke-width="4">
+    <ellipse cx="930" cy="500" rx="70" ry="20"/><ellipse cx="930" cy="470" rx="70" ry="20"/><ellipse cx="930" cy="440" rx="70" ry="20"/><ellipse cx="930" cy="410" rx="70" ry="20"/>
+    <ellipse cx="1070" cy="500" rx="60" ry="18"/><ellipse cx="1070" cy="472" rx="60" ry="18"/>
+  </g>
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M580 100h220M580 90v20M800 90v20"/><path d="M860 300v220M850 300h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Two ways to connect a soundbar</text>
+  <!-- TV back panel -->
+  <rect x="24" y="54" width="250" height="222" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <text x="149" y="78" font-size="14" font-weight="700" fill="#0f2240" text-anchor="middle">TV (back panel)</text>
+  <g fill="#fff" stroke="#566475" stroke-width="2">
+    <rect x="190" y="96" width="64" height="26" rx="4"/>
+    <rect x="190" y="134" width="64" height="26" rx="4"/>
+  </g>
+  <rect x="190" y="172" width="64" height="26" rx="4" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="2"/>
+  <rect x="220" y="222" width="34" height="26" rx="4" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <g font-size="13" fill="#14202c" text-anchor="end">
+    <text x="180" y="114" fill="#566475">HDMI 1</text>
+    <text x="180" y="152" fill="#566475">HDMI 2</text>
+    <text x="180" y="190" font-weight="700">HDMI 3 (ARC/eARC)</text>
+    <text x="210" y="240">Optical out</text>
+  </g>
+  <!-- Soundbar back -->
+  <rect x="366" y="54" width="250" height="222" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <text x="491" y="78" font-size="14" font-weight="700" fill="#0f2240" text-anchor="middle">Soundbar (back)</text>
+  <rect x="386" y="172" width="64" height="26" rx="4" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="2"/>
+  <rect x="386" y="222" width="34" height="26" rx="4" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <rect x="386" y="96" width="64" height="26" rx="4" fill="#fff" stroke="#566475" stroke-width="2"/>
+  <g font-size="13" fill="#14202c">
+    <text x="460" y="114" fill="#566475">HDMI in (other)</text>
+    <text x="460" y="182" font-weight="700">HDMI OUT</text>
+    <text x="460" y="198" font-size="12" fill="#566475">ARC, eARC or TV</text>
+    <text x="430" y="240">Optical in</text>
+  </g>
+  <!-- cables -->
+  <path d="M254 185H386" fill="none" stroke="#0f2240" stroke-width="4"/>
+  <path d="M254 235H386" fill="none" stroke="#1d5fae" stroke-width="3" stroke-dasharray="7 6"/>
+  <!-- notes -->
+  <rect x="24" y="294" width="282" height="88" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <rect x="334" y="294" width="282" height="88" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <g font-size="13" fill="#14202c">
+    <text x="40" y="318" font-size="14" font-weight="700">HDMI ARC or eARC (best)</text>
+    <text x="40" y="338">Use the ARC/eARC port on both</text>
+    <text x="40" y="356">Turn on HDMI-CEC on the TV</text>
+    <text x="40" y="374" fill="#566475">TV remote controls volume</text>
+    <text x="350" y="318" font-size="14" font-weight="700">Optical (alternative)</text>
+    <text x="350" y="338">Remove the plastic end caps</text>
+    <text x="350" y="356">Set TV audio format to PCM</text>
+    <text x="350" y="374" fill="#566475">Use the soundbar remote</text>
+  </g>
+</svg>

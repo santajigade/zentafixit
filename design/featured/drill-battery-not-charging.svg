@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- drill -->
+  <rect x="260" y="150" width="340" height="130" rx="50" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="600" y="180" width="80" height="70" rx="10" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <path d="M680 200h30v30h-30z" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <path d="M710 207h130l14 8-14 8H710z" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <path d="M360 280l-40 160h120l40-160z" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="455" y="292" width="20" height="44" rx="8" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="5" stroke-linecap="round"><path d="M300 190v50M325 190v50M350 190v50"/></g>
+  <!-- battery pack -->
+  <rect x="270" y="440" width="240" height="90" rx="14" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g fill="#0f2240"><rect x="300" y="500" width="22" height="12" rx="3"/><rect x="330" y="500" width="22" height="12" rx="3"/><rect x="360" y="500" width="22" height="12" rx="3"/></g>
+  <rect x="300" y="500" width="22" height="12" rx="3" fill="#ffd23f"/>
+  <!-- charger -->
+  <rect x="760" y="430" width="300" height="110" rx="18" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="810" y="400" width="200" height="34" rx="8" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="810" cy="485" r="16" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="5" stroke-linecap="round"><path d="M900 465v40M925 465v40M950 465v40M975 465v40M1000 465v40"/></g>
+  <path d="M1060 500c50 0 60 40 100 40" fill="none" stroke="#f3f6fa" stroke-width="10" stroke-linecap="round"/>
+  <!-- charge question bolt -->
+  <path d="M660 360l-36 70h30l-20 76 62-96h-34l26-50z" fill="#ffd23f"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M260 110h580M260 100v20M840 100v20"/><path d="M220 150v380M210 150h20M210 530h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

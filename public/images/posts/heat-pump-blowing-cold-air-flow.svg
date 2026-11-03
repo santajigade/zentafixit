@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="hpa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Why is my heat pump blowing cold air?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="170" y="50" width="300" height="44" rx="8"/>
+    <path d="M320 114l150 36-150 36-150-36z"/>
+    <rect x="24" y="210" width="250" height="56" rx="8"/>
+    <rect x="356" y="210" width="260" height="56" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="24" y="330" width="284" height="84" rx="8"/><rect x="332" y="330" width="284" height="84" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#hpa)">
+    <path d="M320 94v18"/><path d="M170 150h-21v58"/><path d="M470 150h16v58"/>
+    <path d="M430 266v20H250v42"/><path d="M560 266v62"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="77">1. Thermostat: HEAT, fan AUTO</text>
+    <text x="320" y="155" font-weight="700">Cold for only a few minutes?</text>
+    <text x="158" y="142" font-size="12" fill="#566475">yes</text><text x="480" y="142" font-size="12" fill="#566475">no</text>
+    <text x="149" y="234" font-size="13" font-weight="700">Probably defrost (cause 1)</text>
+    <text x="149" y="254" font-size="13">Normal if warm air returns</text>
+    <text x="486" y="234" font-weight="700">Outdoor unit running?</text>
+    <text x="486" y="254" font-size="12" fill="#566475">fan spinning, unit humming</text>
+    <text x="340" y="281" font-size="12" fill="#566475">no</text><text x="574" y="300" font-size="12" fill="#566475">yes</text>
+    <text x="166" y="356" font-weight="700">Not running</text>
+    <text x="166" y="376" font-size="13">Check breaker, disconnect</text>
+    <text x="166" y="396" font-size="13">and ice (causes 6, 7)</text>
+    <text x="474" y="356" font-weight="700">Running, still cold</text>
+    <text x="474" y="376" font-size="13">Check settings, filter, aux heat</text>
+    <text x="474" y="396" font-size="13">(causes 3 to 5), then a pro (8)</text>
+  </g>
+</svg>

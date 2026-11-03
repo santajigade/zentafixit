@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="380" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">GFCI vs AFCI at a glance</text>
+  <rect x="176" y="52" width="214" height="40" rx="8" fill="#1d5fae"/>
+  <rect x="402" y="52" width="214" height="40" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <text x="283" y="77" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">GFCI</text>
+  <text x="509" y="77" font-size="14" font-weight="700" fill="#0f2240" text-anchor="middle">AFCI</text>
+  <g fill="#fff" stroke="#d5dee8" stroke-width="2">
+    <rect x="24" y="104" width="592" height="46" rx="8"/><rect x="24" y="158" width="592" height="46" rx="8"/><rect x="24" y="212" width="592" height="46" rx="8"/><rect x="24" y="266" width="592" height="46" rx="8"/><rect x="24" y="320" width="592" height="46" rx="8"/>
+  </g>
+  <g font-size="13" fill="#566475">
+    <text x="38" y="132">Watches for</text><text x="38" y="186">Protects against</text><text x="38" y="240">Trips when</text><text x="38" y="294">Common form</text><text x="38" y="348">Typically required</text>
+  </g>
+  <g font-size="14" fill="#14202c">
+    <text x="188" y="132">Leakage to ground</text><text x="414" y="132">Arcing in wiring</text>
+    <text x="188" y="186" font-weight="700">Electric shock</text><text x="414" y="186" font-weight="700">Electrical fires</text>
+    <text x="188" y="240">About 5 mA leaks</text><text x="414" y="240">It sees an arc pattern</text>
+    <text x="188" y="294">Outlet or breaker</text><text x="414" y="294">Usually a breaker</text>
+    <text x="188" y="348">Wet and damp areas</text><text x="414" y="348">Most living areas</text>
+  </g>
+</svg>

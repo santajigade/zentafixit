@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="batex" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Example: essentials for one day</text>
+  <text x="24" y="54" font-size="13" fill="#566475">Assumed loads, gas heat, no AC. Your numbers will differ.</text>
+  <g font-size="13" fill="#14202c">
+    <text x="24" y="95">Refrigerator</text>
+    <text x="24" y="131">LED lights</text>
+    <text x="24" y="167">Modem and router</text>
+    <text x="24" y="203">TV</text>
+    <text x="24" y="239">Phones and laptop</text>
+    <text x="24" y="275">Microwave, coffee maker</text>
+  </g>
+  <g fill="#1d5fae">
+    <rect x="210" y="79" width="300" height="22" rx="3"/>
+    <rect x="210" y="115" width="120" height="22" rx="3"/>
+    <rect x="210" y="151" width="100" height="22" rx="3"/>
+    <rect x="210" y="187" width="80" height="22" rx="3"/>
+    <rect x="210" y="223" width="60" height="22" rx="3"/>
+    <rect x="210" y="259" width="140" height="22" rx="3"/>
+  </g>
+  <g font-size="13" fill="#14202c" font-weight="700">
+    <text x="518" y="95">1.5 kWh</text>
+    <text x="338" y="131">0.6 kWh</text>
+    <text x="318" y="167">0.5 kWh</text>
+    <text x="298" y="203">0.4 kWh</text>
+    <text x="278" y="239">0.3 kWh</text>
+    <text x="358" y="275">0.7 kWh</text>
+  </g>
+  <path d="M24 292H616" stroke="#d5dee8" stroke-width="2"/>
+  <text x="24" y="314" font-size="14" font-weight="700" fill="#0f2240">Total: 4.0 kWh a day</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="334" width="180" height="80" rx="8"/>
+    <rect x="230" y="334" width="180" height="80" rx="8"/>
+  </g>
+  <rect x="436" y="334" width="180" height="80" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#batex)"><path d="M204 374h24"/><path d="M410 374h24"/></g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="114" y="368" font-weight="700">10 kWh usable</text><text x="114" y="390" font-size="13" fill="#566475">battery, full</text>
+    <text x="320" y="368" font-weight="700">× 0.9 for losses</text><text x="320" y="390" font-size="13" fill="#566475">= 9 kWh delivered</text>
+    <text x="526" y="368" font-weight="700">9 ÷ 4.0 =</text><text x="526" y="390" font-size="13">about 2.2 days</text>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Compression faucet stem, taken apart</text>
+  <!-- handle -->
+  <rect x="160" y="58" width="120" height="30" rx="10" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <circle cx="220" cy="73" r="6" fill="#d5dee8" stroke="#0f2240" stroke-width="2"/>
+  <!-- packing nut -->
+  <path d="M192 112h56l8 13-8 13h-56l-8-13z" fill="#d5dee8" stroke="#0f2240" stroke-width="2"/>
+  <!-- stem -->
+  <rect x="208" y="150" width="24" height="140" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <g stroke="#566475" stroke-width="1.5"><path d="M208 160h24M208 170h24M208 180h24M208 236h24M208 246h24M208 256h24M208 266h24M208 276h24"/></g>
+  <rect x="202" y="204" width="36" height="10" rx="5" fill="#0f2240"/>
+  <!-- washer and screw -->
+  <rect x="194" y="300" width="52" height="12" rx="3" fill="#566475" stroke="#0f2240" stroke-width="2"/>
+  <rect x="214" y="318" width="12" height="18" fill="#ffd23f" stroke="#0f2240" stroke-width="2"/>
+  <!-- faucet body with seat -->
+  <path d="M130 360h180v64H130z" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="190" y="360" width="60" height="10" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <rect x="204" y="370" width="32" height="54" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <!-- leaders -->
+  <g stroke="#566475" stroke-width="1.5" fill="none" stroke-dasharray="4 4">
+    <path d="M280 73H372"/><path d="M256 125H372"/><path d="M232 170H372"/><path d="M238 209H372"/><path d="M246 306H372"/><path d="M226 330H300V346H372"/><path d="M250 365H372"/>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="380" y="70" font-weight="700">Handle and screw</text><text x="380" y="86" font-size="12" fill="#566475">under a pry-off cap</text>
+    <text x="380" y="122" font-weight="700">Packing nut</text><text x="380" y="138" font-size="12" fill="#566475">loosen with a wrench</text>
+    <text x="380" y="168" font-weight="700">Threaded stem</text><text x="380" y="184" font-size="12" fill="#566475">unscrews like opening the tap</text>
+    <text x="380" y="214" font-weight="700">O-ring</text><text x="380" y="230" font-size="12" fill="#566475">stops leaks at the handle</text>
+    <text x="380" y="302" font-weight="700">Rubber washer</text><text x="380" y="318" font-size="12" fill="#566475">the usual cause of the drip</text>
+    <text x="380" y="350" font-weight="700">Brass screw</text>
+    <text x="380" y="380" font-weight="700">Valve seat</text><text x="380" y="396" font-size="12" fill="#566475">must be smooth to seal</text>
+  </g>
+  <text x="70" y="410" font-size="12" fill="#566475" text-anchor="middle">faucet body</text>
+</svg>

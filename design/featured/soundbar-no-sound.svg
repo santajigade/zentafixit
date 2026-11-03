@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- TV -->
+  <rect x="300" y="50" width="600" height="340" rx="18" fill="#16305a" stroke="#ffffff" stroke-width="6"/>
+  <rect x="322" y="72" width="556" height="296" rx="8" fill="#f3f6fa"/>
+  <!-- muted speaker icon on screen -->
+  <path d="M520 190h40l50-40v140l-50-40h-40z" fill="#0f2240" stroke="#0f2240" stroke-width="6" stroke-linejoin="round"/>
+  <g stroke="#d9442b" stroke-width="12" stroke-linecap="round"><path d="M640 180l60 60M700 180l-60 60"/></g>
+  <!-- soundbar -->
+  <rect x="290" y="440" width="620" height="90" rx="40" fill="#f3f6fa" stroke="#ffffff" stroke-width="6"/>
+  <g fill="#9fb7da"><circle cx="370" cy="485" r="22"/><circle cx="830" cy="485" r="22"/></g>
+  <g fill="#0f2240"><circle cx="560" cy="485" r="6"/><circle cx="600" cy="485" r="6"/><circle cx="640" cy="485" r="6"/></g>
+  <circle cx="720" cy="485" r="9" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <!-- cable -->
+  <path d="M900 300c120 0 140 80 120 160c-10 40-40 60-110 60" fill="none" stroke="#ffd23f" stroke-width="8" stroke-linecap="round"/>
+  <rect x="890" y="288" width="34" height="24" rx="4" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <!-- faint sound waves -->
+  <g fill="none" stroke="#9fb7da" stroke-width="7" stroke-linecap="round" stroke-dasharray="14 14">
+    <path d="M240 450a60 60 0 0 0 0 70"/><path d="M200 420a110 110 0 0 0 0 130"/>
+  </g>
+  <!-- dimension -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M290 570h620M290 560v20M910 560v20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

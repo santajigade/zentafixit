@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="360" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Why the front door gets a weak signal</text>
+  <!-- house outline -->
+  <rect x="24" y="56" width="520" height="220" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <!-- interior walls -->
+  <g stroke="#566475" stroke-width="4"><path d="M200 56v90M200 186v90"/><path d="M370 56v90M370 186v90"/></g>
+  <!-- exterior front wall thick -->
+  <rect x="540" y="56" width="10" height="220" fill="#0f2240"/>
+  <!-- door -->
+  <rect x="538" y="150" width="14" height="60" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <!-- router -->
+  <rect x="56" y="150" width="84" height="40" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <text x="98" y="175" font-size="13" fill="#14202c" text-anchor="middle">Router</text>
+  <!-- mesh node -->
+  <rect x="244" y="150" width="84" height="40" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="2"/>
+  <text x="286" y="175" font-size="13" fill="#14202c" text-anchor="middle">Mesh node</text>
+  <!-- doorbell outside -->
+  <rect x="568" y="160" width="26" height="44" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <circle cx="581" cy="172" r="5" fill="#0f2240"/><circle cx="581" cy="192" r="6" fill="none" stroke="#0f2240" stroke-width="2"/>
+  <text x="581" y="226" font-size="12" fill="#566475" text-anchor="middle">doorbell</text>
+  <!-- signal paths -->
+  <path d="M140 160C260 100 420 100 566 172" fill="none" stroke="#d9442b" stroke-width="2.5" stroke-dasharray="8 6"/>
+  <text x="352" y="96" font-size="12" fill="#d9442b" text-anchor="middle">weak: through 3 walls</text>
+  <g fill="none" stroke="#1f8a5b" stroke-width="3"><path d="M140 176H242"/><path d="M328 176C420 220 500 220 566 190"/></g>
+  <text x="456" y="236" font-size="12" fill="#1f8a5b" text-anchor="middle">strong: shorter hop</text>
+  <g font-size="12" fill="#566475" text-anchor="middle"><text x="200" y="170">wall</text><text x="370" y="170">wall</text></g>
+  <text x="290" y="262" font-size="12" fill="#566475" text-anchor="middle">Inside the house</text>
+  <!-- note -->
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="24" y="290" width="592" height="54" rx="8"/></g>
+  <text x="320" y="312" font-size="13" fill="#14202c" text-anchor="middle">Brick, stucco, metal doors and frames weaken Wi-Fi even more.</text>
+  <text x="320" y="330" font-size="13" fill="#14202c" text-anchor="middle">Put the node where it still gets a strong signal from the router.</text>
+</svg>

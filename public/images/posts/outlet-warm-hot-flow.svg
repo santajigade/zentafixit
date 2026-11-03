@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="owh-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Warm outlet: what to do now</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="100" y="52" width="440" height="40" rx="8"/>
+    <path d="M320 112l110 36-110 36-110-36z"/>
+    <rect x="356" y="214" width="260" height="60" rx="8"/>
+    <path d="M486 296l90 32-90 32-90-32z"/>
+  </g>
+  <rect x="24" y="214" width="260" height="60" rx="8" fill="#d9442b" stroke="#0f2240" stroke-width="2"/>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="90" y="382" width="240" height="50" rx="8"/><rect x="376" y="382" width="220" height="50" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#owh-arrow)">
+    <path d="M320 92v18"/><path d="M210 148H154v64"/><path d="M430 148h56v64"/><path d="M486 274v20"/><path d="M396 328H210v52"/><path d="M486 360v20"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="77">1. Look, smell and listen for danger signs</text>
+    <text x="320" y="153" font-weight="700">Any danger sign?</text>
+    <text x="180" y="140" font-size="12" fill="#566475">yes</text><text x="460" y="140" font-size="12" fill="#566475">no</text>
+    <text x="154" y="238" font-weight="700" fill="#fff">Turn off the breaker now</text>
+    <text x="154" y="258" font-size="13" fill="#fff">Fire or smoke: get out, call 911</text>
+    <text x="486" y="238" font-weight="700">Unplug everything</text>
+    <text x="486" y="258" font-size="13" fill="#566475">Wait about 30 minutes</text>
+    <text x="486" y="333" font-weight="700">Still warm?</text>
+    <text x="380" y="320" font-size="12" fill="#566475">yes</text><text x="500" y="374" font-size="12" fill="#566475">no</text>
+    <text x="210" y="403" font-size="13" font-weight="700">Still warm: wiring fault</text>
+    <text x="210" y="421" font-size="12" fill="#566475">Breaker off, call an electrician</text>
+    <text x="486" y="403" font-size="13" font-weight="700">Cooled: load or plug fit</text>
+    <text x="486" y="421" font-size="12" fill="#566475">See causes 1 to 3</text>
+  </g>
+  <text x="24" y="300" font-size="12" fill="#566475">Danger signs: smoke, burning smell,</text>
+  <text x="24" y="316" font-size="12" fill="#566475">scorch marks, melting, buzzing, sparks</text>
+</svg>

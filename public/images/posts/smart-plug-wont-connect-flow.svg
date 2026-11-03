@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <defs><marker id="spf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where does setup stop?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="56" width="240" height="56" rx="8"/>
+    <rect x="24" y="140" width="240" height="56" rx="8"/>
+    <rect x="24" y="224" width="240" height="56" rx="8"/>
+    <rect x="24" y="308" width="240" height="56" rx="8"/>
+  </g>
+  <g font-size="14" fill="#14202c">
+    <text x="40" y="80" font-weight="700">Light not blinking fast</text><text x="40" y="100" font-size="12" fill="#566475">plug isn't ready for setup</text>
+    <text x="40" y="164" font-weight="700">App can't find the plug</text><text x="40" y="184" font-size="12" fill="#566475">blinking, but not found</text>
+    <text x="40" y="248" font-weight="700">Network not listed</text><text x="40" y="268" font-size="12" fill="#566475">only 5 GHz networks show</text>
+    <text x="40" y="332" font-weight="700">Fails at the last step</text><text x="40" y="352" font-size="12" fill="#566475">times out joining Wi-Fi</text>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#spf)">
+    <path d="M264 84h60"/><path d="M264 168h60"/><path d="M264 252h60"/><path d="M264 336h60"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="326" y="56" width="290" height="56" rx="8"/>
+    <rect x="326" y="140" width="290" height="56" rx="8"/>
+    <rect x="326" y="224" width="290" height="56" rx="8"/>
+    <rect x="326" y="308" width="290" height="56" rx="8"/>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="342" y="80">Hold the button until it blinks</text><text x="342" y="100" font-weight="700">Fix 2, then fix 9</text>
+    <text x="342" y="164">VPN off, allow location, Bluetooth</text><text x="342" y="184" font-weight="700">Fixes 5 and 6</text>
+    <text x="342" y="248">Join the 2.4 GHz network</text><text x="342" y="268" font-weight="700">Fix 1</text>
+    <text x="342" y="332">Split bands, check password, signal</text><text x="342" y="352" font-weight="700">Fixes 3, 4 and 7</text>
+  </g>
+  <text x="320" y="390" font-size="12" fill="#566475" text-anchor="middle">Plug a lamp into the outlet first to make sure it has power.</text>
+</svg>

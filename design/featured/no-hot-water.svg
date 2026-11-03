@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- pipes on top -->
+  <path d="M500 40v50" stroke="#7aace8" stroke-width="16"/>
+  <path d="M640 40v50" stroke="#f3f6fa" stroke-width="16"/>
+  <!-- tank -->
+  <rect x="440" y="90" width="260" height="470" rx="40" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <path d="M440 150h260M440 500h260" stroke="#0f2240" stroke-width="4"/>
+  <rect x="525" y="210" width="90" height="110" rx="10" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="570" cy="240" r="14" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <rect x="525" y="370" width="90" height="90" rx="10" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="555" y="560" width="30" height="20" rx="4" fill="#fff" stroke="#0f2240" stroke-width="3"/>
+  <!-- relief valve -->
+  <rect x="700" y="170" width="40" height="26" rx="5" fill="#fff" stroke="#0f2240" stroke-width="3"/>
+  <!-- shower head with cold drops -->
+  <path d="M880 120h80v40" fill="none" stroke="#f3f6fa" stroke-width="12" stroke-linecap="round"/>
+  <path d="M920 160h80l-14 30h-52z" fill="#f3f6fa" stroke="#0f2240" stroke-width="3"/>
+  <g fill="#7aace8"><path d="M940 220c8 12 12 18 12 24a12 12 0 0 1-24 0c0-6 4-12 12-24z"/><path d="M980 240c8 12 12 18 12 24a12 12 0 0 1-24 0c0-6 4-12 12-24z" opacity=".75"/><path d="M960 290c6 9 9 14 9 18a9 9 0 0 1-18 0c0-4 3-9 9-18z" opacity=".55"/></g>
+  <!-- snowflake accent -->
+  <g stroke="#ffd23f" stroke-width="7" stroke-linecap="round"><path d="M960 360v90M921 383l78 44M921 427l78-44"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M380 90v470M370 90h20M370 560h20"/><path d="M440 595h260"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="mnhf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">The 1-minute water test</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="160" y="54" width="320" height="44" rx="8"/>
+    <rect x="160" y="124" width="320" height="44" rx="8"/>
+    <path d="M320 192l150 38-150 38-150-38z"/>
+    <rect x="20" y="300" width="180" height="56" rx="8"/>
+    <rect x="230" y="300" width="180" height="56" rx="8"/>
+    <rect x="440" y="300" width="180" height="56" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="20" y="368" width="180" height="56" rx="8"/><rect x="440" y="368" width="180" height="56" rx="8"/>
+  </g>
+  <rect x="230" y="368" width="180" height="56" rx="8" fill="#fff" stroke="#d9442b" stroke-width="2"/>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#mnhf)">
+    <path d="M320 98v24"/><path d="M320 168v22"/>
+    <path d="M170 230H110v68"/><path d="M320 268v30"/><path d="M470 230h60v68"/>
+    <path d="M110 356v10"/><path d="M320 356v10"/><path d="M530 356v10"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">1. Display: no DEMO, no lock</text>
+    <text x="320" y="151">2. Heat 1 cup water, HIGH, 1 min</text>
+    <text x="320" y="235" font-weight="700">What happens?</text>
+    <text x="110" y="324">Won't start,</text><text x="110" y="342">or display is dead</text>
+    <text x="320" y="324">Runs normally, but</text><text x="320" y="342">water stays cold</text>
+    <text x="530" y="324">Water gets hot,</text><text x="530" y="342">food heats slowly</text>
+    <text x="110" y="392" font-weight="700">Causes 3 and 4</text><text x="110" y="410" font-size="12">door, outlet, breaker</text>
+    <text x="320" y="392" font-weight="700" fill="#d9442b">Cause 6: technician</text><text x="320" y="410" font-size="12">high voltage, do not open</text>
+    <text x="530" y="392" font-weight="700">Causes 2 and 5</text><text x="530" y="410" font-size="12">power level, cookware</text>
+  </g>
+</svg>

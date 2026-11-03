@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Back of a desktop PC: which port to use</text>
+  <rect x="196" y="54" width="224" height="346" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <!-- motherboard I/O panel -->
+  <rect x="216" y="74" width="92" height="166" rx="4" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <g fill="#fff" stroke="#0f2240" stroke-width="1.5">
+    <rect x="228" y="86" width="26" height="12" rx="2"/><rect x="266" y="86" width="26" height="12" rx="2"/>
+    <rect x="228" y="108" width="26" height="12" rx="2"/><rect x="266" y="108" width="26" height="12" rx="2"/>
+    <rect x="228" y="130" width="26" height="12" rx="2"/><rect x="266" y="130" width="26" height="12" rx="2"/>
+    <rect x="228" y="182" width="30" height="14" rx="3"/><path d="M266 182h30v10l-4 4h-26z"/>
+  </g>
+  <g stroke="#d9442b" stroke-width="3" stroke-linecap="round"><path d="M224 176l42 28M266 176l-42 28"/><path d="M262 176l42 28M304 176l-42 28"/></g>
+  <!-- exhaust fan -->
+  <circle cx="366" cy="120" r="34" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <g stroke="#566475" stroke-width="1.5"><path d="M340 120h52M366 94v52M348 102l36 36M384 102l-36 36"/></g>
+  <!-- expansion slots -->
+  <g fill="#f3f6fa" stroke="#566475" stroke-width="1.5"><rect x="216" y="318" width="184" height="18" rx="2"/><rect x="216" y="346" width="184" height="18" rx="2"/></g>
+  <rect x="216" y="270" width="184" height="38" rx="4" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="2"/>
+  <g fill="#fff" stroke="#0f2240" stroke-width="1.5">
+    <rect x="232" y="280" width="30" height="16" rx="3"/><path d="M276 280h30v12l-4 4h-26z"/><path d="M320 280h30v12l-4 4h-26z"/>
+  </g>
+  <!-- leaders -->
+  <g stroke="#566475" stroke-width="1.5" fill="none" stroke-dasharray="4 4"><path d="M216 190H176"/><path d="M400 289H436"/></g>
+  <g font-size="14" fill="#14202c">
+    <text x="24" y="172" font-weight="700">Motherboard</text>
+    <text x="24" y="190" font-weight="700">video ports</text>
+    <text x="24" y="210" font-size="13" fill="#566475">Usually off when a</text>
+    <text x="24" y="226" font-size="13" fill="#566475">graphics card is in</text>
+    <text x="444" y="276" font-weight="700">Graphics card</text>
+    <text x="444" y="294" font-weight="700">ports</text>
+    <text x="444" y="314" font-size="13" fill="#566475">Plug the monitor</text>
+    <text x="444" y="330" font-size="13" fill="#566475">in here</text>
+  </g>
+  <text x="24" y="296" font-size="13" fill="#566475">Lower down,</text>
+  <text x="24" y="312" font-size="13" fill="#566475">in a horizontal slot</text>
+  <path d="M184 292H210" stroke="#566475" stroke-width="1.5" stroke-dasharray="4 4"/>
+</svg>

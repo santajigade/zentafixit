@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 390" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="390" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">How long food stays safe (doors closed)</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="56" width="288" height="180" rx="8"/>
+    <rect x="328" y="56" width="288" height="180" rx="8"/>
+  </g>
+  <g fill="#dfe9f7" stroke="#0f2240" stroke-width="2">
+    <rect x="44" y="80" width="64" height="132" rx="6"/>
+    <rect x="348" y="80" width="64" height="132" rx="6"/>
+  </g>
+  <g stroke="#0f2240" stroke-width="2" fill="none"><path d="M44 126h64"/><path d="M98 92v24M98 138v30"/><path d="M348 112h64"/><path d="M402 92v12M402 124v30"/></g>
+  <g fill="#14202c">
+    <text x="124" y="96" font-size="14" font-weight="700">Refrigerator</text>
+    <text x="124" y="126" font-size="17" font-weight="700" fill="#1d5fae">about 4 hours</text>
+    <text x="124" y="148" font-size="13" fill="#566475">if kept unopened</text>
+    <text x="124" y="186" font-size="13">Keep at 40°F</text>
+    <text x="124" y="204" font-size="13">or below</text>
+
+    <text x="428" y="96" font-size="14" font-weight="700">Freezer</text>
+    <text x="428" y="124" font-size="14" font-weight="700" fill="#1d5fae">Full: about 48 h</text>
+    <text x="428" y="146" font-size="14" font-weight="700" fill="#1d5fae">Half: about 24 h</text>
+    <text x="428" y="186" font-size="13">Keep at 0°F</text>
+    <text x="428" y="204" font-size="13">or below</text>
+  </g>
+  <rect x="24" y="256" width="592" height="100" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g fill="#14202c" font-size="13">
+    <text x="44" y="280" font-size="14" font-weight="700">When the power comes back</text>
+    <text x="44" y="302">Perishables above 40°F for 2 hours or more: throw them out.</text>
+    <text x="44" y="322">Freezer food with ice crystals, or at 40°F or below, can be refrozen.</text>
+    <text x="44" y="342" font-weight="700" fill="#d9442b">When in doubt, throw it out. Never taste to check.</text>
+  </g>
+  <text x="24" y="378" font-size="12" fill="#566475">General FDA and USDA guidance. Your thermometers have the final say.</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <defs><marker id="pot" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Power outage checklist at a glance</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="60" width="180" height="300" rx="8"/>
+    <rect x="230" y="60" width="180" height="300" rx="8"/>
+    <rect x="436" y="60" width="180" height="300" rx="8"/>
+  </g>
+  <g fill="#1d5fae"><rect x="24" y="60" width="180" height="40" rx="8"/><rect x="230" y="60" width="180" height="40" rx="8"/><rect x="436" y="60" width="180" height="40" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#pot)"><path d="M206 80h22"/><path d="M412 80h22"/></g>
+  <g font-size="14" font-weight="700" fill="#fff" text-anchor="middle"><text x="114" y="85">Before</text><text x="320" y="85">During</text><text x="526" y="85">After</text></g>
+  <g font-size="13" fill="#14202c">
+    <text x="40" y="130">Lights and batteries</text>
+    <text x="40" y="158">Charged power bank</text>
+    <text x="40" y="186">Water for 3+ days</text>
+    <text x="40" y="214">Medicines, a cooler</text>
+    <text x="40" y="242">Fridge thermometers</text>
+    <text x="40" y="270">Radio, cash, food</text>
+
+    <text x="246" y="130">Keep fridge shut</text>
+    <text x="246" y="158">Generator outside</text>
+    <text x="246" y="176" fill="#566475">only, 20+ ft away</text>
+    <text x="246" y="204">CO alarms working</text>
+    <text x="246" y="232">Unplug electronics</text>
+    <text x="246" y="260">Flashlights, not</text>
+    <text x="246" y="278" fill="#566475">candles</text>
+
+    <text x="452" y="130">Check food temps</text>
+    <text x="452" y="158">Toss food over 40°F</text>
+    <text x="452" y="176" fill="#566475">for 2 hours or more</text>
+    <text x="452" y="204">Check the panel,</text>
+    <text x="452" y="222" fill="#566475">reset breakers</text>
+    <text x="452" y="250">Reset GFCI outlets</text>
+    <text x="452" y="278">Plug in items slowly</text>
+  </g>
+  <text x="24" y="386" font-size="13" fill="#566475">Never run a generator or grill indoors or in a garage.</text>
+</svg>

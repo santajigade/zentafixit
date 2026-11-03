@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- cylinder smart speaker -->
+  <path d="M400 200v270a160 50 0 0 0 320 0V200" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <ellipse cx="560" cy="200" rx="160" ry="50" fill="#fff" stroke="#0f2240" stroke-width="6"/>
+  <ellipse cx="560" cy="200" rx="128" ry="38" fill="none" stroke="#ffd23f" stroke-width="12"/>
+  <g fill="#0f2240"><circle cx="520" cy="200" r="8"/><circle cx="600" cy="200" r="8"/><circle cx="560" cy="186" r="6"/><circle cx="560" cy="214" r="6"/></g>
+  <!-- grille lines -->
+  <g stroke="#9fb7da" stroke-width="5" stroke-linecap="round"><path d="M440 300h240M440 340h240M440 380h240M440 420h240"/></g>
+  <!-- sound waves stopping short -->
+  <g fill="none" stroke="#9fc4f0" stroke-width="10" stroke-linecap="round">
+    <path d="M980 230a110 110 0 0 0 0 160"/>
+    <path d="M920 250a80 80 0 0 0 0 120" stroke-dasharray="30 22"/>
+    <path d="M860 270a50 50 0 0 0 0 80" stroke-dasharray="16 26" opacity=".6"/>
+  </g>
+  <!-- question mark style dot and broken bar -->
+  <g stroke="#d9442b" stroke-width="10" stroke-linecap="round"><path d="M770 280l40 40M810 280l-40 40"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M400 110h320M400 100v20M720 100v20"/><path d="M340 200v320M330 200h20M330 520h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

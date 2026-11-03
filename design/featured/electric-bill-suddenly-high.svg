@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- electric meter -->
+  <rect x="300" y="130" width="300" height="400" rx="30" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="450" cy="300" r="120" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <rect x="370" y="262" width="160" height="56" rx="8" fill="#dfe9f7" stroke="#0f2240" stroke-width="4"/>
+  <g fill="#0f2240"><rect x="385" y="276" width="18" height="28" rx="3"/><rect x="411" y="276" width="18" height="28" rx="3"/><rect x="437" y="276" width="18" height="28" rx="3"/><rect x="463" y="276" width="18" height="28" rx="3"/><rect x="489" y="276" width="28" height="28" rx="3" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/></g>
+  <circle cx="450" cy="360" r="8" fill="#0f2240"/>
+  <rect x="380" y="460" width="140" height="40" rx="8" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- bill -->
+  <path d="M690 120h250v380l-25-16-25 16-25-16-25 16-25-16-25 16-25-16-25 16-25-16-25 16z" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="6" stroke-linecap="round"><path d="M725 165h140M725 200h180M725 235h120"/></g>
+  <g fill="#1d5fae"><rect x="730" y="390" width="26" height="50"/><rect x="770" y="375" width="26" height="65"/><rect x="810" y="385" width="26" height="55"/></g>
+  <rect x="850" y="290" width="26" height="150" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <!-- rising arrow -->
+  <path d="M990 430l90-150" stroke="#ffd23f" stroke-width="12" stroke-linecap="round"/>
+  <path d="M1052 268l42-12-6 44z" fill="#ffd23f"/>
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M300 90h300M300 80v20M600 80v20"/><path d="M250 130v400M240 130h20M240 530h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

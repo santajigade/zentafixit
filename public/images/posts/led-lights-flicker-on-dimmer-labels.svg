@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">What to check on the bulb and dimmer</text>
+  <circle cx="110" cy="122" r="56" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M84 170h52v14H84z M86 184h48v12H86z M88 196h44v12H88z" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M100 208h20l-4 10h-12z" fill="#0f2240"/>
+  <rect x="72" y="110" width="76" height="22" rx="4" fill="#ffd23f" stroke="#c9a10a" stroke-width="1.5"/>
+  <text x="110" y="126" font-size="11" font-weight="700" fill="#0f2240" text-anchor="middle">DIMMABLE</text>
+  <g font-size="13" fill="#14202c">
+    <text x="24" y="252" font-weight="700" font-size="14">Bulb label</text>
+    <text x="24" y="272" fill="#566475">Look for the word</text>
+    <text x="24" y="290" fill="#566475">dimmable on the base</text>
+    <text x="24" y="308" fill="#566475">or the box. Use the</text>
+    <text x="24" y="326" fill="#566475">same model in every</text>
+    <text x="24" y="344" fill="#566475">socket on the dimmer.</text>
+  </g>
+  <rect x="270" y="56" width="120" height="240" rx="10" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="300" y="86" width="60" height="180" rx="6" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <rect x="318" y="100" width="24" height="150" rx="4" fill="#fff" stroke="#0f2240" stroke-width="1.5"/>
+  <rect x="312" y="150" width="36" height="22" rx="4" fill="#0f2240"/>
+  <circle cx="374" cy="244" r="9" fill="#ffd23f" stroke="#0f2240" stroke-width="2"/>
+  <path d="M374 237v7" stroke="#0f2240" stroke-width="2"/>
+  <rect x="286" y="276" width="88" height="12" rx="2" fill="#f3f6fa" stroke="#0f2240" stroke-width="1.5"/>
+  <g stroke="#566475" stroke-width="1.5" fill="none" stroke-dasharray="4 4">
+    <path d="M374 282V320H430"/><path d="M360 110H430"/><path d="M383 244H430"/>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="438" y="98" font-weight="700" font-size="14">LED wattage rating</text>
+    <text x="438" y="116" fill="#566475">Often far below the</text>
+    <text x="438" y="132" fill="#566475">incandescent rating.</text>
+    <text x="438" y="148" fill="#566475">Keep total LED watts</text>
+    <text x="438" y="164" fill="#566475">under it.</text>
+    <text x="438" y="232" font-weight="700" font-size="14">Low-end trim dial</text>
+    <text x="438" y="250" fill="#566475">Sets the lowest level.</text>
+    <text x="438" y="266" fill="#566475">Turn up until steady.</text>
+    <text x="438" y="316" font-weight="700" font-size="14">Minimum load</text>
+    <text x="438" y="334" fill="#566475">In the instructions.</text>
+    <text x="438" y="350" fill="#566475">Too few bulbs can</text>
+    <text x="438" y="366" fill="#566475">flicker or glow.</text>
+  </g>
+  <text x="24" y="400" font-size="12" fill="#566475">Old incandescent-only dimmer? Replace it with one rated for LED bulbs.</text>
+</svg>

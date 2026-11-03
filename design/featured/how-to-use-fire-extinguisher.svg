@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- extinguisher body -->
+  <rect x="330" y="200" width="170" height="370" rx="60" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="330" y="330" width="170" height="130" fill="#ffffff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="370" y="140" width="90" height="66" rx="10" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- handle and lever -->
+  <path d="M460 150h120l-20 30h-100z" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <path d="M370 165h-60" stroke="#f3f6fa" stroke-width="10" stroke-linecap="round"/>
+  <!-- gauge -->
+  <circle cx="415" cy="110" r="30" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <path d="M415 110l14-16" stroke="#0f2240" stroke-width="4" stroke-linecap="round"/>
+  <path d="M396 96a24 24 0 0 1 38 0" fill="none" stroke="#ffd23f" stroke-width="6"/>
+  <!-- pin ring -->
+  <circle cx="300" cy="190" r="18" fill="none" stroke="#ffd23f" stroke-width="6"/>
+  <!-- hose to nozzle -->
+  <path d="M430 206c120 40 260 40 330 70" fill="none" stroke="#f3f6fa" stroke-width="14" stroke-linecap="round"/>
+  <path d="M752 262l60 18-8 22-60-16z" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- spray -->
+  <g stroke="#9fc4f0" stroke-width="4" stroke-dasharray="10 12" stroke-linecap="round" fill="none"><path d="M820 296l130 196"/><path d="M820 296l170 186"/><path d="M820 296l90 204"/></g>
+  <!-- flame -->
+  <path d="M960 560c-70 0-96-56-64-112 10 32 30 40 38 22-14-46 14-94 46-118 0 54 52 72 52 136 0 42-32 72-72 72z" fill="#ffd23f"/>
+  <path d="M968 560c-28 0-38-26-20-52 4 14 18 14 20 0 14 14 32 28 26 46-4 6-12 6-26 6z" fill="#0f2240" opacity=".35"/>
+  <!-- sweep arc -->
+  <path d="M860 590q100 -30 200 0" fill="none" stroke="#9fc4f0" stroke-width="3" stroke-dasharray="8 8"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M280 200v370M270 200h20M270 570h20"/><path d="M330 600h170"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

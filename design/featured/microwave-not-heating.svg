@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- microwave body -->
+  <rect x="300" y="150" width="600" height="360" rx="26" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="330" y="180" width="400" height="300" rx="16" fill="#dfe9f7" stroke="#0f2240" stroke-width="5"/>
+  <path d="M712 260v140" stroke="#0f2240" stroke-width="8" stroke-linecap="round"/>
+  <!-- control panel -->
+  <rect x="760" y="180" width="110" height="60" rx="8" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g fill="#fff" stroke="#0f2240" stroke-width="3">
+    <rect x="762" y="262" width="30" height="24" rx="5"/><rect x="800" y="262" width="30" height="24" rx="5"/><rect x="838" y="262" width="30" height="24" rx="5"/>
+    <rect x="762" y="296" width="30" height="24" rx="5"/><rect x="800" y="296" width="30" height="24" rx="5"/><rect x="838" y="296" width="30" height="24" rx="5"/>
+    <rect x="762" y="330" width="30" height="24" rx="5"/><rect x="800" y="330" width="30" height="24" rx="5"/><rect x="838" y="330" width="30" height="24" rx="5"/>
+  </g>
+  <rect x="762" y="380" width="106" height="40" rx="8" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <!-- turntable and cup -->
+  <ellipse cx="520" cy="440" rx="150" ry="22" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <path d="M470 340h90v80a12 12 0 0 1-12 12h-66a12 12 0 0 1-12-12z" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <path d="M560 360c30 0 30 46 0 46" fill="none" stroke="#0f2240" stroke-width="4"/>
+  <path d="M476 356h78v18h-78z" fill="#7aace8"/>
+  <!-- snowflake: still cold -->
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round"><path d="M515 250v60M489 265l52 30M489 295l52-30"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M300 110h600M300 100v20M900 100v20"/><path d="M250 150v360M240 150h20M240 510h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="430" fill="#f3f6fa"/>
+  <defs><marker id="spf-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">The bucket test</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="180" y="52" width="280" height="44" rx="8"/>
+    <rect x="180" y="120" width="280" height="44" rx="8"/>
+    <rect x="24" y="200" width="184" height="72" rx="8"/>
+    <rect x="228" y="200" width="184" height="72" rx="8"/>
+    <rect x="432" y="200" width="184" height="72" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="24" y="300" width="184" height="112" rx="8"/>
+    <rect x="228" y="300" width="184" height="112" rx="8"/>
+    <rect x="432" y="300" width="184" height="112" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#spf-arrow)">
+    <path d="M320 96v22"/><path d="M320 164v14H116v20"/><path d="M320 178v20"/><path d="M320 178h204v20"/>
+    <path d="M116 272v26"/><path d="M320 272v26"/><path d="M524 272v26"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="79">1. Outlet has power? Reset GFCI</text>
+    <text x="320" y="147">2. Pour water into the pit</text>
+    <text x="116" y="230" font-weight="700">Nothing happens</text><text x="116" y="250" font-size="13">float rises, pump silent</text>
+    <text x="320" y="230" font-weight="700">Hums or runs</text><text x="320" y="250" font-size="13">but water stays put</text>
+    <text x="524" y="230" font-weight="700">Runs and empties</text><text x="524" y="250" font-size="13">then shuts off</text>
+  </g>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="116" y="326" font-weight="700">Check</text><text x="116" y="346">float stuck or snagged</text><text x="116" y="364">failed switch</text><text x="116" y="382">burned-out motor</text>
+    <text x="320" y="326" font-weight="700">Check</text><text x="320" y="346">clogged intake screen</text><text x="320" y="364">stuck check valve</text><text x="320" y="382">frozen discharge line</text>
+    <text x="524" y="326" font-weight="700">Working</text><text x="524" y="346">test the backup pump</text><text x="524" y="364">and alarm too</text>
+  </g>
+</svg>

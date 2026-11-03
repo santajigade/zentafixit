@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- power strip -->
+  <rect x="160" y="380" width="760" height="130" rx="30" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <g fill="#fff" stroke="#0f2240" stroke-width="4">
+    <rect x="200" y="405" width="110" height="80" rx="12"/><rect x="340" y="405" width="110" height="80" rx="12"/>
+    <rect x="480" y="405" width="110" height="80" rx="12"/><rect x="620" y="405" width="110" height="80" rx="12"/>
+  </g>
+  <g stroke="#0f2240" stroke-width="7" stroke-linecap="round"><path d="M515 428v22M555 428v16M655 428v22M695 428v16"/></g>
+  <g fill="#0f2240"><circle cx="535" cy="470" r="7"/><circle cx="675" cy="470" r="7"/></g>
+  <rect x="780" y="420" width="100" height="50" rx="10" fill="#d9442b" stroke="#0f2240" stroke-width="4"/>
+  <!-- two plugs inserted -->
+  <g fill="#fff" stroke="#0f2240" stroke-width="4">
+    <rect x="215" y="360" width="80" height="90" rx="12"/><rect x="355" y="360" width="80" height="90" rx="12"/>
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round"><path d="M255 360V200c0-40 40-60 80-60h120"/><path d="M395 360V280c0-30 30-40 60-40h70"/></g>
+  <!-- device with standby dot -->
+  <rect x="525" y="90" width="300" height="200" rx="14" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="545" y="110" width="260" height="150" rx="6" fill="#0f2240"/>
+  <circle cx="790" cy="275" r="9" fill="#d9442b"/>
+  <g fill="none" stroke="#ffd23f" stroke-width="5" stroke-linecap="round"><path d="M820 260a40 40 0 0 1 0 30"/><path d="M845 245a65 65 0 0 1 0 60"/></g>
+  <!-- plug-in meter -->
+  <rect x="960" y="300" width="150" height="210" rx="20" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="980" y="325" width="110" height="60" rx="6" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+  <g fill="#0f2240"><circle cx="1000" cy="420" r="9"/><circle cx="1035" cy="420" r="9"/><circle cx="1070" cy="420" r="9"/></g>
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M160 550h760M160 540v20M920 540v20"/><path d="M490 90v200M480 90h20M480 290h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

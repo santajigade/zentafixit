@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- wall plate -->
+  <rect x="300" y="80" width="300" height="470" rx="26" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <!-- lower receptacle -->
+  <rect x="345" y="355" width="210" height="150" rx="20" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="9" stroke-linecap="round"><path d="M412 395v40M488 395v32"/></g>
+  <path d="M433 465a17 17 0 0 1 34 0v14h-34z" fill="#0f2240"/>
+  <!-- smart plug on top receptacle -->
+  <rect x="335" y="110" width="230" height="220" rx="36" fill="#fff" stroke="#0f2240" stroke-width="6"/>
+  <g stroke="#0f2240" stroke-width="8" stroke-linecap="round"><path d="M415 175v40M485 175v32"/></g>
+  <path d="M433 250a17 17 0 0 1 34 0v14h-34z" fill="#0f2240"/>
+  <circle cx="530" cy="140" r="11" fill="#ffd23f"/>
+  <circle cx="450" cy="298" r="14" fill="none" stroke="#0f2240" stroke-width="5"/>
+  <!-- router -->
+  <rect x="860" y="400" width="240" height="88" rx="16" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <g stroke="#ffffff" stroke-width="10" stroke-linecap="round"><path d="M900 400l-22-110M1060 400l22-110"/></g>
+  <g fill="#0f2240"><circle cx="905" cy="444" r="8"/><circle cx="935" cy="444" r="8"/><circle cx="965" cy="444" r="8"/></g>
+  <!-- arcs that do not reach the plug -->
+  <g fill="none" stroke="#9fc4f0" stroke-width="10" stroke-linecap="round">
+    <path d="M800 280a80 80 0 0 0 0 110"/>
+    <path d="M740 250a130 130 0 0 0 0 170" stroke-dasharray="36 26"/>
+  </g>
+  <g stroke="#d9442b" stroke-width="10" stroke-linecap="round"><path d="M640 300l44 44M684 300l-44 44"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M300 50h300M300 40v20M600 40v20"/><path d="M250 80v470M240 80h20M240 550h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

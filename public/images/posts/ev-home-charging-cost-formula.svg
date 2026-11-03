@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <defs><marker id="evc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">From miles to dollars</text>
+  <text x="24" y="54" font-size="13" fill="#566475">Example assumptions only. Swap in your own numbers.</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="70" width="220" height="52" rx="8"/>
+    <rect x="24" y="148" width="220" height="52" rx="8"/>
+    <rect x="24" y="226" width="220" height="52" rx="8"/>
+  </g>
+  <rect x="24" y="304" width="220" height="52" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#evc)"><path d="M60 122v24"/><path d="M60 200v24"/><path d="M60 278v24"/></g>
+  <g font-size="13" font-weight="700" fill="#1d5fae">
+    <text x="74" y="139">÷ 3.5 miles per kWh</text>
+    <text x="74" y="217">÷ 0.90 charging efficiency</text>
+    <text x="74" y="295">× $0.16 per kWh</text>
+  </g>
+  <g font-size="14" font-weight="700" fill="#14202c" text-anchor="middle">
+    <text x="134" y="101">1,000 miles a month</text>
+    <text x="134" y="179">about 286 kWh</text>
+    <text x="134" y="257">about 318 kWh</text>
+    <text x="134" y="335">about $51 a month</text>
+  </g>
+  <g font-size="13" fill="#566475">
+    <text x="276" y="94">Your monthly driving</text><text x="276" y="112">(check the odometer)</text>
+    <text x="276" y="172">Energy the battery needs</text><text x="276" y="190">(car at 3.5 miles per kWh)</text>
+    <text x="276" y="250">Energy from the wall</text><text x="276" y="268">(about 10% lost while charging)</text>
+    <text x="276" y="328">Your cost, about 5 cents a mile</text><text x="276" y="346">(rate of 16 cents per kWh)</text>
+  </g>
+  <text x="24" y="386" font-size="13" fill="#14202c">Cost = miles ÷ miles per kWh ÷ efficiency × rate per kWh</text>
+</svg>

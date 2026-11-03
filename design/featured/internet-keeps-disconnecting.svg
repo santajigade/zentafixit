@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- modem (upright) -->
+  <rect x="140" y="140" width="150" height="360" rx="20" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <g><circle cx="215" cy="200" r="10" fill="#1f8a5b"/><circle cx="215" cy="240" r="10" fill="#1f8a5b"/><circle cx="215" cy="280" r="10" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/><circle cx="215" cy="320" r="10" fill="#9fb7da"/></g>
+  <rect x="175" y="420" width="80" height="12" rx="6" fill="#9fb7da"/>
+  <!-- coax from modem -->
+  <path d="M215 500v60H60" fill="none" stroke="#f3f6fa" stroke-width="12" stroke-linecap="round"/>
+  <!-- router -->
+  <rect x="380" y="380" width="260" height="100" rx="18" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <g stroke="#ffffff" stroke-width="10" stroke-linecap="round"><path d="M420 380l-20-110M600 380l20-110"/></g>
+  <g fill="#0f2240"><circle cx="425" cy="430" r="8"/><circle cx="455" cy="430" r="8"/><circle cx="485" cy="430" r="8"/></g>
+  <path d="M290 430h88" stroke="#f3f6fa" stroke-width="6"/>
+  <!-- broken, intermittent link to laptop -->
+  <g stroke="#ffd23f" stroke-width="8" stroke-linecap="round"><path d="M660 380l40-30"/><path d="M740 320l40-30"/><path d="M820 260l40-30"/></g>
+  <g stroke="#d9442b" stroke-width="8" stroke-linecap="round"><path d="M712 305l18 18M730 305l-18 18"/><path d="M792 245l18 18M810 245l-18 18"/></g>
+  <!-- laptop -->
+  <rect x="860" y="250" width="270" height="180" rx="14" fill="#16305a" stroke="#ffffff" stroke-width="5"/>
+  <rect x="878" y="268" width="234" height="144" rx="6" fill="#f3f6fa"/>
+  <path d="M820 430h350l-26 36H846z" fill="#f3f6fa" stroke="#ffffff" stroke-width="5" stroke-linejoin="round"/>
+  <g fill="none" stroke="#0f2240" stroke-width="10" stroke-linecap="round"><path d="M965 360a42 42 0 0 1 60 0"/><path d="M945 335a72 72 0 0 1 100 0"/></g>
+  <circle cx="995" cy="385" r="9" fill="#0f2240"/>
+  <!-- dimension -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M100 140v360M90 140h20M90 500h20"/><path d="M860 210h270M860 200v20M1130 200v20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

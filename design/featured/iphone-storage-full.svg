@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- generic phone -->
+  <rect x="440" y="60" width="270" height="520" rx="40" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="462" y="100" width="226" height="440" rx="18" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="540" y="76" width="70" height="12" rx="6" fill="#0f2240"/>
+  <!-- storage bar, nearly full -->
+  <rect x="486" y="130" width="178" height="26" rx="13" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="489" y="133" width="164" height="20" rx="10" fill="#ffd23f"/>
+  <!-- tiles -->
+  <g fill="#f3f6fa" stroke="#0f2240" stroke-width="4">
+    <rect x="486" y="184" width="80" height="80" rx="12"/><rect x="584" y="184" width="80" height="80" rx="12"/>
+    <rect x="486" y="282" width="80" height="80" rx="12"/><rect x="584" y="282" width="80" height="80" rx="12"/>
+    <rect x="486" y="380" width="80" height="80" rx="12"/><rect x="584" y="380" width="80" height="80" rx="12"/>
+  </g>
+  <!-- photo icon in a tile -->
+  <path d="M496 252l22-28 16 18 10-12 18 22z" fill="#9fc4f0"/>
+  <circle cx="548" cy="204" r="8" fill="#ffd23f"/>
+  <!-- play icon -->
+  <path d="M614 300v44l32-22z" fill="#0f2240"/>
+  <!-- overflowing tiles outside the phone -->
+  <g fill="#f3f6fa" stroke="#ffffff" stroke-width="4" opacity=".85">
+    <rect x="760" y="170" width="70" height="70" rx="12" transform="rotate(12 795 205)"/>
+    <rect x="800" y="290" width="70" height="70" rx="12" transform="rotate(-10 835 325)"/>
+    <rect x="280" y="240" width="70" height="70" rx="12" transform="rotate(-14 315 275)"/>
+  </g>
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round"><path d="M730 140l40-30M740 190h40"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M390 60v520M380 60h20M380 580h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

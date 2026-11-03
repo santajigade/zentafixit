@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="cfnf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Why won't the fan run?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="170" y="54" width="300" height="44" rx="8"/>
+    <path d="M320 124l140 32-140 32-140-32z"/>
+    <rect x="24" y="230" width="280" height="56" rx="8"/>
+    <rect x="336" y="230" width="280" height="56" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="24" y="306" width="280" height="76" rx="8"/><rect x="336" y="306" width="280" height="76" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#cfnf)">
+    <path d="M320 98v24"/><path d="M180 156H164v72"/><path d="M460 156h16v72"/><path d="M164 286v18"/><path d="M476 286v18"/>
+  </g>
+  <text x="150" y="148" font-size="12" fill="#566475">yes</text><text x="478" y="148" font-size="12" fill="#566475">no</text>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">1. Wall switch on, breaker on</text>
+    <text x="320" y="161" font-weight="700">2. Does the light work?</text>
+    <text x="164" y="253" font-weight="700">Power reaches the fan</text>
+    <text x="164" y="272" font-size="13">Pull chain, remote, reverse switch</text>
+    <text x="476" y="253" font-weight="700">No power at the motor</text>
+    <text x="476" y="272" font-size="13">Breaker, receiver, canopy wires</text>
+    <text x="164" y="330" font-weight="700">Hums but won't spin?</text>
+    <text x="164" y="350" font-size="12">Push a blade. If it starts, the</text>
+    <text x="164" y="367" font-size="12">capacitor is bad (cause 5)</text>
+    <text x="476" y="330" font-weight="700">Nothing at all?</text>
+    <text x="476" y="350" font-size="12">Re-pair the remote, then check</text>
+    <text x="476" y="367" font-size="12">the canopy wiring (causes 3, 6)</text>
+  </g>
+  <text x="24" y="416" font-size="12" fill="#566475">Burning smell or a very hot motor? Switch it off at the breaker (cause 7).</text>
+</svg>

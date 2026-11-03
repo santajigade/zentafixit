@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Hard drive (HDD) vs solid-state drive (SSD)</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2"><rect x="24" y="52" width="288" height="290" rx="8"/><rect x="328" y="52" width="288" height="290" rx="8"/></g>
+  <!-- HDD icon -->
+  <rect x="108" y="66" width="120" height="84" rx="8" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <circle cx="150" cy="108" r="30" fill="#fff" stroke="#0f2240" stroke-width="2"/><circle cx="150" cy="108" r="6" fill="#0f2240"/>
+  <path d="M214 76L172 112" stroke="#d9442b" stroke-width="4" stroke-linecap="round"/><circle cx="214" cy="76" r="5" fill="#d9442b"/>
+  <!-- SSD icon -->
+  <rect x="412" y="66" width="120" height="84" rx="8" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <g fill="#0f2240"><rect x="426" y="80" width="40" height="24" rx="3"/><rect x="478" y="80" width="40" height="24" rx="3"/><rect x="426" y="114" width="40" height="24" rx="3"/><rect x="478" y="114" width="40" height="24" rx="3"/></g>
+  <g stroke="#d5dee8" stroke-width="1"><path d="M40 196H296"/><path d="M40 236H296"/><path d="M40 276H296"/><path d="M344 196H600"/><path d="M344 236H600"/><path d="M344 276H600"/></g>
+  <g font-size="14" fill="#14202c">
+    <text x="168" y="178" font-weight="700" text-anchor="middle">HDD</text>
+    <text x="472" y="178" font-weight="700" text-anchor="middle">SSD</text>
+    <text x="40" y="220">Spinning disk, moving parts</text>
+    <text x="40" y="260">Slower startup and app loads</text>
+    <text x="40" y="300" fill="#d9442b">Disk often stuck at 100%</text>
+    <text x="40" y="326" font-size="12" fill="#566475">May click or whir, sensitive to drops</text>
+    <text x="344" y="220">Memory chips, no moving parts</text>
+    <text x="344" y="260">Much faster startup and loads</text>
+    <text x="344" y="300" fill="#1f8a5b">Rarely maxes out in normal use</text>
+    <text x="344" y="326" font-size="12" fill="#566475">Silent, handles bumps better</text>
+  </g>
+  <rect x="24" y="354" width="592" height="34" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <text x="40" y="376" font-size="13" fill="#14202c">Check yours: Task Manager, Performance, Disk 0 shows SSD or HDD.</text>
+</svg>

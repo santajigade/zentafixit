@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where ceiling fans usually fail</text>
+  <path d="M180 56H460" stroke="#566475" stroke-width="3"/>
+  <path d="M290 58h60l-10 40h-40z" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="314" y="98" width="12" height="54" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="250" y="152" width="140" height="46" rx="18" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <g fill="#dfe9f7" stroke="#0f2240" stroke-width="2"><path d="M250 168H176l-6 10h80z"/><path d="M390 168h74l6 10h-80z"/></g>
+  <rect x="374" y="176" width="12" height="14" rx="2" fill="#ffd23f" stroke="#0f2240" stroke-width="1.5"/>
+  <rect x="284" y="198" width="72" height="44" rx="6" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="294" y="208" width="24" height="16" rx="2" fill="#ffd23f" stroke="#0f2240" stroke-width="1.5"/>
+  <circle cx="340" cy="216" r="6" fill="#fff" stroke="#0f2240" stroke-width="1.5"/>
+  <path d="M340 242v44" stroke="#0f2240" stroke-width="1.5" stroke-dasharray="2 3"/>
+  <circle cx="340" cy="290" r="5" fill="#0f2240"/>
+  <rect x="306" y="70" width="28" height="14" rx="2" fill="#ffd23f" stroke="#0f2240" stroke-width="1.5"/>
+  <g stroke="#566475" stroke-width="1.5" fill="none" stroke-dasharray="4 4">
+    <path d="M306 77H180"/><path d="M386 183H430V112H452"/><path d="M294 216H186"/><path d="M346 270H452"/><path d="M250 186H210V330H186"/>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="24" y="70" font-weight="700" font-size="14">Canopy</text>
+    <text x="24" y="88" fill="#566475">Wire connectors and</text>
+    <text x="24" y="104" fill="#566475">the remote receiver</text>
+    <text x="24" y="120" fill="#566475">(causes 3 and 6)</text>
+    <text x="460" y="106" font-weight="700" font-size="14">Reverse switch</text>
+    <text x="460" y="124" fill="#566475">Push fully one way</text>
+    <text x="460" y="140" fill="#566475">(cause 4)</text>
+    <text x="24" y="212" font-weight="700" font-size="14">Capacitor</text>
+    <text x="24" y="230" fill="#566475">In the switch</text>
+    <text x="24" y="246" fill="#566475">housing (cause 5)</text>
+    <text x="460" y="264" font-weight="700" font-size="14">Pull chain switch</text>
+    <text x="460" y="282" fill="#566475">Cycles through the</text>
+    <text x="460" y="298" fill="#566475">speeds and off</text>
+    <text x="460" y="314" fill="#566475">(cause 2)</text>
+    <text x="24" y="326" font-weight="700" font-size="14">Motor</text>
+    <text x="24" y="344" fill="#566475">Hot or burning</text>
+    <text x="24" y="360" fill="#566475">smell (cause 7)</text>
+  </g>
+  <text x="24" y="416" font-size="12" fill="#566475">Turn off the breaker before opening the canopy or the switch housing.</text>
+</svg>

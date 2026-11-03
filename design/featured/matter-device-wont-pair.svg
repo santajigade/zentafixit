@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- phone -->
+  <rect x="250" y="90" width="230" height="440" rx="34" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="272" y="130" width="186" height="340" rx="10" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="365" cy="500" r="14" fill="none" stroke="#0f2240" stroke-width="4"/>
+  <!-- scan frame on phone -->
+  <g stroke="#ffd23f" stroke-width="8" fill="none" stroke-linecap="round"><path d="M300 210v-30h30M430 210v-30h-30M300 380v30h30M430 380v30h-30"/></g>
+  <g fill="#0f2240">
+    <rect x="320" y="200" width="40" height="40"/><rect x="370" y="200" width="40" height="40"/><rect x="320" y="350" width="40" height="40" transform="translate(0 -40)"/>
+    <rect x="378" y="268" width="14" height="14"/><rect x="396" y="290" width="14" height="14"/><rect x="370" y="320" width="14" height="14"/><rect x="396" y="336" width="14" height="14"/>
+  </g>
+  <g fill="#fff"><rect x="330" y="210" width="20" height="20"/><rect x="380" y="210" width="20" height="20"/><rect x="330" y="320" width="20" height="20"/></g>
+  <!-- signal arcs -->
+  <g stroke="#9fc4f0" stroke-width="6" fill="none" stroke-linecap="round"><path d="M540 260a60 60 0 0 1 0 90"/><path d="M570 235a100 100 0 0 1 0 140"/><path d="M600 210a140 140 0 0 1 0 190"/></g>
+  <!-- smart plug device -->
+  <rect x="690" y="180" width="230" height="250" rx="40" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="725" y="215" width="160" height="160" rx="80" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="10" stroke-linecap="round"><path d="M778 270v34M832 270v34"/></g>
+  <path d="M790 334a15 15 0 0 1 30 0v10h-30z" fill="#0f2240"/>
+  <circle cx="805" cy="404" r="9" fill="#ffd23f"/>
+  <!-- hub -->
+  <ellipse cx="1010" cy="500" rx="90" ry="30" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <path d="M920 500v-50a90 30 0 0 1 180 0v50" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <ellipse cx="1010" cy="450" rx="90" ry="30" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M690 140h230M690 130v20M920 130v20"/><path d="M200 90v440M190 90h20M190 530h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

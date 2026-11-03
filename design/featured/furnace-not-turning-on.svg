@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- furnace cabinet -->
+  <rect x="380" y="60" width="300" height="520" rx="14" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="410" y="90" width="240" height="200" rx="10" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <rect x="410" y="310" width="240" height="240" rx="10" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <g stroke="#0f2240" stroke-width="5" stroke-linecap="round"><path d="M440 130h180M440 160h180M440 190h180M440 350h180M440 380h180"/></g>
+  <circle cx="530" cy="470" r="44" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <circle cx="530" cy="470" r="10" fill="#0f2240"/>
+  <!-- flame window -->
+  <rect x="490" y="220" width="80" height="50" rx="8" fill="#0f2240"/>
+  <path d="M530 264c-20-14-12-34 0-44 2 14 16 18 12 32-2 8-6 10-12 12z" fill="#ffd23f"/>
+  <!-- vent pipe -->
+  <path d="M600 60V10" stroke="#f3f6fa" stroke-width="30"/>
+  <!-- thermostat on wall -->
+  <rect x="850" y="200" width="170" height="170" rx="30" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="935" cy="285" r="55" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <path d="M935 285l30-30" stroke="#0f2240" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="935" cy="285" r="9" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <!-- signal arcs from thermostat to furnace -->
+  <g fill="none" stroke="#9fc4f0" stroke-width="4" stroke-linecap="round"><path d="M820 260c-20 15-20 35 0 50"/><path d="M790 240c-34 26-34 64 0 90"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M330 60v520M320 60h20M320 580h20"/><path d="M850 410h170M850 400v20M1020 400v20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

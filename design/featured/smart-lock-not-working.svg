@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- door slab edge -->
+  <rect x="200" y="60" width="420" height="520" rx="8" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <!-- keypad lock body -->
+  <rect x="330" y="140" width="160" height="320" rx="40" fill="#fff" stroke="#0f2240" stroke-width="6"/>
+  <g fill="#0f2240">
+    <circle cx="380" cy="210" r="12"/><circle cx="440" cy="210" r="12"/>
+    <circle cx="380" cy="260" r="12"/><circle cx="440" cy="260" r="12"/>
+    <circle cx="380" cy="310" r="12"/><circle cx="440" cy="310" r="12"/>
+  </g>
+  <circle cx="410" cy="390" r="30" fill="none" stroke="#0f2240" stroke-width="6"/>
+  <rect x="404" y="372" width="12" height="36" rx="5" fill="#0f2240"/>
+  <circle cx="410" cy="170" r="8" fill="#ffd23f"/>
+  <!-- bolt and frame -->
+  <rect x="620" y="275" width="120" height="50" rx="6" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+  <rect x="790" y="60" width="140" height="520" fill="#16305a" stroke="#ffffff" stroke-width="4"/>
+  <rect x="780" y="230" width="30" height="170" rx="4" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <rect x="790" y="290" width="70" height="60" fill="#0f2240" stroke="#9fb7da" stroke-width="3"/>
+  <!-- gap marker: bolt stops short -->
+  <g stroke="#d9442b" stroke-width="8" stroke-linecap="round"><path d="M755 255l15 -25M760 345l15 25"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M620 230h120M620 220v20M740 220v20"/><path d="M150 140v320M140 140h20M140 460h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

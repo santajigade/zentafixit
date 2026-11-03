@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- sun with cloud -->
+  <circle cx="900" cy="150" r="70" fill="#ffd23f"/>
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round"><path d="M900 50v-20M990 150h20M963 87l14-14M837 87l-14-14M790 150h20"/></g>
+  <path d="M800 230a50 50 0 0 1 40-70a62 62 0 0 1 118 10a45 45 0 0 1 22 60z" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <!-- tilted panel array -->
+  <path d="M250 520L380 280H860L730 520z" fill="#f3f6fa" stroke="#ffffff" stroke-width="5"/>
+  <g stroke="#0f2240" stroke-width="5" fill="none">
+    <path d="M250 520L380 280H860L730 520z"/>
+    <path d="M410 520L540 280M570 520L700 280"/>
+    <path d="M315 400H795"/>
+  </g>
+  <g stroke="#9fc4f0" stroke-width="2" opacity=".9"><path d="M282 460H763M347 340H828M330 520L460 280M490 520L620 280M650 520L780 280"/></g>
+  <!-- shade patch -->
+  <path d="M570 520L635 400H795L730 520z" fill="#0f2240" fill-opacity=".35"/>
+  <!-- stand -->
+  <g stroke="#ffffff" stroke-width="6"><path d="M320 520v50M690 520v50M220 570H800"/></g>
+  <!-- output dipping line -->
+  <path d="M120 190l70 -30 70 20 70 -10 70 90" fill="none" stroke="#ffd23f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M120 110v130H480"/></g>
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M380 250H860M380 240v20M860 240v20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

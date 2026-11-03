@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="bktf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">When does the breaker trip?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="170" y="54" width="300" height="44" rx="8"/>
+    <path d="M320 124l140 32-140 32-140-32z"/>
+    <rect x="24" y="230" width="186" height="56" rx="8"/>
+    <rect x="227" y="230" width="186" height="56" rx="8"/>
+    <rect x="430" y="230" width="186" height="56" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="24" y="308" width="186" height="74" rx="8"/><rect x="227" y="308" width="186" height="74" rx="8"/><rect x="430" y="308" width="186" height="74" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#bktf)">
+    <path d="M320 98v24"/><path d="M180 156H117v72"/><path d="M320 188v40"/><path d="M460 156h63v72"/><path d="M117 286v20"/><path d="M320 286v20"/><path d="M523 286v20"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">1. Unplug everything, then reset</text>
+    <text x="320" y="161" font-weight="700">2. When does it trip?</text>
+    <text x="117" y="253">Instantly, even with</text><text x="117" y="271">nothing plugged in</text>
+    <text x="320" y="253">After a few minutes</text><text x="320" y="271">with heavy loads on</text>
+    <text x="523" y="253">At random, breaker</text><text x="523" y="271">has a TEST button</text>
+    <g font-size="13" font-weight="700"><text x="117" y="331">Short or ground fault</text><text x="320" y="331">Overload</text><text x="523" y="331">AFCI or GFCI trip</text></g>
+    <g font-size="12"><text x="117" y="351">Causes 2 and 3.</text><text x="117" y="368">Call an electrician</text>
+    <text x="320" y="351">Cause 1. Move heavy</text><text x="320" y="368">loads to other circuits</text>
+    <text x="523" y="351">Causes 4 and 5. Check</text><text x="523" y="368">cords and moisture</text></g>
+  </g>
+  <text x="24" y="416" font-size="12" fill="#566475">Breaker hot, buzzing or scorched? Leave it off and call an electrician (cause 6).</text>
+</svg>

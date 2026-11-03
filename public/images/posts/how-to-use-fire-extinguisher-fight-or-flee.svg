@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="460" fill="#f3f6fa"/>
+  <defs><marker id="fff" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker><marker id="ffr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#d9442b"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Fight it or get out?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="60" width="360" height="44" rx="8"/>
+    <rect x="24" y="130" width="360" height="44" rx="8"/>
+    <rect x="24" y="200" width="360" height="44" rx="8"/>
+    <rect x="24" y="270" width="360" height="44" rx="8"/>
+  </g>
+  <rect x="436" y="60" width="180" height="254" rx="8" fill="#fff" stroke="#d9442b" stroke-width="2"/>
+  <rect x="24" y="344" width="360" height="60" rx="8" fill="#fff" stroke="#1f8a5b" stroke-width="2"/>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#fff)"><path d="M204 104v24"/><path d="M204 174v24"/><path d="M204 244v24"/><path d="M204 314v28"/></g>
+  <g fill="none" stroke="#d9442b" stroke-width="1.8" marker-end="url(#ffr)"><path d="M384 82h50"/><path d="M384 152h50"/><path d="M384 222h50"/><path d="M384 292h50"/></g>
+  <g font-size="12" fill="#566475">
+    <text x="212" y="121">yes</text><text x="212" y="191">yes</text><text x="212" y="261">yes</text><text x="212" y="333">yes</text>
+    <text x="398" y="76">no</text><text x="398" y="146">no</text><text x="398" y="216">no</text><text x="398" y="286">no</text>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="204" y="87">Everyone out and 911 called?</text>
+    <text x="204" y="157">Fire small and not spreading?</text>
+    <text x="204" y="227">Room clear of heavy smoke?</text>
+    <text x="204" y="297">Exit behind you, right extinguisher?</text>
+    <text x="204" y="368" font-weight="700" fill="#1f8a5b">Fight it with PASS</text>
+    <text x="204" y="390" font-size="13">If it's not out fast, get out</text>
+  </g>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="526" y="150" font-size="14" font-weight="700" fill="#d9442b">Get out now</text>
+    <text x="526" y="178">Close doors behind</text>
+    <text x="526" y="196">you as you go</text>
+    <text x="526" y="224">Call 911 from</text>
+    <text x="526" y="242">outside</text>
+  </g>
+  <text x="24" y="440" font-size="13" fill="#566475">When in doubt, get out. Your life matters more than the house.</text>
+</svg>

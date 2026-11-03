@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">The drain under a sink</text>
+  <!-- wall -->
+  <rect x="100" y="56" width="24" height="364" fill="#d5dee8" stroke="#566475" stroke-width="1.5"/>
+  <!-- sink -->
+  <path d="M230 64H450V96c0 30-20 44-50 44H280c-30 0-50-14-50-44z" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="220" y="58" width="240" height="10" rx="4" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <!-- pipes -->
+  <path d="M340 140V300A40 40 0 0 1 260 300V264H124" fill="none" stroke="#0f2240" stroke-width="24"/>
+  <path d="M340 140V300A40 40 0 0 1 260 300V264H124" fill="none" stroke="#fff" stroke-width="18"/>
+  <path d="M340 286V300A40 40 0 0 1 260 300V286" fill="none" stroke="#dfe9f7" stroke-width="18"/>
+  <!-- stopper -->
+  <rect x="326" y="126" width="28" height="10" rx="3" fill="#ffd23f" stroke="#0f2240" stroke-width="2"/>
+  <!-- slip nuts -->
+  <rect x="324" y="236" width="32" height="16" rx="3" fill="#d5dee8" stroke="#0f2240" stroke-width="2"/>
+  <rect x="244" y="248" width="16" height="32" rx="3" fill="#d5dee8" stroke="#0f2240" stroke-width="2"/>
+  <!-- clog highlight -->
+  <circle cx="300" cy="334" r="26" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <!-- bucket -->
+  <path d="M236 378h128l-10 46h-108z" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <!-- leaders -->
+  <g stroke="#566475" stroke-width="1.5" fill="none" stroke-dasharray="4 4">
+    <path d="M354 131H462"/><path d="M352 190H462"/><path d="M356 244H462"/><path d="M326 334H462"/><path d="M364 400H462"/>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="470" y="128" font-weight="700">Stopper</text><text x="470" y="144" font-size="12" fill="#566475">hair collects here</text>
+    <text x="470" y="186" font-weight="700">Tailpiece</text><text x="470" y="202" font-size="12" fill="#566475">straight drain pipe</text>
+    <text x="470" y="240" font-weight="700">Slip nuts</text><text x="470" y="256" font-size="12" fill="#566475">usually hand-tight</text>
+    <text x="470" y="330" font-weight="700">P-trap (U-bend)</text><text x="470" y="346" font-size="12" fill="#566475">holds water, catches</text><text x="470" y="361" font-size="12" fill="#566475">debris and grease</text>
+    <text x="470" y="396" font-weight="700">Bucket</text><text x="470" y="412" font-size="12" fill="#566475">trap is full of water</text>
+    <text x="140" y="298" font-weight="700">Trap arm</text><text x="140" y="314" font-size="12" fill="#566475">to wall drain</text>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- floor and pit -->
+  <path d="M200 300H460M740 300H1000" stroke="#f3f6fa" stroke-width="6"/>
+  <path d="M460 300V560H740V300" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="470" y="300" width="260" height="250" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="472" y="400" width="256" height="148" fill="#7aace8" fill-opacity=".45"/>
+  <path d="M472 400H728" stroke="#7aace8" stroke-width="4"/>
+  <!-- pump -->
+  <rect x="560" y="430" width="90" height="110" rx="14" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <rect x="560" y="516" width="90" height="24" fill="#d5dee8" stroke="#0f2240" stroke-width="4"/>
+  <!-- float -->
+  <path d="M560 480L520 410" stroke="#0f2240" stroke-width="4"/>
+  <ellipse cx="514" cy="396" rx="20" ry="26" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+  <!-- discharge pipe -->
+  <path d="M605 430V130H230" fill="none" stroke="#0f2240" stroke-width="30"/>
+  <path d="M605 430V130H230" fill="none" stroke="#fff" stroke-width="22"/>
+  <rect x="585" y="210" width="40" height="56" rx="6" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+  <!-- outlet -->
+  <rect x="820" y="170" width="70" height="100" rx="10" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="6" stroke-linecap="round"><path d="M842 196v14M868 196v14M842 232v14M868 232v14"/></g>
+  <path d="M650 460C760 460 740 330 855 270" fill="none" stroke="#9fc4f0" stroke-width="5"/>
+  <!-- rising arrow -->
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round" fill="none"><path d="M690 520V420M672 440l18-20 18 20"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M460 590h280M460 580v20M740 580v20"/><path d="M420 310v250M410 310h20M410 560h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

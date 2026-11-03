@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="380" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">A homeowner tool kit in three steps</text>
+  <rect x="24" y="52" width="186" height="282" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2"><rect x="227" y="52" width="186" height="282" rx="8"/><rect x="430" y="52" width="186" height="282" rx="8"/></g>
+  <g font-size="14" font-weight="700" fill="#0f2240" text-anchor="middle"><text x="117" y="78">1. Buy first</text><text x="320" y="78">2. Buy next</text><text x="523" y="78">3. Electrical jobs</text></g>
+  <g stroke="#566475" stroke-width="1"><path d="M40 90h154"/><path d="M243 90h154"/><path d="M446 90h154"/></g>
+  <g font-size="13" fill="#14202c">
+    <text x="40" y="116">Screwdriver set</text><text x="40" y="142">Tape measure, 25 ft</text><text x="40" y="168">Claw hammer</text><text x="40" y="194">Pliers</text><text x="40" y="220">Adjustable wrench</text><text x="40" y="246">Utility knife</text><text x="40" y="272">Flashlight</text><text x="40" y="298">Safety glasses</text>
+    <text x="243" y="116">Cordless drill</text><text x="243" y="142">Drill and driver bits</text><text x="243" y="168">Level, 24 inch</text><text x="243" y="194">Stud finder</text>
+    <text x="446" y="116">Non-contact tester</text><text x="446" y="142">Multimeter</text><text x="446" y="168">Plug-in outlet tester</text>
+  </g>
+  <g font-size="12" fill="#566475"><text x="243" y="230">For shelves, mounts</text><text x="243" y="246">and furniture</text><text x="446" y="204">Before you touch an</text><text x="446" y="220">outlet, switch or light</text></g>
+  <text x="24" y="360" font-size="13" fill="#566475">Add specialty tools only when a real job calls for them.</text>
+</svg>

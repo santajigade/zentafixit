@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="aecl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Look up any appliance code</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="160" y="50" width="320" height="40" rx="8"/>
+    <rect x="160" y="104" width="320" height="40" rx="8"/>
+    <rect x="160" y="158" width="320" height="40" rx="8"/>
+    <rect x="160" y="212" width="320" height="40" rx="8"/>
+    <rect x="160" y="266" width="320" height="40" rx="8"/>
+    <path d="M320 322l110 30-110 30-110-30z"/>
+    <rect x="24" y="392" width="190" height="40" rx="8"/>
+  </g>
+  <rect x="426" y="392" width="190" height="40" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#aecl)">
+    <path d="M320 90v12"/><path d="M320 144v12"/><path d="M320 198v12"/><path d="M320 252v12"/><path d="M320 306v14"/>
+    <path d="M210 352H119v38"/><path d="M430 352h91v38"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="75">1. Write down the exact code</text>
+    <text x="320" y="129">2. Find the model number tag</text>
+    <text x="320" y="183">3. Check the owner's manual</text>
+    <text x="320" y="237">4. Look for the tech sheet inside</text>
+    <text x="320" y="291">5. Fix the cause, power cycle once</text>
+    <text x="320" y="357" font-weight="700">Code comes back?</text>
+    <text x="160" y="344" font-size="12" fill="#566475">no</text><text x="480" y="344" font-size="12" fill="#566475">yes</text>
+    <text x="119" y="417" fill="#1f8a5b" font-weight="700">Done: watch for it</text>
+    <text x="521" y="417" font-weight="700">Call maker or a pro</text>
+  </g>
+</svg>

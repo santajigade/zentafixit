@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="430" fill="#f3f6fa"/>
+  <defs><marker id="l2i" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Can your panel take a Level 2 charger?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="170" y="54" width="300" height="44" rx="8"/>
+    <rect x="170" y="124" width="300" height="44" rx="8"/>
+    <path d="M320 192l130 38-130 38-130-38z"/>
+    <rect x="30" y="300" width="260" height="56" rx="8"/>
+    <rect x="350" y="300" width="260" height="56" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="30" y="368" width="260" height="52" rx="8"/><rect x="350" y="368" width="260" height="52" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#l2i)">
+    <path d="M320 98v24"/><path d="M320 168v22"/><path d="M190 230H160v68"/><path d="M450 230h30v68"/><path d="M160 356v10"/><path d="M480 356v10"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">1. Pick charger amps (car's max)</text>
+    <text x="320" y="151">2. Electrician: load calculation</text>
+    <text x="320" y="235" font-weight="700">Panel has room?</text>
+    <text x="172" y="222" font-size="12" fill="#566475">yes</text><text x="468" y="222" font-size="12" fill="#566475">no</text>
+    <text x="160" y="324">Add a dedicated 240 V circuit</text><text x="160" y="342">sized at 125% of charger amps</text>
+    <text x="480" y="324">Not enough spare capacity</text><text x="480" y="342">for full-power charging</text>
+    <text x="160" y="390" font-weight="700">Permit, install, inspect</text><text x="160" y="408" font-size="12">then claim any utility rebate</text>
+    <text x="480" y="390" font-weight="700">Pick one option</text><text x="480" y="408" font-size="12">lower amps, load manager, upgrade</text>
+  </g>
+</svg>

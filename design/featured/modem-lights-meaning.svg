@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- modem body standing upright -->
+  <path d="M470 110h260l30 400H440z" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="430" y="500" width="340" height="40" rx="12" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="4" stroke-linecap="round"><path d="M520 150h160M520 170h160M520 190h160"/></g>
+  <!-- light column -->
+  <rect x="560" y="230" width="80" height="250" rx="14" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g fill="#0f2240"><circle cx="600" cy="262" r="12"/><circle cx="600" cy="306" r="12"/><circle cx="600" cy="350" r="12"/><circle cx="600" cy="438" r="12"/></g>
+  <circle cx="600" cy="394" r="15" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round"><path d="M660 394h50M652 366l38-22M652 422l38 22"/></g>
+  <!-- coax and ethernet cables -->
+  <path d="M770 520c80 0 90 60 180 60h120" fill="none" stroke="#f3f6fa" stroke-width="10" stroke-linecap="round"/>
+  <path d="M430 520c-90 0-100 50-200 50H120" fill="none" stroke="#9fc4f0" stroke-width="10" stroke-linecap="round"/>
+  <rect x="1060" y="566" width="40" height="28" rx="4" fill="#fff" stroke="#0f2240" stroke-width="3"/>
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M380 110v400M370 110h20M370 510h20"/><path d="M470 80h260M470 70v20M730 70v20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

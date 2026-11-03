@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- washer cabinet -->
+  <rect x="380" y="70" width="400" height="490" rx="26" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <path d="M380 160h400" stroke="#0f2240" stroke-width="4"/>
+  <rect x="420" y="100" width="150" height="34" rx="8" fill="#fff" stroke="#0f2240" stroke-width="3"/>
+  <circle cx="700" cy="117" r="20" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <path d="M700 117l10-12" stroke="#0f2240" stroke-width="4" stroke-linecap="round"/>
+  <!-- door -->
+  <circle cx="580" cy="340" r="140" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <circle cx="580" cy="340" r="108" fill="#dfe9f7" stroke="#0f2240" stroke-width="4"/>
+  <!-- standing water inside -->
+  <path d="M474 360c30-14 60 14 106 0s76-14 106 0v10a108 108 0 0 1-212 0z" fill="#7aace8"/>
+  <path d="M478 352c24-10 48 10 72 0" stroke="#ffffff" stroke-width="4" fill="none" stroke-linecap="round" opacity=".7"/>
+  <!-- filter panel accent -->
+  <rect x="660" y="508" width="90" height="36" rx="7" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <circle cx="705" cy="526" r="10" fill="#fff" stroke="#0f2240" stroke-width="3"/>
+  <!-- drain hose blocked -->
+  <path d="M780 470c70 0 90-30 90-90V250c0-40 40-50 70-20" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round"/>
+  <path d="M780 470c70 0 90-30 90-90V250c0-40 40-50 70-20" fill="none" stroke="#0f2240" stroke-width="4" stroke-linecap="round" stroke-dasharray="1 0"/>
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round"><path d="M842 330l56 0M850 300l40 20M850 360l40-20"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M380 40h400M380 30v20M780 30v20"/><path d="M330 70v490M320 70h20M320 560h20"/></g>
+  <!-- droplets -->
+  <g fill="#7aace8"><path d="M220 330c18 26 28 40 28 54a28 28 0 0 1-56 0c0-14 10-28 28-54z"/><path d="M170 230c12 17 18 26 18 35a18 18 0 0 1-36 0c0-9 6-18 18-35z" opacity=".75"/><path d="M260 200c9 13 14 20 14 27a14 14 0 0 1-28 0c0-7 5-14 14-27z" opacity=".55"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

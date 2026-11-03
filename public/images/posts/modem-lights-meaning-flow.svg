@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="mlf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Online light off? Follow the lights</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="56" width="300" height="56" rx="8"/><rect x="24" y="136" width="300" height="56" rx="8"/><rect x="24" y="216" width="300" height="56" rx="8"/><rect x="24" y="296" width="300" height="56" rx="8"/>
+  </g>
+  <g fill="#dfe9f7" stroke="#1d5fae" stroke-width="2">
+    <rect x="372" y="56" width="244" height="56" rx="8"/><rect x="372" y="136" width="244" height="56" rx="8"/><rect x="372" y="216" width="244" height="56" rx="8"/><rect x="372" y="296" width="244" height="56" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#mlf)">
+    <path d="M326 84h44"/><path d="M326 164h44"/><path d="M326 244h44"/><path d="M326 324h44"/>
+    <path d="M174 112v22"/><path d="M174 192v22"/><path d="M174 272v22"/>
+  </g>
+  <g font-size="12" fill="#566475"><text x="338" y="78">no</text><text x="338" y="158">no</text><text x="338" y="238">no</text><text x="334" y="318">then</text>
+    <text x="182" y="128">yes</text><text x="182" y="208">yes</text><text x="182" y="288">yes</text></g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="174" y="89" font-weight="700">Power light on?</text>
+    <text x="174" y="169" font-weight="700">Downstream and upstream solid?</text>
+    <text x="174" y="249" font-weight="700">Online solid after a restart?</text>
+    <text x="174" y="329" font-weight="700">Modem is online</text>
+  </g>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="494" y="89">Check adapter and outlet</text>
+    <text x="494" y="169">Check coax, remove splitters</text>
+    <text x="494" y="249">Check outage, activation</text>
+    <text x="494" y="329">No internet? Check router</text>
+  </g>
+  <rect x="24" y="372" width="592" height="52" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <text x="40" y="403" font-size="13" fill="#14202c"><tspan font-weight="700">Still stuck?</tspan> Call your provider. They can see the signal levels on your line.</text>
+</svg>

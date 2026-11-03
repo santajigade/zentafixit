@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="sbnf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">No sound from the soundbar: check in order</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="120" y="54" width="400" height="48" rx="8"/>
+    <rect x="120" y="124" width="400" height="48" rx="8"/>
+    <rect x="24" y="200" width="282" height="124" rx="8"/>
+    <rect x="334" y="200" width="282" height="124" rx="8"/>
+  </g>
+  <rect x="120" y="352" width="400" height="66" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#sbnf)">
+    <path d="M320 102v20"/><path d="M260 172L170 198"/><path d="M380 172L470 198"/>
+    <path d="M165 324l60 26"/><path d="M475 324l-60 26"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="75" font-weight="700">1. Soundbar input matches cable?</text>
+    <text x="320" y="93" font-size="12" fill="#566475">HDMI ARC or optical, not Bluetooth</text>
+    <text x="320" y="145" font-weight="700">2. TV audio output set to soundbar?</text>
+    <text x="320" y="163" font-size="12" fill="#566475">TV speakers off</text>
+    <text x="165" y="224" font-weight="700">Using HDMI</text>
+    <text x="165" y="248" font-size="13">Cable in ARC/eARC port</text>
+    <text x="165" y="268" font-size="13">HDMI-CEC turned on</text>
+    <text x="165" y="288" font-size="13">Good HDMI cable</text>
+    <text x="165" y="310" font-size="12" fill="#566475">Fixes 3, 4</text>
+    <text x="475" y="224" font-weight="700">Using optical</text>
+    <text x="475" y="248" font-size="13">Plastic caps removed</text>
+    <text x="475" y="268" font-size="13">Red light at the plug</text>
+    <text x="475" y="288" font-size="13">TV format set to PCM</text>
+    <text x="475" y="310" font-size="12" fill="#566475">Fix 5</text>
+    <text x="320" y="378" font-weight="700">Still silent? Check mute and volume.</text>
+    <text x="320" y="398" font-size="13">Unplug both 60 sec, then TV on first</text>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Three ways a keyboard connects</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="54" width="184" height="322" rx="8"/>
+    <rect x="228" y="54" width="184" height="322" rx="8"/>
+    <rect x="432" y="54" width="184" height="322" rx="8"/>
+  </g>
+  <!-- keyboards -->
+  <g fill="#dfe9f7" stroke="#0f2240" stroke-width="2">
+    <rect x="56" y="120" width="120" height="48" rx="6"/>
+    <rect x="260" y="120" width="120" height="48" rx="6"/>
+    <rect x="464" y="120" width="120" height="48" rx="6"/>
+  </g>
+  <g stroke="#566475" stroke-width="1.5">
+    <path d="M64 136h104M64 152h104M268 136h104M268 152h104M472 136h104M472 152h104"/>
+    <path d="M96 156h40M300 156h40M504 156h40" stroke="#0f2240" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <!-- wired cable and plug -->
+  <path d="M116 120c0-24 20-28 20-44" fill="none" stroke="#0f2240" stroke-width="3"/>
+  <rect x="128" y="62" width="16" height="16" rx="2" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <!-- receiver -->
+  <rect x="306" y="70" width="28" height="18" rx="3" fill="#ffd23f" stroke="#0f2240" stroke-width="2"/>
+  <rect x="334" y="74" width="12" height="10" fill="#fff" stroke="#0f2240" stroke-width="1.5"/>
+  <g fill="none" stroke="#1d5fae" stroke-width="2" stroke-linecap="round"><path d="M300 102q20 10 40 0"/></g>
+  <!-- wireless waves -->
+  <g fill="none" stroke="#1d5fae" stroke-width="2.5" stroke-linecap="round"><path d="M512 100q12-14 24 0"/><path d="M504 92q20-24 40 0"/><path d="M496 84q28-34 56 0"/></g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="116" y="204" font-weight="700">Wired USB</text>
+    <text x="320" y="204" font-weight="700">USB receiver</text>
+    <text x="524" y="204" font-weight="700">Bluetooth</text>
+  </g>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="116" y="240">Plug in firmly</text><text x="116" y="266">Try another port</text><text x="116" y="292">Skip hubs and docks</text><text x="116" y="318">Check the cable</text>
+    <text x="320" y="240">Fresh batteries</text><text x="320" y="266">Power switch on</text><text x="320" y="292">Receiver close by</text><text x="320" y="318">Try another port</text>
+    <text x="524" y="240">Fresh batteries</text><text x="524" y="266">Bluetooth turned on</text><text x="524" y="292">Remove, pair again</text><text x="524" y="318">Right channel</text>
+  </g>
+  <g fill="#566475" font-size="12" text-anchor="middle"><text x="116" y="352">fix 1</text><text x="320" y="352">fixes 1 and 2</text><text x="524" y="352">fixes 2 and 3</text></g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where to find the furnace code</text>
+  <rect x="200" y="54" width="180" height="340" rx="10" fill="#fff" stroke="#0f2240" stroke-width="2.5"/>
+  <rect x="212" y="66" width="156" height="140" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <g stroke="#566475" stroke-width="3" stroke-linecap="round"><path d="M236 96h108M236 116h108M236 136h108"/></g>
+  <rect x="212" y="216" width="156" height="166" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="276" y="276" width="28" height="20" rx="3" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <circle cx="290" cy="286" r="5" fill="#d9442b"/>
+  <rect x="236" y="320" width="108" height="44" rx="4" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <rect x="212" y="214" width="14" height="10" rx="2" fill="#0f2240"/>
+  <rect x="412" y="104" width="26" height="42" rx="4" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="420" y="114" width="10" height="14" rx="2" fill="#0f2240"/>
+  <g stroke="#566475" stroke-width="1.5" fill="none" stroke-dasharray="4 4">
+    <path d="M212 120H150"/><path d="M212 300H150"/><path d="M219 224V250H150"/>
+    <path d="M438 125H452"/><path d="M304 286H452"/><path d="M344 342H452"/>
+  </g>
+  <g font-size="14" fill="#14202c">
+    <text x="24" y="116" font-weight="700">Burner door</text><text x="24" y="134" font-size="13" fill="#566475">Upper panel</text>
+    <text x="24" y="246" font-weight="700">Door switch</text><text x="24" y="264" font-size="13" fill="#566475">Cuts power when</text><text x="24" y="280" font-size="13" fill="#566475">the door comes off</text>
+    <text x="24" y="314" font-weight="700">Blower door</text><text x="24" y="332" font-size="13" fill="#566475">Lower panel</text>
+    <text x="460" y="122" font-weight="700">Service switch</text><text x="460" y="140" font-size="13" fill="#566475">Turn off before</text><text x="460" y="156" font-size="13" fill="#566475">opening panels</text>
+    <text x="460" y="282" font-weight="700">Viewing window</text><text x="460" y="300" font-size="13" fill="#566475">Read the LED here</text>
+    <text x="460" y="340" font-weight="700">Code chart</text><text x="460" y="358" font-size="13" fill="#566475">Inside the door</text>
+  </g>
+</svg>

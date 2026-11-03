@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="spp-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1d5fae"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Inside a sump pit</text>
+  <!-- wall and floor -->
+  <rect x="60" y="52" width="24" height="372" fill="#d5dee8" stroke="#566475" stroke-width="1.5"/>
+  <path d="M84 250H200M380 250H450" stroke="#566475" stroke-width="3"/>
+  <!-- pit -->
+  <path d="M200 250V420H380V250" fill="#fff" stroke="#0f2240" stroke-width="2.5"/>
+  <rect x="202" y="322" width="176" height="96" fill="#dfe9f7"/>
+  <path d="M202 322H378" stroke="#1d5fae" stroke-width="2"/>
+  <!-- pump -->
+  <rect x="244" y="344" width="52" height="66" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="244" y="398" width="52" height="12" fill="#d5dee8" stroke="#0f2240" stroke-width="2"/>
+  <!-- float -->
+  <path d="M244 380L222 330" stroke="#0f2240" stroke-width="1.5"/>
+  <ellipse cx="218" cy="318" rx="12" ry="16" fill="#ffd23f" stroke="#0f2240" stroke-width="2"/>
+  <!-- discharge pipe -->
+  <path d="M270 344V96H40" fill="none" stroke="#0f2240" stroke-width="14"/>
+  <path d="M270 344V96H40" fill="none" stroke="#fff" stroke-width="9"/>
+  <rect x="258" y="178" width="24" height="36" rx="4" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="2"/>
+  <path d="M270 208V186" stroke="#0f2240" stroke-width="2" marker-end="url(#spp-arrow)"/>
+  <!-- outlet and cord -->
+  <rect x="400" y="140" width="34" height="48" rx="4" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M410 154v8M424 154v8M410 170v8M424 170v8" stroke="#0f2240" stroke-width="2"/>
+  <path d="M296 360C350 360 330 240 417 190" fill="none" stroke="#14202c" stroke-width="2"/>
+  <!-- leaders -->
+  <g stroke="#566475" stroke-width="1.5" fill="none" stroke-dasharray="4 4">
+    <path d="M434 164H462"/><path d="M282 196H462"/><path d="M270 110V122H462"/><path d="M296 380H462"/><path d="M378 330H462"/><path d="M206 318H192"/>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="470" y="160" font-weight="700">GFCI outlet</text><text x="470" y="176" font-size="12" fill="#566475">check it has power</text>
+    <text x="470" y="200" font-weight="700">Check valve</text><text x="470" y="216" font-size="12" fill="#566475">arrow points up</text>
+    <text x="470" y="118" font-weight="700">Discharge pipe</text><text x="470" y="134" font-size="12" fill="#566475">carries water outside</text>
+    <text x="470" y="326" font-weight="700">Water level</text><text x="470" y="342" font-size="12" fill="#566475">float rises with it</text>
+    <text x="470" y="384" font-weight="700">Pump and intake</text><text x="470" y="400" font-size="12" fill="#566475">keep clear of debris</text>
+    <text x="96" y="306" font-weight="700">Float</text><text x="96" y="322" font-size="12" fill="#566475">must move</text><text x="96" y="337" font-size="12" fill="#566475">freely</text>
+    <text x="96" y="64" font-size="12" fill="#566475">to outside, draining</text><text x="96" y="80" font-size="12" fill="#566475">away from the house</text>
+    <text x="96" y="242" font-size="12" fill="#566475">basement floor</text>
+  </g>
+</svg>

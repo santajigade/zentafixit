@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- outdoor heat pump unit -->
+  <rect x="140" y="150" width="440" height="360" rx="18" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="330" cy="330" r="130" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <g stroke="#0f2240" stroke-width="3" fill="none"><circle cx="330" cy="330" r="100"/><circle cx="330" cy="330" r="70"/><circle cx="330" cy="330" r="40"/><path d="M200 330h260M330 200v260"/></g>
+  <circle cx="330" cy="330" r="16" fill="#0f2240"/>
+  <g stroke="#0f2240" stroke-width="4"><path d="M500 190v280M530 190v280M560 190v280"/></g>
+  <rect x="170" y="510" width="60" height="22" fill="#f3f6fa"/><rect x="490" y="510" width="60" height="22" fill="#f3f6fa"/>
+  <!-- frost crystals -->
+  <g stroke="#7aace8" stroke-width="5" stroke-linecap="round">
+    <path d="M200 110v60M174 125l52 30M226 125l-52 30"/>
+    <path d="M520 90v44M501 101l38 22M539 101l-38 22"/>
+  </g>
+  <!-- indoor vent with cool air -->
+  <rect x="760" y="180" width="300" height="120" rx="12" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="6" stroke-linecap="round"><path d="M790 210h240M790 240h240M790 270h240"/></g>
+  <g fill="none" stroke="#7aace8" stroke-width="7" stroke-linecap="round">
+    <path d="M820 330c-20 40 20 60 0 100"/><path d="M910 330c-20 40 20 60 0 100"/><path d="M1000 330c-20 40 20 60 0 100"/>
+  </g>
+  <!-- thermometer accent -->
+  <rect x="1100" y="200" width="30" height="190" rx="15" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="1115" cy="410" r="28" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+  <rect x="1108" y="330" width="14" height="70" fill="#ffd23f"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M140 560h440M140 550v20M580 550v20"/><path d="M100 150v360M90 150h20M90 510h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- dimmer plate -->
+  <rect x="300" y="90" width="260" height="440" rx="24" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="370" y="150" width="120" height="320" rx="12" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="412" y="176" width="36" height="268" rx="8" fill="#f3f6fa" stroke="#0f2240" stroke-width="3"/>
+  <rect x="396" y="300" width="68" height="40" rx="8" fill="#0f2240"/>
+  <circle cx="520" cy="440" r="14" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <!-- bulb -->
+  <circle cx="820" cy="260" r="110" fill="#fff" stroke="#f3f6fa" stroke-width="4"/>
+  <path d="M775 290c15-40 30-40 45 0s30 40 45 0" fill="none" stroke="#0f2240" stroke-width="5" stroke-linecap="round"/>
+  <g fill="#f3f6fa" stroke="#0f2240" stroke-width="4"><rect x="765" y="360" width="110" height="34" rx="6"/><rect x="772" y="394" width="96" height="28" rx="6"/><rect x="779" y="422" width="82" height="28" rx="6"/></g>
+  <path d="M800 450h40l-8 22h-24z" fill="#0f2240" stroke="#f3f6fa" stroke-width="2"/>
+  <!-- flicker lines -->
+  <g stroke="#ffd23f" stroke-width="7" stroke-linecap="round"><path d="M960 180l50-30M975 260h62M960 340l50 30"/><path d="M680 180l-50-30" opacity=".7"/></g>
+  <g stroke="#ffd23f" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 12" opacity=".6"><path d="M820 120V80"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M300 60h260M300 50v20M560 50v20"/><path d="M250 90v440M240 90h20M240 530h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

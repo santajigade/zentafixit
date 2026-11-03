@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- laptop -->
+  <rect x="220" y="110" width="520" height="330" rx="18" fill="#16305a" stroke="#ffffff" stroke-width="5"/>
+  <rect x="246" y="136" width="468" height="278" rx="6" fill="#f3f6fa"/>
+  <path d="M160 440h640l-40 52H200z" fill="#f3f6fa" stroke="#ffffff" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="440" y="452" width="80" height="10" rx="5" fill="#9fb7da"/>
+  <!-- hourglass on screen -->
+  <path d="M420 190h120M420 360h120" stroke="#0f2240" stroke-width="10" stroke-linecap="round"/>
+  <path d="M432 190c0 60 48 70 48 85s-48 25-48 85M528 190c0 60-48 70-48 85s48 25 48 85" fill="none" stroke="#0f2240" stroke-width="8"/>
+  <path d="M446 214h68c-6 26-34 40-34 40s-28-14-34-40z" fill="#ffd23f"/>
+  <path d="M446 352c4-26 34-44 34-44s30 18 34 44z" fill="#ffd23f"/>
+  <!-- gauge -->
+  <path d="M870 330a130 130 0 0 1 260 0" fill="none" stroke="#f3f6fa" stroke-width="14" stroke-linecap="round"/>
+  <path d="M870 330a130 130 0 0 1 38-92" fill="none" stroke="#d9442b" stroke-width="14" stroke-linecap="round"/>
+  <g stroke="#9fb7da" stroke-width="5" stroke-linecap="round"><path d="M1000 214v-24M908 238l-17-17M1092 238l17-17M1130 330h-24"/></g>
+  <path d="M1000 330L918 286" stroke="#ffd23f" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="1000" cy="330" r="16" fill="#ffd23f"/>
+  <!-- dimension -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M220 80h520M220 70v20M740 70v20"/><path d="M870 380h260M870 370v20M1130 370v20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

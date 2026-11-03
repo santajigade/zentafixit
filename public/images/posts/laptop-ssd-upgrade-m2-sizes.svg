@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="360" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">M.2 sizes: 22 mm wide, length varies</text>
+  <g fill="#dfe9f7" stroke="#0f2240" stroke-width="2">
+    <rect x="40" y="64" width="150" height="40" rx="3"/>
+    <rect x="40" y="134" width="210" height="40" rx="3"/>
+    <rect x="40" y="204" width="300" height="40" rx="3"/>
+  </g>
+  <rect x="40" y="274" width="400" height="40" rx="3" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="2"/>
+  <g fill="#0f2240"><rect x="40" y="66" width="10" height="36"/><rect x="40" y="136" width="10" height="36"/><rect x="40" y="206" width="10" height="36"/><rect x="40" y="276" width="10" height="36"/></g>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2"><circle cx="190" cy="84" r="7"/><circle cx="250" cy="154" r="7"/><circle cx="340" cy="224" r="7"/><circle cx="440" cy="294" r="7"/></g>
+  <g font-size="14" fill="#14202c">
+    <text x="214" y="82" font-weight="700">2230</text><text x="214" y="99" font-size="13" fill="#566475">30 mm long</text>
+    <text x="274" y="152" font-weight="700">2242</text><text x="274" y="169" font-size="13" fill="#566475">42 mm long</text>
+    <text x="364" y="222" font-weight="700">2260</text><text x="364" y="239" font-size="13" fill="#566475">60 mm long</text>
+    <text x="464" y="292" font-weight="700">2280</text><text x="464" y="309" font-size="13" fill="#566475">80 mm, most common</text>
+  </g>
+  <text x="24" y="342" font-size="13" fill="#566475">Connector on the left, mounting screw at the far end. Lengths to scale.</text>
+</svg>

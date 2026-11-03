@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="upsflow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Why is the UPS beeping?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <path d="M425 58l105 34-105 34-105-34z"/>
+    <rect x="20" y="150" width="190" height="80" rx="8"/>
+    <rect x="230" y="150" width="390" height="44" rx="8"/>
+    <rect x="230" y="220" width="120" height="76" rx="8"/>
+    <rect x="365" y="220" width="120" height="76" rx="8"/>
+    <rect x="500" y="220" width="120" height="76" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="20" y="250" width="190" height="110" rx="8"/>
+    <rect x="230" y="316" width="120" height="44" rx="8"/>
+    <rect x="365" y="316" width="120" height="44" rx="8"/>
+    <rect x="500" y="316" width="120" height="44" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#upsflow)">
+    <path d="M320 92H115v56"/><path d="M425 126v22"/>
+    <path d="M290 194v24"/><path d="M425 194v24"/><path d="M560 194v24"/>
+    <path d="M115 230v18"/><path d="M290 296v18"/><path d="M425 296v18"/><path d="M560 296v18"/>
+  </g>
+  <g font-size="12" fill="#566475"><text x="215" y="84">no</text><text x="433" y="142">yes</text></g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="425" y="97" font-weight="700">Wall power on?</text>
+    <text x="115" y="182" font-weight="700">On battery</text><text x="115" y="204">outage or brownout</text>
+    <text x="425" y="177">Power is on: check the lights</text>
+    <text x="115" y="276" font-weight="700">Save work, shut down</text>
+    <text x="290" y="343" font-weight="700">Cause 2</text>
+    <text x="425" y="343" font-weight="700">Cause 4</text>
+    <text x="560" y="343" font-weight="700">Cause 5</text>
+  </g>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="290" y="244" font-weight="700">Overload</text><text x="290" y="264">unplug a</text><text x="290" y="282">device</text>
+    <text x="425" y="244" font-weight="700">Battery</text><text x="425" y="264">replace light</text><text x="425" y="282">is on</text>
+    <text x="560" y="244" font-weight="700">Short beep</text><text x="560" y="264">then quiet:</text><text x="560" y="282">self-test</text>
+  </g>
+  <g font-size="12" fill="#14202c" text-anchor="middle">
+    <text x="115" y="300">Fast beeping means the</text><text x="115" y="318">battery is almost empty</text><text x="115" y="342">(causes 1 and 3)</text>
+  </g>
+  <text x="24" y="404" font-size="12" fill="#566475">Beep patterns vary by brand. Match yours to the lights and the manual.</text>
+</svg>

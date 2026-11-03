@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <defs><marker id="l2s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Circuit size under the 125% rule</text>
+  <text x="24" y="54" font-size="13" fill="#566475">Common charger settings. Your electrician confirms the final size.</text>
+  <g font-size="12" fill="#566475" font-weight="700"><text x="94" y="80" text-anchor="middle">CHARGER SET TO</text><text x="302" y="80" text-anchor="middle">CIRCUIT NEEDED</text><text x="392" y="80">POWER AT 240 V</text></g>
+  <rect x="24" y="90" width="140" height="38" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="232" y="90" width="140" height="38" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <path d="M170 109h54" stroke="#0f2240" stroke-width="1.8" marker-end="url(#l2s)"/>
+  <text x="94" y="114" font-size="14" fill="#14202c" text-anchor="middle">16 A charger</text>
+  <text x="302" y="114" font-size="14" font-weight="700" fill="#0f2240" text-anchor="middle">20 A circuit</text>
+  <text x="392" y="114" font-size="13" fill="#566475">about 3.8 kW</text>
+  <rect x="24" y="138" width="140" height="38" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="232" y="138" width="140" height="38" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <path d="M170 157h54" stroke="#0f2240" stroke-width="1.8" marker-end="url(#l2s)"/>
+  <text x="94" y="162" font-size="14" fill="#14202c" text-anchor="middle">24 A charger</text>
+  <text x="302" y="162" font-size="14" font-weight="700" fill="#0f2240" text-anchor="middle">30 A circuit</text>
+  <text x="392" y="162" font-size="13" fill="#566475">about 5.8 kW</text>
+  <rect x="24" y="186" width="140" height="38" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="232" y="186" width="140" height="38" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <path d="M170 205h54" stroke="#0f2240" stroke-width="1.8" marker-end="url(#l2s)"/>
+  <text x="94" y="210" font-size="14" fill="#14202c" text-anchor="middle">32 A charger</text>
+  <text x="302" y="210" font-size="14" font-weight="700" fill="#0f2240" text-anchor="middle">40 A circuit</text>
+  <text x="392" y="210" font-size="13" fill="#566475">about 7.7 kW</text>
+  <rect x="24" y="234" width="140" height="38" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="232" y="234" width="140" height="38" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <path d="M170 253h54" stroke="#0f2240" stroke-width="1.8" marker-end="url(#l2s)"/>
+  <text x="94" y="258" font-size="14" fill="#14202c" text-anchor="middle">40 A charger</text>
+  <text x="302" y="258" font-size="14" font-weight="700" fill="#0f2240" text-anchor="middle">50 A circuit</text>
+  <text x="392" y="258" font-size="13" fill="#566475">about 9.6 kW, outlet max</text>
+  <rect x="24" y="282" width="140" height="38" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="232" y="282" width="140" height="38" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <path d="M170 301h54" stroke="#0f2240" stroke-width="1.8" marker-end="url(#l2s)"/>
+  <text x="94" y="306" font-size="14" fill="#14202c" text-anchor="middle">48 A charger</text>
+  <text x="302" y="306" font-size="14" font-weight="700" fill="#0f2240" text-anchor="middle">60 A circuit</text>
+  <text x="392" y="306" font-size="13" fill="#566475">about 11.5 kW, hardwired</text>
+  <rect x="24" y="334" width="592" height="50" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <text x="320" y="364" font-size="14" font-weight="700" fill="#14202c" text-anchor="middle">Circuit rating = charger current x 1.25</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="360" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where to put the speaker (room seen from above)</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="54" width="284" height="230" rx="8"/><rect x="332" y="54" width="284" height="230" rx="8"/>
+  </g>
+  <text x="166" y="78" font-size="14" font-weight="700" fill="#d9442b" text-anchor="middle">Poor spot</text>
+  <text x="474" y="78" font-size="14" font-weight="700" fill="#1f8a5b" text-anchor="middle">Better spot</text>
+  <!-- poor: speaker in corner next to TV and fan -->
+  <rect x="40" y="96" width="120" height="16" rx="4" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <text x="100" y="132" font-size="12" fill="#566475" text-anchor="middle">TV</text>
+  <circle cx="186" cy="104" r="12" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="2"/>
+  <text x="186" y="138" font-size="12" fill="#566475" text-anchor="middle">speaker</text>
+  <circle cx="270" cy="110" r="18" fill="none" stroke="#566475" stroke-width="2"/><path d="M270 92v36M252 110h36" stroke="#566475" stroke-width="2"/>
+  <text x="270" y="148" font-size="12" fill="#566475" text-anchor="middle">fan</text>
+  <g fill="none" stroke="#566475" stroke-width="1.5" stroke-dasharray="4 4"><path d="M110 120q20 14 60 -4"/><path d="M252 112q-30 -20 -52 -8"/></g>
+  <circle cx="166" cy="240" r="14" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <text x="166" y="272" font-size="12" fill="#566475" text-anchor="middle">you</text>
+  <!-- better: open spot -->
+  <rect x="348" y="96" width="120" height="16" rx="4" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <text x="408" y="132" font-size="12" fill="#566475" text-anchor="middle">TV</text>
+  <rect x="510" y="156" width="64" height="40" rx="6" fill="#fff" stroke="#566475" stroke-width="2"/>
+  <circle cx="542" cy="176" r="12" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="2"/>
+  <text x="542" y="212" font-size="12" fill="#566475" text-anchor="middle">on a table</text>
+  <circle cx="474" cy="240" r="14" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <text x="474" y="272" font-size="12" fill="#566475" text-anchor="middle">you</text>
+  <path d="M488 232L526 190" fill="none" stroke="#1f8a5b" stroke-width="2" stroke-dasharray="5 4"/>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="24" y="298" width="592" height="46" rx="8"/></g>
+  <text x="320" y="318" font-size="13" fill="#14202c" text-anchor="middle">Keep it in the open, off the floor, away from corners, TVs, fans</text>
+  <text x="320" y="335" font-size="13" fill="#14202c" text-anchor="middle">and appliances, with a clear path to where people talk.</text>
+</svg>

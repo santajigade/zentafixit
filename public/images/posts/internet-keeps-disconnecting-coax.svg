@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="360" fill="#f3f6fa"/>
+  <defs><marker id="ikdc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Give the modem a clean coax line</text>
+  <g stroke="#0f2240" stroke-width="6" stroke-linecap="round"><path d="M154 95h36"/><path d="M300 95h36"/><path d="M245 120v40"/></g>
+  <path d="M456 95h34" stroke="#0f2240" stroke-width="1.8" fill="none" marker-end="url(#ikdc)"/>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="70" width="130" height="50" rx="8"/>
+    <rect x="336" y="70" width="120" height="50" rx="8"/>
+    <rect x="492" y="70" width="124" height="50" rx="8"/>
+    <rect x="180" y="160" width="130" height="44" rx="8"/>
+  </g>
+  <rect x="190" y="70" width="110" height="50" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="2"/>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="89" y="100" font-weight="700">Line in</text>
+    <text x="245" y="100" font-weight="700">Splitter</text>
+    <text x="396" y="100" font-weight="700">Modem</text>
+    <text x="554" y="100" font-weight="700">Router</text>
+    <text x="245" y="187" font-size="13">TV or other outlet</text>
+  </g>
+  <g font-size="12" fill="#566475" text-anchor="middle">
+    <text x="89" y="138">where it enters</text>
+    <text x="396" y="138">coax in</text>
+    <text x="473" y="62">Ethernet</text>
+    <text x="245" y="222">Not used? Remove the split</text>
+  </g>
+  <rect x="24" y="240" width="592" height="100" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <g fill="#1f8a5b"><circle cx="46" cy="271" r="5"/><circle cx="46" cy="309" r="5"/><circle cx="336" cy="271" r="5"/><circle cx="336" cy="309" r="5"/></g>
+  <g font-size="13" fill="#14202c">
+    <text x="60" y="276">Fewest splitters possible</text>
+    <text x="60" y="314">Connectors snug, not cranked</text>
+    <text x="350" y="276">No kinks, crushes or staples</text>
+    <text x="350" y="314">Cap unused ports if advised</text>
+  </g>
+</svg>

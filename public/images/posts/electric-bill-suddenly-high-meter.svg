@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">How to read your electric meter</text>
+  <text x="24" y="54" font-size="13" fill="#566475">Both meters below show the same reading: 04825 kWh</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2"><rect x="24" y="70" width="220" height="234" rx="8"/><rect x="264" y="70" width="352" height="234" rx="8"/></g>
+  <circle cx="134" cy="166" r="72" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <rect x="82" y="146" width="104" height="38" rx="4" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <text x="134" y="172" font-size="17" font-weight="700" fill="#1d5fae" text-anchor="middle">04825</text>
+  <text x="134" y="204" font-size="13" fill="#14202c" text-anchor="middle">kWh</text>
+  <text x="134" y="264" font-size="14" font-weight="700" fill="#14202c" text-anchor="middle">Digital meter</text>
+  <text x="134" y="284" font-size="12" fill="#566475" text-anchor="middle">wait for the kWh screen</text>
+  <circle cx="304" cy="150" r="26" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M304.0 128.0L304.0 124.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M316.9 132.2L319.3 129.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M324.9 143.2L328.7 142.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M324.9 156.8L328.7 158.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M316.9 167.8L319.3 171.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M304.0 172.0L304.0 176.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M291.1 167.8L288.7 171.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M283.1 156.8L279.3 158.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M283.1 143.2L279.3 142.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M291.1 132.2L288.7 129.0" stroke="#566475" stroke-width="1.5"/>
+  <text x="304" y="120" font-size="11" fill="#566475" text-anchor="middle">0</text>
+  <path d="M304 150L309.9 131.9" stroke="#d9442b" stroke-width="3" stroke-linecap="round"/><circle cx="304" cy="150" r="3.5" fill="#0f2240"/>
+  <text x="304" y="202" font-size="17" font-weight="700" fill="#1d5fae" text-anchor="middle">0</text>
+  <circle cx="372" cy="150" r="26" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M372.0 128.0L372.0 124.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M359.1 132.2L356.7 129.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M351.1 143.2L347.3 142.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M351.1 156.8L347.3 158.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M359.1 167.8L356.7 171.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M372.0 172.0L372.0 176.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M384.9 167.8L387.3 171.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M392.9 156.8L396.7 158.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M392.9 143.2L396.7 142.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M384.9 132.2L387.3 129.0" stroke="#566475" stroke-width="1.5"/>
+  <text x="372" y="120" font-size="11" fill="#566475" text-anchor="middle">0</text>
+  <path d="M372 150L366.1 168.1" stroke="#d9442b" stroke-width="3" stroke-linecap="round"/><circle cx="372" cy="150" r="3.5" fill="#0f2240"/>
+  <text x="372" y="202" font-size="17" font-weight="700" fill="#1d5fae" text-anchor="middle">4</text>
+  <circle cx="440" cy="150" r="26" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M440.0 128.0L440.0 124.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M452.9 132.2L455.3 129.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M460.9 143.2L464.7 142.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M460.9 156.8L464.7 158.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M452.9 167.8L455.3 171.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M440.0 172.0L440.0 176.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M427.1 167.8L424.7 171.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M419.1 156.8L415.3 158.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M419.1 143.2L415.3 142.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M427.1 132.2L424.7 129.0" stroke="#566475" stroke-width="1.5"/>
+  <text x="440" y="120" font-size="11" fill="#566475" text-anchor="middle">0</text>
+  <path d="M440 150L424.6 138.8" stroke="#d9442b" stroke-width="3" stroke-linecap="round"/><circle cx="440" cy="150" r="3.5" fill="#0f2240"/>
+  <text x="440" y="202" font-size="17" font-weight="700" fill="#1d5fae" text-anchor="middle">8</text>
+  <circle cx="508" cy="150" r="26" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M508.0 128.0L508.0 124.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M495.1 132.2L492.7 129.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M487.1 143.2L483.3 142.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M487.1 156.8L483.3 158.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M495.1 167.8L492.7 171.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M508.0 172.0L508.0 176.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M520.9 167.8L523.3 171.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M528.9 156.8L532.7 158.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M528.9 143.2L532.7 142.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M520.9 132.2L523.3 129.0" stroke="#566475" stroke-width="1.5"/>
+  <text x="508" y="120" font-size="11" fill="#566475" text-anchor="middle">0</text>
+  <path d="M508 150L489.0 150.0" stroke="#d9442b" stroke-width="3" stroke-linecap="round"/><circle cx="508" cy="150" r="3.5" fill="#0f2240"/>
+  <text x="508" y="202" font-size="17" font-weight="700" fill="#1d5fae" text-anchor="middle">2</text>
+  <circle cx="576" cy="150" r="26" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M576.0 128.0L576.0 124.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M588.9 132.2L591.3 129.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M596.9 143.2L600.7 142.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M596.9 156.8L600.7 158.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M588.9 167.8L591.3 171.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M576.0 172.0L576.0 176.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M563.1 167.8L560.7 171.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M555.1 156.8L551.3 158.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M555.1 143.2L551.3 142.0" stroke="#566475" stroke-width="1.5"/>
+  <path d="M563.1 132.2L560.7 129.0" stroke="#566475" stroke-width="1.5"/>
+  <text x="576" y="120" font-size="11" fill="#566475" text-anchor="middle">0</text>
+  <path d="M576 150L570.1 168.1" stroke="#d9442b" stroke-width="3" stroke-linecap="round"/><circle cx="576" cy="150" r="3.5" fill="#0f2240"/>
+  <text x="576" y="202" font-size="17" font-weight="700" fill="#1d5fae" text-anchor="middle">5</text>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="440" y="236" font-weight="700" font-size="14">Dial meter: read left to right</text>
+    <text x="440" y="258">Between two numbers? Write the lower one.</text>
+    <text x="440" y="278" fill="#566475" font-size="12">Neighboring dials turn in opposite directions</text>
+  </g>
+  <rect x="24" y="322" width="592" height="76" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <text x="320" y="352" font-size="14" font-weight="700" fill="#14202c" text-anchor="middle">kWh used = this reading minus the last reading</text>
+  <text x="320" y="376" font-size="13" fill="#566475" text-anchor="middle">Example: 04825 minus 04213 = 612 kWh used in that period</text>
+</svg>

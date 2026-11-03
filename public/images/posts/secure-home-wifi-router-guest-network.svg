@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="380" fill="#f3f6fa"/>
+  <defs><marker id="shgn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">One router, two separate networks</text>
+  <rect x="250" y="52" width="140" height="40" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <rect x="250" y="124" width="140" height="44" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#shgn)">
+    <path d="M320 122V94"/><path d="M286 168L170 206"/><path d="M354 168L470 206"/>
+  </g>
+  <rect x="24" y="210" width="260" height="130" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="356" y="210" width="260" height="130" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="2"/>
+  <path d="M320 214V336" stroke="#d9442b" stroke-width="3" stroke-dasharray="8 6"/>
+  <circle cx="320" cy="275" r="14" fill="#fff" stroke="#d9442b" stroke-width="3"/>
+  <path d="M313 268l14 14M327 268l-14 14" stroke="#d9442b" stroke-width="3"/>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="77" font-weight="700">Internet</text>
+    <text x="320" y="151" font-weight="700">Your router</text>
+    <text x="154" y="236" font-weight="700">Main network</text>
+    <text x="486" y="236" font-weight="700">Guest network</text>
+  </g>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="154" y="262">Phones and tablets</text><text x="154" y="284">Laptops and computers</text><text x="154" y="306">Casting devices, printer</text><text x="154" y="328" fill="#566475" font-size="12">if they need your phone</text>
+    <text x="486" y="262">Smart plugs and bulbs</text><text x="486" y="284">Cameras and doorbells</text><text x="486" y="306">Visitors' phones</text><text x="486" y="328" fill="#566475" font-size="12">internet only</text>
+  </g>
+  <text x="320" y="364" font-size="13" fill="#566475" text-anchor="middle">Guest devices can't reach the main network.</text>
+</svg>

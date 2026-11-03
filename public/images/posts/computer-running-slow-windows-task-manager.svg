@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <defs><marker id="cst" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">What is maxed out in Task Manager?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="130" y="54" width="380" height="44" rx="8"/>
+    <rect x="130" y="122" width="380" height="44" rx="8"/>
+    <rect x="24" y="204" width="184" height="88" rx="8"/><rect x="228" y="204" width="184" height="88" rx="8"/><rect x="432" y="204" width="184" height="88" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="24" y="308" width="184" height="56" rx="8"/><rect x="228" y="308" width="184" height="56" rx="8"/><rect x="432" y="308" width="184" height="56" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#cst)">
+    <path d="M320 98v22"/><path d="M320 166v10H116v26"/><path d="M320 176v26"/><path d="M320 176H524v26"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8"><path d="M116 292v14"/><path d="M320 292v14"/><path d="M524 292v14"/></g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">1. Ctrl + Shift + Esc, Processes page</text>
+    <text x="320" y="149">2. Sort by CPU, Memory, then Disk</text>
+    <text x="116" y="230" font-weight="700">CPU near 100%</text>
+    <text x="116" y="254" font-size="13">Busy app or tab,</text><text x="116" y="272" font-size="13">malware, power mode</text>
+    <text x="320" y="230" font-weight="700">Memory near 100%</text>
+    <text x="320" y="254" font-size="13">Too many apps,</text><text x="320" y="272" font-size="13">startup items, low RAM</text>
+    <text x="524" y="230" font-weight="700">Disk near 100%</text>
+    <text x="524" y="254" font-size="13">Full drive, malware</text><text x="524" y="272" font-size="13">or a hard drive (HDD)</text>
+    <text x="116" y="342" font-weight="700">Causes 2, 5, 6</text>
+    <text x="320" y="342" font-weight="700">Causes 2, 3, 9</text>
+    <text x="524" y="342" font-weight="700">Causes 4, 5, 8</text>
+  </g>
+  <text x="24" y="388" font-size="12" fill="#566475">Short spikes are normal. Look for a column that stays high for minutes.</text>
+</svg>

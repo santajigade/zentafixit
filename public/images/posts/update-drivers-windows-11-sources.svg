@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <defs><marker id="uds" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where to get drivers, safest first</text>
+  <rect x="24" y="54" width="592" height="64" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="140" width="592" height="64" rx="8"/>
+    <rect x="24" y="226" width="592" height="64" rx="8"/>
+  </g>
+  <rect x="24" y="316" width="592" height="64" rx="8" fill="#fff" stroke="#d9442b" stroke-width="2" stroke-dasharray="6 4"/>
+  <g fill="#0f2240"><circle cx="56" cy="86" r="16"/><circle cx="56" cy="172" r="16"/><circle cx="56" cy="258" r="16"/></g>
+  <circle cx="56" cy="348" r="16" fill="#d9442b"/>
+  <g font-size="15" font-weight="700" fill="#fff" text-anchor="middle"><text x="56" y="91">1</text><text x="56" y="177">2</text><text x="56" y="263">3</text><text x="56" y="353">X</text></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#uds)"><path d="M56 118v20"/><path d="M56 204v20"/></g>
+  <g font-size="14" fill="#14202c">
+    <text x="90" y="82" font-weight="700">Windows Update</text>
+    <text x="90" y="102" font-size="13" fill="#566475">Settings &gt; Windows Update &gt; Advanced options &gt; Optional updates</text>
+    <text x="90" y="168" font-weight="700">Your PC maker's support app or website</text>
+    <text x="90" y="188" font-size="13" fill="#566475">Laptop parts, chipset, touchpad, hotkeys, BIOS</text>
+    <text x="90" y="254" font-weight="700">The graphics chip maker</text>
+    <text x="90" y="274" font-size="13" fill="#566475">NVIDIA, AMD or Intel, for GPU drivers only</text>
+    <text x="90" y="344" font-weight="700" fill="#d9442b">Avoid: third-party driver updater apps</text>
+    <text x="90" y="364" font-size="13" fill="#566475">Wrong drivers, bundled adware, paid upsells</text>
+  </g>
+</svg>

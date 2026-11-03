@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- outlet plate -->
+  <rect x="380" y="70" width="300" height="490" rx="26" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="425" y="120" width="210" height="165" rx="20" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="425" y="345" width="210" height="165" rx="20" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="9" stroke-linecap="round"><path d="M492 165v42M568 165v34M492 390v42M568 390v34"/></g>
+  <path d="M513 245a17 17 0 0 1 34 0v16h-34z M513 470a17 17 0 0 1 34 0v16h-34z" fill="#0f2240"/>
+  <circle cx="530" cy="315" r="10" fill="#0f2240"/>
+  <!-- plug pulled out -->
+  <rect x="770" y="250" width="120" height="100" rx="18" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <g stroke="#9fc4f0" stroke-width="9" stroke-linecap="round"><path d="M770 280h-40M770 320h-40"/></g>
+  <path d="M890 300c80 0 90 120 190 120" fill="none" stroke="#f3f6fa" stroke-width="10" stroke-linecap="round"/>
+  <!-- tester -->
+  <rect x="150" y="230" width="140" height="150" rx="16" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <g fill="#0f2240" stroke="#9fc4f0" stroke-width="3"><circle cx="185" cy="290" r="13"/><circle cx="220" cy="290" r="13"/><circle cx="255" cy="290" r="13"/></g>
+  <rect x="175" y="320" width="90" height="34" rx="6" fill="#fff" stroke="#0f2240" stroke-width="3"/>
+  <!-- question accent -->
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round"><path d="M720 170l40-30M730 230h50"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M380 40h300M380 30v20M680 30v20"/><path d="M330 70v490M320 70h20M320 560h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

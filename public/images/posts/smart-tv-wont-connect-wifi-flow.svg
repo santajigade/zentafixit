@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="430" fill="#f3f6fa"/>
+  <defs><marker id="tvwf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where does the TV get stuck?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="130" y="54" width="380" height="44" rx="8"/>
+    <rect x="24" y="140" width="184" height="56" rx="8"/>
+    <rect x="228" y="140" width="184" height="56" rx="8"/>
+    <rect x="432" y="140" width="184" height="56" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="24" y="216" width="184" height="120" rx="8"/>
+    <rect x="228" y="216" width="184" height="120" rx="8"/>
+    <rect x="432" y="216" width="184" height="120" rx="8"/>
+  </g>
+  <rect x="24" y="360" width="592" height="54" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#tvwf)">
+    <path d="M250 98L130 138"/><path d="M320 98v40"/><path d="M390 98L510 138"/>
+    <path d="M116 196v18"/><path d="M320 196v18"/><path d="M524 196v18"/>
+    <path d="M320 336v22"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">Unplug TV 60 sec, restart router</text>
+    <text x="116" y="163" font-weight="700">Network not listed</text><text x="116" y="183" font-size="12" fill="#566475">TV can't see it</text>
+    <text x="320" y="163" font-weight="700">Won't join</text><text x="320" y="183" font-size="12" fill="#566475">or wrong password</text>
+    <text x="524" y="163" font-weight="700">Joins, no internet</text><text x="524" y="183" font-size="12" fill="#566475">or apps won't load</text>
+    <text x="116" y="242" font-size="13">Move router closer</text>
+    <text x="116" y="262" font-size="13">Try 2.4 GHz band</text>
+    <text x="116" y="282" font-size="13">Hidden network?</text>
+    <text x="116" y="302" font-size="13">Add it manually</text>
+    <text x="116" y="324" font-size="12" fill="#566475">Fixes 1, 4</text>
+    <text x="320" y="242" font-size="13">Forget and rejoin</text>
+    <text x="320" y="262" font-size="13">Type password slowly</text>
+    <text x="320" y="282" font-size="13">Check WPA2/WPA3</text>
+    <text x="320" y="302" font-size="13">mixed mode on router</text>
+    <text x="320" y="324" font-size="12" fill="#566475">Fixes 3, 4</text>
+    <text x="524" y="242" font-size="13">Check date and time</text>
+    <text x="524" y="262" font-size="13">Set DNS manually</text>
+    <text x="524" y="282" font-size="13">Update firmware</text>
+    <text x="524" y="302" font-size="13">Other devices online?</text>
+    <text x="524" y="324" font-size="12" fill="#566475">Fixes 2, 5, 6, 7</text>
+    <text x="320" y="384" font-weight="700" fill="#0f2240">Still stuck? Plug in an Ethernet cable (fix 8)</text>
+    <text x="320" y="403" font-size="12" fill="#566475">Wired is the most reliable connection for a TV</text>
+  </g>
+</svg>

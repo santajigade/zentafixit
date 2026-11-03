@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">What each type of Matter device needs</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2"><rect x="24" y="52" width="284" height="200" rx="8"/><rect x="332" y="52" width="284" height="200" rx="8"/></g>
+  <g fill="#dfe9f7"><rect x="25" y="53" width="282" height="38" rx="7"/><rect x="333" y="53" width="282" height="38" rx="7"/></g>
+  <g font-size="14" font-weight="700" fill="#0f2240"><text x="44" y="78">Wi-Fi Matter device</text><text x="352" y="78">Thread Matter device</text></g>
+  <g fill="#1f8a5b"><circle cx="50" cy="118" r="6"/><circle cx="50" cy="146" r="6"/><circle cx="50" cy="174" r="6"/><circle cx="50" cy="202" r="6"/><circle cx="50" cy="230" r="6"/>
+    <circle cx="358" cy="118" r="6"/><circle cx="358" cy="146" r="6"/><circle cx="358" cy="174" r="6"/><circle cx="358" cy="202" r="6"/></g>
+  <g font-size="13" fill="#14202c">
+    <text x="66" y="123">Good Wi-Fi signal at the spot</text>
+    <text x="66" y="151">2.4 GHz network (most models)</text>
+    <text x="66" y="179">Phone on your main home Wi-Fi</text>
+    <text x="66" y="207">Not a guest network</text>
+    <text x="66" y="235">AP or client isolation off</text>
+    <text x="374" y="123">A Thread border router</text>
+    <text x="374" y="151">Same room for the first setup</text>
+    <text x="374" y="179">Border router up to date</text>
+    <text x="374" y="207">Plug-in Thread devices help</text>
+    <text x="374" y="225" font-size="12" fill="#566475">extend the mesh to far rooms</text>
+  </g>
+  <rect x="24" y="268" width="592" height="114" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g font-size="13" fill="#14202c">
+    <text x="40" y="294" font-weight="700" font-size="14">Both types need</text>
+    <text x="40" y="318">A Matter controller that is online and updated</text>
+    <text x="40" y="340">Bluetooth on, with the app allowed to use it</text>
+    <text x="40" y="362">The device's own setup code, or a new code shared from another app</text>
+  </g>
+</svg>

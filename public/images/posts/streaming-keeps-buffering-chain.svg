@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="360" fill="#f3f6fa"/>
+  <defs><marker id="skbc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where a stream can slow down</text>
+  <g fill="#dfe9f7" stroke="#1d5fae" stroke-width="2">
+    <rect x="24" y="52" width="170" height="46" rx="8"/><rect x="24" y="112" width="170" height="46" rx="8"/><rect x="24" y="172" width="170" height="46" rx="8"/><rect x="24" y="292" width="170" height="46" rx="8"/>
+  </g>
+  <rect x="24" y="232" width="170" height="46" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="2"/>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="210" y="52" width="406" height="46" rx="8"/><rect x="210" y="112" width="406" height="46" rx="8"/><rect x="210" y="172" width="406" height="46" rx="8"/><rect x="210" y="232" width="406" height="46" rx="8"/><rect x="210" y="292" width="406" height="46" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#skbc)">
+    <path d="M109 98v12"/><path d="M109 158v12"/><path d="M109 218v12"/><path d="M109 278v12"/>
+  </g>
+  <g font-size="14" font-weight="700" fill="#0f2240" text-anchor="middle">
+    <text x="109" y="80">Streaming service</text><text x="109" y="140">Internet provider</text><text x="109" y="200">Modem and router</text><text x="109" y="260">Wi-Fi or cable</text><text x="109" y="320">TV or stick</text>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="226" y="80">Outages, busy live events, app bugs</text>
+    <text x="226" y="140">Evening congestion, outages, slow plan</text>
+    <text x="226" y="200">Needs a restart, old, badly placed</text>
+    <text x="226" y="260">Walls, distance, crowded 2.4 GHz (most common)</text>
+    <text x="226" y="320">Old app, full cache, weak USB power</text>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- laptop -->
+  <rect x="240" y="110" width="520" height="330" rx="18" fill="#16305a" stroke="#ffffff" stroke-width="5"/>
+  <rect x="266" y="136" width="468" height="278" rx="6" fill="#f3f6fa"/>
+  <path d="M180 440h640l-40 52H220z" fill="#f3f6fa" stroke="#ffffff" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="460" y="452" width="80" height="10" rx="5" fill="#9fb7da"/>
+  <!-- chip on screen -->
+  <rect x="430" y="205" width="140" height="140" rx="12" fill="#fff" stroke="#0f2240" stroke-width="8"/>
+  <rect x="465" y="240" width="70" height="70" rx="6" fill="#0f2240"/>
+  <g stroke="#0f2240" stroke-width="8" stroke-linecap="round">
+    <path d="M460 205v-22M500 205v-22M540 205v-22M460 345v22M500 345v22M540 345v22M430 235h-22M430 275h-22M430 315h-22M570 235h22M570 275h22M570 315h22"/>
+  </g>
+  <!-- update arrow -->
+  <path d="M960 200a110 110 0 1 1-104 74" fill="none" stroke="#ffd23f" stroke-width="16" stroke-linecap="round"/>
+  <path d="M826 250l34 44 30-50z" fill="#ffd23f"/>
+  <path d="M916 300l30 30 56-64" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- dimension -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M240 80h520M240 70v20M760 70v20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="fna" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Furnace won't turn on: where to look</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="150" y="50" width="340" height="44" rx="8"/>
+    <path d="M320 114l140 36-140 36-140-36z"/>
+    <rect x="24" y="124" width="136" height="52" rx="8"/>
+    <path d="M320 206l150 36-150 36-150-36z"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="24" y="300" width="284" height="84" rx="8"/><rect x="332" y="300" width="284" height="84" rx="8"/>
+  </g>
+  <rect x="24" y="396" width="592" height="32" rx="8" fill="#fff" stroke="#d5dee8" stroke-width="2"/>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#fna)">
+    <path d="M320 94v18"/><path d="M180 150h-18"/><path d="M320 186v18"/>
+    <path d="M170 242h-48v56"/><path d="M470 242h48v56"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="77" font-size="13">1. Thermostat on HEAT, 3 to 5°F above room</text>
+    <text x="320" y="155" font-weight="700">Thermostat screen on?</text>
+    <text x="171" y="142" font-size="12" fill="#566475">no</text><text x="344" y="200" font-size="12" fill="#566475">yes</text>
+    <text x="92" y="146" font-size="13">Replace</text><text x="92" y="164" font-size="13">batteries (1)</text>
+    <text x="320" y="247" font-weight="700">Any sound from furnace?</text>
+    <text x="150" y="234" font-size="12" fill="#566475">no</text><text x="492" y="234" font-size="12" fill="#566475">yes</text>
+    <text x="166" y="326" font-weight="700">Silent</text>
+    <text x="166" y="346" font-size="13">Check power switch, breaker</text>
+    <text x="166" y="366" font-size="13">and blower door (2 to 4)</text>
+    <text x="474" y="326" font-weight="700">Starts, then stops</text>
+    <text x="474" y="346" font-size="13">Filter, flame sensor, drain,</text>
+    <text x="474" y="366" font-size="13">gas supply (5 to 9)</text>
+    <text x="320" y="417" font-size="13">Blinking light? Match the code to the label inside the door.</text>
+  </g>
+</svg>

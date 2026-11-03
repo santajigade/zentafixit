@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- generic controller body -->
+  <path d="M370 200c40-30 420-30 460 0c60 45 110 220 90 300c-12 50-70 60-110 20l-70-70H460l-70 70c-40 40-98 30-110-20c-20-80 30-255 90-300z" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <!-- d-pad -->
+  <path d="M420 300h26v-26h28v26h26v28h-26v26h-28v-26h-26z" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- face buttons -->
+  <g fill="#fff" stroke="#0f2240" stroke-width="4"><circle cx="760" cy="270" r="16"/><circle cx="800" cy="305" r="16"/><circle cx="720" cy="305" r="16"/><circle cx="760" cy="340" r="16"/></g>
+  <!-- left stick (normal) -->
+  <circle cx="530" cy="390" r="44" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="530" cy="390" r="26" fill="#d5dee8" stroke="#0f2240" stroke-width="4"/>
+  <!-- right stick (drifting) -->
+  <circle cx="670" cy="390" r="44" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="670" cy="390" r="26" fill="none" stroke="#9fc4f0" stroke-width="3" stroke-dasharray="6 6"/>
+  <circle cx="686" cy="378" r="26" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+  <!-- drift trail -->
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round" fill="none"><path d="M740 360l40-24M752 390h46M740 420l40 24" stroke-opacity=".8"/></g>
+  <!-- crosshair -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M670 300v180M580 390h0"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M370 140h460M370 130v20M830 130v20"/><path d="M230 200v320M220 200h20M220 520h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

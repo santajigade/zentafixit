@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Which faucet do you have?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="52" width="288" height="172" rx="8"/>
+    <rect x="328" y="52" width="288" height="172" rx="8"/>
+    <rect x="24" y="236" width="288" height="172" rx="8"/>
+    <rect x="328" y="236" width="288" height="172" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="38" y="168" width="260" height="44" rx="8"/>
+    <rect x="342" y="168" width="260" height="44" rx="8"/>
+    <rect x="38" y="352" width="260" height="44" rx="8"/>
+    <rect x="342" y="352" width="260" height="44" rx="8"/>
+  </g>
+  <g font-size="14" font-weight="700" fill="#0f2240">
+    <text x="40" y="78">1. Compression</text>
+    <text x="344" y="78">2. Cartridge</text>
+    <text x="40" y="262">3. Ball</text>
+    <text x="344" y="262">4. Ceramic disc</text>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="40" y="102">Two handles, hot and cold</text>
+    <text x="40" y="122">Turn until it stops, tighter</text>
+    <text x="40" y="142">and tighter as it wears</text>
+    <text x="344" y="102">One lever or two handles</text>
+    <text x="344" y="122">Short turn to a smooth stop</text>
+    <text x="344" y="142">Held in by a clip or a nut</text>
+    <text x="40" y="286">Single lever, wide swing</text>
+    <text x="40" y="306">Rounded dome cap under</text>
+    <text x="40" y="326">the lever</text>
+    <text x="344" y="286">One lever or two handles</text>
+    <text x="344" y="306">Wide, flat cylinder inside</text>
+    <text x="344" y="326">Smooth quarter-turn feel</text>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="50" y="186" font-weight="700">What wears out</text><text x="50" y="203">Rubber washer, valve seat</text>
+    <text x="354" y="186" font-weight="700">What wears out</text><text x="354" y="203">The cartridge, O-rings</text>
+    <text x="50" y="370" font-weight="700">What wears out</text><text x="50" y="387">Rubber seats and springs</text>
+    <text x="354" y="370" font-weight="700">What wears out</text><text x="354" y="387">Rubber seals, scale on discs</text>
+  </g>
+</svg>

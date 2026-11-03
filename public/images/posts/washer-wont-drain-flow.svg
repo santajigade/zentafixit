@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="wwdf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Listen to the pump during a drain cycle</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="170" y="54" width="300" height="44" rx="8"/>
+    <rect x="170" y="124" width="300" height="44" rx="8"/>
+    <path d="M320 192l150 38-150 38-150-38z"/>
+    <rect x="20" y="300" width="180" height="56" rx="8"/>
+    <rect x="230" y="300" width="180" height="56" rx="8"/>
+    <rect x="440" y="300" width="180" height="56" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="20" y="368" width="180" height="56" rx="8"/><rect x="230" y="368" width="180" height="56" rx="8"/><rect x="440" y="368" width="180" height="56" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#wwdf)">
+    <path d="M320 98v24"/><path d="M320 168v22"/>
+    <path d="M170 230H110v68"/><path d="M320 268v30"/><path d="M470 230h60v68"/>
+    <path d="M110 356v10"/><path d="M320 356v10"/><path d="M530 356v10"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">1. Unplug 1 min, close the lid</text>
+    <text x="320" y="151">2. Run Drain and Spin, listen</text>
+    <text x="320" y="235" font-weight="700">What does the pump do?</text>
+    <text x="138" y="222" font-size="12" fill="#566475">silent</text>
+    <text x="344" y="286" font-size="12" fill="#566475">hums</text>
+    <text x="506" y="222" font-size="12" fill="#566475">drains</text>
+    <text x="110" y="324">No pump sound,</text><text x="110" y="342">lock light may blink</text>
+    <text x="320" y="324">Hums, but no</text><text x="320" y="342">water moves</text>
+    <text x="530" y="324">Water spills out</text><text x="530" y="342">at the standpipe</text>
+    <text x="110" y="392" font-weight="700">Causes 1 and 7</text><text x="110" y="410" font-size="12">lid lock, error code</text>
+    <text x="320" y="392" font-weight="700">Causes 3 and 4</text><text x="320" y="410" font-size="12">filter, jammed pump</text>
+    <text x="530" y="392" font-weight="700">Cause 5</text><text x="530" y="410" font-size="12">clear the house drain</text>
+  </g>
+</svg>
