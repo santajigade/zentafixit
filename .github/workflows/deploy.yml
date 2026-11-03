@@ -1,0 +1,33 @@
+# Builds the site and uploads it to Hostinger by FTP.
+# Runs on every push to main, once a day (so scheduled posts go live), and on demand.
+# Required GitHub secrets (Settings → Secrets and variables → Actions):
+#   FTP_SERVER    e.g. ftp.zentafixit.com or the IP from hPanel → Files → FTP Accounts
+#   FTP_USERNAME  FTP username from hPanel
+#   FTP_PASSWORD  FTP password from hPanel
+name: Build and deploy to Hostinger
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '30 13 * * *' # 13:30 UTC = 8:30 AM US Eastern (standard time)
+  workflow_dispatch:
+concurrency: deploy
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Upload to Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./dist/
+          server-dir: ./public_html/
