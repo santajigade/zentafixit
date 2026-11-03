@@ -1,0 +1,30 @@
+---
+import Base from '../../layouts/Base.astro';
+import PostCard from '../../components/PostCard.astro';
+import { AUTHOR, SITE } from '../../data/site';
+import { getPublishedPosts } from '../../lib/posts';
+
+export function getStaticPaths() { return [{ params: { slug: AUTHOR.slug } }]; }
+const posts = await getPublishedPosts();
+const schema = [{
+  '@context': 'https://schema.org', '@type': 'ProfilePage',
+  mainEntity: { '@type': 'Person', name: AUTHOR.name, jobTitle: AUTHOR.role, description: AUTHOR.bio,
+    url: `${SITE.url}/author/${AUTHOR.slug}/`, ...(AUTHOR.linkedin ? { sameAs: [AUTHOR.linkedin] } : {}) },
+}];
+---
+<Base title={`${AUTHOR.name} — ${AUTHOR.role}`} description={AUTHOR.bio} schema={schema}>
+  <nav class="crumbs"><a href="/">Home</a> › Author</nav>
+  <div class="author-box">
+    {AUTHOR.photo ? <img src={AUTHOR.photo} alt={AUTHOR.name} width="72" height="72" /> : <div class="avatar">{AUTHOR.name[0]}</div>}
+    <div>
+      <h1 style="margin:0 0 4px;font-size:30px">{AUTHOR.name}</h1>
+      <p class="muted">{AUTHOR.role}</p>
+      <p>{AUTHOR.bio}</p>
+      {AUTHOR.credentials.length > 0 && <ul>{AUTHOR.credentials.map((c) => <li>{c}</li>)}</ul>}
+      {AUTHOR.linkedin && <p><a href={AUTHOR.linkedin} rel="me noopener" target="_blank">LinkedIn profile</a></p>}
+    </div>
+  </div>
+  <h2>How I review guides</h2>
+  <p>Every guide is checked for technical accuracy and safety before it's published. The "Reviewed by" date on each guide shows when that check was done. <a href="/editorial-policy/">Read the editorial policy</a>.</p>
+  {posts.length > 0 && <><h2>Guides by {AUTHOR.name}</h2><div class="card-grid">{posts.map((p) => <PostCard post={p} />)}</div></>}
+</Base>

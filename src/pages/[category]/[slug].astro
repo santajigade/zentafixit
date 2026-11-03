@@ -1,0 +1,90 @@
+---
+import { render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import AuthorBox from '../../components/AuthorBox.astro';
+import AdSlot from '../../components/AdSlot.astro';
+import { getPublishedPosts, postUrl, formatDate, validatePost, type Post } from '../../lib/posts';
+import { getCategory, getSubcategory } from '../../data/categories';
+import { SITE, AUTHOR } from '../../data/site';
+
+export async function getStaticPaths() {
+  const posts = await getPublishedPosts();
+  return posts.map((post) => {
+    validatePost(post);
+    return { params: { category: post.data.category, slug: post.id }, props: { post, all: posts } };
+  });
+}
+
+const { post, all } = Astro.props as { post: Post; all: Post[] };
+const { data } = post;
+const { Content, headings } = await render(post);
+const cat = getCategory(data.category)!;
+const sub = getSubcategory(data.category, data.subcategory)!;
+const url = new URL(postUrl(post), SITE.url).href;
+const toc = headings.filter((h) => h.depth === 2);
+const related = all
+  .filter((p) => p.id !== post.id && p.data.category === data.category)
+  .sort((a, b) => Number(b.data.subcategory === data.subcategory) - Number(a.data.subcategory === data.subcategory))
+  .slice(0, 5);
+
+const authorUrl = new URL(`/author/${AUTHOR.slug}/`, SITE.url).href;
+const schema: object[] = [
+  {
+    '@context': 'https://schema.org', '@type': 'Article', headline: data.title, description: data.description,
+    datePublished: data.pubDate.toISOString(), dateModified: (data.updatedDate ?? data.pubDate).toISOString(),
+    author: { '@type': 'Person', name: AUTHOR.name, url: authorUrl },
+    publisher: { '@type': 'Organization', name: SITE.name, url: SITE.url },
+    mainEntityOfPage: url, articleSection: cat.name,
+  },
+  {
+    '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE.url + '/' },
+      { '@type': 'ListItem', position: 2, name: cat.name, item: `${SITE.url}/${cat.slug}/` },
+      { '@type': 'ListItem', position: 3, name: data.title, item: url },
+    ],
+  },
+];
+if (data.reviewedBy && data.reviewedDate) {
+  schema.push({ '@context': 'https://schema.org', '@type': 'WebPage', url,
+    reviewedBy: { '@type': 'Person', name: data.reviewedBy }, lastReviewed: data.reviewedDate.toISOString().slice(0, 10) });
+}
+if (data.faq.length) {
+  schema.push({ '@context': 'https://schema.org', '@type': 'FAQPage',
+    mainEntity: data.faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) });
+}
+---
+<Base title={data.title} description={data.description} type="article" schema={schema}>
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a> › <a href={`/${cat.slug}/`}>{cat.name}</a> › <a href={`/${cat.slug}/#${sub.slug}`}>{sub.name}</a></nav>
+  <div class="post-layout">
+    <article>
+      <header class="post-head">
+        <h1>{data.title}</h1>
+        <p class="lede">{data.description}</p>
+        <p class="byline">
+          By <a href={`/author/${AUTHOR.slug}/`}>{AUTHOR.name}</a> · {formatDate(data.updatedDate ?? data.pubDate)}
+          {data.reviewedBy && data.reviewedDate && <> · <span class="reviewed">✓ Reviewed by {data.reviewedBy}</span></>}
+        </p>
+      </header>
+      {toc.length > 2 && (
+        <nav class="toc" aria-label="On this page"><p>On this page</p><ul>{toc.map((h) => <li><a href={`#${h.slug}`}>{h.text}</a></li>)}</ul></nav>
+      )}
+      <AdSlot />
+      <div class="prose"><Content /></div>
+      {data.faq.length > 0 && (
+        <section class="faq">
+          <h2 id="faq">Frequently asked questions</h2>
+          {data.faq.map((f) => <details><summary>{f.q}</summary><p>{f.a}</p></details>)}
+        </section>
+      )}
+      <AdSlot />
+      <AuthorBox pubDate={data.pubDate} updatedDate={data.updatedDate} reviewedBy={data.reviewedBy} reviewedDate={data.reviewedDate} />
+    </article>
+    <aside class="sidebar">
+      {related.length > 0 && (
+        <div class="side-box"><h2>More in {cat.name}</h2><ul>{related.map((p) => <li><a href={postUrl(p)}>{p.data.title}</a></li>)}</ul></div>
+      )}
+      <div class="side-box"><h2>Safety first</h2><p class="small muted">Turn off power at the breaker before electrical work and confirm it's off with a tester. If you're unsure, call a licensed electrician.</p></div>
+      <AdSlot />
+    </aside>
+  </div>
+</Base>

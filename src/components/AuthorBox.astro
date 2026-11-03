@@ -1,0 +1,20 @@
+---
+import { AUTHOR } from '../data/site';
+import { formatDate } from '../lib/posts';
+interface Props { reviewedBy?: string; reviewedDate?: Date; updatedDate?: Date; pubDate: Date }
+const { reviewedBy, reviewedDate, updatedDate, pubDate } = Astro.props;
+const initials = AUTHOR.name.split(' ').map((w) => w[0]).join('').slice(0, 2);
+---
+<aside class="author-box" aria-label="About the author">
+  {AUTHOR.photo ? <img src={AUTHOR.photo} alt={AUTHOR.name} width="72" height="72" loading="lazy" /> : <div class="avatar">{initials}</div>}
+  <div>
+    <p class="author-label">Written by</p>
+    <p class="author-name"><a href={`/author/${AUTHOR.slug}/`}>{AUTHOR.name}</a> · <span class="muted">{AUTHOR.role}</span></p>
+    <p>{AUTHOR.bio}</p>
+    <ul class="meta-list">
+      <li>Published {formatDate(pubDate)}</li>
+      {updatedDate && <li>Updated {formatDate(updatedDate)}</li>}
+      {reviewedBy && reviewedDate && <li class="reviewed">✓ Reviewed by {reviewedBy} on {formatDate(reviewedDate)}</li>}
+    </ul>
+  </div>
+</aside>
