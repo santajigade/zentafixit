@@ -1,6 +1,6 @@
 # ZentaFixit
 
-Static blog for zentafixit.com, built with [Astro](https://astro.build) and hosted on Cloudflare Pages.
+Static blog for zentafixit.com, built with [Astro](https://astro.build) and hosted on Hostinger.
 
 ## Commands
 
@@ -39,10 +39,8 @@ A post is live only when **all** are true:
 2. `pubDate` is today or earlier
 3. `reviewedDate` is set (`requireReview` in `src/data/site.ts`)
 
-A daily GitHub Action (`.github/workflows/daily-publish.yml`) triggers a Cloudflare rebuild so scheduled posts appear on their date.
+The GitHub Action `.github/workflows/deploy.yml` builds the site and uploads `dist/` to Hostinger by FTP on every push and once a day, so scheduled posts appear on their date.
 
-## Cloudflare Pages setup
+## Hostinger setup
 
-- Framework preset: **Astro** · Build command: `npm run build` · Output: `dist`
-- Environment variable: `NODE_VERSION` = `22`
-- Optional preview branch `review` with `SHOW_DRAFTS=1` for reviewing posts before they go live
+Add these GitHub secrets (Settings → Secrets and variables → Actions): `FTP_SERVER`, `FTP_USERNAME`, `FTP_PASSWORD` — from hPanel → Files → FTP Accounts. Files upload to `public_html/`.
