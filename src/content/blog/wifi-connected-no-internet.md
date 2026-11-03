@@ -2,6 +2,8 @@
 title: "Wi-Fi Connected but No Internet? 9 Fixes That Work"
 description: "Wi-Fi says connected but nothing loads? Find out if it's your device, router or ISP, then restart in the right order and fix IP, DNS, VPN and driver issues."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: networking
 subcategory: slow-internet-fixes
 tags: [wi-fi, no internet, router, modem, dns, windows, isp]

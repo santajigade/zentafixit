@@ -2,6 +2,8 @@
 title: "How to Test an Outlet With a Multimeter (Safely)"
 description: "Test a 120 V outlet with a multimeter step by step: meter setup, live-dead-live check, the three readings to take and what each result means."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: tools
 subcategory: multimeters-and-testers
 tags: [multimeter, outlets, voltage, testing, wiring, safety]

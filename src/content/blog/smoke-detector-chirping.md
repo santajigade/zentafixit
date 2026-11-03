@@ -2,6 +2,8 @@
 title: "Smoke Detector Chirping? Why It Happens and How to Stop It"
 description: "Why your smoke detector chirps (low battery, leftover charge, end of life, dust or another alarm) and how to stop it safely, step by step."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: home-safety
 subcategory: smoke-and-co-detectors
 tags: [smoke-detector, smoke-alarm, chirping, battery, carbon-monoxide, home-safety]

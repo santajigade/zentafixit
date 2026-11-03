@@ -2,6 +2,8 @@
 title: "Refrigerator Not Cooling but Freezer Works? Causes and Fixes"
 description: "Freezer cold but fridge warm? Check blocked vents, frost on the evaporator, the evaporator fan, the damper, condenser coils and door seals, step by step."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: appliances
 subcategory: refrigerators
 tags: [refrigerator, fridge, freezer, not cooling, defrost, evaporator fan]

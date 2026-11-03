@@ -2,6 +2,8 @@
 title: "iPhone Not Charging? 9 Fixes to Try"
 description: "iPhone not charging or stuck at 80%? Check the cable and adapter, clean the port safely, handle heat and liquid alerts, and check battery health step by step."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: phones-tablets
 subcategory: charging-and-battery
 tags: [iphone, charging, battery, lightning, usb-c, magsafe, ios]

@@ -2,6 +2,8 @@
 title: "Home EV Charger Not Charging? Level 2 Troubleshooting Guide"
 description: "Level 2 home EV charger not charging? Check car schedules and limits, the connector latch, breaker, fault lights and cable damage before calling an electrician."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: ev-charging
 subcategory: charger-troubleshooting
 tags: [ev charger, level 2, ev charging, breaker, gfci, troubleshooting]

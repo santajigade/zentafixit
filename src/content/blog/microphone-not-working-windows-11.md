@@ -2,6 +2,8 @@
 title: "Microphone Not Working on Windows 11? 9 Fixes"
 description: "Mic not working on Windows 11? Check privacy settings, the input device, volume, app settings, Bluetooth headset mode and drivers with these step-by-step fixes."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: gadgets
 subcategory: mic-webcam-and-audio
 tags: [microphone, windows 11, headset, teams, zoom, audio, bluetooth]

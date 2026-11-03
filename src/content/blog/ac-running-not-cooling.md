@@ -2,6 +2,8 @@
 title: "AC Running but Not Cooling? 8 Causes and Fixes"
 description: "Central AC running but not cooling? Check the thermostat, filter, outdoor breaker, condenser coil, frozen coil and condensate drain before you call a pro."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: hvac
 subcategory: air-conditioners
 tags: [ac, air conditioner, central air, cooling, hvac, frozen coil]

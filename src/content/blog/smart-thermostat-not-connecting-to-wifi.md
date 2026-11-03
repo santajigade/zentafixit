@@ -2,6 +2,8 @@
 title: "Smart Thermostat Not Connecting to Wi-Fi? 9 Fixes That Work"
 description: "Smart thermostat won't connect to Wi-Fi or keeps dropping offline? Check the 2.4 GHz band, password, signal, C-wire power and router settings step by step."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: smart-home
 subcategory: smart-thermostats
 tags: [smart thermostat, wi-fi, nest, ecobee, honeywell, c-wire, router]

@@ -2,6 +2,8 @@
 title: "What Size Portable Power Station Do I Need for a Power Outage?"
 description: "Size a portable power station for a power outage: add up running watts, check surge, estimate watt-hours and allow for inverter losses, with a worked example."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: solar-power
 subcategory: portable-power-stations
 tags: [power station, power outage, battery backup, solar generator, watt-hours, refrigerator]

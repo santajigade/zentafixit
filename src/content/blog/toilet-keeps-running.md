@@ -2,6 +2,8 @@
 title: "Toilet Keeps Running? How to Fix It in 7 Steps"
 description: "Toilet keeps running or refills on its own? Find the leak with a dye test, then fix the chain, water level, refill tube, flapper or fill valve step by step."
 pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: plumbing
 subcategory: toilets
 tags: [toilet, running toilet, flapper, fill valve, leaks, water bill]
