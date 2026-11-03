@@ -3,10 +3,10 @@
   <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Read your charger's wattage from its label</text>
   <rect x="24" y="56" width="300" height="200" rx="18" fill="#2a2f36"/>
   <rect x="44" y="76" width="260" height="160" rx="8" fill="none" stroke="#6b7480"/>
-  <g font-family="IBM Plex Mono, monospace" font-size="13" fill="#d7dde4">
+  <g font-family="Open Sans, Arial, sans-serif" font-size="13" fill="#d7dde4">
     <text x="58" y="104">AC ADAPTER</text>
     <text x="58" y="132">INPUT: 100-240V~ 1.5A 50/60Hz</text>
-    <text x="58" y="164" fill="#ffd23f" font-weight="700">OUTPUT: 20V ⎓ 3.25A</text>
+    <text x="58" y="164" fill="#ffd23f" font-weight="700">OUTPUT: 20V DC 3.25A</text>
     <text x="58" y="196">MADE IN CHINA</text>
   </g>
   <rect x="52" y="146" width="250" height="26" rx="4" fill="none" stroke="#ffd23f" stroke-width="2"/>

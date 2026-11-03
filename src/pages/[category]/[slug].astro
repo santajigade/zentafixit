@@ -173,11 +173,11 @@ if (data.faq.length) {
     });
 
     // Tap a diagram to view it larger
-    prose?.querySelectorAll<HTMLImageElement>('figure img').forEach((img) =>
+    prose?.querySelectorAll<HTMLElement>('figure img, figure svg.diagram').forEach((img) =>
       img.addEventListener('click', () => {
         const o = document.createElement('div');
         o.className = 'zoomed';
-        o.innerHTML = `<img src="${img.src}" alt="${img.alt}">`;
+        o.append(img.cloneNode(true));
         const close = () => { o.remove(); removeEventListener('keydown', esc); };
         const esc = (e: KeyboardEvent) => { if (e.key === 'Escape') close(); };
         o.addEventListener('click', close); addEventListener('keydown', esc);

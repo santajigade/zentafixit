@@ -13,8 +13,8 @@
   <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#a)"><path d="M114 130v40"/><path d="M320 130v40"/><path d="M526 130v40"/></g>
   <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="24" y="172" width="180" height="124" rx="8"/><rect x="230" y="172" width="180" height="124" rx="8"/><rect x="436" y="172" width="180" height="124" rx="8"/></g>
   <g font-size="13" fill="#14202c">
-    <text x="40" y="198" font-weight="700">Likely a setting</text><text x="40" y="224">Battery charge limit /</text><text x="40" y="242">conservation mode is on</text><text x="40" y="276" font-weight="700">Try: Fix 1</text>
-    <text x="246" y="198" font-weight="700">Likely power or software</text><text x="246" y="224">Low-watt charger, hot</text><text x="246" y="242">battery, driver glitch</text><text x="246" y="276" font-weight="700">Try: Fixes 3, 5, 6, 7</text>
-    <text x="452" y="198" font-weight="700">Likely hardware</text><text x="452" y="224">Charger, cable, port,</text><text x="452" y="242">or a worn battery</text><text x="452" y="276" font-weight="700">Try: Fixes 2, 4, 9</text>
+    <text x="40" y="198" font-weight="700">A setting</text><text x="40" y="224">Battery charge limit /</text><text x="40" y="242">conservation mode is on</text><text x="40" y="276" font-weight="700">Try: Fix 1</text>
+    <text x="246" y="198" font-weight="700">Power or software</text><text x="246" y="224">Low-watt charger, hot</text><text x="246" y="242">battery, driver glitch</text><text x="246" y="276" font-weight="700">Try: Fixes 3, 5, 6, 7</text>
+    <text x="452" y="198" font-weight="700">Hardware</text><text x="452" y="224">Charger, cable, port,</text><text x="452" y="242">or a worn battery</text><text x="452" y="276" font-weight="700">Try: Fixes 2, 4, 9</text>
   </g>
 </svg>

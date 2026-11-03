@@ -36,7 +36,7 @@ A GFCI (ground-fault circuit interrupter) outlet cuts power in a fraction of a s
 
 When one keeps tripping, the cause is usually **moisture, a faulty appliance, or something wired downstream**. Here's how to find which.
 
-<figure><img src="/images/posts/gfci-anatomy.svg" alt="Diagram of a GFCI outlet showing the TEST and RESET buttons, status light, hot slot, neutral slot and ground hole" width="640" height="400" loading="lazy" /><figcaption>Tap the diagram to enlarge. The TEST and RESET buttons sit between the two receptacles.</figcaption></figure>
+<figure><img src="/images/posts/gfci-anatomy.svg" alt="Diagram of a GFCI outlet showing the TEST and RESET buttons, status light, hot slot, neutral slot and ground hole" width="640" height="420" loading="lazy" /><figcaption>Tap the diagram to enlarge. The TEST and RESET buttons sit between the two receptacles.</figcaption></figure>
 
 It works by comparing the current going out on the hot wire with the current coming back on the neutral. If they differ, some current is escaping, and the GFCI cuts power. (For the engineering side of grounding, see this explainer on [earthing systems and how fault current returns](https://www.instrumentationblog.in/tn-tt-it-earthing-systems/).)
 
