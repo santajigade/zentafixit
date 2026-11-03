@@ -54,11 +54,13 @@ h3 { font-size: 21px; line-height: 1.3; font-weight: 700; margin: 28px 0 8px; }
 .menu[open] > summary::after { transform: translateY(1px) rotate(-135deg); }
 .menu[open] > summary { background: var(--navy-2); color: #fff; }
 .mega { position: absolute; left: 50%; top: 67px; transform: translateX(-50%); width: min(1160px, calc(100vw - 32px)); max-height: calc(100vh - 90px); overflow: auto;
-  display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 22px 20px; padding: 22px 24px 24px;
+  display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 22px 18px; padding: 22px 22px 24px;
   background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-top: 0; border-radius: 0 0 var(--r) var(--r); box-shadow: 0 24px 48px rgba(6, 18, 40, .28); }
-.mega-title { display: block; font: 750 16px/1.25 var(--display); font-stretch: 90%; color: var(--ink); text-decoration: none; padding-bottom: 6px; margin-bottom: 6px; border-bottom: 2px solid var(--yellow); }
+.mega-title { display: block; white-space: nowrap; font: 750 15px/1.25 var(--display); font-stretch: 90%; color: var(--ink); text-decoration: none; padding-bottom: 6px; margin-bottom: 6px; border-bottom: 2px solid var(--yellow); }
 .mega-title:hover { color: var(--brand); }
 .mega ul { list-style: none; margin: 0; padding: 0; }
+.mega .count { font-weight: 600; color: var(--brand); }
+.mega-title .count { font-family: var(--body); font-size: 13px; }
 .mega li a { display: block; padding: 3px 0; font-size: 13.5px; color: var(--muted); text-decoration: none; line-height: 1.45; }
 .mega li a:hover { color: var(--brand); text-decoration: underline; }
 @media (max-width: 1180px) { .mega { grid-template-columns: repeat(5, minmax(0, 1fr)); } }

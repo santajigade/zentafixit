@@ -5,6 +5,7 @@ import '@fontsource/ibm-plex-mono/500.css';
 import '../styles/global.css';
 import { SITE } from '../data/site';
 import { CATEGORIES } from '../data/categories';
+import { getPublishedPosts } from '../lib/posts';
 
 interface Props {
   title: string;
@@ -22,6 +23,10 @@ const noindex = Astro.props.noindex || process.env.SHOW_DRAFTS === '1';
 const canonical = new URL(Astro.url.pathname, SITE.url).href;
 const fullTitle = title === SITE.name ? `${SITE.name} | ${SITE.tagline}` : `${title} | ${SITE.name}`;
 const year = new Date().getFullYear();
+// Guide counts for the categories menu
+const live = await getPublishedPosts();
+const countCat = (c: string) => live.filter((p) => p.data.category === c).length;
+const countSub = (c: string, sc: string) => live.filter((p) => p.data.category === c && p.data.subcategory === sc).length;
 ---
 <!doctype html>
 <html lang="en-US">
@@ -74,8 +79,8 @@ const year = new Date().getFullYear();
           <div class="mega" role="region" aria-label="All categories">
             {CATEGORIES.map((c) => (
               <div class="mega-cat">
-                <a class="mega-title" href={`/${c.slug}/`}>{c.name}</a>
-                <ul>{c.subcategories.map((sc) => <li><a href={`/${c.slug}/#${sc.slug}`}>{sc.name}</a></li>)}</ul>
+                <a class="mega-title" href={`/${c.slug}/`}>{c.name}{countCat(c.slug) > 0 && <span class="count"> ({countCat(c.slug)})</span>}</a>
+                <ul>{c.subcategories.map((sc) => <li><a href={`/${c.slug}/#${sc.slug}`}>{sc.name}{countSub(c.slug, sc.slug) > 0 && <span class="count">&nbsp;({countSub(c.slug, sc.slug)})</span>}</a></li>)}</ul>
               </div>
             ))}
           </div>
