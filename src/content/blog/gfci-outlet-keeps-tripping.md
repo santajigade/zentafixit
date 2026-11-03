@@ -1,7 +1,9 @@
 ---
 title: "GFCI Outlet Keeps Tripping? 7 Causes and How to Fix Them"
 description: "Why your GFCI outlet keeps tripping (moisture, a faulty appliance, downstream wiring or a worn-out unit) and how to find the cause step by step."
-pubDate: 2026-11-10
+pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: electrical
 subcategory: outlets-and-gfci
 tags: [gfci, outlets, tripping, bathroom, kitchen, outdoor]

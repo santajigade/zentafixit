@@ -1,7 +1,9 @@
 ---
 title: "Laptop Plugged In but Not Charging? 9 Fixes That Work"
 description: "Laptop says 'plugged in, not charging'? Check battery limit settings, the charger, USB-C wattage and drivers with these step-by-step fixes for Windows and Mac."
-pubDate: 2026-11-11
+pubDate: 2026-11-03
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-03
 category: pc-laptops
 subcategory: laptop-battery-and-charging
 tags: [laptop, battery, charging, windows, mac, usb-c]
