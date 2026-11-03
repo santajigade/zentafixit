@@ -10,6 +10,11 @@ export const SITE = {
   requireReview: true,
   // AdSense publisher ID, e.g. 'ca-pub-1234567890123456'. Leave empty until approved.
   adsenseClient: '',
+  social: {
+    instagram: 'https://www.instagram.com/zentafixit/',
+    facebook: 'https://www.facebook.com/zentafixit/',
+    linkedin: 'https://www.linkedin.com/company/zentafixit/',
+  },
 };
 
 export const AUTHOR = {
