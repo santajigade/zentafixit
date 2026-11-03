@@ -1,0 +1,14 @@
+{
+  "name": "ZentaFixit",
+  "short_name": "ZentaFixit",
+  "description": "Fix-it guides for your home and tech",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f2240",
+  "theme_color": "#0f2240",
+  "icons": [
+    { "src": "/android-chrome-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/android-chrome-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

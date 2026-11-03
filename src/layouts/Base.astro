@@ -16,7 +16,7 @@ interface Props {
   image?: string;
 }
 const { title, description = SITE.description, type = 'website', schema = [], progress = false, image } = Astro.props;
-const ogImage = image ? new URL(image, SITE.url).href : undefined;
+const ogImage = new URL(image ?? '/images/brand/og-default.jpg', SITE.url).href;
 // Review previews (SHOW_DRAFTS=1) must never be indexed.
 const noindex = Astro.props.noindex || process.env.SHOW_DRAFTS === '1';
 const canonical = new URL(Astro.url.pathname, SITE.url).href;
@@ -42,7 +42,10 @@ const year = new Date().getFullYear();
   {ogImage && <meta property="og:image:height" content="630" />}
   <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
   <meta name="theme-color" content="#0f2240" />
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
   <link rel="alternate" type="application/rss+xml" title={SITE.name} href="/rss.xml" />
   <script is:inline>
     try { const t = localStorage.getItem('zf-theme') || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'); document.documentElement.dataset.theme = t; } catch (e) {}
