@@ -5,10 +5,10 @@ Format: `- [ ] category/subcategory | slug | working title`
 Slugs must not equal any existing guide slug or any subcategory slug.
 
 ## Week 1
-- [ ] hvac/air-conditioners | ac-not-turning-on | AC Not Turning On? Causes and Fixes
-- [ ] appliances/washers-and-dryers | dryer-not-heating | Dryer Not Heating? Causes and Fixes
-- [ ] networking/routers-and-modems | how-to-reset-router | How to Reset Your Router (Restart vs Factory Reset)
-- [ ] pc-laptops/windows-problems | windows-11-black-screen | Windows 11 Black Screen? Fixes
+- [x] hvac/air-conditioners | ac-not-turning-on | AC Not Turning On? Causes and Fixes
+- [x] appliances/washers-and-dryers | dryer-not-heating | Dryer Not Heating? Causes and Fixes
+- [x] networking/routers-and-modems | how-to-reset-router | How to Reset Your Router (Restart vs Factory Reset)
+- [x] pc-laptops/windows-problems | windows-11-black-screen | Windows 11 Black Screen? Fixes
 - [ ] appliances/refrigerators | ice-maker-not-working | Ice Maker Not Working? Fixes
 - [ ] hvac/air-conditioners | ac-unit-freezing-up | AC Freezing Up? Why It Happens and How to Fix It
 - [ ] phones-tablets/iphone-problems | iphone-wont-turn-on | iPhone Won't Turn On? Fixes

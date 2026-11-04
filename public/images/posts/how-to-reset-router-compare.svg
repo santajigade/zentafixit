@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Restart vs factory reset</text>
+  <rect x="210" y="52" width="200" height="44" rx="8" fill="#1d5fae"/>
+  <rect x="420" y="52" width="200" height="44" rx="8" fill="#d9442b"/>
+  <g font-size="14" font-weight="700" fill="#fff" text-anchor="middle"><text x="310" y="79">Restart (power cycle)</text><text x="520" y="79">Factory reset</text></g>
+  <g fill="#fff" stroke="#d5dee8" stroke-width="2">
+    <rect x="20" y="104" width="600" height="44" rx="8"/><rect x="20" y="156" width="600" height="44" rx="8"/><rect x="20" y="208" width="600" height="44" rx="8"/><rect x="20" y="260" width="600" height="56" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="20" y="324" width="600" height="56" rx="8"/></g>
+  <g font-size="13" font-weight="700" fill="#0f2240">
+    <text x="34" y="131">Time it takes</text>
+    <text x="34" y="183">Wi-Fi name, password</text>
+    <text x="34" y="235">Admin password</text>
+    <text x="34" y="284">Other settings</text><text x="34" y="301" font-weight="400" fill="#566475">ports, controls</text>
+    <text x="34" y="348">Best for</text>
+  </g>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="310" y="131">About 2 to 5 min</text><text x="520" y="131">10 to 30 min with setup</text>
+    <text x="310" y="183" fill="#1f8a5b" font-weight="700">Kept</text><text x="520" y="183" fill="#d9442b" font-weight="700">Back to label defaults</text>
+    <text x="310" y="235" fill="#1f8a5b" font-weight="700">Kept</text><text x="520" y="235" fill="#d9442b" font-weight="700">Back to default</text>
+    <text x="310" y="292" fill="#1f8a5b" font-weight="700">Kept</text><text x="520" y="292" fill="#d9442b" font-weight="700">Erased</text>
+    <text x="310" y="348">Slow, dropped or</text><text x="310" y="366">stuck connections</text>
+    <text x="520" y="348">Forgotten password,</text><text x="520" y="366">broken settings</text>
+  </g>
+</svg>

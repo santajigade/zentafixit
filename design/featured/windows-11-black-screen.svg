@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- laptop -->
+  <rect x="300" y="100" width="600" height="370" rx="22" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="330" y="130" width="540" height="310" rx="8" fill="#14202c" stroke="#0f2240" stroke-width="4"/>
+  <path d="M220 480h760l-40 60H260z" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="520" y="492" width="160" height="22" rx="8" fill="#d5dee8" stroke="#0f2240" stroke-width="3"/>
+  <circle cx="600" cy="115" r="5" fill="#0f2240"/>
+  <!-- cursor -->
+  <path d="M580 250v80l20-20 16 36 16-8-16-34h28z" fill="#fff" stroke="#0f2240" stroke-width="3" stroke-linejoin="round"/>
+  <!-- refresh accent -->
+  <path d="M1060 250a62 62 0 1 1-30-54" fill="none" stroke="#ffd23f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M1010 168l36 26-40 18z" fill="#ffd23f"/>
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round"><path d="M180 220l50 20M170 290h56M180 360l50-20"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M300 65h600M300 55v20M900 55v20"/><path d="M940 100v370M930 100h20M930 470h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

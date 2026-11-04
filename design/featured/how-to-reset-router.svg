@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- router -->
+  <g stroke="#0f2240" stroke-width="5" stroke-linecap="round"><path d="M330 330l-50-210M550 330l0-220M770 330l50-210"/></g>
+  <g stroke="#ffffff" stroke-width="12" stroke-linecap="round" fill="none" opacity=".9"><path d="M330 330l-50-210M550 330l0-220M770 330l50-210"/></g>
+  <rect x="220" y="320" width="660" height="170" rx="30" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="250" y="350" width="600" height="110" rx="20" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g fill="#1f8a5b"><circle cx="310" cy="405" r="11"/><circle cx="360" cy="405" r="11"/><circle cx="410" cy="405" r="11"/></g>
+  <circle cx="460" cy="405" r="11" fill="#d5dee8" stroke="#0f2240" stroke-width="3"/>
+  <g fill="#d5dee8" stroke="#0f2240" stroke-width="3"><rect x="620" y="385" width="44" height="40" rx="5"/><rect x="680" y="385" width="44" height="40" rx="5"/><rect x="740" y="385" width="44" height="40" rx="5"/></g>
+  <circle cx="815" cy="405" r="8" fill="#0f2240"/>
+  <!-- restart arrow accent -->
+  <path d="M990 260a90 90 0 1 1-60-85" fill="none" stroke="#ffd23f" stroke-width="12" stroke-linecap="round"/>
+  <path d="M916 140l40 36-48 22z" fill="#ffd23f"/>
+  <!-- paperclip -->
+  <path d="M960 480v70a20 20 0 0 0 40 0v-100a32 32 0 0 0-64 0v90" fill="none" stroke="#9fc4f0" stroke-width="6" stroke-linecap="round"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M220 535h660M220 525v20M880 525v20"/><path d="M175 320v170M165 320h20M165 490h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>
