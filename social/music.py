@@ -1,9 +1,10 @@
 """Original synthesized soundtrack for the daily promo (no samples, copyright free).
-usage: music.py N_GUIDES out.wav   (timing matches templates/promo.html: T0=3.0, SEG=4.2, end card 4.0 s)"""
+usage: music.py timeline.json out.wav   (timeline = window.TL from templates/single.html plus n checks)"""
 import numpy as np, wave, sys
 
-NG = int(sys.argv[1])
-SR, DUR = 44100, 3.0 + NG * 4.2 + 4.0
+import json
+TL = json.load(open(sys.argv[1]))
+SR, DUR = 44100, TL['end'][1]
 N = int(SR * DUR)
 L = np.zeros(N); R = np.zeros(N)
 rng = np.random.default_rng(7)
@@ -80,6 +81,7 @@ def impact():
     return x + noise
 
 
+
 prog = [(48, [60, 64, 67, 72]), (45, [57, 60, 64, 69]), (41, [57, 60, 65, 69]), (43, [55, 59, 62, 67])]
 def pad(notes, dur):
     s = sum(tone(nf(m), dur, "saw", 6) for m in notes) / len(notes)
@@ -89,36 +91,39 @@ def pad(notes, dur):
 def bass(m, dur):
     n = int(dur * SR); s = tone(nf(m), dur, "sq", 5)
     return np.convolve(s, np.ones(12) / 12, "same") * env(n, 0.005, 0.35)
-T0, SEG = 3.0, 4.2
-TEND = T0 + NG * SEG
-for bar in range(40):
+TEND = TL['end'][0]
+for bar in range(60):
     t0 = bar * 2.0
-    if t0 >= TEND: break
+    if t0 >= TEND - 0.5: break
     root, ch = prog[bar % 4]
-    add(pad(ch, 2.05), t0, 0.15)
+    add(pad(ch, min(2.05, TEND - t0 + 0.05)), t0, 0.15)
     if t0 >= 2.0:
-        for b in range(4): add(bass(root, 0.45), t0 + b * BEAT, 0.26)
+        for b in range(4):
+            if t0 + b * BEAT < TEND - 0.2: add(bass(root, 0.45), t0 + b * BEAT, 0.26)
 add(pad([60, 64, 67, 72, 76], DUR - TEND), TEND, 0.2)
 add(bass(36, 3.0), TEND, 0.35)
 t = 0.5
 while t < TEND - 0.3:
     beat = round(t / BEAT)
     if t >= 2.0 or beat % 2 == 0: add(kick(), t, 0.75)
-    if t >= 3.0: add(hat(), t + BEAT / 2, 0.45, 0.3)
-    if t >= 3.0 and beat % 2 == 1: add(clap(), t, 0.6, -0.1)
+    if t >= TL['card'][0]: add(hat(), t + BEAT / 2, 0.45, 0.3)
+    if t >= TL['card'][0] and beat % 2 == 1: add(clap(), t, 0.6, -0.1)
     t += BEAT
 for x in np.arange(TEND - 1.0, TEND, 0.125): add(clap(), x, 0.2 + 0.3 * (x - TEND + 1.0))
+# hook
 add(whoosh(0.6), 0.0, 0.4)
-add(pop(800), 0.65, 0.5); add(impact(), 0.65, 0.4)
-add(pop(1100), 1.0, 0.3)
-for i in range(NG):
-    a = T0 + i * SEG
-    add(whoosh(0.5), a - 0.3, 0.5, 0.2)
-    add(pop(900 + i * 120), a + 0.35, 0.3)
-    add(ding([76, 79, 81, 84, 86, 88][i % 6], 0.35), a + 1.05, 0.3)
-add(whoosh(0.6, up=False), TEND - 0.4, 0.5)
-add(impact(), TEND + 0.75, 0.85)
-for i, m in enumerate([72, 76, 79, 84]): add(ding(m, 0.9), TEND + 0.8 + i * 0.06, 0.25)
+add(pop(800), 0.45, 0.4); add(impact(), 0.5, 0.45)
+add(ding(84, 0.4), 1.25, 0.25)
+# scene changes
+for k in ('card', 'checks', 'safe', 'end'):
+    a, b = TL[k]
+    if b > a: add(whoosh(0.5, up=(k != 'end')), a - 0.35, 0.45, 0.2)
+add(pop(1000), TL['card'][0] + 0.5, 0.3)
+for i in range(TL['n']):
+    add(ding([76, 79, 81, 84, 86][i % 5], 0.35), TL['checks'][0] + 1.05 + i * 2.2, 0.32)
+if TL['safe'][1] > TL['safe'][0]: add(impact(), TL['safe'][0] + 0.25, 0.5)
+add(impact(), TEND + 0.85, 0.85)
+for i, m in enumerate([72, 76, 79, 84]): add(ding(m, 0.9), TEND + 0.9 + i * 0.06, 0.25)
 # Master: fade, soft clip, normalize
 mix = np.stack([L, R], 1)
 tt = np.arange(N) / SR

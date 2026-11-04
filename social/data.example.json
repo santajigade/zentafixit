@@ -1,69 +1,43 @@
 {
  "date": "2026-11-04",
  "dateLabel": "Nov 4",
- "categoriesLine": "HVAC · Appliances · Networking · PC",
- "shortsTitle": "4 Quick Home Fixes: AC, Dryer, Router, Windows 11",
+ "shortsTitle": "Restart Your Router the Right Way in 4 Steps",
+ "captionIntro": "Wi-Fi slow or stuck? Restart your router the right way:",
  "hashtags": [
-  "#DIY",
-  "#HomeRepair",
-  "#HVAC",
-  "#Appliances",
   "#WiFi",
-  "#Windows11",
-  "#FixIt"
+  "#Router",
+  "#HomeNetwork",
+  "#TechTips",
+  "#DIY",
+  "#FixIt",
+  "#Homeowners"
  ],
- "guides": [
-  {
-   "slug": "ac-not-turning-on",
-   "url": "https://zentafixit.com/hvac/ac-not-turning-on/",
-   "tag": "HVAC",
-   "emoji": "❄️",
-   "fullTitle": "AC not turning on? 8 causes and fixes",
-   "title": [
-    "AC not turning on?",
-    "8 causes and fixes"
-   ],
-   "tip": "Check the thermostat, breaker and outdoor disconnect first.",
-   "short": "AC won't turn on"
-  },
-  {
-   "slug": "dryer-not-heating",
-   "url": "https://zentafixit.com/appliances/dryer-not-heating/",
-   "tag": "Appliances",
-   "emoji": "👕",
-   "fullTitle": "Dryer not heating? 8 causes and fixes",
-   "title": [
-    "Dryer not heating?",
-    "8 causes and fixes"
-   ],
-   "tip": "Clean the lint screen and vent before replacing the thermal fuse.",
-   "short": "Dryer not heating"
-  },
-  {
-   "slug": "how-to-reset-router",
-   "url": "https://zentafixit.com/networking/how-to-reset-router/",
-   "tag": "Home Networking",
-   "emoji": "📶",
-   "fullTitle": "How to reset your router: restart vs factory reset",
-   "title": [
-    "How to reset your router",
-    "restart vs factory reset"
-   ],
-   "tip": "Unplug 30 seconds. Plug in the modem first, then the router.",
-   "short": "Reset your router"
-  },
-  {
-   "slug": "windows-11-black-screen",
-   "url": "https://zentafixit.com/pc-laptops/windows-11-black-screen/",
-   "tag": "PC & Laptops",
-   "emoji": "💻",
-   "fullTitle": "Windows 11 black screen? 8 fixes that work",
-   "title": [
-    "Windows 11 black screen?",
-    "8 fixes that work"
-   ],
-   "tip": "Press Win + Ctrl + Shift + B to restart the graphics driver.",
-   "short": "Win 11 black screen"
-  }
- ]
+ "guide": {
+  "slug": "how-to-reset-router",
+  "url": "https://zentafixit.com/networking/how-to-reset-router/",
+  "tag": "Home Networking",
+  "emoji": "📶",
+  "fullTitle": "How to reset your router: restart vs factory reset",
+  "title": [
+   "How to reset your router",
+   "restart vs factory reset"
+  ],
+  "hook": "Wi-Fi slow or stuck?",
+  "hookSub": "Restart your router the right way",
+  "checksTitle": "Restart it in 4 steps",
+  "checks": [
+   "Unplug the modem and the router",
+   "Wait about 30 seconds",
+   "Plug in the modem first and wait for its lights",
+   "Then plug in the router"
+  ],
+  "safetyTitle": "Before a factory reset",
+  "safety": "A factory reset erases your Wi-Fi name and password. Write them down first.",
+  "short": "Reset your router",
+  "thumbTitle": [
+   "Wi-Fi stuck?",
+   "Reset it right"
+  ],
+  "checksSub": "No tools needed"
+ }
 }
