@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<!-- Daily promo video template. Data comes from ../work/data.js (window.DATA). Hash #v = vertical 1080x1920, #gif = static grid. -->
+<style>
+@font-face{font-family:"OS";src:url("../fonts/open-sans-wdth.woff2") format("woff2");font-weight:300 800;font-stretch:75% 100%;}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1080px;overflow:hidden;background:#0F2240;font-family:"OS",sans-serif;color:#fff}
+.abs{position:absolute}
+#grid{inset:0;background-image:linear-gradient(rgba(120,170,230,.16) 2px,transparent 2px),linear-gradient(90deg,rgba(120,170,230,.16) 2px,transparent 2px),linear-gradient(rgba(120,170,230,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(120,170,230,.07) 1px,transparent 1px);background-size:180px 180px,180px 180px,36px 36px,36px 36px}
+#glow{inset:0;background:radial-gradient(circle at 50% 42%,rgba(255,210,63,.14),rgba(15,34,64,0) 55%)}
+.cond{font-stretch:75%;font-weight:800;letter-spacing:-1px}
+.y{color:#FFD23F}
+.logo{background:#FFD23F;border-radius:22%}
+.logo svg{width:100%;height:100%;display:block}
+.center{width:1080px;text-align:center}
+#hdr{left:60px;top:48px;display:flex;align-items:center;gap:18px}
+#hdr .logo{width:64px;height:64px}
+#hdr .wm{font-size:46px}
+#count{right:60px;top:58px;font-size:40px;color:rgba(255,255,255,.75)}
+#i1{top:330px;font-size:64px;font-weight:700;color:rgba(255,255,255,.9)}
+#i2{top:410px;font-size:190px;line-height:1}
+#i3{top:620px;font-size:150px;line-height:1}
+#i4{top:820px;font-size:44px;font-weight:600;color:rgba(255,255,255,.8)}
+.card{left:0;top:0;width:1080px;height:1080px}
+.tag{left:60px;top:160px;background:#FFD23F;color:#0F2240;font-size:34px;font-weight:800;padding:6px 22px 8px;border-radius:12px;text-transform:uppercase;letter-spacing:1px}
+.imgbox{left:60px;top:240px;width:960px;height:504px;border-radius:22px;overflow:hidden;border:3px solid rgba(255,210,63,.55);box-shadow:0 20px 50px rgba(0,0,0,.4)}
+.imgbox img{width:100%;height:100%;display:block;transform-origin:50% 50%}
+.title{left:60px;top:770px;width:960px;font-size:78px;line-height:1.02}
+.tip{left:60px;top:940px;width:960px;font-size:34px;font-weight:600;color:rgba(255,255,255,.88);display:flex;gap:14px;align-items:flex-start}
+.tip b{color:#0F2240;background:#FFD23F;border-radius:8px;padding:0 12px;font-size:28px;font-weight:800;flex:none;margin-top:4px}
+.url{display:none}
+#endlogo{display:none}
+#c1{top:260px;font-size:72px;font-weight:700}
+#c2{top:350px;font-size:130px;line-height:1}
+#cta{top:560px;width:1080px;display:flex;justify-content:center}
+#pill{background:#FFD23F;color:#0F2240;border-radius:60px;padding:14px 46px 18px;font-size:92px;line-height:1.05}
+#c3{top:740px;font-size:44px;font-weight:600;color:rgba(255,255,255,.88)}
+#fade{inset:0;background:#0F2240}
+/* vertical 1080x1920 */
+html.v,body.v{height:1920px}
+body.v .card{height:1920px}
+body.v #glow{background:radial-gradient(circle at 50% 45%,rgba(255,210,63,.16),rgba(15,34,64,0) 50%)}
+body.v #hdr{top:170px}
+body.v #hdr .logo{width:84px;height:84px}
+body.v #hdr .wm{font-size:60px}
+body.v #count{top:184px;font-size:52px}
+body.v #i1{top:620px;font-size:78px}
+body.v #i2{top:730px;font-size:290px}
+body.v #i3{top:1040px;font-size:205px}
+body.v #i4{top:1310px;font-size:54px}
+body.v .tag{top:360px;font-size:46px;padding:8px 26px 10px}
+body.v .imgbox{top:450px;left:40px;width:1000px;height:525px}
+body.v .title{top:1040px;font-size:94px;line-height:1.02}
+body.v .tip{top:1300px;left:40px;width:1000px;font-size:46px;background:rgba(23,48,90,.9);border:2px solid rgba(255,210,63,.45);border-radius:20px;padding:22px 26px}
+body.v .tip b{font-size:34px}
+body.v .url{display:block;left:40px;top:1500px;width:1000px;font-size:44px;font-weight:700;color:rgba(255,255,255,.85)}
+body.v .url span{color:#FFD23F}
+body.v #c1{top:700px;font-size:80px}
+body.v #c2{top:810px;font-size:150px}
+body.v #cta{top:1040px}
+body.v #pill{font-size:118px}
+body.v #c3{top:1260px;font-size:54px}
+body.v #endlogo{display:block;left:420px;top:380px;width:240px;height:240px}
+</style></head><body>
+<script>if(location.hash.includes("v")){document.body.classList.add("v");document.documentElement.classList.add("v");}</script>
+<script src="../work/data.js"></script>
+<div id="grid" class="abs"></div><div id="glow" class="abs"></div>
+<div id="hdr" class="abs"><div class="logo"><svg viewBox="0 0 260 260"><path d="M72 78 H188 L72 182 H188" fill="none" stroke="#0F2240" stroke-width="40" stroke-linecap="square"/></svg></div><div class="wm cond">Zenta<span class="y">Fixit</span></div></div>
+<div id="count" class="abs cond"></div>
+<div id="intro" class="abs" style="inset:0">
+ <div id="i1" class="abs center">New today on ZentaFixit</div>
+ <div id="i2" class="abs center cond y"></div>
+ <div id="i3" class="abs center cond"></div>
+ <div id="i4" class="abs center"></div>
+</div>
+<div id="cards"></div>
+<div id="end" class="abs" style="inset:0">
+ <div id="endlogo" class="abs logo"><svg viewBox="0 0 260 260"><path d="M72 78 H188 L72 182 H188" fill="none" stroke="#0F2240" stroke-width="40" stroke-linecap="square"/></svg></div>
+ <div id="c1" class="abs center">Step-by-step, safety first.</div>
+ <div id="c2" class="abs center cond">Read them <span class="y">free</span></div>
+ <div id="cta" class="abs"><div id="pill" class="cond">zentafixit.com</div></div>
+ <div id="c3" class="abs center">New guides every day. Follow for more.</div>
+</div>
+<div id="fade" class="abs"></div>
+<script>
+const D=window.DATA, G=D.guides, N=G.length, V=document.body.classList.contains('v');
+const esc=s=>s.replace(/&(?!amp;)/g,'&amp;');
+document.getElementById('i2').textContent=N==1?'1 new':`${N} new`;
+document.getElementById('i3').textContent=N==1?'fix-it guide':'fix-it guides';
+document.getElementById('i4').textContent=D.categoriesLine;
+const cardsEl=document.getElementById('cards');
+G.forEach((g,i)=>{const d=document.createElement('div');d.className='card abs';d.id='g'+i;
+ const t=(V&&g.titleVertical)?g.titleVertical:g.title;
+ d.innerHTML=`<div class="tag abs">${esc(g.tag)}</div><div class="imgbox abs"><img src="../../design/featured/${g.slug}.svg"></div><div class="title abs cond">${t[0]}<br><span class="y">${t[1]}</span></div><div class="tip abs"><b>TIP</b><span>${esc(g.tip)}</span></div><div class="url abs">Full guide: <span>zentafixit.com</span></div>`;
+ cardsEl.appendChild(d);});
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,b)=>cl((t-a)/(b-a));
+const eo=x=>1-Math.pow(1-x,3), eio=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c1=1.70158,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2);};
+const T0=3.0, SEG=4.2, TEND=T0+N*SEG, DUR=TEND+4.0;
+window.DUR=DUR;
+// shrink any title that wraps past 2 lines
+window.fitTitles=function(){document.querySelectorAll('.title').forEach(el=>{let fs=parseFloat(getComputedStyle(el).fontSize);
+ const card=el.parentElement,prev=card.style.display;card.style.display='block';
+ while(el.scrollHeight>fs*1.02*2.2&&fs>50){fs-=2;el.style.fontSize=fs+'px';} card.style.display=prev;});};
+function show(el,o,x=0,y=0,s=1){el.style.opacity=o;el.style.transform=`translate(${x}px,${y}px) scale(${s})`;}
+window.render=function(t){
+ if(!location.hash.includes('gif'))$('grid').style.backgroundPosition=`${-t*12}px ${-t*8}px`;
+ $('fade').style.opacity=1-p(t,0,0.4)+p(t,DUR-0.45,DUR);
+ const h=eo(p(t,0.1,0.6));show($('hdr'),h,0,-30*(1-h));
+ const io=eio(p(t,T0-0.45,T0));
+ show($('i1'),eo(p(t,0.3,0.8))*(1-io),-120*io,30*(1-eo(p(t,0.3,0.8))));
+ show($('i2'),eo(p(t,0.6,1.1))*(1-io),-160*io,0,0.7+0.3*back(p(t,0.6,1.1)));
+ show($('i3'),eo(p(t,0.9,1.4))*(1-io),-200*io,40*(1-eo(p(t,0.9,1.4))));
+ show($('i4'),eo(p(t,1.4,1.9))*(1-io),-120*io);
+ let cur=-1;
+ G.forEach((g,i)=>{const a=T0+i*SEG,b=a+SEG;const el=$('g'+i);
+  const inn=eio(p(t,a-0.05,a+0.45)), out=eio(p(t,b-0.45,b));
+  const vis=t>a-0.1&&t<b+0.05;el.style.display=vis?'block':'none';if(!vis)return;
+  if(t>=a&&t<b)cur=i;
+  el.style.transform=`translateX(${1080*(1-inn)-1080*out}px)`;
+  el.querySelector('img').style.transform=`scale(${1.0+0.08*p(t,a,b)})`;
+  const tg=eo(p(t,a+0.3,a+0.7));show(el.querySelector('.tag'),tg,0,-20*(1-tg));
+  const ti=eo(p(t,a+0.4,a+0.9));show(el.querySelector('.title'),ti,0,40*(1-ti));
+  const tp=eo(p(t,a+1.0,a+1.5));show(el.querySelector('.tip'),tp,-40*(1-tp));
+  const ur=eo(p(t,a+1.4,a+1.9));show(el.querySelector('.url'),ur,0,20*(1-ur));
+ });
+ $('count').textContent=cur>=0?`${cur+1} / ${N}`:'';
+ $('count').style.opacity=cur>=0?1:0;
+ const e=p(t,TEND,TEND+0.5);
+ $('end').style.display=t>TEND-0.05?'block':'none';
+ show($('c1'),eo(e),0,30*(1-eo(e)));
+ const e2=p(t,TEND+0.25,TEND+0.8);show($('c2'),eo(e2),0,0,0.8+0.2*back(e2));
+ const e3=p(t,TEND+0.7,TEND+1.3);show($('cta'),eo(e3),0,0,(0.6+0.4*back(e3))*(t>TEND+1.6?1+0.03*Math.sin((t-TEND-1.6)*5):1));
+ const e4=eo(p(t,TEND+1.2,TEND+1.7));show($('c3'),e4,0,24*(1-e4));
+ const el=p(t,TEND,TEND+0.6);show($('endlogo'),eo(el),0,0,back(el));
+};
+render(0);
+</script></body></html>
