@@ -2,6 +2,8 @@
 title: "Dryer Not Heating? 8 Causes and Fixes"
 description: "Dryer tumbling but not heating? Check the breaker, lint and vent, then the thermal fuse, heating element, thermostats or gas igniter, step by step."
 pubDate: 2026-11-04
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-04
 category: appliances
 subcategory: washers-and-dryers
 tags: [dryer, no heat, thermal fuse, heating element, dryer vent, gas dryer, laundry]

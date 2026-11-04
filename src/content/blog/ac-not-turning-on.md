@@ -2,6 +2,8 @@
 title: "AC Not Turning On? 8 Causes and Fixes"
 description: "Central AC won't turn on at all? Check thermostat settings, breakers, the outdoor disconnect, a tripped float switch and a blown fuse, step by step."
 pubDate: 2026-11-04
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-04
 category: hvac
 subcategory: air-conditioners
 tags: [ac, air conditioner, thermostat, breaker, capacitor, float switch, cooling]

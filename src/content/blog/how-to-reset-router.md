@@ -2,6 +2,8 @@
 title: "How to Reset Your Router (Restart vs Factory Reset)"
 description: "Restart or factory reset your router the right way: the power cycle order, how long to hold the reset button, what you lose and how to set it up again."
 pubDate: 2026-11-04
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-04
 category: networking
 subcategory: routers-and-modems
 tags: [router, reset, restart, factory reset, modem, wifi, power cycle]

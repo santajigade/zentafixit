@@ -2,6 +2,8 @@
 title: "Windows 11 Black Screen? 8 Fixes That Work"
 description: "Windows 11 black screen with or without a cursor? Wake the display, restart the graphics driver, restart Explorer, use Safe Mode or undo a bad update."
 pubDate: 2026-11-04
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-04
 category: pc-laptops
 subcategory: windows-problems
 tags: [windows 11, black screen, display, graphics driver, safe mode, explorer, startup]
