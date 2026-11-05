@@ -9,10 +9,10 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] appliances/washers-and-dryers | dryer-not-heating | Dryer Not Heating? Causes and Fixes
 - [x] networking/routers-and-modems | how-to-reset-router | How to Reset Your Router (Restart vs Factory Reset)
 - [x] pc-laptops/windows-problems | windows-11-black-screen | Windows 11 Black Screen? Fixes
-- [ ] appliances/refrigerators | ice-maker-not-working | Ice Maker Not Working? Fixes
-- [ ] hvac/air-conditioners | ac-unit-freezing-up | AC Freezing Up? Why It Happens and How to Fix It
-- [ ] phones-tablets/iphone-problems | iphone-wont-turn-on | iPhone Won't Turn On? Fixes
-- [ ] electrical/lighting-and-ceiling-fans | light-switch-not-working | Light Switch Not Working? Causes and Fixes
+- [x] appliances/refrigerators | ice-maker-not-working | Ice Maker Not Working? Fixes
+- [x] hvac/air-conditioners | ac-unit-freezing-up | AC Freezing Up? Why It Happens and How to Fix It
+- [x] phones-tablets/iphone-problems | iphone-wont-turn-on | iPhone Won't Turn On? Fixes
+- [x] electrical/lighting-and-ceiling-fans | light-switch-not-working | Light Switch Not Working? Causes and Fixes
 - [ ] plumbing/clogged-drains | garbage-disposal-not-working | Garbage Disposal Not Working? Fixes
 - [ ] appliances/dishwashers | dishwasher-not-cleaning | Dishwasher Not Cleaning Dishes? Fixes
 - [ ] tv-audio/smart-tvs | tv-wont-turn-on | TV Won't Turn On? Fixes

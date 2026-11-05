@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- phone body -->
+  <rect x="440" y="70" width="270" height="520" rx="44" fill="#f3f6fa" stroke="#ffffff" stroke-width="5"/>
+  <rect x="462" y="92" width="226" height="476" rx="30" fill="#0f2240" stroke="#0f2240" stroke-width="4"/>
+  <rect x="540" y="104" width="70" height="18" rx="9" fill="#14202c" stroke="#d5dee8" stroke-width="2"/>
+  <!-- volume buttons -->
+  <rect x="426" y="180" width="14" height="56" rx="6" fill="#f3f6fa" stroke="#ffffff" stroke-width="2"/>
+  <rect x="426" y="252" width="14" height="56" rx="6" fill="#f3f6fa" stroke="#ffffff" stroke-width="2"/>
+  <!-- side button accent -->
+  <rect x="710" y="200" width="16" height="90" rx="6" fill="#ffd23f"/>
+  <!-- dim power symbol on screen -->
+  <g stroke="#d5dee8" stroke-opacity=".5" stroke-width="10" stroke-linecap="round" fill="none"><path d="M550 300a42 42 0 1 0 50 0"/><path d="M575 282v50"/></g>
+  <!-- cable and plug -->
+  <path d="M575 590v10" stroke="#ffffff" stroke-width="8"/>
+  <rect x="800" y="380" width="150" height="110" rx="16" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="10" stroke-linecap="round"><path d="M850 380v-40M900 380v-40"/></g>
+  <path d="M875 490c0 80-80 70-140 80" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  <!-- bolt accent -->
+  <path d="M890 400l-34 46h26l-14 34 40-52h-28z" fill="#ffd23f"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M440 45h270M440 35v20M710 35v20"/><path d="M380 70v520M370 70h20M370 590h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

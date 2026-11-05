@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Single-pole switch: what goes where</text>
+  <!-- box -->
+  <rect x="210" y="60" width="210" height="320" rx="8" fill="#fff" stroke="#566475" stroke-width="2"/>
+  <!-- switch body -->
+  <rect x="270" y="88" width="80" height="268" rx="6" fill="#f3f6fa" stroke="#0f2240" stroke-width="2"/>
+  <rect x="295" y="190" width="30" height="64" rx="4" fill="#0f2240"/>
+  <!-- backstab holes -->
+  <rect x="290" y="108" width="9" height="9" fill="#0f2240"/><rect x="321" y="108" width="9" height="9" fill="#0f2240"/>
+  <!-- hot wire -->
+  <path d="M30 150H256" fill="none" stroke="#14202c" stroke-width="5" stroke-linecap="round"/>
+  <!-- switched wire -->
+  <path d="M30 290H256" fill="none" stroke="#14202c" stroke-width="5" stroke-linecap="round"/>
+  <!-- ground -->
+  <path d="M30 340H300" fill="none" stroke="#1f8a5b" stroke-width="4" stroke-linecap="round"/>
+  <!-- screws -->
+  <g fill="#ffd23f" stroke="#c9a10a" stroke-width="2"><circle cx="262" cy="150" r="9"/><circle cx="262" cy="290" r="9"/></g>
+  <circle cx="310" cy="340" r="8" fill="#1f8a5b" stroke="#0f2240" stroke-width="1.5"/>
+  <!-- neutrals -->
+  <g fill="none" stroke-linecap="round"><path d="M384 210C384 260 372 310 372 378" stroke="#566475" stroke-width="6"/><path d="M384 210C384 260 372 310 372 378" stroke="#fff" stroke-width="3"/><path d="M396 210C396 260 404 310 404 378" stroke="#566475" stroke-width="6"/><path d="M396 210C396 260 404 310 404 378" stroke="#fff" stroke-width="3"/></g>
+  <path d="M378 214l12 -34l12 34z" fill="#0f2240"/>
+  <!-- leader lines -->
+  <g stroke="#566475" stroke-width="1.5" stroke-dasharray="4 4" fill="none"><path d="M334 112L440 96"/><path d="M406 196L440 210"/><path d="M272 150L440 155"/></g>
+  <g font-size="14" fill="#14202c">
+    <text x="24" y="140">Hot from the panel</text>
+    <text x="24" y="280">Switched wire to light</text>
+    <text x="24" y="330">Ground (bare or green)</text>
+    <text x="446" y="100" font-weight="700">Backstab holes</text>
+    <text x="446" y="160" font-weight="700">Brass screws</text>
+    <text x="446" y="216" font-weight="700">Neutrals joined</text>
+  </g>
+  <g font-size="12" fill="#566475">
+    <text x="446" y="117">push-in holes that</text><text x="446" y="132">can loosen over time</text>
+    <text x="446" y="177">hot and switched wires,</text><text x="446" y="192">either screw</text>
+    <text x="446" y="233">in the back of the box,</text><text x="446" y="248">not on the switch;</text><text x="446" y="263">smart switches use one</text>
+    <text x="24" y="166">usually black</text>
+    <text x="24" y="306">often black or red</text>
+    <text x="24" y="356">to the green screw</text>
+  </g>
+  <rect x="20" y="394" width="600" height="34" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <text x="320" y="416" font-size="13" fill="#14202c" text-anchor="middle">Breaker off and test with a non-contact tester before touching any wire</text>
+</svg>

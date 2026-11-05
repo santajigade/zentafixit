@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- switch box -->
+  <rect x="300" y="180" width="260" height="380" rx="16" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="380" y="210" width="100" height="320" rx="10" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="408" y="320" width="44" height="100" rx="8" fill="#0f2240"/>
+  <g fill="#ffd23f" stroke="#0f2240" stroke-width="3"><circle cx="368" cy="270" r="14"/><circle cx="368" cy="470" r="14"/></g>
+  <!-- wires -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M354 270H320" stroke="#0f2240" stroke-width="8"/>
+    <path d="M354 470H320" stroke="#0f2240" stroke-width="8"/>
+    <path d="M320 270C250 270 250 140 300 110" stroke="#ffffff" stroke-width="8"/>
+    <path d="M320 470C230 470 220 130 260 90" stroke="#d5dee8" stroke-width="8"/>
+  </g>
+  <!-- cover plate leaning -->
+  <rect x="640" y="250" width="170" height="270" rx="14" fill="#f3f6fa" stroke="#ffffff" stroke-width="4" transform="rotate(8 725 385)"/>
+  <rect x="705" y="340" width="40" height="90" rx="6" fill="#0f2240" transform="rotate(8 725 385)"/>
+  <g transform="translate(220 0)">
+  <!-- ceiling light -->
+  <path d="M760 40v40" stroke="#ffffff" stroke-width="6"/>
+  <path d="M690 80h140l-30 70h-80z" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="760" cy="168" r="22" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- glow accent -->
+  <g stroke="#ffd23f" stroke-width="8" stroke-linecap="round"><path d="M700 200l-26 26M820 200l26 26M760 210v34"/></g>
+  </g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M300 150h260M300 140v20M560 140v20"/><path d="M600 180v380M590 180h20M590 560h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

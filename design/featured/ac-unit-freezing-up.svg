@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- indoor air handler -->
+  <rect x="160" y="110" width="300" height="440" rx="16" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <!-- A-coil with frost -->
+  <path d="M200 330L310 140L420 330" fill="#fff" stroke="#0f2240" stroke-width="5" stroke-linejoin="round"/>
+  <g stroke="#0f2240" stroke-width="3"><path d="M228 300l40 -16M246 268l40 -16M264 236l40 -16M282 204l30 -12"/><path d="M392 300l-40 -16M374 268l-40 -16M356 236l-40 -16M338 204l-30 -12"/></g>
+  <g fill="#d5dee8" stroke="#0f2240" stroke-width="2"><circle cx="240" cy="320" r="10"/><circle cx="262" cy="282" r="8"/><circle cx="380" cy="316" r="10"/><circle cx="356" cy="276" r="8"/><circle cx="310" cy="170" r="9"/></g>
+  <!-- blower -->
+  <circle cx="310" cy="440" r="70" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <circle cx="310" cy="440" r="44" fill="none" stroke="#0f2240" stroke-width="3" stroke-dasharray="10 8"/>
+  <circle cx="310" cy="440" r="12" fill="#0f2240"/>
+  <!-- refrigerant lines -->
+  <path d="M460 260H700" stroke="#ffffff" stroke-width="18" stroke-linecap="round"/>
+  <path d="M460 260H700" stroke="#d5dee8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M460 300H700" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <!-- ice on the line -->
+  <g fill="#f3f6fa" stroke="#0f2240" stroke-width="3"><rect x="520" y="240" width="40" height="40" rx="8"/><rect x="580" y="236" width="44" height="48" rx="8"/><rect x="640" y="242" width="36" height="36" rx="8"/></g>
+  <!-- outdoor unit -->
+  <rect x="700" y="170" width="360" height="380" rx="18" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="880" cy="360" r="130" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <circle cx="880" cy="360" r="96" fill="none" stroke="#0f2240" stroke-width="3"/>
+  <g fill="#d5dee8" stroke="#0f2240" stroke-width="3"><ellipse cx="880" cy="310" rx="18" ry="48"/><ellipse cx="880" cy="310" rx="18" ry="48" transform="rotate(120 880 360)"/><ellipse cx="880" cy="310" rx="18" ry="48" transform="rotate(240 880 360)"/></g>
+  <circle cx="880" cy="360" r="14" fill="#0f2240"/>
+  <!-- snowflake accent -->
+  <g stroke="#ffd23f" stroke-width="8" stroke-linecap="round"><path d="M600 120v80M565 140l70 40M565 180l70 -40"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M160 80h300M160 70v20M460 70v20"/><path d="M1100 170v380M1090 170h20M1090 550h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>
