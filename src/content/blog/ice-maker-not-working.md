@@ -2,6 +2,8 @@
 title: "Ice Maker Not Working? 8 Causes and Fixes"
 description: "Refrigerator ice maker not making ice? Check the shutoff arm, freezer temperature, water supply, filter and a frozen fill tube, step by step."
 pubDate: 2026-11-05
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-05
 category: appliances
 subcategory: refrigerators
 tags: [ice maker, refrigerator, freezer, water filter, water inlet valve, fill tube]

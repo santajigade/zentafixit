@@ -2,6 +2,8 @@
 title: "iPhone Won't Turn On? 8 Fixes to Try"
 description: "iPhone screen stays black or stuck on the Apple logo? Charge it, force restart it the right way for your model, and use recovery mode before you pay for repair."
 pubDate: 2026-11-05
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-05
 category: phones-tablets
 subcategory: iphone-problems
 tags: [iphone, black screen, force restart, apple logo, recovery mode, battery]

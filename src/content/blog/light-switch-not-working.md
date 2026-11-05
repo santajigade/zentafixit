@@ -2,6 +2,8 @@
 title: "Light Switch Not Working? 8 Causes and Fixes"
 description: "Flip the switch and nothing happens? Check the bulb, breaker and GFCI first, then loose wires, a worn-out switch, 3-way switches and smart switch problems."
 pubDate: 2026-11-05
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-05
 category: electrical
 subcategory: lighting-and-ceiling-fans
 tags: [light switch, switch, 3-way switch, dimmer, smart switch, breaker, wiring]

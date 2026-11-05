@@ -2,6 +2,8 @@
 title: "AC Freezing Up? 7 Causes and How to Fix It"
 description: "Ice on your AC coil or lines? Thaw it safely, then fix the usual causes: a dirty filter, blocked vents, a dirty coil, a weak blower or low refrigerant."
 pubDate: 2026-11-05
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-05
 category: hvac
 subcategory: air-conditioners
 tags: [ac, air conditioner, frozen coil, ice, air filter, refrigerant, evaporator coil]
