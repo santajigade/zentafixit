@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">The flashlight test on a dark screen</text>
+  <text x="24" y="54" font-size="13" fill="#566475">LCD and LED TVs only. OLED TVs have no backlight.</text>
+  <!-- left TV: faint image -->
+  <rect x="40" y="74" width="260" height="156" rx="8" fill="#14202c" stroke="#0f2240" stroke-width="2"/>
+  <path d="M170 230v12M130 242h80" stroke="#0f2240" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M113 247L132 196L238 168L232 196z" fill="#ffd23f" fill-opacity=".25"/>
+  <ellipse cx="185" cy="160" rx="70" ry="45" fill="#ffd23f" fill-opacity=".3"/>
+  <g fill="#d5dee8" fill-opacity=".55"><rect x="140" y="136" width="90" height="10" rx="3"/><rect x="140" y="154" width="70" height="10" rx="3"/><rect x="140" y="172" width="80" height="10" rx="3"/></g>
+  <g transform="rotate(-40 95 262)"><rect x="66" y="255" width="42" height="14" rx="3" fill="#fff" stroke="#0f2240" stroke-width="2"/><rect x="106" y="251" width="12" height="22" rx="2" fill="#ffd23f" stroke="#0f2240" stroke-width="2"/></g>
+  <!-- right TV: nothing -->
+  <rect x="340" y="74" width="260" height="156" rx="8" fill="#14202c" stroke="#0f2240" stroke-width="2"/>
+  <path d="M470 230v12M430 242h80" stroke="#0f2240" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M413 247L432 196L538 168L532 196z" fill="#ffd23f" fill-opacity=".25"/>
+  <ellipse cx="485" cy="160" rx="70" ry="45" fill="#ffd23f" fill-opacity=".3"/>
+  <g transform="rotate(-40 395 262)"><rect x="366" y="255" width="42" height="14" rx="3" fill="#fff" stroke="#0f2240" stroke-width="2"/><rect x="406" y="251" width="12" height="22" rx="2" fill="#ffd23f" stroke="#0f2240" stroke-width="2"/></g>
+  <!-- result boxes -->
+  <rect x="40" y="290" width="260" height="90" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <rect x="340" y="290" width="260" height="90" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="170" y="318" font-weight="700">Faint picture visible</text>
+    <text x="170" y="340" font-size="13">TV is on, backlight failed</text>
+    <text x="170" y="362" font-size="13" fill="#566475">Repair job: don't open it</text>
+    <text x="470" y="318" font-weight="700">Nothing at all</text>
+    <text x="470" y="340" font-size="13">Not fully on, or screen off</text>
+    <text x="470" y="362" font-size="13" fill="#566475">Check settings: causes 7 and 8</text>
+  </g>
+</svg>

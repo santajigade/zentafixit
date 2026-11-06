@@ -13,10 +13,10 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] hvac/air-conditioners | ac-unit-freezing-up | AC Freezing Up? Why It Happens and How to Fix It
 - [x] phones-tablets/iphone-problems | iphone-wont-turn-on | iPhone Won't Turn On? Fixes
 - [x] electrical/lighting-and-ceiling-fans | light-switch-not-working | Light Switch Not Working? Causes and Fixes
-- [ ] plumbing/clogged-drains | garbage-disposal-not-working | Garbage Disposal Not Working? Fixes
-- [ ] appliances/dishwashers | dishwasher-not-cleaning | Dishwasher Not Cleaning Dishes? Fixes
-- [ ] tv-audio/smart-tvs | tv-wont-turn-on | TV Won't Turn On? Fixes
-- [ ] pc-laptops/windows-problems | blue-screen-of-death | Blue Screen of Death on Windows? What to Do
+- [x] plumbing/clogged-drains | garbage-disposal-not-working | Garbage Disposal Not Working? Fixes
+- [x] appliances/dishwashers | dishwasher-not-cleaning | Dishwasher Not Cleaning Dishes? Fixes
+- [x] tv-audio/smart-tvs | tv-wont-turn-on | TV Won't Turn On? Fixes
+- [x] pc-laptops/windows-problems | blue-screen-of-death | Blue Screen of Death on Windows? What to Do
 - [ ] hvac/furnaces | furnace-blowing-cold-air | Furnace Blowing Cold Air? Causes and Fixes
 - [ ] networking/slow-internet-fixes | wifi-slow-on-one-device | Wi-Fi Slow on One Device Only? Fixes
 - [ ] appliances/washers-and-dryers | washer-not-spinning | Washer Not Spinning? Fixes

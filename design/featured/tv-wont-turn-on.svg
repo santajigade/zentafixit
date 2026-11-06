@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- generic flat-screen TV -->
+  <rect x="250" y="100" width="600" height="350" rx="14" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="272" y="122" width="556" height="296" rx="6" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="550" cy="434" r="6" fill="#d9442b"/>
+  <!-- feet -->
+  <g fill="#f3f6fa" stroke="#ffffff" stroke-width="4"><path d="M330 450l-30 56h60l18-56z"/><path d="M770 450l30 56h-60l-18-56z"/></g>
+  <!-- power symbol on screen -->
+  <g fill="none" stroke="#ffd23f" stroke-width="16" stroke-linecap="round">
+    <path d="M550 200v70"/><path d="M505 222a68 68 0 1 0 90 0"/>
+  </g>
+  <!-- cord to unplugged plug -->
+  <path d="M840 400c70 0 80 120 150 120h20" fill="none" stroke="#f3f6fa" stroke-width="6" stroke-linecap="round"/>
+  <rect x="1008" y="502" width="40" height="36" rx="6" fill="#f3f6fa" stroke="#ffffff" stroke-width="3"/>
+  <g stroke="#f3f6fa" stroke-width="6" stroke-linecap="round"><path d="M1048 512h16M1048 528h16"/></g>
+  <!-- wall outlet -->
+  <rect x="1080" y="440" width="80" height="130" rx="10" fill="#f3f6fa" stroke="#ffffff" stroke-width="3"/>
+  <rect x="1094" y="470" width="52" height="70" rx="10" fill="#fff" stroke="#0f2240" stroke-width="3"/>
+  <g stroke="#0f2240" stroke-width="5" stroke-linecap="round"><path d="M1110 490v16M1130 490v12"/></g>
+  <path d="M1113 522a7 7 0 0 1 14 0v7h-14z" fill="#0f2240"/>
+  <!-- gap accent -->
+  <g stroke="#ffd23f" stroke-width="4" stroke-linecap="round"><path d="M1068 500l8-10M1070 520h10M1068 540l8 10"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M250 70h600M250 60v20M850 60v20"/><path d="M200 100v350M190 100h20M190 450h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

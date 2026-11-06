@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- countertop and sink basin -->
+  <rect x="300" y="70" width="600" height="28" rx="6" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <path d="M400 98h400l-30 92H430z" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- flange and mount -->
+  <rect x="555" y="186" width="90" height="22" rx="6" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <rect x="535" y="208" width="130" height="26" rx="6" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- disposal body -->
+  <rect x="510" y="238" width="180" height="270" rx="28" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <path d="M530 318H670" stroke="#0f2240" stroke-width="3" stroke-dasharray="10 8" fill="none"/>
+  <ellipse cx="600" cy="508" rx="90" ry="18" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <!-- dishwasher inlet -->
+  <rect x="466" y="270" width="44" height="24" rx="6" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <!-- discharge tube and trap -->
+  <path d="M690 360h90v60a40 40 0 0 0 80 0v-30h120" fill="none" stroke="#ffffff" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M690 360h90v60a40 40 0 0 0 80 0v-30h120" fill="none" stroke="#f3f6fa" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- reset button accent -->
+  <rect x="640" y="480" width="30" height="18" rx="4" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <!-- hex key accent -->
+  <path d="M600 520V570H700" fill="none" stroke="#ffd23f" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M510 228V238M690 228V238"/><path d="M450 238v270M440 238h20M440 508h20"/><path d="M300 50h600M300 40v20M900 40v20"/></g>
+  <!-- water drops -->
+  <g fill="#7aace8"><path d="M240 300c18 26 28 40 28 54a28 28 0 0 1-56 0c0-14 10-28 28-54z"/><path d="M300 400c12 17 18 26 18 35a18 18 0 0 1-36 0c0-9 6-18 18-35z" opacity=".75"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- dishwasher body -->
+  <rect x="400" y="60" width="400" height="460" rx="24" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="430" y="90" width="340" height="400" rx="14" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- upper rack and cups -->
+  <rect x="452" y="130" width="296" height="90" rx="8" fill="none" stroke="#0f2240" stroke-width="4"/>
+  <g fill="#f3f6fa" stroke="#0f2240" stroke-width="4"><path d="M482 146h50l-7 60h-36z"/><path d="M562 146h50l-7 60h-36z"/><path d="M642 146h50l-7 60h-36z"/></g>
+  <!-- middle spray arm -->
+  <rect x="510" y="236" width="180" height="12" rx="6" fill="#0f2240"/>
+  <!-- lower rack and plates -->
+  <rect x="452" y="264" width="296" height="130" rx="8" fill="none" stroke="#0f2240" stroke-width="4"/>
+  <g fill="#f3f6fa" stroke="#0f2240" stroke-width="4"><rect x="478" y="278" width="26" height="104" rx="13"/><rect x="526" y="278" width="26" height="104" rx="13"/><rect x="574" y="278" width="26" height="104" rx="13"/><rect x="622" y="278" width="26" height="104" rx="13"/><rect x="670" y="278" width="26" height="104" rx="13"/></g>
+  <!-- lower spray arm and jets -->
+  <g stroke="#7aace8" stroke-width="4" stroke-dasharray="8 8" stroke-linecap="round"><path d="M486 426l-14-26M540 426l-6-26M660 426l6-26M714 426l14-26"/></g>
+  <rect x="470" y="430" width="260" height="14" rx="7" fill="#0f2240"/>
+  <circle cx="600" cy="437" r="13" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+  <!-- open door -->
+  <path d="M400 520h400l60 72H340z" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="520" y="540" width="80" height="34" rx="6" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="660" cy="557" r="15" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- sparkle accent -->
+  <g fill="#ffd23f">
+    <path d="M900 170l14 40 40 14-40 14-14 40-14-40-40-14 40-14z"/>
+    <path d="M970 320l8 22 22 8-22 8-8 22-8-22-22-8 22-8z"/>
+  </g>
+  <!-- droplets -->
+  <g fill="#7aace8"><path d="M270 300c18 26 28 40 28 54a28 28 0 0 1-56 0c0-14 10-28 28-54z"/><path d="M210 200c12 17 18 26 18 35a18 18 0 0 1-36 0c0-9 6-18 18-35z" opacity=".75"/><path d="M310 170c9 13 14 20 14 27a14 14 0 0 1-28 0c0-7 5-14 14-27z" opacity=".55"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M400 36h400M400 26v20M800 26v20"/><path d="M850 60v460M840 60h20M840 520h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

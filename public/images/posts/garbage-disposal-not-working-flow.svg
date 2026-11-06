@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <defs><marker id="gdf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">What happens when you flip the switch?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="150" y="54" width="340" height="44" rx="8"/>
+    <path d="M320 122l150 37-150 37-150-37z"/>
+    <rect x="30" y="240" width="170" height="64" rx="8"/>
+    <rect x="235" y="240" width="170" height="64" rx="8"/>
+    <rect x="440" y="240" width="170" height="64" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="30" y="320" width="170" height="56" rx="8"/><rect x="235" y="320" width="170" height="56" rx="8"/><rect x="440" y="320" width="170" height="56" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#gdf)">
+    <path d="M320 98v22"/><path d="M170 159H115v79"/><path d="M320 196v42"/><path d="M470 159h55v79"/><path d="M115 304v14"/><path d="M320 304v14"/><path d="M525 304v14"/>
+  </g>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81" font-size="14">1. Run cold water, flip the switch on</text>
+    <text x="320" y="164" font-size="14" font-weight="700">What do you hear?</text>
+    <text x="142" y="151" font-size="12" fill="#566475">silent</text><text x="340" y="222" font-size="12" fill="#566475">hum</text><text x="500" y="151" font-size="12" fill="#566475">runs</text>
+    <text x="115" y="266" font-weight="700">Nothing at all</text><text x="115" y="284">no hum, no motor</text>
+    <text x="320" y="266" font-weight="700">Hums, no spin</text><text x="320" y="284">flywheel is jammed</text>
+    <text x="525" y="262" font-weight="700">Runs, but...</text><text x="525" y="280">noise, slow drain,</text><text x="525" y="296">leak or smell</text>
+    <text x="115" y="343" font-weight="700">Check causes 2, 3</text><text x="115" y="361" font-size="12">reset button, power</text>
+    <text x="320" y="343" font-weight="700">Check cause 1</text><text x="320" y="361" font-size="12">hex key underneath</text>
+    <text x="525" y="343" font-weight="700">Check causes 4 to 8</text><text x="525" y="361" font-size="12">objects, drain, seals</text>
+  </g>
+  <text x="24" y="404" font-size="12" fill="#566475">Hums for more than a few seconds? Switch it off right away.</text>
+</svg>

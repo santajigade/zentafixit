@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="470" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Common stop codes and where to start</text>
+  <text x="24" y="54" font-size="13" fill="#566475">Typical causes only. Any code can have other causes.</text>
+  <g font-size="13" font-weight="700" fill="#0f2240"><text x="40" y="84">Stop code on the screen</text><text x="352" y="84">Often points to</text></g>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="96" width="592" height="44" rx="8"/>
+    <rect x="24" y="148" width="592" height="44" rx="8"/>
+    <rect x="24" y="200" width="592" height="44" rx="8"/>
+    <rect x="24" y="252" width="592" height="44" rx="8"/>
+    <rect x="24" y="304" width="592" height="44" rx="8"/>
+    <rect x="24" y="356" width="592" height="44" rx="8"/>
+    <rect x="24" y="408" width="592" height="44" rx="8"/>
+  </g>
+  <g stroke="#d5dee8" stroke-width="2"><path d="M336 100v36"/><path d="M336 152v36"/><path d="M336 204v36"/><path d="M336 256v36"/><path d="M336 308v36"/><path d="M336 360v36"/><path d="M336 412v36"/></g>
+  <g font-size="13" fill="#14202c">
+    <text x="40" y="123" font-weight="700" fill="#1d5fae">CRITICAL_PROCESS_DIED</text><text x="352" y="115">System files or a driver</text><text x="352" y="132" font-size="12" fill="#566475">Try fixes 4, 1 and 6</text>
+    <text x="40" y="175" font-weight="700" fill="#1d5fae">MEMORY_MANAGEMENT</text><text x="352" y="167">RAM, sometimes a driver</text><text x="352" y="184" font-size="12" fill="#566475">Try fixes 5, 8 and 1</text>
+    <text x="40" y="227" font-weight="700" fill="#1d5fae">IRQL_NOT_LESS_OR_EQUAL</text><text x="352" y="219">Usually a driver, or RAM</text><text x="352" y="236" font-size="12" fill="#566475">Try fixes 1 and 5</text>
+    <text x="40" y="279" font-weight="700" fill="#1d5fae">DRIVER_IRQL_NOT_LESS_OR_EQUAL</text><text x="352" y="271">A driver (note the .sys name)</text><text x="352" y="288" font-size="12" fill="#566475">Try fixes 1 and 2</text>
+    <text x="40" y="331" font-weight="700" fill="#1d5fae">PAGE_FAULT_IN_NONPAGED_AREA</text><text x="352" y="323">RAM, a driver or antivirus</text><text x="352" y="340" font-size="12" fill="#566475">Try fixes 5, 1 and 9</text>
+    <text x="40" y="383" font-weight="700" fill="#1d5fae">INACCESSIBLE_BOOT_DEVICE</text><text x="352" y="375">Boot drive or storage setting</text><text x="352" y="392" font-size="12" fill="#566475">Try fix 6 and Startup Repair</text>
+    <text x="40" y="435" font-weight="700" fill="#1d5fae">WHEA_UNCORRECTABLE_ERROR</text><text x="352" y="427">Hardware, heat or overclock</text><text x="352" y="444" font-size="12" fill="#566475">Try fixes 7 and 8</text>
+  </g>
+</svg>
