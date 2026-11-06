@@ -2,6 +2,8 @@
 title: "Garbage Disposal Not Working? 8 Causes and Fixes"
 description: "Garbage disposal humming, silent, leaking or not draining? Check the reset button, power, jams and clogs with these safe step-by-step fixes."
 pubDate: 2026-11-06
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-06
 category: plumbing
 subcategory: clogged-drains
 tags: [garbage disposal, kitchen sink, clogged drain, reset button, hex key, jammed disposal]

@@ -2,6 +2,8 @@
 title: "TV Won't Turn On? 8 Causes and Fixes"
 description: "TV won't turn on? Check the outlet, power strip, remote and standby light, do a proper power cycle and a flashlight backlight test before paying for repair."
 pubDate: 2026-11-06
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-06
 category: tv-audio
 subcategory: smart-tvs
 tags: [tv, smart-tv, power, remote, standby-light, backlight, hdmi-cec]

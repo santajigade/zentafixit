@@ -2,6 +2,8 @@
 title: "Dishwasher Not Cleaning Dishes? 9 Causes and Fixes"
 description: "Dishes still dirty, gritty or cloudy after a cycle? Clean the filter and spray arms, fix loading and detergent, then check water heat, fill and cycle choice."
 pubDate: 2026-11-06
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-06
 category: appliances
 subcategory: dishwashers
 tags: [dishwasher, not cleaning, dirty dishes, dishwasher filter, spray arm, rinse aid, hard water, detergent]
