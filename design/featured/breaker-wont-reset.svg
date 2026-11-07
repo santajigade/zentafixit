@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+    <marker id="fy" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10z" fill="#ffd23f"/></marker>
+    <marker id="fb" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10z" fill="#f3f6fa"/></marker>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- single breaker, close up -->
+  <rect x="470" y="70" width="260" height="490" rx="20" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="500" y="100" width="200" height="430" rx="12" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="555" y="160" width="90" height="36" rx="8" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <rect x="540" y="230" width="120" height="170" rx="14" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="4" stroke-linecap="round"><path d="M560 252h80M560 378h80"/></g>
+  <!-- handle stuck in the middle (tripped) -->
+  <rect x="560" y="285" width="80" height="60" rx="8" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="600" cy="465" r="16" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <path d="M590 465h20" stroke="#0f2240" stroke-width="4" stroke-linecap="round"/>
+  <!-- reset motion: firmly to OFF, then back to ON -->
+  <path d="M790 270v130" fill="none" stroke="#ffd23f" stroke-width="10" stroke-linecap="round" marker-end="url(#fy)"/>
+  <path d="M410 400v-150" fill="none" stroke="#f3f6fa" stroke-width="10" stroke-linecap="round" marker-end="url(#fb)"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M470 40h260M470 30v20M730 30v20"/><path d="M880 70v490M870 70h20M870 560h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

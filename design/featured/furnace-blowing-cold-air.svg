@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- furnace cabinet -->
+  <rect x="440" y="80" width="280" height="480" rx="18" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="470" y="110" width="220" height="190" rx="12" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="470" y="320" width="220" height="210" rx="12" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- burner window with an unlit (dashed) flame -->
+  <rect x="520" y="160" width="120" height="90" rx="10" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <path d="M580 236c-26 0-34-22-22-44 6 12 12 14 14 4 2-14 8-24 16-32 0 18 22 28 22 48 0 14-12 24-30 24z" fill="none" stroke="#ffd23f" stroke-width="5" stroke-dasharray="10 8" stroke-linejoin="round"/>
+  <!-- louvers on blower door -->
+  <g stroke="#0f2240" stroke-width="6" stroke-linecap="round"><path d="M510 370h140M510 400h140M510 430h140M510 460h140"/></g>
+  <circle cx="660" cy="500" r="8" fill="#1f8a5b"/>
+  <!-- supply duct to floor vent -->
+  <path d="M720 140h120v360" fill="none" stroke="#f3f6fa" stroke-width="34" stroke-linejoin="round"/>
+  <rect x="790" y="500" width="160" height="30" rx="6" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="4"><path d="M815 500v30M845 500v30M875 500v30M905 500v30M935 500v30"/></g>
+  <!-- cold air waves rising from the vent -->
+  <g fill="none" stroke="#9fc4f0" stroke-width="7" stroke-linecap="round">
+    <path d="M920 480c-20-24 20-44 0-68s20-44 0-68"/>
+    <path d="M970 480c-20-24 20-44 0-68s20-44 0-68"/>
+    <path d="M1020 480c-20-24 20-44 0-68s20-44 0-68"/>
+  </g>
+  <!-- snowflake accent -->
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round"><path d="M1060 200v80M1025 220l70 40M1025 260l70-40"/></g>
+  <!-- thermostat on the wall -->
+  <circle cx="240" cy="250" r="78" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="240" cy="250" r="54" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <path d="M240 250l26-26" stroke="#0f2240" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="240" cy="250" r="9" fill="#0f2240"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M440 50h280M440 40v20M720 40v20"/><path d="M400 80v480M390 80h20M390 560h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

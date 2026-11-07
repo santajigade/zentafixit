@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Wi-Fi generations, oldest to newest</text>
+  <rect x="24" y="54" width="592" height="242" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M24 96V62a8 8 0 0 1 8-8h576a8 8 0 0 1 8 8v34z" fill="#0f2240"/>
+  <rect x="25" y="216" width="590" height="79" fill="#dfe9f7"/>
+  <g stroke="#d5dee8" stroke-width="2"><path d="M26 136h588M26 176h588M26 216h588M26 256h588"/></g>
+  <g stroke="#d5dee8" stroke-width="2"><path d="M210 98v196M390 98v196"/></g>
+  <rect x="24" y="54" width="592" height="242" rx="8" fill="none" stroke="#0f2240" stroke-width="2"/>
+  <g font-size="14" font-weight="700" fill="#fff">
+    <text x="44" y="81">Generation</text><text x="230" y="81">Standard</text><text x="410" y="81">Wi-Fi bands</text>
+  </g>
+  <g font-size="14" fill="#14202c">
+    <text x="44" y="122" font-weight="700">Wi-Fi 4</text><text x="230" y="122">802.11n</text><text x="410" y="122">2.4 and 5 GHz</text>
+    <text x="44" y="162" font-weight="700">Wi-Fi 5</text><text x="230" y="162">802.11ac</text><text x="410" y="162">5 GHz</text>
+    <text x="44" y="202" font-weight="700">Wi-Fi 6</text><text x="230" y="202">802.11ax</text><text x="410" y="202">2.4 and 5 GHz</text>
+    <text x="44" y="242" font-weight="700">Wi-Fi 6E</text><text x="230" y="242">802.11ax</text><text x="410" y="242">2.4, 5 and 6 GHz</text>
+    <text x="44" y="282" font-weight="700">Wi-Fi 7</text><text x="230" y="282">802.11be</text><text x="410" y="282">2.4, 5 and 6 GHz</text>
+  </g>
+  <text x="24" y="318" font-size="13" fill="#566475">Most Wi-Fi 5 devices still use 2.4 GHz through their older Wi-Fi 4 support.</text>
+  <rect x="24" y="336" width="592" height="62" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <text x="320" y="361" font-size="14" font-weight="700" fill="#14202c" text-anchor="middle">Top speed is capped by the older of the device and router</text>
+  <text x="320" y="382" font-size="13" fill="#14202c" text-anchor="middle">A Wi-Fi 4 laptop on a Wi-Fi 7 router still connects as Wi-Fi 4.</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="460" fill="#f3f6fa"/>
+  <defs><marker id="bwrf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">What happens when you reset it?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="110" y="54" width="420" height="44" rx="8"/>
+    <path d="M320 124l140 32-140 32-140-32z"/>
+    <rect x="24" y="230" width="186" height="56" rx="8"/>
+    <rect x="227" y="230" width="186" height="56" rx="8"/>
+    <rect x="430" y="230" width="186" height="56" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="24" y="308" width="186" height="96" rx="8"/><rect x="227" y="308" width="186" height="96" rx="8"/><rect x="430" y="308" width="186" height="96" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#bwrf)">
+    <path d="M320 98v24"/><path d="M180 156H117v72"/><path d="M320 188v40"/><path d="M460 156h63v72"/><path d="M117 286v20"/><path d="M320 286v20"/><path d="M523 286v20"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">1. Push firmly to OFF until it clicks, then ON</text>
+    <text x="320" y="161" font-weight="700">2. What does it do?</text>
+    <text x="117" y="253">Stays on and</text><text x="117" y="271">power is back</text>
+    <text x="320" y="253">Trips the instant</text><text x="320" y="271">you switch it on</text>
+    <text x="523" y="253">Loose, mushy or</text><text x="523" y="271">won't latch</text>
+    <g font-size="13" font-weight="700"><text x="117" y="331">Done</text><text x="320" y="331">Fault on the circuit</text><text x="523" y="331">Worn breaker</text></g>
+    <g font-size="12">
+      <text x="117" y="351">Trips again later?</text><text x="117" y="368">Likely an overload.</text>
+      <text x="320" y="351">Unplug, switch off</text><text x="320" y="368">loads, retry once.</text><text x="320" y="385">Still trips? Call a pro.</text>
+      <text x="523" y="351">Leave it off and</text><text x="523" y="368">call an electrician.</text>
+    </g>
+  </g>
+  <text x="24" y="436" font-size="12" fill="#566475">Hot, buzzing, burning smell or wet panel? Don't touch it. Call an electrician.</text>
+</svg>

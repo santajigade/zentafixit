@@ -17,10 +17,10 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] appliances/dishwashers | dishwasher-not-cleaning | Dishwasher Not Cleaning Dishes? Fixes
 - [x] tv-audio/smart-tvs | tv-wont-turn-on | TV Won't Turn On? Fixes
 - [x] pc-laptops/windows-problems | blue-screen-of-death | Blue Screen of Death on Windows? What to Do
-- [ ] hvac/furnaces | furnace-blowing-cold-air | Furnace Blowing Cold Air? Causes and Fixes
-- [ ] networking/slow-internet-fixes | wifi-slow-on-one-device | Wi-Fi Slow on One Device Only? Fixes
-- [ ] appliances/washers-and-dryers | washer-not-spinning | Washer Not Spinning? Fixes
-- [ ] electrical/breakers-and-panels | breaker-wont-reset | Breaker Won't Reset? What It Means
+- [x] hvac/furnaces | furnace-blowing-cold-air | Furnace Blowing Cold Air? Causes and Fixes
+- [x] networking/slow-internet-fixes | wifi-slow-on-one-device | Wi-Fi Slow on One Device Only? Fixes
+- [x] appliances/washers-and-dryers | washer-not-spinning | Washer Not Spinning? Fixes
+- [x] electrical/breakers-and-panels | breaker-wont-reset | Breaker Won't Reset? What It Means
 - [ ] plumbing/toilets | toilet-wont-flush | Toilet Won't Flush Properly? Fixes
 - [ ] phones-tablets/android-problems | android-battery-draining-fast | Android Battery Draining Fast? Fixes
 - [ ] appliances/water-heaters | water-heater-leaking | Water Heater Leaking? What to Do

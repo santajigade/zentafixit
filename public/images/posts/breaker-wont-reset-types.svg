@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">What you can see from outside the panel</text>
+  <g font-size="14" font-weight="700" fill="#14202c"><text x="24" y="66">Standard breaker</text><text x="340" y="66">AFCI or GFCI breaker</text></g>
+  <g fill="#fff" stroke="#d5dee8" stroke-width="2"><rect x="24" y="78" width="276" height="240" rx="8"/><rect x="340" y="78" width="276" height="240" rx="8"/></g>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2"><rect x="60" y="96" width="90" height="200" rx="8"/><rect x="372" y="96" width="90" height="200" rx="8"/></g>
+  <g fill="#dfe9f7" stroke="#0f2240" stroke-width="2"><rect x="78" y="166" width="54" height="60" rx="8"/><rect x="390" y="166" width="54" height="60" rx="8"/></g>
+  <g fill="#0f2240"><rect x="84" y="176" width="42" height="40" rx="5"/><rect x="396" y="176" width="42" height="40" rx="5"/></g>
+  <g font-size="12" font-weight="700" fill="#fff" text-anchor="middle"><text x="105" y="201">20</text><text x="417" y="201">20</text></g>
+  <rect x="387" y="112" width="60" height="28" rx="6" fill="#ffd23f" stroke="#0f2240" stroke-width="2"/>
+  <text x="417" y="131" font-size="11" font-weight="700" fill="#14202c" text-anchor="middle">TEST</text>
+  <circle cx="417" cy="258" r="9" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <g fill="none" stroke="#566475" stroke-width="1.5"><path d="M126 196H166"/><path d="M447 126H478"/><path d="M438 196H478"/><path d="M426 258H478"/></g>
+  <g font-size="13" fill="#14202c">
+    <text x="172" y="192">Handle with the</text><text x="172" y="209">amp rating on it</text>
+    <text x="484" y="131">TEST button</text>
+    <text x="484" y="201">Handle</text>
+    <text x="484" y="262">Trip indicator</text>
+  </g>
+  <g font-size="12" fill="#566475">
+    <text x="172" y="250">Tripped: handle</text><text x="172" y="266">sits mid-way</text>
+    <text x="484" y="278">(some models)</text>
+  </g>
+  <rect x="24" y="336" width="592" height="62" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g text-anchor="middle" fill="#14202c">
+    <text x="320" y="361" font-size="13" font-weight="700">Indicator meanings vary by brand</text>
+    <text x="320" y="382" font-size="12">Check the breaker label or the maker's instructions before you decide.</text>
+  </g>
+</svg>

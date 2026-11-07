@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <defs><marker id="wnsc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">What has to happen before it spins</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="54" width="186" height="60" rx="8"/>
+    <rect x="227" y="54" width="186" height="60" rx="8"/>
+    <rect x="430" y="54" width="186" height="60" rx="8"/>
+  </g>
+  <rect x="170" y="138" width="300" height="44" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="2"/>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#wnsc)">
+    <path d="M117 114v12h128v10"/><path d="M320 114v22"/><path d="M523 114v12h-128v10"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="117" y="80" font-weight="700">Lid or door locked</text><text x="117" y="100" font-size="12" fill="#566475">lid switch, door lock</text>
+    <text x="320" y="80" font-weight="700">Water drained</text><text x="320" y="100" font-size="12" fill="#566475">hose, filter, pump</text>
+    <text x="523" y="80" font-weight="700">Load balanced</text><text x="523" y="100" font-size="12" fill="#566475">even, not overloaded</text>
+    <text x="320" y="165" font-weight="700">Control allows the spin</text>
+  </g>
+  <text x="24" y="222" font-size="14" font-weight="700" fill="#0f2240">What turns the drum</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="26" y="238" width="100" height="56" rx="8"/>
+    <rect x="152" y="238" width="140" height="56" rx="8"/>
+    <rect x="318" y="238" width="170" height="56" rx="8"/>
+    <rect x="514" y="238" width="100" height="56" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#wnsc)">
+    <path d="M126 266h24"/><path d="M292 266h24"/><path d="M488 266h24"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="76" y="271">Motor</text>
+    <text x="222" y="262">Belt or</text><text x="222" y="280">coupling</text>
+    <text x="403" y="262">Transmission,</text><text x="403" y="280">clutch or shifter</text>
+    <text x="564" y="262">Drum</text><text x="564" y="280">(basket)</text>
+  </g>
+  <g font-size="12" fill="#566475" text-anchor="middle">
+    <text x="222" y="314">some models</text>
+    <text x="403" y="314">many top loaders</text>
+  </g>
+  <g font-size="13" fill="#566475">
+    <text x="24" y="356">Direct-drive washers have no belt: the motor turns the drum</text>
+    <text x="24" y="374">or transmission directly. If any check above fails, the</text>
+    <text x="24" y="392">washer skips the spin or spins slowly, even with good parts.</text>
+  </g>
+</svg>
