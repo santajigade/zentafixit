@@ -2,3 +2,4 @@ how-to-reset-router
 dryer-not-heating
 iphone-wont-turn-on
 garbage-disposal-not-working
+tv-wont-turn-on
