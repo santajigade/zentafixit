@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="480" fill="#f3f6fa"/>
+  <defs><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">What is using the battery?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="170" y="52" width="300" height="44" rx="8"/>
+    <path d="M320 120l130 34-130 34-130-34z"/>
+    <rect x="24" y="226" width="184" height="58" rx="8"/>
+    <rect x="228" y="226" width="184" height="58" rx="8"/>
+    <rect x="432" y="226" width="184" height="58" rx="8"/>
+    <rect x="170" y="350" width="300" height="44" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="24" y="296" width="184" height="40" rx="8"/>
+    <rect x="432" y="296" width="184" height="40" rx="8"/>
+    <rect x="170" y="414" width="300" height="52" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#ab)">
+    <path d="M320 96v22"/>
+    <path d="M200 154H116v70"/><path d="M320 188v36"/><path d="M440 154h84v70"/>
+    <path d="M320 284v64"/><path d="M320 394v18"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="79">Settings, Battery, usage list</text>
+    <text x="320" y="159" font-weight="700">Top of the list?</text>
+    <text x="116" y="251">One app</text><text x="116" y="270" font-size="12" fill="#566475">far ahead of others</text>
+    <text x="320" y="251">Nothing stands out</text><text x="320" y="270" font-size="12" fill="#566475">drains in standby</text>
+    <text x="524" y="251">Screen</text><text x="524" y="270" font-size="12" fill="#566475">biggest user</text>
+    <text x="116" y="321" font-size="13">Restrict, update it</text>
+    <text x="524" y="321" font-size="13">Lower brightness</text>
+    <text x="320" y="377">Fix signal, sync and location</text>
+    <text x="320" y="437" font-weight="700">Still drains fast in safe mode?</text>
+    <text x="320" y="455" font-size="12">The battery is likely worn (cause 8)</text>
+  </g>
+</svg>

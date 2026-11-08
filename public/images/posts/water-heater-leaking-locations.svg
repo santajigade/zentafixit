@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="460" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where water heaters leak</text>
+  <path d="M276 48v42M364 48v42" stroke="#0f2240" stroke-width="6"/>
+  <rect x="264" y="56" width="24" height="12" rx="3" fill="#1d5fae"/>
+  <rect x="236" y="88" width="168" height="300" rx="20" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="250" y="102" width="140" height="272" rx="12" fill="#dfe9f7"/>
+  <path d="M404 120h22v220" fill="none" stroke="#0f2240" stroke-width="4"/>
+  <rect x="396" y="110" width="20" height="20" rx="3" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <rect x="280" y="336" width="80" height="34" rx="4" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M236 330h-18v12h18" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <ellipse cx="320" cy="404" rx="110" ry="10" fill="#1d5fae" fill-opacity=".3"/>
+  <path d="M426 344c5 8 8 12 8 16a8 8 0 0 1-16 0c0-4 3-8 8-16z" fill="#1d5fae"/>
+  <g stroke="#566475" stroke-width="1.2" fill="none">
+    <path d="M276 62H170"/><path d="M364 62H470"/><path d="M416 120H470"/><path d="M426 300H470"/>
+    <path d="M218 336H170"/><path d="M280 362H170"/><path d="M380 404H470"/>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="24" y="56">Cold inlet and</text><text x="24" y="74">shutoff valve</text>
+    <text x="476" y="58">Hot outlet</text><text x="476" y="74" font-size="12" fill="#566475">fittings, nipples</text>
+    <text x="476" y="116">T&amp;P relief valve</text><text x="476" y="132" font-size="12" fill="#566475">never cap it</text>
+    <text x="476" y="296">Discharge pipe</text><text x="476" y="312" font-size="12" fill="#566475">drips if it opens</text>
+    <text x="24" y="332">Drain valve</text><text x="24" y="348" font-size="12" fill="#566475">cap or replace</text>
+    <text x="24" y="366">Burner door (gas)</text><text x="24" y="382" font-size="12" fill="#566475">or element cover</text>
+    <text x="476" y="400">Under the tank</text><text x="476" y="416" font-size="12" fill="#566475">tank failing, or</text><text x="476" y="432" font-size="12" fill="#566475">condensation</text>
+  </g>
+</svg>

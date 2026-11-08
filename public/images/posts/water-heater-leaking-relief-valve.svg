@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="rv" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Why is the relief valve dripping?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="170" y="52" width="300" height="44" rx="8"/>
+    <rect x="170" y="122" width="300" height="44" rx="8"/>
+    <rect x="170" y="192" width="300" height="44" rx="8"/>
+    <rect x="170" y="262" width="300" height="44" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="490" y="52" width="130" height="44" rx="8"/>
+    <rect x="490" y="122" width="130" height="44" rx="8"/>
+    <rect x="490" y="192" width="130" height="44" rx="8"/>
+    <rect x="490" y="262" width="130" height="44" rx="8"/>
+  </g>
+  <rect x="24" y="336" width="592" height="80" rx="8" fill="#fff" stroke="#d9442b" stroke-width="2"/>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#rv)">
+    <path d="M320 96v24"/><path d="M320 166v24"/><path d="M320 236v24"/>
+    <path d="M470 74h18"/><path d="M470 144h18"/><path d="M470 214h18"/><path d="M470 284h18"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="79">Thermostat set very high?</text>
+    <text x="320" y="149">Gauge reads above 80 psi?</text>
+    <text x="320" y="219">Drips mostly after heating?</text>
+    <text x="320" y="289">All normal, still drips</text>
+    <text x="555" y="79" font-size="13">Turn it down</text>
+    <text x="555" y="149" font-size="13">Pressure valve</text>
+    <text x="555" y="219" font-size="13">Expansion tank</text>
+    <text x="555" y="289" font-size="13">Replace valve</text>
+  </g>
+  <g font-size="12" fill="#566475"><text x="328" y="113">no</text><text x="328" y="183">no</text><text x="328" y="253">no</text><text x="24" y="324">Yes: go right. No: go down.</text></g>
+  <text x="44" y="366" font-size="14" font-weight="700" fill="#d9442b">Never cap, plug or remove the relief valve or its pipe.</text>
+  <text x="44" y="392" font-size="13" fill="#14202c">It protects the tank from overheating and high pressure.</text>
+</svg>

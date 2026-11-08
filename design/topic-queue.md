@@ -21,10 +21,10 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] networking/slow-internet-fixes | wifi-slow-on-one-device | Wi-Fi Slow on One Device Only? Fixes
 - [x] appliances/washers-and-dryers | washer-not-spinning | Washer Not Spinning? Fixes
 - [x] electrical/breakers-and-panels | breaker-wont-reset | Breaker Won't Reset? What It Means
-- [ ] plumbing/toilets | toilet-wont-flush | Toilet Won't Flush Properly? Fixes
-- [ ] phones-tablets/android-problems | android-battery-draining-fast | Android Battery Draining Fast? Fixes
-- [ ] appliances/water-heaters | water-heater-leaking | Water Heater Leaking? What to Do
-- [ ] smart-home/smart-thermostats | thermostat-blank-screen | Thermostat Screen Blank? Fixes
+- [x] plumbing/toilets | toilet-wont-flush | Toilet Won't Flush Properly? Fixes
+- [x] phones-tablets/android-problems | android-battery-draining-fast | Android Battery Draining Fast? Fixes
+- [x] appliances/water-heaters | water-heater-leaking | Water Heater Leaking? What to Do
+- [x] smart-home/smart-thermostats | thermostat-blank-screen | Thermostat Screen Blank? Fixes
 - [ ] hvac/heat-pumps | heat-pump-not-heating | Heat Pump Not Heating? Fixes
 - [ ] gadgets/printers-and-scanners | printer-not-printing | Printer Not Printing? Fixes
 - [ ] pc-laptops/laptop-battery-and-charging | laptop-overheating | Laptop Overheating? Causes and Fixes

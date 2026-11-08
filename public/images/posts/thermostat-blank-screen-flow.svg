@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="tb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Blank thermostat: follow the power</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="150" y="52" width="300" height="44" rx="8"/>
+    <rect x="150" y="122" width="300" height="44" rx="8"/>
+    <rect x="150" y="192" width="300" height="44" rx="8"/>
+    <rect x="150" y="262" width="300" height="44" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="470" y="52" width="150" height="44" rx="8"/>
+    <rect x="470" y="122" width="150" height="44" rx="8"/>
+    <rect x="470" y="192" width="150" height="44" rx="8"/>
+    <rect x="470" y="262" width="150" height="44" rx="8"/>
+    <rect x="150" y="336" width="300" height="56" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#tb)">
+    <path d="M300 96v24"/><path d="M300 166v24"/><path d="M300 236v24"/><path d="M300 306v28"/>
+    <path d="M450 74h18"/><path d="M450 144h18"/><path d="M450 214h18"/><path d="M450 284h18"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="300" y="79">Wakes when you tap it?</text>
+    <text x="300" y="149">Uses batteries?</text>
+    <text x="300" y="219">Furnace or AC has no power?</text>
+    <text x="300" y="289">Water in the AC drain pan?</text>
+    <text x="545" y="79" font-size="13">Display asleep</text>
+    <text x="545" y="149" font-size="13">Replace them</text>
+    <text x="545" y="219" font-size="13">Breaker and door</text>
+    <text x="545" y="289" font-size="13">Clear the drain</text>
+    <text x="300" y="360" font-weight="700">Still blank?</text>
+    <text x="300" y="378" font-size="12">Check the board fuse and wires (causes 6, 7)</text>
+  </g>
+  <text x="24" y="420" font-size="12" fill="#566475">Yes: go right. No: go down.</text>
+</svg>

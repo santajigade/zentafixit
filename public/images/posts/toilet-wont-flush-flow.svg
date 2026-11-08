@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="460" fill="#f3f6fa"/>
+  <defs><marker id="tf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Tank problem or drain problem?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="180" y="52" width="280" height="44" rx="8"/>
+    <rect x="180" y="122" width="280" height="44" rx="8"/>
+    <rect x="180" y="192" width="280" height="44" rx="8"/>
+    <rect x="180" y="262" width="280" height="44" rx="8"/>
+    <rect x="30" y="340" width="270" height="44" rx="8"/>
+    <rect x="340" y="340" width="270" height="44" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="476" y="122" width="144" height="44" rx="8"/>
+    <rect x="476" y="192" width="144" height="44" rx="8"/>
+    <rect x="30" y="396" width="270" height="48" rx="8"/>
+    <rect x="340" y="396" width="270" height="48" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#tf)">
+    <path d="M320 96v24"/><path d="M320 166v24"/><path d="M320 236v24"/>
+    <path d="M460 144h14"/><path d="M460 214h14"/>
+    <path d="M250 306v32"/><path d="M390 306v32"/>
+    <path d="M165 384v10"/><path d="M475 384v10"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="79">1. Lift the lid, press the handle</text>
+    <text x="320" y="149">Flapper lifts?</text>
+    <text x="320" y="219">Tank fills to the line?</text>
+    <text x="320" y="289">2. Pour a bucket into the bowl</text>
+    <text x="165" y="367">Rises and drains slowly</text>
+    <text x="475" y="367">Strong, fast flush</text>
+    <text x="548" y="149" font-size="13">no: fix the chain</text>
+    <text x="548" y="219" font-size="13">no: open valve</text>
+    <text x="165" y="417" font-weight="700">Clog or drain problem</text><text x="165" y="434" font-size="12">plunge, auger (causes 4, 6, 7)</text>
+    <text x="475" y="417" font-weight="700">Tank or rim problem</text><text x="475" y="434" font-size="12">flapper, rim holes (causes 3, 5)</text>
+  </g>
+  <g font-size="12" fill="#566475"><text x="328" y="183">yes</text><text x="328" y="253">yes</text></g>
+</svg>
