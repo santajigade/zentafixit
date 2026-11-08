@@ -11,17 +11,17 @@ Run this once per day. Work in the repo clone at /home/claude/zentafixit.
 Take the first 4 unchecked lines in `design/topic-queue.md`. If fewer than 4 remain, add new high-search-volume US home and tech problems to the queue first (spread across categories, slugs must not clash with existing guides or subcategory slugs).
 
 ## 3. Write each guide
-For each topic: the `.md` guide, 2 diagrams in `public/images/posts/<slug>-<name>.svg`, and a featured image `design/featured/<slug>.svg`, exactly as the rules say. Troubleshooting posts keep the default; explainer or how-to posts get `fixcheck: false`. Never add `reviewedBy` or `reviewedDate`. Set `pubDate` to today.
+For each topic: the `.md` guide, 2 diagrams in `public/images/posts/<slug>-<name>.svg`, and a featured image `design/featured/<slug>.svg`, exactly as the rules say. Troubleshooting posts keep the default; explainer or how-to posts get `fixcheck: false`. Set `pubDate` to today. Auto-approve (Santaji's decision, 2026-11-08): add `reviewedBy: Santaji Gadepatil` and `reviewedDate: <today IST>` right after `pubDate` so the guides publish immediately.
 
 ## 4. Render and check
 1. `node design/render-featured.cjs`, then convert each new PNG in `public/images/featured/` to `.webp` (quality 82) and `.jpg` (quality 85) with Pillow, and delete the PNGs.
 2. No em or en dashes in any new file.
-3. `rm -rf .astro node_modules/.astro && SHOW_DRAFTS=1 npx astro build --outDir dist-preview` must succeed.
+3. `rm -rf .astro node_modules/.astro && npx astro build --outDir dist-preview` must succeed, and each new guide must be in the output.
 4. Serve dist-preview, open each new guide in Playwright, and check: 2 diagrams, featured image, troubleshooter buttons, no text running past a diagram edge or overlapping other text. Fix anything you find.
 5. Tick the 4 topics `[x]` in `design/topic-queue.md`.
 
-## 5. Push as drafts
-Commit with message `Add 4 draft guides: <slugs>` and push to main. Drafts stay hidden on the live site until Santaji approves them (approval adds `reviewedBy: Santaji Gadepatil` and `reviewedDate`).
+## 5. Publish
+Commit with message `Add 4 guides: <slugs>` and push to main. The push deploys to the live site via GitHub Actions ("Build and deploy to Hostinger"); confirm that run succeeds. Never push a failing build. If a guide cannot pass every check, leave it out (do not tick it) and publish the rest.
 
 ## 6. Report
-Send Santaji a short message: the 4 titles, the GitHub links to review them (`https://github.com/santajigade/zentafixit/blob/main/src/content/blog/<slug>.md`), and any facts worth checking. Keep it short and use no dashes.
+Send Santaji a short message: the 4 titles with live URLs (`https://zentafixit.com/<category>/<slug>/`), any facts worth checking, anything skipped, and a reminder to request indexing in Google Search Console. Keep it short and use no dashes.
