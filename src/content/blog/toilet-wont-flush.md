@@ -2,6 +2,8 @@
 title: "Toilet Won't Flush Properly? 8 Causes and Fixes"
 description: "Toilet won't flush or flushes weakly? Check the water level, chain, flapper, rim jets, clogs and vent in a simple order, and know when to call a plumber."
 pubDate: 2026-11-08
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-08
 category: plumbing
 subcategory: toilets
 tags: [toilet, flush, weak flush, clog, flapper, plumbing]

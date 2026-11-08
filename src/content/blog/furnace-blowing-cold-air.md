@@ -2,6 +2,8 @@
 title: "Furnace Blowing Cold Air? 9 Causes and Fixes"
 description: "Furnace blowing cold air? Check the thermostat fan setting, filter, flame sensor, pilot, gas valve, condensate drain and ducts, in a safe order."
 pubDate: 2026-11-07
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-08
 category: hvac
 subcategory: furnaces
 tags: [furnace, heating, cold air, thermostat, flame sensor, gas furnace, hvac]

@@ -2,6 +2,8 @@
 title: "Thermostat Screen Blank? 8 Causes and Fixes"
 description: "Thermostat screen blank? Check the batteries, breaker, furnace switch and door, condensate float switch, control board fuse and wiring in a safe order."
 pubDate: 2026-11-08
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-08
 category: smart-home
 subcategory: smart-thermostats
 tags: [thermostat, blank screen, smart thermostat, c-wire, furnace, hvac]

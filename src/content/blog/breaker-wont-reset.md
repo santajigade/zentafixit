@@ -2,6 +2,8 @@
 title: "Breaker Won't Reset? What It Means and What to Do"
 description: "A breaker that won't reset or trips the instant you flip it on points to a fault, a worn breaker or a wet panel. What to check and when to stop."
 pubDate: 2026-11-07
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-08
 category: electrical
 subcategory: breakers-and-panels
 tags: [breakers, electrical panel, reset, short circuit, afci, gfci, main breaker]

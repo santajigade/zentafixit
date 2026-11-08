@@ -2,6 +2,8 @@
 title: "Washer Not Spinning? 9 Causes and Fixes"
 description: "Washer won't spin or clothes come out soaking? Check the load balance, drain, lid lock, cycle setting, suds and belt, step by step and safely."
 pubDate: 2026-11-07
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-08
 category: appliances
 subcategory: washers-and-dryers
 tags: [washer, washing machine, not spinning, spin cycle, lid switch, drive belt, front loader, top loader]

@@ -2,6 +2,8 @@
 title: "Wi-Fi Slow on One Device Only? 9 Fixes That Work"
 description: "Wi-Fi fast on your phone but slow on one laptop or tablet? Compare devices, then fix the band, VPN, background downloads, drivers and router limits."
 pubDate: 2026-11-07
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-08
 category: networking
 subcategory: slow-internet-fixes
 tags: [wi-fi, slow internet, laptop, phone, windows, vpn, router]

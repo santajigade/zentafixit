@@ -2,6 +2,8 @@
 title: "Water Heater Leaking? 7 Causes and What to Do First"
 description: "Water heater leaking from the top, bottom or relief valve? Shut it down safely, find where the water comes from, and learn which leaks you can fix."
 pubDate: 2026-11-08
+reviewedBy: Santaji Gadepatil
+reviewedDate: 2026-11-08
 category: appliances
 subcategory: water-heaters
 tags: [water heater, leak, relief valve, drain valve, plumbing, tank]
