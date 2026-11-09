@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- refrigerator body -->
+  <rect x="440" y="60" width="320" height="480" rx="22" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <!-- upper doors -->
+  <rect x="460" y="80" width="136" height="290" rx="12" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="604" y="80" width="136" height="290" rx="12" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- freezer drawer -->
+  <rect x="460" y="384" width="280" height="118" rx="12" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- handles -->
+  <g stroke="#0f2240" stroke-width="9" stroke-linecap="round"><path d="M580 150v150M620 150v150M540 410h120"/></g>
+  <!-- grille and legs -->
+  <rect x="470" y="512" width="260" height="18" rx="6" fill="#0f2240"/>
+  <g fill="#0f2240"><rect x="470" y="540" width="26" height="14" rx="3"/><rect x="704" y="540" width="26" height="14" rx="3"/></g>
+  <!-- drips and puddle -->
+  <g fill="#7aace8">
+    <path d="M600 548c9 13 14 20 14 27a14 14 0 0 1-28 0c0-7 5-14 14-27z"/>
+    <ellipse cx="600" cy="594" rx="210" ry="9" opacity=".75"/>
+    <ellipse cx="560" cy="594" rx="120" ry="6" fill="#9fc4f0" opacity=".6"/>
+  </g>
+  <!-- leak highlight -->
+  <circle cx="600" cy="560" r="44" fill="none" stroke="#ffd23f" stroke-width="5" stroke-dasharray="10 9"/>
+  <!-- bubble level accent -->
+  <rect x="860" y="250" width="200" height="44" rx="22" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="920" y="258" width="80" height="28" rx="14" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <circle cx="952" cy="272" r="9" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <g stroke="#0f2240" stroke-width="3"><path d="M940 258v28M980 258v28"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M440 36h320M440 26v20M760 26v20"/><path d="M390 60v480M380 60h20M380 540h20"/></g>
+  <!-- falling droplets -->
+  <g fill="#7aace8"><path d="M260 300c18 26 28 40 28 54a28 28 0 0 1-56 0c0-14 10-28 28-54z"/><path d="M200 200c12 17 18 26 18 35a18 18 0 0 1-36 0c0-9 6-18 18-35z" opacity=".75"/><path d="M310 180c9 13 14 20 14 27a14 14 0 0 1-28 0c0-7 5-14 14-27z" opacity=".55"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

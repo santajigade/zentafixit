@@ -25,10 +25,10 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] phones-tablets/android-problems | android-battery-draining-fast | Android Battery Draining Fast? Fixes
 - [x] appliances/water-heaters | water-heater-leaking | Water Heater Leaking? What to Do
 - [x] smart-home/smart-thermostats | thermostat-blank-screen | Thermostat Screen Blank? Fixes
-- [ ] hvac/heat-pumps | heat-pump-not-heating | Heat Pump Not Heating? Fixes
-- [ ] gadgets/printers-and-scanners | printer-not-printing | Printer Not Printing? Fixes
-- [ ] pc-laptops/laptop-battery-and-charging | laptop-overheating | Laptop Overheating? Causes and Fixes
-- [ ] appliances/refrigerators | refrigerator-leaking-water | Refrigerator Leaking Water? Fixes
+- [x] hvac/heat-pumps | heat-pump-not-heating | Heat Pump Not Heating? Fixes
+- [x] gadgets/printers-and-scanners | printer-not-printing | Printer Not Printing? Fixes
+- [x] pc-laptops/laptop-battery-and-charging | laptop-overheating | Laptop Overheating? Causes and Fixes
+- [x] appliances/refrigerators | refrigerator-leaking-water | Refrigerator Leaking Water? Fixes
 - [ ] plumbing/leaks-and-drips | running-water-sound-in-walls | Hear Water Running When Nothing Is On? Find the Leak
 - [ ] electrical/outlets-and-gfci | how-to-reset-gfci-outlet | How to Reset a GFCI Outlet (and When It Won't Reset)
 - [ ] networking/mesh-wi-fi | wifi-extender-vs-mesh | Wi-Fi Extender vs Mesh: Which Do You Need?

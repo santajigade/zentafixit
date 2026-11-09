@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- outdoor unit -->
+  <rect x="470" y="150" width="480" height="380" rx="22" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="470" y="130" width="480" height="34" rx="10" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="660" cy="340" r="135" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <circle cx="660" cy="340" r="105" fill="none" stroke="#0f2240" stroke-width="3"/>
+  <circle cx="660" cy="340" r="72" fill="none" stroke="#0f2240" stroke-width="3"/>
+  <g fill="#0f2240"><path d="M660 340c-10-40 0-80 30-95 10 30 0 70-30 95z"/><path d="M660 340c40-10 80 0 95 30-30 10-70 0-95-30z"/><path d="M660 340c10 40 0 80-30 95-10-30 0-70 30-95z"/><path d="M660 340c-40 10-80 0-95-30 30-10 70 0 95 30z"/></g>
+  <circle cx="660" cy="340" r="16" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <g stroke="#0f2240" stroke-width="4" stroke-linecap="round"><path d="M830 200v300M860 200v300M890 200v300M920 200v300"/></g>
+  <rect x="500" y="530" width="60" height="22" rx="4" fill="#f3f6fa" stroke="#0f2240" stroke-width="3"/>
+  <rect x="860" y="530" width="60" height="22" rx="4" fill="#f3f6fa" stroke="#0f2240" stroke-width="3"/>
+  <!-- ice on the unit -->
+  <g fill="#9fc4f0">
+    <path d="M470 160h480v14c-20 0-24 30-34 30s-12-24-26-24-16 40-30 40-14-30-30-30-18 22-32 22-10-36-28-36-16 26-30 26-14-20-30-20-18 34-32 34-14-30-30-30-14 18-30 18-16-26-30-26-16 30-32 30-12-22-28-22-14 16-30 16-14-28-30-28z"/>
+    <path d="M812 230l8-14 8 14-8 30zM872 250l8-14 8 14-8 34zM902 214l8-14 8 14-8 28z" opacity=".85"/>
+  </g>
+  <!-- thermostat -->
+  <rect x="190" y="230" width="170" height="170" rx="30" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="275" cy="315" r="56" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <path d="M275 315l26-26" stroke="#0f2240" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="275" cy="378" r="7" fill="#ffd23f"/>
+  <!-- snowflake -->
+  <g stroke="#9fc4f0" stroke-width="5" stroke-linecap="round" fill="none">
+    <path d="M1060 90v80M1025 110l70 40M1025 150l70-40"/>
+    <path d="M1060 102l-10-10M1060 102l10-10M1060 158l-10 10M1060 158l10 10"/>
+  </g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M470 95h480M470 85v20M950 85v20"/><path d="M420 150v380M410 150h20M410 530h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

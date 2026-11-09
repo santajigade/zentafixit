@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="460" fill="#f3f6fa"/>
+  <defs><marker id="hpnhf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Why isn't my heat pump heating?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="140" y="54" width="360" height="44" rx="8"/>
+    <rect x="140" y="124" width="360" height="44" rx="8"/>
+    <path d="M320 192l150 38-150 38-150-38z"/>
+    <rect x="20" y="310" width="190" height="56" rx="8"/>
+    <rect x="225" y="310" width="190" height="56" rx="8"/>
+    <rect x="430" y="310" width="190" height="56" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="20" y="384" width="190" height="56" rx="8"/><rect x="225" y="384" width="190" height="56" rx="8"/><rect x="430" y="384" width="190" height="56" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#hpnhf)">
+    <path d="M320 98v24"/><path d="M320 168v22"/>
+    <path d="M170 230H115v78"/><path d="M320 268v40"/><path d="M470 230h55v78"/>
+    <path d="M115 366v16"/><path d="M320 366v16"/><path d="M525 366v16"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">1. Thermostat: HEAT, set above room temp</text>
+    <text x="320" y="151">2. Wait 10 min, then check outside</text>
+    <text x="320" y="226" font-weight="700">Outdoor unit</text><text x="320" y="243" font-weight="700">running?</text>
+    <text x="140" y="222" font-size="12" fill="#566475">silent</text>
+    <text x="344" y="292" font-size="12" fill="#566475">iced</text>
+    <text x="500" y="222" font-size="12" fill="#566475">runs</text>
+    <g font-size="13">
+      <text x="115" y="334">Silent, or humming</text><text x="115" y="352">but not starting</text>
+      <text x="320" y="334">Covered in solid ice</text><text x="320" y="352">that won't clear</text>
+      <text x="525" y="334">Runs, but the house</text><text x="525" y="352">stays cold</text>
+    </g>
+    <text x="115" y="408" font-weight="700">Causes 2 and 6</text><text x="115" y="426" font-size="12">power, start parts</text>
+    <text x="320" y="408" font-weight="700">Cause 4</text><text x="320" y="426" font-size="12">clear the ice, then watch</text>
+    <text x="525" y="408" font-weight="700">Causes 3, 5 and 7</text><text x="525" y="426" font-size="12">filter, aux heat, leak</text>
+  </g>
+</svg>

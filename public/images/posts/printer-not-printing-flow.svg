@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="pnpflow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Printer or computer? Find out first</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="150" y="54" width="340" height="44" rx="8"/>
+    <path d="M320 116l110 34-110 34-110-34z"/>
+    <rect x="30" y="220" width="250" height="56" rx="8"/>
+    <rect x="330" y="220" width="286" height="56" rx="8"/>
+    <path d="M473 296l60 34-60 34-60-34z"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="30" y="296" width="250" height="54" rx="8"/>
+    <rect x="292" y="376" width="140" height="52" rx="8"/>
+    <rect x="476" y="376" width="140" height="52" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#pnpflow)">
+    <path d="M320 98v16"/><path d="M210 150H155v68"/><path d="M430 150h43v68"/>
+    <path d="M155 276v18"/><path d="M473 276v18"/><path d="M413 330h-51v44"/><path d="M533 330h13v44"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">1. Print the printer's own test page</text>
+    <text x="320" y="155" font-weight="700">Clean, clear page?</text>
+    <text x="183" y="142" font-size="12" fill="#566475">no</text><text x="452" y="142" font-size="12" fill="#566475">yes</text>
+    <text x="155" y="244" font-weight="700">Printer problem</text><text x="155" y="263" font-size="13">ink, toner, paper or a jam</text>
+    <text x="155" y="320" font-weight="700">Check causes 3 to 6</text><text x="155" y="338" font-size="12">blank, faded, cartridge, paper</text>
+    <text x="473" y="244" font-weight="700">Computer side problem</text><text x="473" y="263" font-size="13">2. Open the print queue</text>
+    <text x="473" y="335" font-weight="700">Job stuck?</text>
+    <text x="392" y="322" font-size="12" fill="#566475">yes</text><text x="548" y="322" font-size="12" fill="#566475">no</text>
+    <text x="362" y="398" font-size="13" font-weight="700">Yes: clear it</text><text x="362" y="416" font-size="12">cause 1</text>
+    <text x="546" y="398" font-size="13" font-weight="700">No: check</text><text x="546" y="416" font-size="12">causes 2 and 7</text>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="470" fill="#f3f6fa"/>
+  <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Why is it running hot?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="30" y="60" width="280" height="56" rx="8"/>
+    <rect x="30" y="150" width="280" height="56" rx="8"/>
+    <rect x="30" y="240" width="280" height="56" rx="8"/>
+    <rect x="30" y="330" width="280" height="56" rx="8"/>
+    <rect x="350" y="150" width="260" height="56" rx="8"/>
+    <rect x="350" y="240" width="260" height="56" rx="8"/>
+    <rect x="350" y="330" width="260" height="56" rx="8"/>
+  </g>
+  <rect x="350" y="60" width="260" height="56" rx="8" fill="#fff" stroke="#d9442b" stroke-width="2"/>
+  <rect x="30" y="410" width="580" height="44" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#arr)">
+    <path d="M310 88h38"/><path d="M310 178h38"/><path d="M310 268h38"/><path d="M310 358h38"/>
+    <path d="M170 116v32"/><path d="M170 206v32"/><path d="M170 296v32"/><path d="M170 386v22"/>
+  </g>
+  <g font-size="12" fill="#566475">
+    <text x="318" y="80">yes</text><text x="318" y="170">yes</text><text x="318" y="260">yes</text><text x="318" y="350">yes</text>
+    <text x="180" y="137">no</text><text x="180" y="227">no</text><text x="180" y="317">no</text><text x="180" y="402">no</text>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="170" y="93">Case bulging or lid not flat?</text>
+    <text x="170" y="183">Hot even when doing nothing?</text>
+    <text x="170" y="273">Hot only under heavy use?</text>
+    <text x="170" y="363">Fan noisy, or silent when hot?</text>
+    <text x="480" y="83" font-weight="700" fill="#d9442b">Stop using it</text><text x="480" y="102" font-size="12" fill="#566475">Unplug it and see cause 8</text>
+    <text x="480" y="173" font-weight="700">Apps and dust</text><text x="480" y="192" font-size="12" fill="#566475">Causes 2 and 3</text>
+    <text x="480" y="263" font-weight="700">Surface, power, room</text><text x="480" y="282" font-size="12" fill="#566475">Causes 1, 4 and 5</text>
+    <text x="480" y="353" font-weight="700">Fan or thermal paste</text><text x="480" y="372" font-size="12" fill="#566475">Causes 6 and 7</text>
+    <text x="320" y="437" font-weight="700">Still hot after every fix? See a repair shop.</text>
+  </g>
+</svg>
