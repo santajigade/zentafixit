@@ -3,3 +3,4 @@ dryer-not-heating
 iphone-wont-turn-on
 garbage-disposal-not-working
 tv-wont-turn-on
+furnace-blowing-cold-air
