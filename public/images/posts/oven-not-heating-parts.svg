@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where an oven makes its heat</text>
+  <rect x="220" y="56" width="200" height="320" rx="10" fill="#fff" stroke="#0f2240" stroke-width="2.5"/>
+  <rect x="238" y="76" width="164" height="236" rx="6" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M248 100h144" stroke="#566475" stroke-width="1"/>
+  <path d="M250 106l12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10 12-10 12 10" fill="none" stroke="#d9442b" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="262" y="132" width="5" height="50" rx="2" fill="#0f2240"/>
+  <path d="M244 210h152M244 250h152" stroke="#d5dee8" stroke-width="3"/>
+  <path d="M250 290l12 8 12-8 12 8 12-8 12 8 12-8 12 8 12-8 12 8 12-8 12 8" fill="none" stroke="#d9442b" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="238" y="320" width="164" height="44" rx="6" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <path d="M256 348h120" stroke="#0f2240" stroke-width="5" stroke-linecap="round"/>
+  <rect x="380" y="336" width="12" height="22" rx="3" fill="#ffd23f" stroke="#0f2240" stroke-width="1.5"/>
+  <g stroke="#566475" stroke-width="1.5" fill="none" stroke-dasharray="4 4">
+    <path d="M250 110H200"/><path d="M264 156H200"/><path d="M392 294H440"/><path d="M392 346H440"/>
+  </g>
+  <g font-size="14" fill="#14202c">
+    <text x="24" y="106" font-weight="700">Broil element</text><text x="24" y="124" font-size="13" fill="#566475">top of the oven,</text><text x="24" y="140" font-size="13" fill="#566475">electric ovens</text>
+    <text x="24" y="182" font-weight="700">Temperature</text><text x="24" y="199" font-weight="700">sensor</text><text x="24" y="217" font-size="13" fill="#566475">thin probe on the</text><text x="24" y="233" font-size="13" fill="#566475">back wall</text>
+    <text x="448" y="266" font-weight="700">Bake element</text><text x="448" y="284" font-size="13" fill="#566475">oven floor, electric;</text><text x="448" y="300" font-size="13" fill="#566475">sometimes hidden</text><text x="448" y="316" font-size="13" fill="#566475">under the floor</text>
+    <text x="448" y="342" font-weight="700">Gas igniter</text><text x="448" y="360" font-size="13" fill="#566475">and burner under</text><text x="448" y="376" font-size="13" fill="#566475">the floor panel</text>
+  </g>
+  <text x="24" y="404" font-size="13" fill="#566475">Thermal fuse and control board sit behind panels (power off to reach).</text>
+</svg>

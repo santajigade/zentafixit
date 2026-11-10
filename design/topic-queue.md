@@ -29,10 +29,10 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] gadgets/printers-and-scanners | printer-not-printing | Printer Not Printing? Fixes
 - [x] pc-laptops/laptop-battery-and-charging | laptop-overheating | Laptop Overheating? Causes and Fixes
 - [x] appliances/refrigerators | refrigerator-leaking-water | Refrigerator Leaking Water? Fixes
-- [ ] plumbing/leaks-and-drips | running-water-sound-in-walls | Hear Water Running When Nothing Is On? Find the Leak
-- [ ] electrical/outlets-and-gfci | how-to-reset-gfci-outlet | How to Reset a GFCI Outlet (and When It Won't Reset)
-- [ ] networking/mesh-wi-fi | wifi-extender-vs-mesh | Wi-Fi Extender vs Mesh: Which Do You Need?
-- [ ] appliances/ovens-and-microwaves | oven-not-heating | Oven Not Heating? Causes and Fixes
+- [x] plumbing/leaks-and-drips | running-water-sound-in-walls | Hear Water Running When Nothing Is On? Find the Leak
+- [x] electrical/outlets-and-gfci | how-to-reset-gfci-outlet | How to Reset a GFCI Outlet (and When It Won't Reset)
+- [x] networking/mesh-wi-fi | wifi-extender-vs-mesh | Wi-Fi Extender vs Mesh: Which Do You Need?
+- [x] appliances/ovens-and-microwaves | oven-not-heating | Oven Not Heating? Causes and Fixes
 
 ## Week 2
 - [ ] hvac/air-conditioners | ac-leaking-water-inside | AC Leaking Water Inside? Fixes

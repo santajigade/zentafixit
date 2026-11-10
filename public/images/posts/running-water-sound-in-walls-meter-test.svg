@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="560" fill="#f3f6fa"/>
+  <defs><marker id="rwmt" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Is water really flowing? The meter test</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="160" y="54" width="320" height="44" rx="8"/>
+    <rect x="160" y="124" width="320" height="44" rx="8"/>
+    <path d="M320 192l150 38-150 38-150-38z"/>
+    <rect x="24" y="300" width="240" height="56" rx="8"/>
+    <rect x="380" y="300" width="236" height="56" rx="8"/>
+    <path d="M498 378l118 32-118 32-118-32z"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="24" y="368" width="240" height="56" rx="8"/>
+    <rect x="300" y="476" width="150" height="66" rx="8"/>
+    <rect x="466" y="476" width="150" height="66" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#rwmt)">
+    <path d="M320 98v24"/><path d="M320 168v22"/><path d="M170 230H144v68"/><path d="M470 230h28v68"/><path d="M144 356v10"/><path d="M498 356v20"/>
+    <path d="M498 442v10H375v22"/><path d="M498 442v10H541v22"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">1. Turn off every tap and appliance</text>
+    <text x="320" y="151">2. Watch the leak indicator 15 min</text>
+    <text x="320" y="235" font-weight="700">Indicator moving?</text>
+    <text x="156" y="222" font-size="12" fill="#566475">no</text><text x="486" y="222" font-size="12" fill="#566475">yes</text>
+    <text x="144" y="324">No water is flowing.</text><text x="144" y="342">The sound is not a leak</text>
+    <text x="498" y="324">Water is flowing. Now</text><text x="498" y="342">close the main shutoff</text>
+    <text x="144" y="392" font-weight="700">Check causes 7 and 8</text><text x="144" y="410" font-size="12">hammer, drains, neighbors</text>
+    <text x="498" y="415" font-weight="700" font-size="13">Still moving?</text>
+    <text x="362" y="468" font-size="12" fill="#566475">yes</text><text x="556" y="468" font-size="12" fill="#566475">no</text>
+    <g font-size="13">
+      <text x="375" y="498">Leak is between</text><text x="375" y="514">meter and house</text><text x="375" y="530">(service line)</text>
+      <text x="541" y="498">Leak is inside</text><text x="541" y="514">the house: check</text><text x="541" y="530">causes 1 to 6</text>
+    </g>
+  </g>
+  <g font-size="12" fill="#566475">
+    <text x="24" y="490">Tip: no leak indicator? Write down</text>
+    <text x="24" y="506">the reading, wait 1 to 2 hours</text>
+    <text x="24" y="522">with no water use, then recheck.</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- wall section with studs -->
+  <rect x="200" y="70" width="440" height="490" rx="10" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <g fill="#fff" stroke="#0f2240" stroke-width="4">
+    <rect x="230" y="90" width="44" height="450" rx="4"/>
+    <rect x="566" y="90" width="44" height="450" rx="4"/>
+  </g>
+  <!-- supply pipe with elbow and coupling -->
+  <path d="M400 560V250a40 40 0 0 1 40-40h200" fill="none" stroke="#0f2240" stroke-width="30" stroke-linecap="butt"/>
+  <path d="M400 560V250a40 40 0 0 1 40-40h200" fill="none" stroke="#fff" stroke-width="18"/>
+  <rect x="382" y="380" width="36" height="34" rx="5" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- leak spray and drops -->
+  <g fill="#7aace8">
+    <path d="M440 430c14 20 22 31 22 42a22 22 0 0 1-44 0c0-11 8-22 22-42z"/>
+    <path d="M470 490c9 13 14 20 14 27a14 14 0 0 1-28 0c0-7 5-14 14-27z" opacity=".75"/>
+    <path d="M430 515c7 10 11 15 11 21a11 11 0 0 1-22 0c0-6 4-11 11-21z" opacity=".55"/>
+  </g>
+  <!-- wet stain -->
+  <ellipse cx="470" cy="540" rx="70" ry="12" fill="#7aace8" opacity=".35"/>
+  <!-- sound waves -->
+  <g fill="none" stroke="#ffd23f" stroke-width="6" stroke-linecap="round">
+    <path d="M680 330a50 50 0 0 1 0 90"/>
+    <path d="M712 300a90 90 0 0 1 0 150"/>
+    <path d="M744 270a130 130 0 0 1 0 210"/>
+  </g>
+  <!-- water meter dial -->
+  <circle cx="960" cy="260" r="120" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="960" cy="260" r="96" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="4" stroke-linecap="round">
+    <path d="M960 176v16M960 328v16M876 260h16M1028 260h16M901 201l11 11M1008 308l11 11M1019 201l-11 11M912 308l-11 11"/>
+  </g>
+  <rect x="910" y="282" width="100" height="26" rx="4" fill="#f3f6fa" stroke="#0f2240" stroke-width="3"/>
+  <path d="M960 260L1012 214" stroke="#0f2240" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="960" cy="260" r="9" fill="#0f2240"/>
+  <path d="M960 216l16 28h-32z" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M200 40h440M200 30v20M640 30v20"/><path d="M840 420h240M840 410v20M1080 410v20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>
