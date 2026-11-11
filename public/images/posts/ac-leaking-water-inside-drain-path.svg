@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="430" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where AC water is supposed to go</text>
+  <rect x="60" y="56" width="220" height="284" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M100 194L170 96L240 194" fill="none" stroke="#1d5fae" stroke-width="6" stroke-linejoin="round"/>
+  <g fill="#1d5fae"><circle cx="128" cy="184" r="3"/><circle cx="212" cy="184" r="3"/><circle cx="150" cy="176" r="3"/><circle cx="190" cy="176" r="3"/></g>
+  <rect x="80" y="200" width="180" height="24" rx="4" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <text x="170" y="250" font-size="13" text-anchor="middle" fill="#14202c">Primary drain pan</text>
+  <circle cx="170" cy="295" r="26" fill="none" stroke="#0f2240" stroke-width="2"/>
+  <text x="170" y="299" font-size="12" text-anchor="middle" fill="#566475">blower</text>
+  <path d="M226 146L294 124" stroke="#566475" stroke-width="1.2"/>
+  <text x="300" y="120" font-size="14" font-weight="700" fill="#14202c">Evaporator coil</text>
+  <text x="300" y="138" font-size="12" fill="#566475">water condenses here</text>
+  <path d="M260 212H380V246A15 15 0 0 0 410 246V228L590 250V290" fill="none" stroke="#1d5fae" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M320 212V184" stroke="#1d5fae" stroke-width="6"/>
+  <rect x="310" y="176" width="20" height="8" rx="2" fill="#0f2240"/>
+  <text x="338" y="186" font-size="13" fill="#14202c">Access port (vinegar here)</text>
+  <text x="430" y="220" font-size="13" fill="#14202c">Primary drain line</text>
+  <text x="395" y="282" font-size="12" text-anchor="middle" fill="#566475">trap</text>
+  <text x="610" y="312" font-size="13" text-anchor="end" fill="#14202c">To outside or a floor drain</text>
+  <rect x="40" y="346" width="260" height="16" rx="4" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <rect x="268" y="332" width="16" height="22" rx="3" fill="#d9442b"/>
+  <text x="40" y="388" font-size="13" font-weight="700" fill="#14202c">Overflow pan with float switch</text>
+  <text x="40" y="406" font-size="12" fill="#566475">The float switch shuts the AC off if water rises</text>
+  <text x="430" y="334" font-size="12" fill="#566475">Some units:</text>
+  <rect x="430" y="342" width="170" height="56" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <text x="515" y="366" font-size="14" text-anchor="middle" fill="#14202c">Condensate pump</text>
+  <text x="515" y="386" font-size="12" text-anchor="middle" fill="#566475">(no downhill drain)</text>
+</svg>

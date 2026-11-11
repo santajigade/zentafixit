@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- air handler cabinet -->
+  <rect x="400" y="60" width="340" height="420" rx="16" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="430" y="90" width="280" height="200" rx="10" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <path d="M460 270L570 120L680 270" fill="none" stroke="#0f2240" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M490 270L570 160L650 270" fill="none" stroke="#0f2240" stroke-opacity=".35" stroke-width="6" stroke-linejoin="round"/>
+  <!-- drain pan -->
+  <rect x="440" y="300" width="260" height="34" rx="6" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="430" y="350" width="280" height="110" rx="10" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="570" cy="405" r="34" fill="none" stroke="#0f2240" stroke-width="4"/>
+  <!-- drain pipe -->
+  <path d="M740 316h90v60" fill="none" stroke="#f3f6fa" stroke-width="14" stroke-linecap="round"/>
+  <!-- drips -->
+  <g fill="#ffd23f" stroke="#ffffff" stroke-width="3">
+    <path d="M470 342c0 0-14 20-14 30a14 14 0 0 0 28 0c0-10-14-30-14-30z"/>
+    <path d="M500 480c0 0-14 20-14 30a14 14 0 0 0 28 0c0-10-14-30-14-30z"/>
+    <path d="M440 520c0 0-12 17-12 26a12 12 0 0 0 24 0c0-9-12-26-12-26z"/>
+  </g>
+  <!-- puddle -->
+  <ellipse cx="480" cy="572" rx="150" ry="18" fill="#ffd23f" fill-opacity=".55" stroke="#ffffff" stroke-width="3"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M400 34h340M400 24v20M740 24v20"/><path d="M800 60v420M790 60h20M790 480h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

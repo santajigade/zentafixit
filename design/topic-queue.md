@@ -35,10 +35,10 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] appliances/ovens-and-microwaves | oven-not-heating | Oven Not Heating? Causes and Fixes
 
 ## Week 2
-- [ ] hvac/air-conditioners | ac-leaking-water-inside | AC Leaking Water Inside? Fixes
-- [ ] phones-tablets/iphone-problems | iphone-overheating | iPhone Overheating? Fixes
-- [ ] tv-audio/streaming-problems | roku-not-working | Streaming Stick Not Working? Fixes for Roku, Fire TV and More
-- [ ] appliances/washers-and-dryers | washing-machine-shaking | Washing Machine Shaking or Walking? Fixes
+- [x] hvac/air-conditioners | ac-leaking-water-inside | AC Leaking Water Inside? Fixes
+- [x] phones-tablets/iphone-problems | iphone-overheating | iPhone Overheating? Fixes
+- [x] tv-audio/streaming-problems | roku-not-working | Streaming Stick Not Working? Fixes for Roku, Fire TV and More
+- [x] appliances/washers-and-dryers | washing-machine-shaking | Washing Machine Shaking or Walking? Fixes
 - [ ] electrical/wiring-basics | how-to-replace-an-outlet | How to Replace an Outlet Safely
 - [ ] pc-laptops/windows-problems | wifi-not-showing-windows-11 | Wi-Fi Not Showing on Windows 11? Fixes
 - [ ] plumbing/water-pressure | low-water-pressure-shower | Low Water Pressure in the Shower? Fixes

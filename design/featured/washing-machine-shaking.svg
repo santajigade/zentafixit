@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- washer -->
+  <g transform="rotate(-4 600 330)">
+    <rect x="420" y="70" width="360" height="460" rx="20" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+    <rect x="440" y="90" width="320" height="64" rx="10" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+    <circle cx="700" cy="122" r="18" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+    <rect x="470" y="110" width="120" height="24" rx="6" fill="#0f2240"/>
+    <circle cx="600" cy="330" r="130" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+    <circle cx="600" cy="330" r="96" fill="#0f2240" fill-opacity=".1" stroke="#0f2240" stroke-width="4"/>
+    <path d="M540 360c30 24 90 24 120 0" fill="none" stroke="#0f2240" stroke-opacity=".4" stroke-width="5" stroke-linecap="round"/>
+    <rect x="450" y="530" width="44" height="30" rx="4" fill="#f3f6fa" stroke="#ffffff" stroke-width="3"/>
+    <rect x="706" y="530" width="44" height="30" rx="4" fill="#ffd23f" stroke="#ffffff" stroke-width="3"/>
+  </g>
+  <!-- floor -->
+  <path d="M300 584H900" stroke="#f3f6fa" stroke-width="4"/>
+  <!-- motion lines -->
+  <g fill="none" stroke="#ffd23f" stroke-width="8" stroke-linecap="round">
+    <path d="M360 200c-18 30-18 70 0 100"/><path d="M320 180c-26 40-26 100 0 140"/>
+    <path d="M850 200c18 30 18 70 0 100"/><path d="M890 180c26 40 26 100 0 140"/>
+  </g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M960 70v460M950 70h20M950 530h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

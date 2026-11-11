@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Level the washer and lock the feet</text>
+  <text x="155" y="64" font-size="13" text-anchor="middle" fill="#14202c">Level side to side</text>
+  <rect x="70" y="74" width="170" height="12" rx="3" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <ellipse cx="155" cy="80" rx="10" ry="4" fill="#fff" stroke="#c9a10a"/>
+  <rect x="40" y="90" width="230" height="220" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M40 120H270" stroke="#d5dee8" stroke-width="2"/>
+  <circle cx="155" cy="210" r="62" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <circle cx="155" cy="210" r="44" fill="none" stroke="#1d5fae" stroke-width="2"/>
+  <rect x="60" y="310" width="24" height="20" rx="3" fill="#0f2240"/>
+  <rect x="226" y="310" width="24" height="12" rx="3" fill="#0f2240"/>
+  <path d="M20 330H300" stroke="#566475" stroke-width="2"/>
+  <path d="M220 326h36" stroke="#d9442b" stroke-width="2"/>
+  <text x="72" y="352" font-size="12" text-anchor="middle" fill="#566475">On the floor</text>
+  <text x="238" y="352" font-size="13" font-weight="700" text-anchor="middle" fill="#d9442b">Gap: it rocks</text>
+  <rect x="340" y="92" width="120" height="36" rx="4" fill="#d5dee8" stroke="#0f2240" stroke-width="2"/>
+  <text x="472" y="115" font-size="13" fill="#566475">Washer cabinet</text>
+  <rect x="372" y="128" width="16" height="86" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <g stroke="#566475" stroke-width="1"><path d="M372 166h16M372 176h16M372 186h16M372 196h16M372 206h16"/></g>
+  <rect x="360" y="138" width="40" height="18" rx="3" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <rect x="344" y="214" width="72" height="16" rx="4" fill="#0f2240"/>
+  <path d="M330 230H420" stroke="#566475" stroke-width="2"/>
+  <text x="420" y="152" font-size="14" font-weight="700" fill="#14202c">Lock nut</text>
+  <text x="420" y="170" font-size="12" fill="#566475">tighten it up against</text>
+  <text x="420" y="186" font-size="12" fill="#566475">the cabinet</text>
+  <text x="436" y="214" font-size="14" font-weight="700" fill="#14202c">Foot</text>
+  <text x="436" y="232" font-size="12" fill="#566475">turn to raise or lower</text>
+  <rect x="340" y="276" width="270" height="94" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <text x="352" y="298" font-size="13" font-weight="700" fill="#14202c">New front loader: back panel</text>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><circle cx="400" cy="324" r="10"/><circle cx="475" cy="324" r="10"/><circle cx="550" cy="324" r="10"/></g>
+  <g fill="#0f2240"><circle cx="400" cy="324" r="4"/><circle cx="475" cy="324" r="4"/><circle cx="550" cy="324" r="4"/></g>
+  <text x="352" y="358" font-size="12" fill="#566475">Remove shipping bolts, fit the caps</text>
+  <text x="40" y="404" font-size="13" fill="#566475">Adjust each foot, then lock it so vibration can't turn it.</text>
+</svg>
