@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="460" fill="#f3f6fa"/>
+  <defs><marker id="rmnf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Which fridge noise is it?</text>
+  <!-- start and question boxes -->
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="50" width="320" height="40" rx="8"/>
+    <rect x="24" y="116" width="320" height="44" rx="8"/>
+    <rect x="24" y="186" width="320" height="44" rx="8"/>
+    <rect x="24" y="256" width="320" height="44" rx="8"/>
+    <rect x="24" y="326" width="320" height="44" rx="8"/>
+  </g>
+  <!-- result boxes -->
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="392" y="116" width="224" height="44" rx="8"/>
+    <rect x="392" y="186" width="224" height="44" rx="8"/>
+    <rect x="392" y="256" width="224" height="44" rx="8"/>
+    <rect x="392" y="326" width="224" height="44" rx="8"/>
+  </g>
+  <rect x="24" y="396" width="320" height="48" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <!-- arrows -->
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#rmnf)">
+    <path d="M184 90v24"/><path d="M184 160v24"/><path d="M184 230v24"/><path d="M184 300v24"/><path d="M184 370v24"/>
+    <path d="M344 138h46"/><path d="M344 208h46"/><path d="M344 278h46"/><path d="M344 348h46"/>
+  </g>
+  <g font-size="12" fill="#566475">
+    <text x="356" y="132">yes</text><text x="356" y="202">yes</text><text x="356" y="272">yes</text><text x="356" y="342">yes</text>
+    <text x="192" y="178">no</text><text x="192" y="248">no</text><text x="192" y="318">no</text><text x="192" y="388">no</text>
+  </g>
+  <!-- question text -->
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="184" y="75">Note when and where you hear it</text>
+    <text x="184" y="134" font-weight="700">Stops when you open</text><text x="184" y="151" font-weight="700">the freezer door?</text>
+    <text x="184" y="204" font-weight="700">Loud buzz every few</text><text x="184" y="221" font-weight="700">minutes, ice maker on?</text>
+    <text x="184" y="274" font-weight="700">Clicks, but the compressor</text><text x="184" y="291" font-weight="700">doesn't start?</text>
+    <text x="184" y="344" font-weight="700">Rattle or grind from</text><text x="184" y="361" font-weight="700">the bottom?</text>
+  </g>
+  <!-- results text -->
+  <g font-size="13" fill="#14202c">
+    <text x="406" y="134" font-weight="700">Evaporator fan</text><text x="406" y="151">See sections 6 and 7</text>
+    <text x="406" y="204" font-weight="700">Water valve, no water</text><text x="406" y="221">See section 4</text>
+    <text x="406" y="274" font-weight="700">Relay or compressor</text><text x="406" y="291">Section 5: call a pro</text>
+    <text x="406" y="344" font-weight="700">Condenser area</text><text x="406" y="361">Fan, coils, pan, level: 8</text>
+  </g>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="184" y="416" font-weight="700">Hum, gurgle, hiss or pop?</text>
+    <text x="184" y="434">Usually normal: sections 1 to 3</text>
+  </g>
+</svg>

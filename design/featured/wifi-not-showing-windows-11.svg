@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- laptop lid -->
+  <rect x="330" y="110" width="540" height="350" rx="22" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="362" y="140" width="476" height="290" rx="10" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="600" cy="126" r="5" fill="#0f2240"/>
+  <!-- laptop base -->
+  <path d="M260 470h680l-40 44H300z" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="540" y="474" width="120" height="12" rx="6" fill="#0f2240"/>
+  <!-- wifi symbol: inner arcs solid, outer arc missing (dashed) -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M478 296a170 170 0 0 1 244 0" stroke="#9fc4f0" stroke-width="14" stroke-dasharray="4 26"/>
+    <path d="M520 334a112 112 0 0 1 160 0" stroke="#0f2240" stroke-width="18"/>
+    <path d="M561 370a56 56 0 0 1 78 0" stroke="#0f2240" stroke-width="18"/>
+  </g>
+  <circle cx="600" cy="400" r="14" fill="#0f2240"/>
+  <!-- slash -->
+  <path d="M500 220L702 418" stroke="#ffd23f" stroke-width="16" stroke-linecap="round"/>
+  <path d="M500 220L702 418" stroke="#0f2240" stroke-width="3" stroke-linecap="round" fill="none" opacity=".25"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M330 80h540M330 70v20M870 70v20"/><path d="M290 110v350M280 110h20M280 460h20"/></g>
+  <!-- faint signal waves off to the side -->
+  <g fill="none" stroke="#7aace8" stroke-width="5" stroke-linecap="round" opacity=".6">
+    <path d="M960 250a60 60 0 0 1 0 90"/><path d="M995 220a110 110 0 0 1 0 150" opacity=".6"/>
+  </g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- wall plate -->
+  <rect x="330" y="70" width="300" height="490" rx="26" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <!-- two receptacle faces -->
+  <rect x="375" y="125" width="210" height="160" rx="70" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="375" y="345" width="210" height="160" rx="70" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="9" stroke-linecap="round"><path d="M442 170v42M518 170v34M442 390v42M518 390v34"/></g>
+  <path d="M463 245a17 17 0 0 1 34 0v16h-34z M463 465a17 17 0 0 1 34 0v16h-34z" fill="#0f2240"/>
+  <!-- center plate screw -->
+  <circle cx="480" cy="315" r="13" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <path d="M471 324l18-18" stroke="#0f2240" stroke-width="3" stroke-linecap="round"/>
+  <!-- screwdriver -->
+  <g transform="rotate(-35 820 330)">
+    <rect x="600" y="318" width="250" height="24" rx="5" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+    <path d="M600 322l-30 4v8l30 4z" fill="#f3f6fa" stroke="#0f2240" stroke-width="4" stroke-linejoin="round"/>
+    <rect x="850" y="296" width="60" height="68" rx="10" fill="#ffffff" stroke="#0f2240" stroke-width="4"/>
+    <rect x="904" y="290" width="200" height="80" rx="34" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+    <g stroke="#0f2240" stroke-width="4" stroke-linecap="round"><path d="M950 308v44M990 308v44M1030 308v44"/></g>
+  </g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M330 40h300M330 30v20M630 30v20"/><path d="M280 70v490M270 70h20M270 560h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

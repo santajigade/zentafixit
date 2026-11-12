@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where to look when Wi-Fi is missing</text>
+  <text x="24" y="62" font-size="14" font-weight="700" fill="#14202c">Quick Settings (Windows key + A)</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="20" y="74" width="290" height="104" rx="8"/>
+    <rect x="330" y="74" width="290" height="104" rx="8"/>
+  </g>
+  <!-- state A tiles -->
+  <rect x="36" y="88" width="80" height="44" rx="8" fill="#1d5fae" stroke="#1d5fae" stroke-width="2"/>
+  <g fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"><path d="M63 106a14 14 0 0 1 26 0"/><path d="M68 112a8 8 0 0 1 16 0"/></g>
+  <circle cx="76" cy="119" r="2.5" fill="#fff"/>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="126" y="88" width="80" height="44" rx="8"/><rect x="216" y="88" width="80" height="44" rx="8"/>
+    <rect x="436" y="88" width="80" height="44" rx="8"/><rect x="526" y="88" width="80" height="44" rx="8"/>
+  </g>
+  <!-- state B: empty slot -->
+  <rect x="346" y="88" width="80" height="44" rx="8" fill="none" stroke="#d9442b" stroke-width="2" stroke-dasharray="5 4"/>
+  <g font-size="12" fill="#14202c" text-anchor="middle">
+    <text x="166" y="114">Airplane</text><text x="256" y="114">Bluetooth</text>
+    <text x="476" y="114">Airplane</text><text x="566" y="114">Bluetooth</text>
+    <text x="386" y="114" fill="#d9442b">empty</text>
+  </g>
+  <g font-size="13" text-anchor="middle">
+    <text x="165" y="156" fill="#1f8a5b" font-weight="700">Wi-Fi tile there</text>
+    <text x="165" y="172" fill="#566475" font-size="12">Turn it on, then pick your network</text>
+    <text x="475" y="156" fill="#d9442b" font-weight="700">No Wi-Fi tile</text>
+    <text x="475" y="172" fill="#566475" font-size="12">Windows can't use the adapter</text>
+  </g>
+  <text x="24" y="212" font-size="14" font-weight="700" fill="#14202c">Device Manager: Network adapters</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="20" y="224" width="290" height="72" rx="8"/>
+    <rect x="330" y="224" width="290" height="72" rx="8"/>
+    <rect x="20" y="310" width="290" height="72" rx="8"/>
+    <rect x="330" y="310" width="290" height="72" rx="8"/>
+  </g>
+  <!-- adapter glyphs -->
+  <g fill="#dfe9f7" stroke="#0f2240" stroke-width="2">
+    <rect x="36" y="248" width="34" height="22" rx="3"/>
+    <rect x="346" y="248" width="34" height="22" rx="3"/>
+    <rect x="36" y="334" width="34" height="22" rx="3"/>
+  </g>
+  <rect x="346" y="334" width="34" height="22" rx="3" fill="none" stroke="#566475" stroke-width="2" stroke-dasharray="4 3"/>
+  <g stroke="#0f2240" stroke-width="2"><path d="M42 270v5M50 270v5M58 270v5M64 270v5M352 270v5M360 270v5M368 270v5M374 270v5M42 356v5M50 356v5M58 356v5M64 356v5"/></g>
+  <!-- badges -->
+  <circle cx="72" cy="248" r="8" fill="#1f8a5b"/>
+  <path d="M68 248l3 3 5-6" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="382" cy="248" r="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M382 243v9M378 249l4 4 4-4" fill="none" stroke="#0f2240" stroke-width="2" stroke-linecap="round"/>
+  <path d="M72 325l9 16h-18z" fill="#ffd23f" stroke="#c9a10a" stroke-width="1.5"/>
+  <path d="M72 330v5M72 338v1" stroke="#0f2240" stroke-width="2" stroke-linecap="round"/>
+  <g font-size="14" font-weight="700" fill="#14202c">
+    <text x="94" y="254">Working</text>
+    <text x="404" y="254">Down arrow: disabled</text>
+    <text x="94" y="340">Yellow warning</text>
+    <text x="404" y="340">Not listed at all</text>
+  </g>
+  <g font-size="12" fill="#566475">
+    <text x="94" y="274">Check the service and</text><text x="94" y="289">power settings: fixes 6, 7</text>
+    <text x="404" y="274">Right-click it and</text><text x="404" y="289">choose Enable device</text>
+    <text x="94" y="360">Driver problem: roll back</text><text x="94" y="375">or reinstall it, fix 5</text>
+    <text x="404" y="360">Show hidden devices,</text><text x="404" y="375">then check BIOS: fix 9</text>
+  </g>
+</svg>

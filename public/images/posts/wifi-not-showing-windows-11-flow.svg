@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="480" fill="#f3f6fa"/>
+  <defs><marker id="wnsflow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Wi-Fi not showing: what is missing?</text>
+  <rect x="150" y="54" width="340" height="44" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <g stroke-width="2">
+    <rect x="20" y="128" width="290" height="44" rx="8" fill="#0f2240" stroke="#0f2240"/>
+    <rect x="330" y="128" width="290" height="44" rx="8" fill="#1d5fae" stroke="#1d5fae"/>
+  </g>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="20" y="196" width="290" height="56" rx="8"/>
+    <rect x="20" y="266" width="290" height="56" rx="8"/>
+    <rect x="20" y="336" width="290" height="56" rx="8"/>
+  </g>
+  <rect x="20" y="406" width="290" height="56" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="2"/>
+  <g fill="#dfe9f7" stroke="#1d5fae" stroke-width="2">
+    <rect x="330" y="196" width="290" height="56" rx="8"/>
+    <rect x="330" y="266" width="290" height="56" rx="8"/>
+    <rect x="330" y="336" width="290" height="56" rx="8"/>
+    <rect x="330" y="406" width="290" height="56" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#wnsflow)">
+    <path d="M260 98v12H165v16"/><path d="M380 98v12H475v16"/>
+    <path d="M165 172v22"/><path d="M165 252v12"/><path d="M165 322v12"/><path d="M165 392v12"/>
+    <path d="M475 172v22"/><path d="M475 252v12"/><path d="M475 322v12"/><path d="M475 392v12"/>
+  </g>
+  <g font-size="14" text-anchor="middle">
+    <text x="320" y="81" fill="#14202c">Press Win + A. Is there a Wi-Fi tile?</text>
+    <text x="165" y="155" fill="#fff" font-weight="700">No Wi-Fi tile at all</text>
+    <text x="475" y="155" fill="#fff" font-weight="700">Tile is there, network missing</text>
+  </g>
+  <g font-size="14" fill="#14202c" font-weight="700" text-anchor="middle">
+    <text x="165" y="220">Airplane mode or Wi-Fi key?</text>
+    <text x="165" y="290">Adapter disabled?</text>
+    <text x="165" y="360">Yellow warning or missing?</text>
+    <text x="165" y="430">Still no Wi-Fi?</text>
+    <text x="475" y="220">Can your phone see it?</text>
+    <text x="475" y="290">Only a 5 or 6 GHz network?</text>
+    <text x="475" y="360">Hidden network name?</text>
+    <text x="475" y="430">Far from the router?</text>
+  </g>
+  <g font-size="12" fill="#566475" text-anchor="middle">
+    <text x="165" y="240">Fixes 1 and 2</text>
+    <text x="165" y="310">Enable it: fixes 3 and 4</text>
+    <text x="165" y="380">Driver, service, power: fixes 5 to 7</text>
+    <text x="165" y="450">Network reset, BIOS: fixes 8 and 9</text>
+    <text x="475" y="240">No: restart the router</text>
+    <text x="475" y="310">Adapter may be 2.4 GHz only</text>
+    <text x="475" y="380">Add it in Manage known networks</text>
+    <text x="475" y="450">Move closer and refresh the list</text>
+  </g>
+</svg>

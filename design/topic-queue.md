@@ -39,10 +39,10 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] phones-tablets/iphone-problems | iphone-overheating | iPhone Overheating? Fixes
 - [x] tv-audio/streaming-problems | roku-not-working | Streaming Stick Not Working? Fixes for Roku, Fire TV and More
 - [x] appliances/washers-and-dryers | washing-machine-shaking | Washing Machine Shaking or Walking? Fixes
-- [ ] electrical/wiring-basics | how-to-replace-an-outlet | How to Replace an Outlet Safely
-- [ ] pc-laptops/windows-problems | wifi-not-showing-windows-11 | Wi-Fi Not Showing on Windows 11? Fixes
-- [ ] plumbing/water-pressure | low-water-pressure-shower | Low Water Pressure in the Shower? Fixes
-- [ ] appliances/refrigerators | refrigerator-making-noise | Refrigerator Making Noise? What Each Sound Means
+- [x] electrical/wiring-basics | how-to-replace-an-outlet | How to Replace an Outlet Safely
+- [x] pc-laptops/windows-problems | wifi-not-showing-windows-11 | Wi-Fi Not Showing on Windows 11? Fixes
+- [x] plumbing/water-pressure | low-water-pressure-shower | Low Water Pressure in the Shower? Fixes
+- [x] appliances/refrigerators | refrigerator-making-noise | Refrigerator Making Noise? What Each Sound Means
 - [ ] hvac/thermostat-wiring | thermostat-not-working | Thermostat Not Working? Fixes
 - [ ] gadgets/monitors-and-displays | screen-flickering | Screen Flickering on Windows? Fixes
 - [ ] home-safety/smoke-and-co-detectors | carbon-monoxide-alarm-going-off | Carbon Monoxide Alarm Going Off? What to Do Now

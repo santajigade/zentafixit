@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 490" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="490" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where each fridge sound comes from</text>
+  <!-- floor -->
+  <path d="M20 432H620" stroke="#d5dee8" stroke-width="2"/>
+  <!-- cabinet -->
+  <rect x="170" y="60" width="200" height="360" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M170 176H370" stroke="#0f2240" stroke-width="2"/>
+  <g stroke="#d5dee8" stroke-width="2"><path d="M182 230H350M182 280H350"/></g>
+  <!-- doors -->
+  <g fill="#fff" stroke="#0f2240" stroke-width="2"><rect x="150" y="60" width="18" height="114" rx="4"/><rect x="150" y="178" width="18" height="242" rx="4"/></g>
+  <!-- ice maker -->
+  <rect x="182" y="78" width="80" height="24" rx="5" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <!-- evaporator fan -->
+  <circle cx="348" cy="84" r="12" fill="#ffd23f" fill-opacity=".45" stroke="#0f2240" stroke-width="2"/>
+  <path d="M348 74v20M338 84h20" stroke="#0f2240" stroke-width="1.5"/>
+  <!-- evaporator coil -->
+  <path d="M338 104h20v10h-20v10h20v10h-20v10h20v10h-20" fill="none" stroke="#1d5fae" stroke-width="2"/>
+  <!-- defrost heater -->
+  <path d="M334 164H362" stroke="#d9442b" stroke-width="3" stroke-linecap="round"/>
+  <!-- refrigerant tubing -->
+  <path d="M362 180V352" fill="none" stroke="#1d5fae" stroke-width="2" stroke-dasharray="6 5"/>
+  <!-- machine compartment -->
+  <rect x="282" y="340" width="86" height="78" fill="#f3f6fa" stroke="#d5dee8" stroke-width="2"/>
+  <circle cx="346" cy="372" r="16" fill="#d5dee8" stroke="#0f2240" stroke-width="2"/>
+  <circle cx="302" cy="372" r="12" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M302 362v20M292 372h20" stroke="#0f2240" stroke-width="1.5"/>
+  <rect x="290" y="398" width="76" height="12" rx="3" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <!-- water inlet valve on back -->
+  <rect x="372" y="326" width="12" height="16" rx="2" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <!-- leveling legs -->
+  <g fill="#0f2240"><rect x="176" y="420" width="12" height="11"/><rect x="352" y="420" width="12" height="11"/></g>
+  <!-- leader lines -->
+  <g stroke="#566475" stroke-width="1" fill="none">
+    <path d="M362 84H434"/>
+    <path d="M364 164L434 146"/>
+    <path d="M364 222H434"/>
+    <path d="M386 332L434 290"/>
+    <path d="M362 374L434 340"/>
+    <path d="M368 404H434"/>
+    <path d="M134 92H182"/>
+    <path d="M134 248H176"/>
+    <path d="M182 432V446M302 386V446"/>
+  </g>
+  <!-- right labels -->
+  <g font-size="13" font-weight="700" fill="#14202c">
+    <text x="440" y="88">Evaporator fan</text>
+    <text x="440" y="150">Defrost heater</text>
+    <text x="440" y="226">Refrigerant tubing</text>
+    <text x="440" y="294">Water inlet valve</text>
+    <text x="440" y="344">Compressor</text>
+    <text x="440" y="400">Drain pan</text>
+  </g>
+  <g font-size="12" fill="#566475">
+    <text x="440" y="104">squeal, chirp, scrape</text>
+    <text x="440" y="166">sizzle (normal)</text>
+    <text x="440" y="242">gurgle, hiss (normal)</text>
+    <text x="440" y="310">buzz while filling</text>
+    <text x="440" y="360">hum, click, knock</text>
+    <text x="440" y="416">rattle if loose</text>
+  </g>
+  <!-- left labels -->
+  <g font-size="13" font-weight="700" fill="#14202c" text-anchor="end">
+    <text x="128" y="96">Ice maker</text>
+    <text x="128" y="252">Plastic liner</text>
+  </g>
+  <g font-size="12" fill="#566475" text-anchor="end">
+    <text x="128" y="112">ice drops</text>
+    <text x="128" y="268">pops, cracks</text>
+  </g>
+  <!-- bottom labels -->
+  <g font-size="13" font-weight="700" fill="#14202c" text-anchor="middle">
+    <text x="182" y="462">Leveling leg</text>
+    <text x="302" y="462">Condenser fan</text>
+  </g>
+  <g font-size="12" fill="#566475" text-anchor="middle">
+    <text x="182" y="478">rattle if uneven</text>
+    <text x="302" y="478">rattle, grind</text>
+  </g>
+  <!-- section names -->
+  <g font-size="12" fill="#566475" text-anchor="middle">
+    <text x="250" y="150">Freezer</text>
+    <text x="250" y="210">Fresh food</text>
+  </g>
+</svg>
