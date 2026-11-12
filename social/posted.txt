@@ -6,3 +6,4 @@ tv-wont-turn-on
 furnace-blowing-cold-air
 heat-pump-not-heating
 oven-not-heating
+washing-machine-shaking
