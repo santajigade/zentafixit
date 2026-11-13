@@ -1,1 +1,12 @@
-[]
+[
+"networking/wifi-connected-no-internet",
+"electrical/gfci-outlet-keeps-tripping",
+"plumbing/toilet-keeps-running",
+"tv-audio/tv-no-signal-hdmi",
+"smart-home/alexa-not-responding",
+"gadgets/printer-offline",
+"home-safety/smoke-detector-chirping",
+"solar-power/electric-bill-suddenly-high",
+"tools/how-to-test-an-outlet-with-a-multimeter",
+"ev-charging/level-1-vs-level-2-charging"
+]
