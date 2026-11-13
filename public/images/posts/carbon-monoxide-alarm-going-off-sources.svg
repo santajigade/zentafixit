@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Common CO sources and where alarms go</text>
+  <!-- chimney and roof -->
+  <rect x="320" y="72" width="30" height="40" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M40 130L230 64L420 130z" fill="#dfe9f7" stroke="#0f2240" stroke-width="2" stroke-linejoin="round"/>
+  <text x="360" y="84" font-size="13" fill="#1d5fae">Blocked chimney or flue</text>
+  <!-- upper level -->
+  <rect x="40" y="130" width="380" height="120" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <text x="56" y="156" font-size="14" font-weight="700" fill="#0f2240">Upper level: bedrooms</text>
+  <g fill="#fff" stroke="#d5dee8" stroke-width="2">
+    <rect x="56" y="172" width="150" height="62" rx="8"/>
+    <rect x="254" y="172" width="150" height="62" rx="8"/>
+  </g>
+  <g font-size="13" fill="#566475" text-anchor="middle">
+    <text x="131" y="208">Bedroom</text>
+    <text x="329" y="208">Bedroom</text>
+  </g>
+  <circle cx="230" cy="203" r="9" fill="#ffd23f" stroke="#c9a10a" stroke-width="2"/>
+  <!-- lower level -->
+  <rect x="40" y="250" width="380" height="134" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <g fill="#dfe9f7" stroke="#1d5fae" stroke-width="2">
+    <rect x="56" y="262" width="170" height="38" rx="8"/>
+    <rect x="236" y="262" width="170" height="38" rx="8"/>
+    <rect x="56" y="310" width="170" height="38" rx="8"/>
+    <rect x="236" y="310" width="170" height="38" rx="8"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="141" y="286">Furnace</text>
+    <text x="321" y="286">Gas water heater</text>
+    <text x="141" y="334">Gas range or oven</text>
+    <text x="321" y="334">Fireplace or stove</text>
+  </g>
+  <circle cx="68" cy="366" r="9" fill="#ffd23f" stroke="#c9a10a" stroke-width="2"/>
+  <text x="84" y="371" font-size="13" fill="#14202c">CO alarm on every level</text>
+  <!-- garage -->
+  <path d="M420 200L518 172L616 200" fill="none" stroke="#0f2240" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="420" y="200" width="196" height="184" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <text x="436" y="226" font-size="14" font-weight="700" fill="#0f2240">Attached garage</text>
+  <g fill="#fff" stroke="#d9442b" stroke-width="2">
+    <rect x="436" y="242" width="164" height="38" rx="8"/>
+    <rect x="436" y="290" width="164" height="38" rx="8"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="518" y="266">Car left running</text>
+    <text x="518" y="314">Generator or grill</text>
+  </g>
+  <text x="436" y="352" font-size="12" fill="#d9442b">Never run these</text>
+  <text x="436" y="368" font-size="12" fill="#d9442b">in a garage or indoors</text>
+  <path d="M24 384H616" stroke="#0f2240" stroke-width="2"/>
+  <circle cx="32" cy="406" r="7" fill="#ffd23f" stroke="#c9a10a" stroke-width="2"/>
+  <text x="46" y="411" font-size="13" fill="#566475">CO alarm: near bedrooms and on every level. Follow the maker's guide.</text>
+  <text x="24" y="432" font-size="13" fill="#566475">Blue: fuel-burning sources to inspect. Red: never run indoors.</text>
+</svg>

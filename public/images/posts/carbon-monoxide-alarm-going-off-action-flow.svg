@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="coaN" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker><marker id="coaB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1d5fae"/></marker><marker id="coaR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#d9442b"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">CO alarm going off: what to do</text>
+  <rect x="24" y="60" width="360" height="44" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="2"/>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="130" width="360" height="44" rx="8"/>
+    <rect x="24" y="200" width="360" height="44" rx="8"/>
+    <rect x="24" y="270" width="360" height="44" rx="8"/>
+  </g>
+  <rect x="24" y="340" width="360" height="60" rx="8" fill="#fff" stroke="#1f8a5b" stroke-width="2"/>
+  <rect x="436" y="60" width="180" height="110" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <rect x="436" y="190" width="180" height="124" rx="8" fill="#fff" stroke="#d9442b" stroke-width="2"/>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#coaN)"><path d="M204 104v24"/><path d="M204 174v24"/><path d="M204 244v24"/><path d="M204 314v24"/></g>
+  <path d="M384 82h50" fill="none" stroke="#1d5fae" stroke-width="1.8" marker-end="url(#coaB)"/>
+  <path d="M384 222h50" fill="none" stroke="#d9442b" stroke-width="1.8" marker-end="url(#coaR)"/>
+  <g font-size="12" fill="#566475">
+    <text x="212" y="121">yes</text>
+    <text x="398" y="76">no</text>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="204" y="87" font-weight="700">Full, loud, repeating alarm?</text>
+    <text x="204" y="157">Get everyone and pets outside</text>
+    <text x="204" y="227">Call 911 from fresh air</text>
+    <text x="204" y="297">Stay out until responders say safe</text>
+    <text x="204" y="364" font-weight="700" fill="#1f8a5b">Get appliances checked</text>
+    <text x="204" y="386" font-size="13">by a technician before using them</text>
+  </g>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="526" y="88" font-size="14" font-weight="700" fill="#1d5fae">Just a chirp?</text>
+    <text x="526" y="114">Check the label:</text>
+    <text x="526" y="132">low battery or</text>
+    <text x="526" y="150">end of life</text>
+    <text x="526" y="220" font-size="14" font-weight="700" fill="#d9442b">Anyone feeling ill?</text>
+    <text x="526" y="248">Tell the dispatcher</text>
+    <text x="526" y="266">and get medical</text>
+    <text x="526" y="284">help right away</text>
+  </g>
+  <text x="24" y="424" font-size="13" fill="#566475">Never press silence and stay inside. Treat every alarm as real.</text>
+</svg>

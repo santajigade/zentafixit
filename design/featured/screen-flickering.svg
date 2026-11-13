@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- monitor -->
+  <rect x="330" y="90" width="540" height="340" rx="18" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="356" y="114" width="488" height="282" rx="6" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- flicker bands -->
+  <g fill="#0f2240">
+    <rect x="358" y="150" width="484" height="22" opacity=".18"/>
+    <rect x="358" y="214" width="484" height="40" opacity=".32"/>
+    <rect x="358" y="300" width="484" height="14" opacity=".14"/>
+    <rect x="358" y="346" width="484" height="28" opacity=".24"/>
+  </g>
+  <circle cx="600" cy="414" r="6" fill="#0f2240"/>
+  <!-- stand -->
+  <path d="M570 430h60l14 86h-88z" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="490" y="516" width="220" height="22" rx="10" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <!-- flicker accents -->
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M920 180l40-22M930 260h52M920 340l40 22"/>
+    <path d="M280 180l-40-22M270 260h-52M280 340l-40 22"/>
+  </g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M330 60h540M330 50v20M870 50v20"/><path d="M1000 90v340M990 90h20M990 430h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

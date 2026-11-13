@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="460" fill="#f3f6fa"/>
+  <defs><marker id="tnwf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Thermostat on, but nothing happens?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="30" y="54" width="340" height="46" rx="8"/>
+    <rect x="30" y="122" width="340" height="46" rx="8"/>
+    <rect x="30" y="190" width="340" height="46" rx="8"/>
+    <rect x="30" y="258" width="340" height="46" rx="8"/>
+    <rect x="30" y="326" width="340" height="46" rx="8"/>
+    <rect x="30" y="394" width="340" height="46" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="400" y="54" width="216" height="46" rx="8"/>
+    <rect x="400" y="122" width="216" height="46" rx="8"/>
+    <rect x="400" y="190" width="216" height="46" rx="8"/>
+    <rect x="400" y="258" width="216" height="46" rx="8"/>
+    <rect x="400" y="326" width="216" height="46" rx="8"/>
+    <rect x="400" y="394" width="216" height="46" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#tnwf)">
+    <path d="M200 100v20"/><path d="M200 168v20"/><path d="M200 236v20"/><path d="M200 304v20"/><path d="M200 372v20"/>
+    <path d="M370 77h28"/><path d="M370 145h28"/><path d="M370 213h28"/><path d="M370 281h28"/><path d="M370 349h28"/><path d="M370 417h28"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="200" y="82">Is the screen lit at all?</text>
+    <text x="200" y="150">Set mode, setpoint; wait 5 min</text>
+    <text x="200" y="218">Low battery icon or dim screen?</text>
+    <text x="200" y="286">Breaker and furnace switch ON?</text>
+    <text x="200" y="354">Door shut tight, drain pan dry?</text>
+    <text x="200" y="422">Check fuse, wires and location</text>
+  </g>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="508" y="73" font-weight="700">Blank screen?</text><text x="508" y="91" fill="#566475">see the blank screen guide</text>
+    <text x="508" y="141" font-weight="700">Cause 1</text><text x="508" y="159" fill="#566475">settings or schedule</text>
+    <text x="508" y="209" font-weight="700">Cause 2</text><text x="508" y="227" fill="#566475">weak batteries</text>
+    <text x="508" y="277" font-weight="700">Cause 3</text><text x="508" y="295" fill="#566475">no power to the unit</text>
+    <text x="508" y="345" font-weight="700">Causes 4 and 5</text><text x="508" y="363" fill="#566475">a safety switch is open</text>
+    <text x="508" y="413" font-weight="700">Causes 6 to 8</text><text x="508" y="431" fill="#566475">fuse, wiring, placement</text>
+  </g>
+</svg>

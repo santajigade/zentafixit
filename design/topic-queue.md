@@ -43,10 +43,10 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] pc-laptops/windows-problems | wifi-not-showing-windows-11 | Wi-Fi Not Showing on Windows 11? Fixes
 - [x] plumbing/water-pressure | low-water-pressure-shower | Low Water Pressure in the Shower? Fixes
 - [x] appliances/refrigerators | refrigerator-making-noise | Refrigerator Making Noise? What Each Sound Means
-- [ ] hvac/thermostat-wiring | thermostat-not-working | Thermostat Not Working? Fixes
-- [ ] gadgets/monitors-and-displays | screen-flickering | Screen Flickering on Windows? Fixes
-- [ ] home-safety/smoke-and-co-detectors | carbon-monoxide-alarm-going-off | Carbon Monoxide Alarm Going Off? What to Do Now
-- [ ] appliances/dishwashers | dishwasher-wont-start | Dishwasher Won't Start? Fixes
+- [x] hvac/thermostat-wiring | thermostat-not-working | Thermostat Not Working? Fixes
+- [x] gadgets/monitors-and-displays | screen-flickering | Screen Flickering on Windows? Fixes
+- [x] home-safety/smoke-and-co-detectors | carbon-monoxide-alarm-going-off | Carbon Monoxide Alarm Going Off? What to Do Now
+- [x] appliances/dishwashers | dishwasher-wont-start | Dishwasher Won't Start? Fixes
 - [ ] electrical/lighting-and-ceiling-fans | lights-flickering-whole-house | Lights Flickering in the Whole House? Causes
 - [ ] phones-tablets/bluetooth-and-pairing | airpods-not-connecting | Wireless Earbuds Not Connecting? Fixes
 - [ ] hvac/hvac-error-codes | ac-blowing-hot-air | AC Blowing Warm Air? Fixes

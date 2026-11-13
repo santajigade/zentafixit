@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="470" fill="#f3f6fa"/>
+  <defs><marker id="dwsf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Is there any sign of life?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="170" y="54" width="300" height="44" rx="8"/>
+    <rect x="30" y="200" width="270" height="40" rx="8"/>
+    <rect x="30" y="258" width="270" height="40" rx="8"/>
+    <rect x="30" y="316" width="270" height="40" rx="8"/>
+    <rect x="340" y="200" width="270" height="40" rx="8"/>
+    <rect x="340" y="258" width="270" height="40" rx="8"/>
+    <rect x="340" y="316" width="270" height="40" rx="8"/>
+    <rect x="340" y="374" width="270" height="40" rx="8"/>
+  </g>
+  <g fill="#dfe9f7" stroke="#1d5fae" stroke-width="2">
+    <rect x="30" y="136" width="270" height="44" rx="8"/>
+    <rect x="340" y="136" width="270" height="44" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="30" y="374" width="270" height="40" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#dwsf)">
+    <path d="M320 98v14H165v22"/><path d="M320 112H475v22"/>
+    <path d="M165 180v18"/><path d="M165 240v16"/><path d="M165 298v16"/><path d="M165 356v16"/>
+    <path d="M475 180v18"/><path d="M475 240v16"/><path d="M475 298v16"/><path d="M475 356v16"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">Press a button: do lights come on?</text>
+    <text x="215" y="106" font-size="12" fill="#566475">no</text>
+    <text x="425" y="106" font-size="12" fill="#566475">yes</text>
+    <text x="165" y="163" font-weight="700">No lights at all</text>
+    <text x="475" y="163" font-weight="700">Lights on, won't run</text>
+    <text x="165" y="225">Breaker and GFCI reset? (5)</text>
+    <text x="165" y="283">Wall switch on, plug in? (5)</text>
+    <text x="165" y="341">Power reset for 1 minute</text>
+    <text x="165" y="399" font-weight="700">Thermal fuse or board (8)</text>
+    <text x="475" y="225">Door latched firmly? (1)</text>
+    <text x="475" y="283">Lock or delay on? (2, 3)</text>
+    <text x="475" y="341">Door shut after Start? (4)</text>
+    <text x="475" y="399">Fills with water? (6, 7)</text>
+  </g>
+  <text x="24" y="448" font-size="13" fill="#566475">Still stuck after both columns? Call an appliance technician.</text>
+</svg>
