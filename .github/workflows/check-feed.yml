@@ -1,0 +1,17 @@
+# Run by hand to check the Pinterest feed the way Pinterest sees it.
+name: Check pin feed
+on:
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for ua in "Pinterestbot/1.0 (+http://www.pinterest.com/bot.html)" "Mozilla/5.0 (compatible; Pinterestbot/1.0; +http://www.pinterest.com/bot.html)"; do
+            echo "== $ua"
+            curl -s -A "$ua" -D - -o /tmp/f.xml -w 'time %{time_total}s size %{size_download}\n' https://zentafixit.com/pins/feed.xml | grep -iE '^HTTP|content-type|time '
+          done
+          python3 -c "import xml.dom.minidom as m;d=m.parse('/tmp/f.xml');print('valid XML,', len(d.getElementsByTagName('item')), 'items')"
+          for img in $(grep -o 'https://zentafixit.com/pins/[^"]*\.jpg' /tmp/f.xml | sort -u | head -8); do
+            curl -s -A "Pinterestbot/1.0" -o /dev/null -w "%{http_code} %{content_type} $img\n" "$img"
+          done

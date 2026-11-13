@@ -4,3 +4,5 @@ dist/
 .env
 .DS_Store
 dist-preview/
+.og-cache/
+.indexnow/

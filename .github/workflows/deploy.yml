@@ -1,5 +1,6 @@
 # Builds the site and uploads it to Hostinger by FTP.
-# Runs on every push to main, once a day (so scheduled posts go live), and on demand.
+# Runs on every push to main, every day at 09:00 IST (so scheduled posts and the day's Pinterest pins go live), and on demand.
+# After each upload it tells IndexNow (Bing, ChatGPT search, DuckDuckGo, Yahoo) which pages changed. That step can never fail the deploy.
 # Required GitHub secrets (Settings → Secrets and variables → Actions):
 #   FTP_SERVER    e.g. ftp.zentafixit.com or the IP from hPanel → Files → FTP Accounts
 #   FTP_USERNAME  FTP username from hPanel
@@ -9,7 +10,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '30 13 * * *' # 13:30 UTC = 8:30 AM US Eastern (standard time)
+    - cron: '30 3 * * *' # 03:30 UTC = 09:00 IST
   workflow_dispatch:
 concurrency: deploy
 jobs:
@@ -21,6 +22,18 @@ jobs:
         with:
           node-version: 22
           cache: npm
+      - name: Reuse pin images from earlier builds
+        uses: actions/cache@v4
+        with:
+          path: .og-cache
+          key: pins-${{ github.run_id }}
+          restore-keys: pins-
+      - name: Restore the page list of the previous deploy (for IndexNow)
+        uses: actions/cache/restore@v4
+        with:
+          path: .indexnow
+          key: indexnow-${{ github.run_id }}
+          restore-keys: indexnow-
       - run: npm ci
       - run: npm run build
       - name: Upload to Hostinger
@@ -31,3 +44,22 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
           server-dir: ./  # FTP account is rooted at public_html
+      - name: IndexNow (new or changed pages only)
+        continue-on-error: true
+        run: |
+          python3 tools/indexnow.py changed .indexnow/pages.json dist .indexnow/next.json || true
+          mv -f .indexnow/next.json .indexnow/pages.json || true
+      - name: Save the page list for the next deploy
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: .indexnow
+          key: indexnow-${{ github.run_id }}
+      - name: Check the Pinterest feed from outside
+        continue-on-error: true
+        run: |
+          sleep 20
+          curl -s -A "Pinterestbot/1.0 (+http://www.pinterest.com/bot.html)" -o /tmp/feed.xml -w 'feed HTTP %{http_code} %{content_type}\n' https://zentafixit.com/pins/feed.xml
+          python3 -c "import xml.dom.minidom as m;d=m.parse('/tmp/feed.xml');print('valid XML,', len(d.getElementsByTagName('item')), 'items')"
+          IMG=$(grep -o 'https://zentafixit.com/pins/[^"]*\.jpg' /tmp/feed.xml | head -1)
+          [ -n "$IMG" ] && curl -s -A "Pinterestbot/1.0" -o /dev/null -w "first pin image HTTP %{http_code} %{content_type}\n" "$IMG" || echo "no pins released yet"

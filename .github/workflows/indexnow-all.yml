@@ -1,0 +1,14 @@
+# Run by hand (Actions → IndexNow: submit all pages → Run workflow) to send every sitemap URL to IndexNow once.
+# The first deploy after IndexNow was added also submits every page automatically.
+name: 'IndexNow: submit all pages'
+on:
+  workflow_dispatch:
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          KEY=$(ls public | grep -E '^[0-9a-f]{32}\.txt$' | sed 's/\.txt$//')
+          curl -s -o /dev/null -w 'key file HTTP %{http_code}\n' "https://zentafixit.com/$KEY.txt"
+          python3 tools/indexnow.py all https://zentafixit.com/sitemap-0.xml

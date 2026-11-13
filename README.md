@@ -50,3 +50,14 @@ Add these GitHub secrets (Settings → Secrets and variables → Actions): `FTP_
 Each post has a 1200×630 featured image. Source SVGs live in `design/featured/<slug>.svg`.
 Render them with `node design/render-featured.cjs` (needs Playwright), then convert each PNG to
 `public/images/featured/<slug>.webp` (shown on the page) and `<slug>.jpg` (used for social sharing).
+
+## Traffic plumbing
+
+**IndexNow** (Bing, ChatGPT search, DuckDuckGo, Yahoo): key file `public/<32-hex>.txt`. After every deploy, `tools/indexnow.py changed` submits only sitemap pages whose HTML changed since the previous deploy (page hashes are kept in the GitHub Actions cache). It never fails the deploy. The first deploy, and the manual workflow **IndexNow: submit all pages**, submit everything.
+
+**Pinterest**
+- Verification: paste the `p:domain_verify` value into `pinterestVerify` in `src/data/site.ts`. Profile link: `social.pinterest`.
+- Pin images: `/pins/<category>/<slug>.jpg` (1000x1500), rendered at build time with satori, resvg and sharp, cached in `.og-cache`. Only pins already released get an image. Colours come from `color` in `src/data/categories.ts`.
+- Schedule: `src/data/pins.json` (pin id to release date, 4 a day, built by `tools/pins-schedule.py`). Guides added later are pinned the day after they go live. Preview a future day with `PIN_TODAY=YYYY-MM-DD npx astro build`.
+- Feed: `/pins/feed.xml` (RSS 2.0 with media namespace, latest 60). The daily 09:00 IST rebuild releases each day's pins.
+- Manual uploads: `python3 tools/pins-lot.py 10 "BOARD_NAME"` releases the next 10 pins today, adds them to `src/data/pins-manual.json` (kept out of the feed) and writes a bulk-upload .csv.

@@ -16,7 +16,10 @@ export const SITE = {
     instagram: 'https://www.instagram.com/zentafixit/',
     facebook: 'https://www.facebook.com/zentafixit/',
     linkedin: 'https://www.linkedin.com/company/zentafixit/',
+    pinterest: 'https://www.pinterest.com/zentafixit/', // TODO: confirm your Pinterest username
   },
+  // Pinterest site verification: paste the content="..." value from Pinterest here.
+  pinterestVerify: '',
 };
 
 export const AUTHOR = {
