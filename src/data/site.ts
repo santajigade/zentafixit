@@ -19,7 +19,7 @@ export const SITE = {
     pinterest: 'https://www.pinterest.com/zentafixit/', // TODO: confirm your Pinterest username
   },
   // Pinterest site verification: paste the content="..." value from Pinterest here.
-  pinterestVerify: '',
+  pinterestVerify: '86b03510596799635eced523ea53818e',
 };
 
 export const AUTHOR = {
