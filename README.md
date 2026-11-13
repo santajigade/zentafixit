@@ -60,4 +60,4 @@ Render them with `node design/render-featured.cjs` (needs Playwright), then conv
 - Pin images: `/pins/<category>/<slug>.jpg` (1000x1500), rendered at build time with satori, resvg and sharp, cached in `.og-cache`. Only pins already released get an image. Colours come from `color` in `src/data/categories.ts`.
 - Schedule: `src/data/pins.json` (pin id to release date, 4 a day, built by `tools/pins-schedule.py`). Guides added later are pinned the day after they go live. Preview a future day with `PIN_TODAY=YYYY-MM-DD npx astro build`.
 - Feed: `/pins/feed.xml` (RSS 2.0 with media namespace, latest 60). The daily 09:00 IST rebuild releases each day's pins.
-- Manual uploads: `python3 tools/pins-lot.py 10 "BOARD_NAME"` releases the next 10 pins today, adds them to `src/data/pins-manual.json` (kept out of the feed) and writes a bulk-upload .csv.
+- Manual uploads: `python3 tools/pins-lot.py 10` (board: Fix It Yourself: Home and Tech) releases the next 10 pins today, adds them to `src/data/pins-manual.json` (kept out of the feed) and writes a bulk-upload .csv.

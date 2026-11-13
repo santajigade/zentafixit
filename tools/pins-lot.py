@@ -6,13 +6,13 @@ What it does:
    src/data/pins-manual.json so they stay OUT of the RSS feed (never pinned twice).
 3. Writes pins-lot-<date>.csv for pinterest.com/settings/bulk-create-pins.
 
-Usage: python3 tools/pins-lot.py [N=10] [BOARD="BOARD_NAME"]
+Usage: python3 tools/pins-lot.py [N=10] [BOARD="Fix It Yourself: Home and Tech"]
 Then commit, push and wait for the deploy before uploading the .csv (Pinterest fetches the images).
 """
 import sys, re, json, csv, glob, datetime
 
 N = int(sys.argv[1]) if len(sys.argv) > 1 else 10
-BOARD = sys.argv[2] if len(sys.argv) > 2 else 'BOARD_NAME'
+BOARD = sys.argv[2] if len(sys.argv) > 2 else 'Fix It Yourself: Home and Tech'
 SITE = 'https://zentafixit.com'
 today = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=5, minutes=30)).date().isoformat()
 
