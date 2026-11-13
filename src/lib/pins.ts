@@ -59,11 +59,14 @@ export const BOARDS = [
 /** The second pin goes out this many days after the first, to a different board, with a different image. */
 export const B_DELAY_DAYS = 7;
 const addDays = (d: string, n: number) => ymd(new Date(+new Date(d + 'T00:00:00Z') + n * DAY));
+/** Pins released on launch day (13 Nov 2026) got their second pin the same day, so the board feeds start with items. */
+const SEED_DAY = '2026-11-13';
+const bDate = (first: string) => (first <= SEED_DAY ? SEED_DAY : addDays(first, B_DELAY_DAYS));
 
 export async function pinBQueue(): Promise<{ post: Post; date: string }[]> {
   const t = todayIST();
   return (await getPublishedPosts())
-    .map((post) => ({ post, date: addDays(pinDate(post), B_DELAY_DAYS) }))
+    .map((post) => ({ post, date: bDate(pinDate(post)) }))
     .filter((p) => p.date <= t)
     .sort((a, b) => b.date.localeCompare(a.date) || pinId(a.post).localeCompare(pinId(b.post)));
 }
