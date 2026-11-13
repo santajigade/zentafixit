@@ -7,3 +7,4 @@ furnace-blowing-cold-air
 heat-pump-not-heating
 oven-not-heating
 washing-machine-shaking
+refrigerator-making-noise
