@@ -61,3 +61,5 @@ Render them with `node design/render-featured.cjs` (needs Playwright), then conv
 - Schedule: `src/data/pins.json` (pin id to release date, 4 a day, built by `tools/pins-schedule.py`). Guides added later are pinned the day after they go live. Preview a future day with `PIN_TODAY=YYYY-MM-DD npx astro build`.
 - Feed: `/pins/feed.xml` (RSS 2.0 with media namespace, latest 60). The daily 09:00 IST rebuild releases each day's pins.
 - Manual uploads: `python3 tools/pins-lot.py 10` (board: Fix It Yourself: Home and Tech) releases the next 10 pins today, adds them to `src/data/pins-manual.json` (kept out of the feed) and writes a bulk-upload .csv.
+- Second pin per guide (light "3 quick checks" design, `/pins/b/<category>/<slug>.jpg`) is released 7 days after the first pin into one of 4 board feeds: `/pins/boards/hvac-appliances.xml`, `electrical-power.xml`, `tech-fixes.xml`, `plumbing-smart-home.xml`. Connect each to its own Pinterest board.
+- Winter topics were moved to the front of the remaining schedule and the writing queue in November 2026.

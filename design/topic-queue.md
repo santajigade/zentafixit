@@ -47,11 +47,22 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] gadgets/monitors-and-displays | screen-flickering | Screen Flickering on Windows? Fixes
 - [x] home-safety/smoke-and-co-detectors | carbon-monoxide-alarm-going-off | Carbon Monoxide Alarm Going Off? What to Do Now
 - [x] appliances/dishwashers | dishwasher-wont-start | Dishwasher Won't Start? Fixes
+## Winter priority (moved up in November)
+- [ ] appliances/water-heaters | water-heater-pilot-light-out | Water Heater Pilot Light Won't Stay Lit? Fixes
+- [ ] hvac/furnaces | furnace-short-cycling | Furnace Turning On and Off Repeatedly? Fixes
+- [ ] electrical/generators-and-transfer-switches | generator-transfer-switch-explained | Generator Transfer Switch vs Interlock Explained
+- [ ] hvac/seasonal-maintenance | furnace-maintenance-checklist | Furnace Maintenance Checklist Before Winter
+- [ ] solar-power/electric-bill-reduction | cost-to-run-space-heater | How Much Does It Cost to Run a Space Heater?
+- [ ] appliances/water-heaters | tankless-water-heater-not-heating | Tankless Water Heater Not Heating? Fixes
+- [ ] hvac/heat-pumps | heat-pump-vs-furnace | Heat Pump vs Furnace: Which Is Better for Your Home?
+- [ ] solar-power/ups | ups-for-wifi-router | Best Way to Keep Wi-Fi On During a Power Outage
+- [ ] home-safety/fire-safety | dryer-vent-cleaning | Dryer Vent Cleaning: Why It Matters and How to Do It
+- [ ] hvac/thermostat-wiring | thermostat-c-wire-adapter | No C-Wire? Your Options for a Smart Thermostat
+
 - [ ] electrical/lighting-and-ceiling-fans | lights-flickering-whole-house | Lights Flickering in the Whole House? Causes
 - [ ] phones-tablets/bluetooth-and-pairing | airpods-not-connecting | Wireless Earbuds Not Connecting? Fixes
 - [ ] hvac/hvac-error-codes | ac-blowing-hot-air | AC Blowing Warm Air? Fixes
 - [ ] smart-home/cameras-and-doorbells | doorbell-not-ringing | Doorbell Not Ringing? Wired Doorbell Fixes
-- [ ] appliances/water-heaters | water-heater-pilot-light-out | Water Heater Pilot Light Won't Stay Lit? Fixes
 - [ ] plumbing/clogged-drains | shower-drain-clogged | Shower Drain Clogged? Fixes
 - [ ] pc-laptops/slow-pc-fixes | 100-percent-disk-usage | 100% Disk Usage on Windows? Fixes
 - [ ] networking/routers-and-modems | router-not-working | Router Not Working? Fixes
@@ -65,8 +76,6 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [ ] appliances/washers-and-dryers | dryer-takes-too-long | Dryer Taking Too Long to Dry? Fixes
 
 ## Week 3
-- [ ] hvac/furnaces | furnace-short-cycling | Furnace Turning On and Off Repeatedly? Fixes
-- [ ] electrical/generators-and-transfer-switches | generator-transfer-switch-explained | Generator Transfer Switch vs Interlock Explained
 - [ ] pc-laptops/mac-problems | mac-wont-turn-on | Mac Won't Turn On? Fixes
 - [ ] networking/slow-internet-fixes | how-to-test-internet-speed | How to Test Your Internet Speed (and What the Numbers Mean)
 - [ ] appliances/refrigerators | freezer-not-freezing | Freezer Not Freezing? Fixes
@@ -75,11 +84,9 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [ ] tv-audio/soundbars-and-speakers | bluetooth-speaker-not-connecting | Bluetooth Speaker Not Connecting? Fixes
 - [ ] appliances/dishwashers | dishwasher-leaking | Dishwasher Leaking? Fixes
 - [ ] electrical/outlets-and-gfci | outlet-sparks-when-plugging-in | Outlet Sparks When You Plug Something In? Is It Dangerous?
-- [ ] hvac/seasonal-maintenance | furnace-maintenance-checklist | Furnace Maintenance Checklist Before Winter
 - [ ] gadgets/external-drives-and-usb | usb-not-recognized | USB Device Not Recognized? Fixes
 - [ ] phones-tablets/iphone-problems | iphone-no-sound | iPhone No Sound? Fixes
 - [ ] appliances/ovens-and-microwaves | microwave-sparking | Microwave Sparking? Causes and What to Do
-- [ ] solar-power/electric-bill-reduction | cost-to-run-space-heater | How Much Does It Cost to Run a Space Heater?
 - [ ] plumbing/toilets | toilet-leaking-at-base | Toilet Leaking at the Base? Fixes
 - [ ] pc-laptops/windows-problems | windows-11-no-sound | No Sound on Windows 11? Fixes
 - [ ] hvac/air-conditioners | ac-making-noise | AC Making Noise? What Each Sound Means
@@ -89,13 +96,11 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [ ] tv-audio/home-theater-setup | tv-sound-out-of-sync | TV Sound Out of Sync? Fixes
 - [ ] home-safety/electrical-safety | burning-smell-from-outlet | Burning Smell From an Outlet? What to Do Now
 - [ ] gadgets/gaming-controllers | controller-not-connecting-to-pc | Game Controller Not Connecting to PC? Fixes
-- [ ] appliances/water-heaters | tankless-water-heater-not-heating | Tankless Water Heater Not Heating? Fixes
 - [ ] smart-home/smart-lighting-and-plugs | smart-bulb-not-connecting | Smart Bulb Won't Connect? Fixes
 - [ ] plumbing/water-filters-and-softeners | refrigerator-water-filter | When and How to Change a Refrigerator Water Filter
 - [ ] ev-charging/charger-troubleshooting | ev-charging-slow-at-home | EV Charging Slow at Home? Causes
 
 ## Week 4
-- [ ] hvac/heat-pumps | heat-pump-vs-furnace | Heat Pump vs Furnace: Which Is Better for Your Home?
 - [ ] pc-laptops/upgrades | how-to-add-ram-to-laptop | How to Add RAM to a Laptop
 - [ ] appliances/refrigerators | refrigerator-not-cooling-at-all | Refrigerator Not Cooling at All? Fixes
 - [ ] electrical/breakers-and-panels | breaker-panel-labels | How to Map and Label Your Breaker Panel
@@ -107,13 +112,10 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [ ] hvac/air-conditioners | ac-short-cycling | AC Turning On and Off Too Often? Fixes
 - [ ] gadgets/monitors-and-displays | second-monitor-not-detected | Second Monitor Not Detected? Fixes
 - [ ] electrical/lighting-and-ceiling-fans | ceiling-fan-wobbling | Ceiling Fan Wobbling? How to Fix It
-- [ ] solar-power/ups | ups-for-wifi-router | Best Way to Keep Wi-Fi On During a Power Outage
-- [ ] home-safety/fire-safety | dryer-vent-cleaning | Dryer Vent Cleaning: Why It Matters and How to Do It
 - [ ] smart-home/smart-locks | smart-lock-battery-dead | Smart Lock Battery Dead? How to Get In
 - [ ] pc-laptops/windows-problems | windows-11-wont-boot | Windows 11 Won't Boot? Fixes
 - [ ] appliances/dishwashers | dishwasher-smells-bad | Dishwasher Smells Bad? How to Clean It
 - [ ] plumbing/leaks-and-drips | how-to-shut-off-water-to-house | How to Shut Off Water to Your House
-- [ ] hvac/thermostat-wiring | thermostat-c-wire-adapter | No C-Wire? Your Options for a Smart Thermostat
 - [ ] phones-tablets/iphone-problems | iphone-wifi-not-working | iPhone Wi-Fi Not Working? Fixes
 - [ ] electrical/wiring-basics | how-to-install-a-light-fixture | How to Replace a Light Fixture Safely
 - [ ] appliances/ovens-and-microwaves | electric-stove-burner-not-working | Electric Stove Burner Not Working? Fixes

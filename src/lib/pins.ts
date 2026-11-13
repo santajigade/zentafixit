@@ -47,3 +47,38 @@ export function pinInput(p: Post): PinInput {
     ticks: [first, 'Diagrams and safety tips', 'Reviewed by an engineer'],
   };
 }
+
+// ---- Second pin per guide (design B) for the category board feeds ----
+/** Board groups: one RSS feed per Pinterest board. Pinterest allows a limited number of feeds, so categories are grouped. */
+export const BOARDS = [
+  { slug: 'hvac-appliances', name: 'HVAC and Appliance Repair', cats: ['hvac', 'appliances'] },
+  { slug: 'electrical-power', name: 'Electrical DIY and Home Power', cats: ['electrical', 'solar-power', 'ev-charging', 'home-safety', 'tools'] },
+  { slug: 'tech-fixes', name: 'Wi-Fi, Computer and Phone Fixes', cats: ['networking', 'pc-laptops', 'gadgets', 'phones-tablets', 'tv-audio'] },
+  { slug: 'plumbing-smart-home', name: 'Plumbing and Smart Home Fixes', cats: ['plumbing', 'smart-home'] },
+];
+/** The second pin goes out this many days after the first, to a different board, with a different image. */
+export const B_DELAY_DAYS = 7;
+const addDays = (d: string, n: number) => ymd(new Date(+new Date(d + 'T00:00:00Z') + n * DAY));
+
+export async function pinBQueue(): Promise<{ post: Post; date: string }[]> {
+  const t = todayIST();
+  return (await getPublishedPosts())
+    .map((post) => ({ post, date: addDays(pinDate(post), B_DELAY_DAYS) }))
+    .filter((p) => p.date <= t)
+    .sort((a, b) => b.date.localeCompare(a.date) || pinId(a.post).localeCompare(pinId(b.post)));
+}
+
+/** The first 3 numbered section headings of a guide ("## 1. Check the filter") become the pin's checklist. */
+export function pinBInput(p: Post) {
+  const cat = getCategory(p.data.category)!;
+  const heads = [...(p.body ?? '').matchAll(/^##\s+\d+\.\s+(.+)$/gm)].map((m) => m[1].replace(/[*_`]/g, '').replace(/\s*\([^)]*\)/g, '').trim());
+  const checks = heads.length >= 3 ? heads.slice(0, 3) : ['Find the cause step by step', 'Follow the diagrams', 'Know when to call a pro'];
+  return {
+    title: p.data.title,
+    category: cat.name,
+    color: cat.color,
+    checks: checks.map((c) => (c.length > 58 ? c.slice(0, c.lastIndexOf(' ', 56)) : c)),
+    label: p.data.fixcheck ? '3 quick checks' : '3 key steps',
+    more: heads.length > 3 ? `Plus ${heads.length - 3} more ${p.data.fixcheck ? 'fixes' : 'steps'}, diagrams and safety tips` : 'With diagrams and safety tips',
+  };
+}

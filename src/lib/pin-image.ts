@@ -79,3 +79,52 @@ export async function pinJpg(o: PinInput): Promise<Buffer> {
   writeFileSync(f, jpg);
   return jpg;
 }
+
+// ---- Design B: light "quick checks" pin, used for the second pin of each guide (category board feeds) ----
+export interface PinBInput {
+  title: string;
+  category: string;
+  color: string;
+  checks: string[]; // 3 short lines
+  label: string; // e.g. "3 quick checks" or "3 key steps"
+  more: string; // e.g. "Plus 6 more fixes, diagrams and safety tips"
+}
+
+function pinB(o: PinBInput) {
+  const t = cleanTitle(o.title);
+  const size = t.length > 52 ? 70 : t.length > 36 ? 80 : 90;
+  const row = (x: string, i: number) =>
+    h('div', { display: 'flex', alignItems: 'flex-start', gap: 28, padding: '34px 0', borderTop: i ? '2px solid #d5dee8' : 'none' }, [
+      h('div', { width: 76, height: 76, borderRadius: 999, background: o.color, color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: 40, fontWeight: 800, flexShrink: 0 }, String(i + 1)),
+      h('div', { display: 'flex', fontSize: 46, fontWeight: 700, lineHeight: 1.22, color: NAVY, paddingTop: 6 }, cleanText(x)),
+    ]);
+  return h('div', { width: '100%', height: '100%', display: 'flex', flexDirection: 'column', fontFamily: 'Open Sans', background: '#f3f6fa' }, [
+    h('div', { display: 'flex', flexDirection: 'column', padding: '70px 72px 64px', color: '#fff', backgroundColor: o.color,
+      backgroundImage: `radial-gradient(circle at 100% 0%, rgba(255,255,255,0.18) 0%, transparent 60%), linear-gradient(180deg, transparent 0%, ${shade(o.color, 0.7)} 100%)` }, [
+      h('div', { display: 'flex', alignItems: 'center', gap: 18 }, [
+        h('img', { width: 66, height: 66 }, undefined, { src: LOGO, width: 66, height: 66 }),
+        h('div', { display: 'flex', fontSize: 40, fontWeight: 800 }, ['Zenta', h('span', { color: YELLOW }, 'Fixit')]),
+        h('div', { display: 'flex', marginLeft: 'auto', fontSize: 24, fontWeight: 800, letterSpacing: 3, padding: '10px 22px', borderRadius: 999, background: 'rgba(255,255,255,0.18)', textTransform: 'uppercase' }, o.category),
+      ]),
+      h('div', { display: 'flex', marginTop: 56, fontSize: size, fontWeight: 800, lineHeight: 1.06, letterSpacing: -1.5 }, t),
+    ]),
+    h('div', { display: 'flex', flexDirection: 'column', padding: '48px 72px 0', flexGrow: 1 }, [
+      h('div', { display: 'flex', alignSelf: 'flex-start', fontSize: 30, fontWeight: 800, color: NAVY, background: YELLOW, padding: '10px 24px', borderRadius: 10, textTransform: 'uppercase', letterSpacing: 2 }, o.label),
+      h('div', { display: 'flex', flexDirection: 'column', marginTop: 24 }, o.checks.slice(0, 3).map(row)),
+      h('div', { display: 'flex', marginTop: 'auto', marginBottom: 40, fontSize: 34, fontWeight: 700, color: '#566475' }, o.more),
+    ]),
+    h('div', { display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 72px 70px', padding: '28px 0', borderRadius: 999, background: NAVY, color: '#fff', fontSize: 40, fontWeight: 800 }, 'Try it free at zentafixit.com'),
+  ]);
+}
+
+export async function pinBJpg(o: PinBInput): Promise<Buffer> {
+  const key = createHash('sha1').update(JSON.stringify(o) + 'pinb-v2').digest('hex');
+  const f = join(CACHE, key + '.jpg');
+  if (existsSync(f)) return readFileSync(f);
+  const svg = await satori(pinB(o) as any, { width: 1000, height: 1500, fonts: fonts() });
+  const png = new Resvg(svg, { fitTo: { mode: 'width', value: 1000 } }).render().asPng();
+  const jpg = await sharp(png).jpeg({ quality: 85, mozjpeg: true }).toBuffer();
+  mkdirSync(CACHE, { recursive: true });
+  writeFileSync(f, jpg);
+  return jpg;
+}
