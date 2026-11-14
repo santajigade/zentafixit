@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 350" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="350" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">What the burner flame should look like</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="56" width="184" height="236" rx="8"/>
+    <rect x="228" y="56" width="184" height="236" rx="8"/>
+    <rect x="432" y="56" width="184" height="236" rx="8"/>
+  </g>
+  <!-- window backgrounds -->
+  <g fill="#0f2240"><rect x="40" y="72" width="152" height="140" rx="6"/><rect x="244" y="72" width="152" height="140" rx="6"/><rect x="448" y="72" width="152" height="140" rx="6"/></g>
+  <!-- burners -->
+  <g fill="#566475"><rect x="52" y="190" width="128" height="12" rx="3"/><rect x="256" y="190" width="128" height="12" rx="3"/><rect x="460" y="190" width="128" height="12" rx="3"/></g>
+  <!-- normal: steady blue -->
+  <g fill="#1d5fae">
+    <path d="M70 190C60 172 64 156 70 140C76 156 80 172 70 190z"/>
+    <path d="M100 190C90 172 94 156 100 140C106 156 110 172 100 190z"/>
+    <path d="M130 190C120 172 124 156 130 140C136 156 140 172 130 190z"/>
+    <path d="M160 190C150 172 154 156 160 140C166 156 170 172 160 190z"/>
+  </g>
+  <g fill="#dfe9f7">
+    <path d="M70 190C66 180 67 172 70 164C73 172 74 180 70 190z"/>
+    <path d="M100 190C96 180 97 172 100 164C103 172 104 180 100 190z"/>
+    <path d="M130 190C126 180 127 172 130 164C133 172 134 180 130 190z"/>
+    <path d="M160 190C156 180 157 172 160 164C163 172 164 180 160 190z"/>
+  </g>
+  <!-- yellow and lazy -->
+  <g fill="#ffd23f" stroke="#c9a10a" stroke-width="1.5">
+    <path d="M274 190C258 170 280 150 266 116C290 136 286 166 286 190z"/>
+    <path d="M306 190C292 166 318 144 300 104C326 130 320 164 318 190z"/>
+    <path d="M338 190C326 168 346 150 334 112C356 138 352 168 350 190z"/>
+    <path d="M368 190C356 172 374 156 366 124C384 146 380 170 378 190z"/>
+  </g>
+  <!-- lifting -->
+  <g fill="#1d5fae">
+    <path d="M478 170C468 152 472 136 478 116C484 136 488 152 478 170z"/>
+    <path d="M508 164C498 146 502 128 508 106C514 128 518 146 508 164z"/>
+    <path d="M538 172C528 154 532 138 538 118C544 138 548 154 538 172z"/>
+    <path d="M568 166C558 148 562 130 568 110C574 130 578 148 568 166z"/>
+  </g>
+  <g stroke="#9fc4f0" stroke-width="1.5" stroke-dasharray="3 4"><path d="M470 182h108"/></g>
+  <!-- labels -->
+  <g font-size="14" font-weight="700" text-anchor="middle">
+    <text x="116" y="238" fill="#1f8a5b">Steady blue</text>
+    <text x="320" y="238" fill="#d9442b">Yellow or lazy</text>
+    <text x="524" y="238" fill="#d9442b">Lifting or roaring</text>
+  </g>
+  <g font-size="13" fill="#566475" text-anchor="middle">
+    <text x="116" y="258">Crisp, even cones</text><text x="116" y="276">Normal</text>
+    <text x="320" y="258">Floppy, wavy, tall</text><text x="320" y="276">Call a pro</text>
+    <text x="524" y="258">Gap above the burner</text><text x="524" y="276">Call a pro</text>
+  </g>
+  <text x="24" y="322" font-size="13" fill="#566475">Look through the sight window only. Never remove panels while it runs.</text>
+</svg>

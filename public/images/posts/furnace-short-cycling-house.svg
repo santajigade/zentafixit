@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 410" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="410" fill="#f3f6fa"/>
+  <defs><marker id="fsch" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#d9442b"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where short cycling often starts</text>
+  <!-- rooms -->
+  <rect x="24" y="60" width="376" height="190" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="24" y="250" width="376" height="140" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <!-- window with sun -->
+  <rect x="150" y="92" width="60" height="70" rx="4" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <path d="M180 92v70M150 127h60" stroke="#1d5fae" stroke-width="1.5"/>
+  <circle cx="196" cy="106" r="8" fill="#ffd23f"/>
+  <!-- thermostat -->
+  <rect x="60" y="118" width="28" height="38" rx="5" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <circle cx="74" cy="134" r="7" fill="none" stroke="#0f2240" stroke-width="1.5"/>
+  <!-- supply register under thermostat, warm air rising -->
+  <rect x="56" y="242" width="36" height="8" fill="#566475"/>
+  <g fill="none" stroke="#d9442b" stroke-width="2" marker-end="url(#fsch)">
+    <path d="M66 238c-6-12 6-20 0-32s6-20 0-34"/><path d="M82 238c-6-12 6-20 0-32s6-20 0-34"/>
+  </g>
+  <!-- closed supply vent -->
+  <rect x="240" y="242" width="40" height="8" fill="#566475"/>
+  <path d="M250 214l20 20M270 214l-20 20" stroke="#d9442b" stroke-width="3" stroke-linecap="round"/>
+  <!-- return grille behind a couch -->
+  <rect x="356" y="178" width="34" height="50" rx="3" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M362 190h22M362 200h22M362 210h22M362 220h22" stroke="#566475" stroke-width="1.5"/>
+  <rect x="300" y="200" width="76" height="42" rx="8" fill="#d5dee8" stroke="#0f2240" stroke-width="2"/>
+  <!-- ducts along basement ceiling -->
+  <path d="M190 270V258H74V250M190 258H260V250" fill="none" stroke="#566475" stroke-width="6"/>
+  <!-- furnace -->
+  <rect x="150" y="270" width="80" height="94" rx="6" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M160 316h60" stroke="#0f2240" stroke-width="1.5"/>
+  <rect x="146" y="364" width="88" height="12" rx="3" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <!-- vent pipes out through wall -->
+  <rect x="230" y="284" width="182" height="9" fill="#fff" stroke="#0f2240" stroke-width="1.5"/>
+  <rect x="230" y="300" width="182" height="9" fill="#fff" stroke="#0f2240" stroke-width="1.5"/>
+  <ellipse cx="412" cy="296" rx="10" ry="20" fill="#fff" stroke="#1d5fae" stroke-width="2"/>
+  <!-- numbered markers -->
+  <g fill="#0f2240"><circle cx="112" cy="112" r="11"/><circle cx="260" cy="196" r="11"/><circle cx="338" cy="180" r="11"/><circle cx="124" cy="370" r="11"/><circle cx="370" cy="334" r="11"/></g>
+  <g font-size="12" font-weight="700" fill="#fff" text-anchor="middle">
+    <text x="112" y="116">1</text><text x="260" y="200">2</text><text x="338" y="184">3</text><text x="124" y="374">4</text><text x="370" y="338">5</text>
+  </g>
+  <text x="34" y="384" font-size="12" fill="#566475">basement</text>
+  <!-- legend -->
+  <g fill="#0f2240"><circle cx="440" cy="84" r="11"/><circle cx="440" cy="144" r="11"/><circle cx="440" cy="204" r="11"/><circle cx="440" cy="264" r="11"/><circle cx="440" cy="324" r="11"/></g>
+  <g font-size="12" font-weight="700" fill="#fff" text-anchor="middle">
+    <text x="440" y="88">1</text><text x="440" y="148">2</text><text x="440" y="208">3</text><text x="440" y="268">4</text><text x="440" y="328">5</text>
+  </g>
+  <g font-size="14" fill="#14202c" font-weight="700">
+    <text x="458" y="89">Thermostat spot</text>
+    <text x="458" y="149">Closed vents</text>
+    <text x="458" y="209">Blocked return</text>
+    <text x="458" y="269">Clogged filter</text>
+    <text x="458" y="329">Outside vent pipes</text>
+  </g>
+  <g font-size="12" fill="#566475">
+    <text x="458" y="107">register, sun or lamp</text>
+    <text x="458" y="167">keep supply vents open</text>
+    <text x="458" y="227">furniture or rugs</text>
+    <text x="458" y="287">replace when grey</text>
+    <text x="458" y="347">snow, ice or debris</text>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- PVC vent pipes -->
+  <path d="M470 120V40H1000" fill="none" stroke="#ffffff" stroke-width="34"/>
+  <path d="M470 120V40H1000" fill="none" stroke="#f3f6fa" stroke-width="26"/>
+  <path d="M560 120V90H900V150" fill="none" stroke="#ffffff" stroke-width="34"/>
+  <path d="M560 120V90H900V150" fill="none" stroke="#f3f6fa" stroke-width="26"/>
+  <!-- furnace cabinet -->
+  <rect x="360" y="120" width="300" height="460" rx="14" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="390" y="150" width="240" height="190" rx="10" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <rect x="390" y="360" width="240" height="190" rx="10" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <!-- flame window -->
+  <rect x="460" y="200" width="100" height="70" rx="8" fill="#0f2240"/>
+  <g fill="#7aace8"><path d="M485 262c-10-12-6-26 0-36 6 10 10 24 0 36z"/><path d="M510 262c-10-12-6-28 0-40 6 12 10 28 0 40z"/><path d="M535 262c-10-12-6-26 0-36 6 10 10 24 0 36z"/></g>
+  <g stroke="#0f2240" stroke-width="5" stroke-linecap="round"><path d="M420 300h180M420 400h180M420 430h180"/></g>
+  <!-- filter slot accent -->
+  <rect x="336" y="380" width="24" height="170" rx="4" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <circle cx="510" cy="490" r="36" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <circle cx="510" cy="490" r="9" fill="#0f2240"/>
+  <!-- checklist clipboard -->
+  <rect x="800" y="250" width="220" height="290" rx="18" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="865" y="232" width="90" height="36" rx="8" fill="#ffffff" stroke="#0f2240" stroke-width="4"/>
+  <g fill="#fff" stroke="#0f2240" stroke-width="4"><rect x="830" y="300" width="36" height="36" rx="6"/><rect x="830" y="370" width="36" height="36" rx="6"/><rect x="830" y="440" width="36" height="36" rx="6"/></g>
+  <g stroke="#0f2240" stroke-width="8" stroke-linecap="round"><path d="M888 318h100M888 388h100M888 458h80"/></g>
+  <g fill="none" stroke="#ffd23f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><path d="M836 316l10 10 18-22M836 386l10 10 18-22"/></g>
+  <!-- snowflake -->
+  <g stroke="#9fc4f0" stroke-width="5" stroke-linecap="round"><path d="M160 180v120M108 210l104 60M108 270l104-60"/><path d="M148 190l12 12 12-12M148 290l12-12 12 12"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M310 120v460M300 120h20M300 580h20"/><path d="M800 570h220M800 560v20M1020 560v20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

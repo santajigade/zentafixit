@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- vent and water pipes -->
+  <rect x="575" y="40" width="50" height="50" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <path d="M490 92V58M710 92V58" stroke="#f3f6fa" stroke-width="16" stroke-linecap="round"/>
+  <!-- tank -->
+  <rect x="440" y="90" width="320" height="470" rx="40" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <path d="M440 150h320" stroke="#0f2240" stroke-width="3" stroke-opacity=".25"/>
+  <!-- gas line and control valve -->
+  <path d="M250 330H540" stroke="#9fc4f0" stroke-width="16" stroke-linecap="round"/>
+  <rect x="300" y="312" width="36" height="36" rx="6" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="520" y="280" width="150" height="100" rx="16" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="575" cy="330" r="26" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+  <path d="M575 312v36" stroke="#0f2240" stroke-width="6" stroke-linecap="round"/>
+  <rect x="624" y="314" width="28" height="28" rx="5" fill="#d9442b" stroke="#0f2240" stroke-width="3"/>
+  <!-- tubes to burner door -->
+  <g stroke="#0f2240" stroke-width="5" fill="none"><path d="M560 380V450M600 380V450M630 380V450"/></g>
+  <!-- burner door with pilot flame -->
+  <rect x="510" y="450" width="180" height="80" rx="14" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <path d="M600 466C622 490 626 506 600 518C574 506 578 490 600 466z" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <!-- flicker marks -->
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round"><path d="M830 250l50-30M840 315h62M830 380l50 30"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M440 30h320M440 20v20M760 20v20"/><path d="M390 90v470M380 90h20M380 560h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

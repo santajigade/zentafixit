@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="430" fill="#f3f6fa"/>
+  <defs><marker id="fscf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">What happens just before it shuts off?</text>
+  <text x="24" y="56" font-size="12" fill="#566475">Stand by the furnace and watch one full cycle with the doors on.</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="76" width="300" height="64" rx="8"/>
+    <rect x="24" y="156" width="300" height="64" rx="8"/>
+    <rect x="24" y="236" width="300" height="64" rx="8"/>
+    <rect x="24" y="316" width="300" height="64" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="380" y="76" width="236" height="64" rx="8"/>
+    <rect x="380" y="156" width="236" height="64" rx="8"/>
+    <rect x="380" y="236" width="236" height="64" rx="8"/>
+    <rect x="380" y="316" width="236" height="64" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#fscf)">
+    <path d="M324 108h52"/><path d="M324 188h52"/><path d="M324 268h52"/><path d="M324 348h52"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="174" y="104">Burners light, then go out</text><text x="174" y="122">within a few seconds</text>
+    <text x="174" y="184">Inducer fan runs, then the</text><text x="174" y="202">burners stop or never light</text>
+    <text x="174" y="264">Heats a few minutes, burners</text><text x="174" y="282">stop, blower keeps running</text>
+    <text x="174" y="344">Cycle looks normal, but it is</text><text x="174" y="362">short and starts again often</text>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="498" y="104" font-weight="700">Cause 5</text><text x="498" y="122" font-size="12">dirty flame sensor</text>
+    <text x="498" y="184" font-weight="700">Causes 6 and 7</text><text x="498" y="202" font-size="12">vent, intake, pressure switch</text>
+    <text x="498" y="264" font-weight="700">Causes 1, 2 and 9</text><text x="498" y="282" font-size="12">filter, vents, limit switch</text>
+    <text x="498" y="344" font-weight="700">Causes 3, 4 and 8</text><text x="498" y="362" font-size="12">thermostat or furnace size</text>
+  </g>
+  <text x="24" y="410" font-size="12" fill="#566475">Blinking code? Write it down before you reset or open any panel.</text>
+</svg>

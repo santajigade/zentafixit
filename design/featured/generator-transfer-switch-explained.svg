@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- portable generator: open frame -->
+  <g fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M110 520V300h330v220"/><path d="M90 520h370"/>
+  </g>
+  <rect x="140" y="320" width="270" height="70" rx="14" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <rect x="150" y="400" width="140" height="110" rx="12" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="220" cy="455" r="34" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="220" cy="455" r="12" fill="#0f2240"/>
+  <rect x="305" y="400" width="105" height="110" rx="12" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="357" cy="440" r="20" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="357" cy="484" r="10" fill="#0f2240"/>
+  <circle cx="135" cy="535" r="22" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="415" cy="535" r="22" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <!-- cord -->
+  <path d="M357 440c120 0 150 120 260 100c80-14 60-150 140-170" fill="none" stroke="#ffd23f" stroke-width="10" stroke-linecap="round"/>
+  <!-- house wall -->
+  <rect x="740" y="90" width="30" height="470" fill="#f3f6fa" stroke="#ffffff" stroke-width="3"/>
+  <!-- inlet box -->
+  <rect x="690" y="330" width="80" height="90" rx="12" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="730" cy="375" r="24" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <g fill="#0f2240"><circle cx="720" cy="366" r="4"/><circle cx="740" cy="366" r="4"/><circle cx="720" cy="384" r="4"/><circle cx="740" cy="384" r="4"/></g>
+  <!-- electrical panel -->
+  <rect x="830" y="120" width="250" height="400" rx="16" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="860" y="150" width="190" height="340" rx="10" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="885" y="170" width="60" height="80" rx="8" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <rect x="965" y="170" width="60" height="80" rx="8" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <rect x="903" y="182" width="24" height="30" rx="4" fill="#0f2240"/>
+  <rect x="983" y="208" width="24" height="30" rx="4" fill="#0f2240"/>
+  <rect x="955" y="160" width="80" height="44" rx="6" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <g fill="#f3f6fa" stroke="#0f2240" stroke-width="3">
+    <rect x="885" y="280" width="60" height="22" rx="4"/><rect x="965" y="280" width="60" height="22" rx="4"/>
+    <rect x="885" y="320" width="60" height="22" rx="4"/><rect x="965" y="320" width="60" height="22" rx="4"/>
+    <rect x="885" y="360" width="60" height="22" rx="4"/><rect x="965" y="360" width="60" height="22" rx="4"/>
+    <rect x="885" y="400" width="60" height="22" rx="4"/><rect x="965" y="400" width="60" height="22" rx="4"/>
+    <rect x="885" y="440" width="60" height="22" rx="4"/><rect x="965" y="440" width="60" height="22" rx="4"/>
+  </g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M830 80h250M830 70v20M1080 70v20"/><path d="M1120 120v400M1110 120h20M1110 520h20"/><path d="M110 260h330M110 250v20M440 250v20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

@@ -48,10 +48,10 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] home-safety/smoke-and-co-detectors | carbon-monoxide-alarm-going-off | Carbon Monoxide Alarm Going Off? What to Do Now
 - [x] appliances/dishwashers | dishwasher-wont-start | Dishwasher Won't Start? Fixes
 ## Winter priority (moved up in November)
-- [ ] appliances/water-heaters | water-heater-pilot-light-out | Water Heater Pilot Light Won't Stay Lit? Fixes
-- [ ] hvac/furnaces | furnace-short-cycling | Furnace Turning On and Off Repeatedly? Fixes
-- [ ] electrical/generators-and-transfer-switches | generator-transfer-switch-explained | Generator Transfer Switch vs Interlock Explained
-- [ ] hvac/seasonal-maintenance | furnace-maintenance-checklist | Furnace Maintenance Checklist Before Winter
+- [x] appliances/water-heaters | water-heater-pilot-light-out | Water Heater Pilot Light Won't Stay Lit? Fixes
+- [x] hvac/furnaces | furnace-short-cycling | Furnace Turning On and Off Repeatedly? Fixes
+- [x] electrical/generators-and-transfer-switches | generator-transfer-switch-explained | Generator Transfer Switch vs Interlock Explained
+- [x] hvac/seasonal-maintenance | furnace-maintenance-checklist | Furnace Maintenance Checklist Before Winter
 - [ ] solar-power/electric-bill-reduction | cost-to-run-space-heater | How Much Does It Cost to Run a Space Heater?
 - [ ] appliances/water-heaters | tankless-water-heater-not-heating | Tankless Water Heater Not Heating? Fixes
 - [ ] hvac/heat-pumps | heat-pump-vs-furnace | Heat Pump vs Furnace: Which Is Better for Your Home?
