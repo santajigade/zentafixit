@@ -9,3 +9,4 @@ oven-not-heating
 washing-machine-shaking
 refrigerator-making-noise
 thermostat-not-working
+furnace-maintenance-checklist
