@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- wall outlet -->
+  <rect x="150" y="250" width="130" height="200" rx="16" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="172" y="276" width="86" height="64" rx="14" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="172" y="362" width="86" height="64" rx="14" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="7" stroke-linecap="round"><path d="M198 294v18M232 296v14M198 380v18M232 382v14"/></g>
+  <!-- cord -->
+  <path d="M215 330C215 520 360 540 470 520" fill="none" stroke="#f3f6fa" stroke-width="8" stroke-linecap="round"/>
+  <rect x="200" y="314" width="30" height="26" rx="5" fill="#f3f6fa" stroke="#0f2240" stroke-width="3"/>
+  <!-- heater body -->
+  <rect x="470" y="170" width="300" height="370" rx="34" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="510" y="220" width="220" height="220" rx="18" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="6" stroke-linecap="round"><path d="M540 245v170M575 245v170M610 245v170M645 245v170M680 245v170M705 245v170"/></g>
+  <circle cx="560" cy="485" r="20" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <path d="M560 485l10-12" stroke="#0f2240" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="680" cy="485" r="12" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <rect x="500" y="540" width="60" height="18" rx="6" fill="#f3f6fa" stroke="#0f2240" stroke-width="3"/>
+  <rect x="680" y="540" width="60" height="18" rx="6" fill="#f3f6fa" stroke="#0f2240" stroke-width="3"/>
+  <!-- heat waves -->
+  <g fill="none" stroke="#ffd23f" stroke-width="8" stroke-linecap="round">
+    <path d="M840 220c-24 30 24 60 0 90s24 60 0 90"/>
+    <path d="M910 200c-24 30 24 60 0 90s24 60 0 90s24 60 0 90"/>
+    <path d="M980 230c-24 30 24 60 0 90s24 60 0 90"/>
+  </g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M470 130h300M470 120v20M770 120v20"/><path d="M430 170v300M420 170h20M420 470h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

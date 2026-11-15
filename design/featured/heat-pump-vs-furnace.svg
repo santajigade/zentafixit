@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- outdoor heat pump unit -->
+  <rect x="150" y="250" width="340" height="280" rx="18" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="320" cy="390" r="105" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <circle cx="320" cy="390" r="80" fill="none" stroke="#0f2240" stroke-width="3"/>
+  <g stroke="#0f2240" stroke-width="3"><path d="M215 390h210M320 285v210M246 316l148 148M394 316L246 464"/></g>
+  <circle cx="320" cy="390" r="18" fill="#0f2240"/>
+  <rect x="170" y="530" width="40" height="18" fill="#f3f6fa" stroke="#0f2240" stroke-width="3"/>
+  <rect x="430" y="530" width="40" height="18" fill="#f3f6fa" stroke="#0f2240" stroke-width="3"/>
+  <!-- furnace cabinet -->
+  <rect x="760" y="90" width="270" height="460" rx="14" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="790" y="130" width="210" height="150" rx="10" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="790" y="310" width="210" height="200" rx="10" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="5" stroke-linecap="round"><path d="M820 350h150M820 380h150M820 410h150M820 440h150M820 470h150"/></g>
+  <rect x="870" y="40" width="50" height="50" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <path d="M895 160c28 36 40 58 40 78a40 40 0 0 1-80 0c0-20 12-42 40-78z" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <!-- heat flow arrows -->
+  <g stroke="#ffd23f" stroke-width="8" stroke-linecap="round" fill="none">
+    <path d="M540 300h150M660 270l30 30-30 30"/>
+    <path d="M540 400h110M620 370l30 30-30 30" stroke-opacity=".6"/>
+  </g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M150 220h340M150 210v20M490 210v20"/><path d="M1070 90v460M1060 90h20M1060 550h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

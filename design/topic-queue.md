@@ -52,10 +52,10 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] hvac/furnaces | furnace-short-cycling | Furnace Turning On and Off Repeatedly? Fixes
 - [x] electrical/generators-and-transfer-switches | generator-transfer-switch-explained | Generator Transfer Switch vs Interlock Explained
 - [x] hvac/seasonal-maintenance | furnace-maintenance-checklist | Furnace Maintenance Checklist Before Winter
-- [ ] solar-power/electric-bill-reduction | cost-to-run-space-heater | How Much Does It Cost to Run a Space Heater?
-- [ ] appliances/water-heaters | tankless-water-heater-not-heating | Tankless Water Heater Not Heating? Fixes
-- [ ] hvac/heat-pumps | heat-pump-vs-furnace | Heat Pump vs Furnace: Which Is Better for Your Home?
-- [ ] solar-power/ups | ups-for-wifi-router | Best Way to Keep Wi-Fi On During a Power Outage
+- [x] solar-power/electric-bill-reduction | cost-to-run-space-heater | How Much Does It Cost to Run a Space Heater?
+- [x] appliances/water-heaters | tankless-water-heater-not-heating | Tankless Water Heater Not Heating? Fixes
+- [x] hvac/heat-pumps | heat-pump-vs-furnace | Heat Pump vs Furnace: Which Is Better for Your Home?
+- [x] solar-power/ups | ups-for-wifi-router | Best Way to Keep Wi-Fi On During a Power Outage
 - [ ] home-safety/fire-safety | dryer-vent-cleaning | Dryer Vent Cleaning: Why It Matters and How to Do It
 - [ ] hvac/thermostat-wiring | thermostat-c-wire-adapter | No C-Wire? Your Options for a Smart Thermostat
 

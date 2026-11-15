@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 390" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="390" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Four ways to back up your Wi-Fi</text>
+  <rect x="24" y="54" width="592" height="36" rx="8" fill="#0f2240"/>
+  <g font-size="13" font-weight="700" fill="#fff">
+    <text x="36" y="77">Option</text><text x="180" y="77">Best for</text><text x="400" y="77">Watch out for</text>
+  </g>
+  <g fill="#fff" stroke="#d5dee8" stroke-width="2">
+    <rect x="24" y="96" width="592" height="56" rx="8"/>
+    <rect x="24" y="158" width="592" height="56" rx="8"/>
+    <rect x="24" y="220" width="592" height="56" rx="8"/>
+    <rect x="24" y="282" width="592" height="56" rx="8"/>
+  </g>
+  <g stroke="#d5dee8" stroke-width="2"><path d="M168 96v242M388 96v242"/></g>
+  <g font-size="14" font-weight="700" fill="#0f2240">
+    <text x="36" y="129">Small UPS</text>
+    <text x="36" y="191">DC mini UPS</text>
+    <text x="36" y="253">Power station</text>
+    <text x="36" y="315">Home battery</text>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="180" y="120">Short outages, plug and</text><text x="180" y="138">forget setup</text>
+    <text x="180" y="182">One router or modem,</text><text x="180" y="200">very efficient</text>
+    <text x="180" y="244">Hours of runtime, also</text><text x="180" y="262">charges phones</text>
+    <text x="180" y="306">Long outages, whole</text><text x="180" y="324">home or key circuits</text>
+  </g>
+  <g font-size="13" fill="#566475">
+    <text x="400" y="120">Modest runtime, battery</text><text x="400" y="138">wears out over years</text>
+    <text x="400" y="182">Voltage, plug size and</text><text x="400" y="200">amps must match</text>
+    <text x="400" y="244">Check switchover time</text><text x="400" y="262">and inverter idle draw</text>
+    <text x="400" y="306">Pro install, highest</text><text x="400" y="324">cost</text>
+  </g>
+  <text x="24" y="368" font-size="12" fill="#566475">Runtime depends on battery Wh and your gear's watts. Check the maker's specs.</text>
+</svg>

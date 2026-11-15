@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <defs><marker id="hpfb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Why backup heat kicks in on cold days</text>
+  <path d="M354 205L590 120L590 290z" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g fill="none" stroke="#0f2240" stroke-width="2" marker-end="url(#hpfb)">
+    <path d="M80 330V62"/><path d="M80 330H608"/>
+  </g>
+  <path d="M90 110L590 290" stroke="#1d5fae" stroke-width="3" fill="none"/>
+  <path d="M90 300L590 120" stroke="#d9442b" stroke-width="3" fill="none"/>
+  <path d="M354 205V330" stroke="#566475" stroke-width="1.5" stroke-dasharray="5 5" fill="none"/>
+  <circle cx="354" cy="205" r="7" fill="#ffd23f" stroke="#0f2240" stroke-width="2"/>
+  <text x="100" y="100" font-size="13" font-weight="700" fill="#1d5fae">Heat pump output</text>
+  <text x="100" y="320" font-size="13" font-weight="700" fill="#d9442b">Heat your house needs</text>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="200" y="210" fill="#566475">Heat pump covers it</text>
+    <text x="530" y="200" font-weight="700">Backup heat</text>
+    <text x="530" y="218">fills the gap</text>
+    <text x="354" y="350" font-weight="700">Balance point</text>
+  </g>
+  <g font-size="13" fill="#566475">
+    <text x="84" y="350">Mild</text>
+    <text x="608" y="350" text-anchor="end">Very cold</text>
+    <text x="60" y="200" text-anchor="middle" transform="rotate(-90 60 200)">Heat</text>
+  </g>
+  <text x="320" y="384" font-size="12" fill="#566475" text-anchor="middle">Outdoor temperature. Cold-climate models push the balance point colder.</text>
+</svg>
