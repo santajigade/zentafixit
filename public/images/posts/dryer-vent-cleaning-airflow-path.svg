@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <defs><marker id="dvpA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1d5fae"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where lint builds up in a dryer vent</text>
+  <text x="250" y="72" font-size="12" fill="#566475">Inside</text>
+  <text x="458" y="72" font-size="12" fill="#566475">Outside</text>
+  <!-- dryer -->
+  <rect x="40" y="80" width="150" height="190" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <circle cx="100" cy="190" r="48" fill="#f3f6fa" stroke="#0f2240" stroke-width="2"/>
+  <rect x="122" y="82" width="46" height="8" rx="2" fill="#ffd23f" stroke="#c9a10a" stroke-width="1.5"/>
+  <rect x="136" y="92" width="18" height="52" rx="3" fill="none" stroke="#566475" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <rect x="186" y="220" width="10" height="22" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <!-- transition duct -->
+  <rect x="196" y="218" width="204" height="26" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <g stroke="#1d5fae" stroke-width="1" stroke-opacity=".6"><path d="M210 218v26M224 218v26M238 218v26M252 218v26M266 218v26M280 218v26M294 218v26M308 218v26M322 218v26M336 218v26M350 218v26M364 218v26M378 218v26M392 218v26"/></g>
+  <!-- wall -->
+  <rect x="400" y="80" width="40" height="210" fill="#d5dee8" stroke="#566475" stroke-width="2"/>
+  <rect x="400" y="218" width="40" height="26" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <!-- outdoor hood -->
+  <rect x="440" y="204" width="50" height="54" rx="4" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M490 206L520 244" stroke="#0f2240" stroke-width="3" stroke-linecap="round"/>
+  <!-- airflow -->
+  <g fill="none" stroke="#1d5fae" stroke-width="2" marker-end="url(#dvpA)">
+    <path d="M212 231H384"/><path d="M528 254H586"/>
+  </g>
+  <!-- lint spots -->
+  <g fill="#ffd23f" stroke="#c9a10a" stroke-width="1.5">
+    <circle cx="145" cy="62" r="11"/><circle cx="172" cy="118" r="11"/><circle cx="300" cy="200" r="11"/><circle cx="420" cy="196" r="11"/><circle cx="465" cy="184" r="11"/>
+  </g>
+  <g font-size="12" font-weight="700" fill="#0f2240" text-anchor="middle">
+    <text x="145" y="66">1</text><text x="172" y="122">2</text><text x="300" y="204">3</text><text x="420" y="200">4</text><text x="465" y="188">5</text>
+  </g>
+  <!-- legend -->
+  <line x1="24" y1="296" x2="616" y2="296" stroke="#d5dee8" stroke-width="2"/>
+  <g fill="#ffd23f" stroke="#c9a10a" stroke-width="1.5">
+    <circle cx="44" cy="318" r="9"/><circle cx="44" cy="344" r="9"/><circle cx="44" cy="370" r="9"/><circle cx="344" cy="318" r="9"/><circle cx="344" cy="344" r="9"/>
+  </g>
+  <g font-size="11" font-weight="700" fill="#0f2240" text-anchor="middle">
+    <text x="44" y="322">1</text><text x="44" y="348">2</text><text x="44" y="374">3</text><text x="344" y="322">4</text><text x="344" y="348">5</text>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="60" y="323">Lint screen: clean every load</text>
+    <text x="60" y="349">Lint trap housing: vacuum it</text>
+    <text x="60" y="375">Transition duct: semi-rigid metal</text>
+    <text x="360" y="323">Wall duct: rigid metal</text>
+    <text x="360" y="349">Outdoor hood: flap, no screen</text>
+    <text x="360" y="375" fill="#566475">Blue arrows: airflow out</text>
+  </g>
+</svg>

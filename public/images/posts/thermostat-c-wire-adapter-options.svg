@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 470" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="470" fill="#f3f6fa"/>
+  <defs><marker id="cwo" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Which no-C-wire option fits?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="80" y="54" width="300" height="44" rx="8"/>
+    <path d="M230 122l150 38-150 38-150-38z"/>
+    <path d="M230 226l150 38-150 38-150-38z"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="410" y="132" width="200" height="56" rx="8"/>
+    <rect x="410" y="236" width="200" height="56" rx="8"/>
+    <rect x="30" y="340" width="270" height="56" rx="8"/>
+    <rect x="340" y="340" width="270" height="56" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8">
+    <path d="M230 98v22" marker-end="url(#cwo)"/>
+    <path d="M380 160h28" marker-end="url(#cwo)"/>
+    <path d="M230 198v26" marker-end="url(#cwo)"/>
+    <path d="M380 264h28" marker-end="url(#cwo)"/>
+    <path d="M230 302v18M165 320h310"/>
+    <path d="M165 320v18" marker-end="url(#cwo)"/>
+    <path d="M475 320v18" marker-end="url(#cwo)"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="230" y="81">1. Power off, remove the face</text>
+    <text x="230" y="156" font-weight="700">Spare wire in</text><text x="230" y="173" font-weight="700">the bundle?</text>
+    <text x="230" y="260" font-weight="700">Four wires:</text><text x="230" y="277" font-weight="700">R, W, Y and G?</text>
+    <text x="394" y="152" font-size="12" fill="#566475">yes</text>
+    <text x="394" y="256" font-size="12" fill="#566475">yes</text>
+    <text x="246" y="216" font-size="12" fill="#566475">no</text>
+    <text x="246" y="316" font-size="12" fill="#566475">no</text>
+    <text x="510" y="156" font-size="13" font-weight="700">Wire it as C at</text><text x="510" y="174" font-size="13">both ends: options 1, 2</text>
+    <text x="510" y="260" font-size="13" font-weight="700">Adapter kit at the</text><text x="510" y="278" font-size="13">furnace: option 4</text>
+    <text x="165" y="364" font-weight="700">Run new cable</text><text x="165" y="382" font-size="13">option 6, most reliable</text>
+    <text x="475" y="364" font-weight="700">No-C thermostat or</text><text x="475" y="382" font-size="13">plug-in power: options 5, 7</text>
+  </g>
+  <g font-size="12" fill="#566475">
+    <text x="24" y="428">G wire as C (option 3) only if the blower runs on cooling without G.</text>
+    <text x="24" y="448">Turn power off at the furnace switch or breaker before touching any wire.</text>
+  </g>
+</svg>

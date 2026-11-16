@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="380" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Dryer duct types: what to use</text>
+  <g fill="#fff" stroke="#d5dee8" stroke-width="2">
+    <rect x="24" y="52" width="284" height="152" rx="8"/><rect x="332" y="52" width="284" height="152" rx="8"/>
+    <rect x="24" y="218" width="284" height="152" rx="8"/><rect x="332" y="218" width="284" height="152" rx="8"/>
+  </g>
+  <!-- rigid metal -->
+  <rect x="44" y="74" width="190" height="30" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M48 82H230" stroke="#d5dee8" stroke-width="3"/>
+  <!-- semi-rigid -->
+  <rect x="352" y="74" width="190" height="30" rx="4" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <g stroke="#1d5fae" stroke-width="1.2"><path d="M364 74v30M376 74v30M388 74v30M400 74v30M412 74v30M424 74v30M436 74v30M448 74v30M460 74v30M472 74v30M484 74v30M496 74v30M508 74v30M520 74v30M532 74v30"/></g>
+  <!-- foil accordion -->
+  <defs><clipPath id="dvtFoil"><path d="M44 244Q140 266 236 244V272Q140 294 44 272z"/></clipPath></defs>
+  <path d="M44 244Q140 266 236 244V272Q140 294 44 272z" fill="#fff" stroke="#566475" stroke-width="2"/>
+  <g clip-path="url(#dvtFoil)" stroke="#566475" stroke-width="1.2" stroke-opacity=".7"><path d="M54 236v64M64 236v64M74 236v64M84 236v64M94 236v64M104 236v64M114 236v64M124 236v64M134 236v64M144 236v64M154 236v64M164 236v64M174 236v64M184 236v64M194 236v64M204 236v64M214 236v64M224 236v64M234 236v64"/></g>
+  <!-- plastic -->
+  <rect x="352" y="240" width="190" height="30" rx="12" fill="#fff" stroke="#566475" stroke-width="2"/>
+  <g stroke="#566475" stroke-width="1.2" stroke-opacity=".7"><path d="M366 240l-6 30M386 240l-6 30M406 240l-6 30M426 240l-6 30M446 240l-6 30M466 240l-6 30M486 240l-6 30M506 240l-6 30M526 240l-6 30"/></g>
+  <!-- badges -->
+  <circle cx="278" cy="89" r="13" fill="#1f8a5b"/><circle cx="586" cy="89" r="13" fill="#1f8a5b"/>
+  <circle cx="278" cy="256" r="13" fill="#d9442b"/><circle cx="586" cy="256" r="13" fill="#d9442b"/>
+  <g fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M271 89l5 5 9-10"/><path d="M579 89l5 5 9-10"/>
+    <path d="M272 250l12 12M284 250l-12 12"/><path d="M580 250l12 12M592 250l-12 12"/>
+  </g>
+  <g font-size="14" font-weight="700" fill="#0f2240">
+    <text x="44" y="136">Rigid metal</text><text x="352" y="136">Semi-rigid metal</text>
+    <text x="44" y="304">Foil accordion</text><text x="352" y="304">Plastic or vinyl</text>
+  </g>
+  <g font-size="13" font-weight="700">
+    <text x="44" y="158" fill="#1f8a5b">Best for runs in walls</text><text x="352" y="158" fill="#1f8a5b">Good for the transition</text>
+    <text x="44" y="326" fill="#d9442b">Avoid</text><text x="352" y="326" fill="#d9442b">Never use</text>
+  </g>
+  <g font-size="12" fill="#566475">
+    <text x="44" y="180">Smooth inside, least lint buildup</text><text x="352" y="180">Bends but holds its shape</text>
+    <text x="44" y="348">Crushes and sags, ridges trap lint</text><text x="352" y="348">Can melt or burn, traps lint</text>
+  </g>
+</svg>

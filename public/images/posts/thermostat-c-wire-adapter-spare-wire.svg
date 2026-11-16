@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="430" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Using a spare wire as C</text>
+  <g font-size="14" font-weight="700" fill="#0f2240">
+    <text x="30" y="70">Thermostat base</text>
+    <text x="420" y="70">HVAC control board</text>
+  </g>
+  <rect x="30" y="80" width="170" height="270" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="420" y="80" width="190" height="270" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <g fill="none" stroke="#0f2240" stroke-width="3">
+    <path d="M180 120H440M180 170H440M180 220H440M180 270H440"/>
+  </g>
+  <path d="M180 320H440" fill="none" stroke="#1d5fae" stroke-width="5"/>
+  <rect x="236" y="288" width="148" height="64" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <circle cx="180" cy="120" r="7"/><circle cx="180" cy="170" r="7"/><circle cx="180" cy="220" r="7"/><circle cx="180" cy="270" r="7"/>
+    <circle cx="440" cy="120" r="7"/><circle cx="440" cy="170" r="7"/><circle cx="440" cy="220" r="7"/><circle cx="440" cy="270" r="7"/>
+  </g>
+  <g fill="#dfe9f7" stroke="#1d5fae" stroke-width="2.5"><circle cx="180" cy="320" r="8"/><circle cx="440" cy="320" r="8"/></g>
+  <g font-size="14" fill="#14202c">
+    <text x="50" y="125" font-weight="700">R</text><text x="74" y="125" font-size="12" fill="#566475">power</text>
+    <text x="50" y="175" font-weight="700">W</text><text x="74" y="175" font-size="12" fill="#566475">heat</text>
+    <text x="50" y="225" font-weight="700">Y</text><text x="74" y="225" font-size="12" fill="#566475">cool</text>
+    <text x="50" y="275" font-weight="700">G</text><text x="74" y="275" font-size="12" fill="#566475">fan</text>
+    <text x="50" y="325" font-weight="700" fill="#1d5fae">C</text><text x="74" y="325" font-size="12" fill="#566475">common</text>
+    <text x="462" y="125" font-weight="700">R</text>
+    <text x="462" y="175" font-weight="700">W</text>
+    <text x="462" y="225" font-weight="700">Y</text>
+    <text x="462" y="275" font-weight="700">G</text>
+    <text x="462" y="325" font-weight="700" fill="#1d5fae">C or COM</text>
+  </g>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="310" y="108" fill="#566475">thermostat cable in the wall</text>
+    <text x="310" y="308" font-weight="700">Spare wire, now C</text>
+    <text x="310" y="342" font-size="12">connect at both ends</text>
+  </g>
+  <g font-size="12" fill="#566475">
+    <text x="24" y="384">At the furnace, a spare is often folded back along the cable jacket.</text>
+    <text x="24" y="404">A spare connected at only one end does nothing. Power off before wiring.</text>
+  </g>
+</svg>

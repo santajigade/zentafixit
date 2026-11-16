@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- dryer -->
+  <rect x="180" y="110" width="330" height="430" rx="22" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="180" y="110" width="330" height="80" rx="22" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="440" cy="150" r="20" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <rect x="220" y="140" width="110" height="20" rx="6" fill="#0f2240"/>
+  <circle cx="345" cy="360" r="120" fill="#fff" stroke="#0f2240" stroke-width="6"/>
+  <circle cx="345" cy="360" r="88" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <!-- duct -->
+  <rect x="510" y="300" width="350" height="70" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="3" stroke-opacity=".5"><path d="M550 300v70M590 300v70M630 300v70M670 300v70M710 300v70M750 300v70M790 300v70M830 300v70"/></g>
+  <!-- wall -->
+  <rect x="860" y="80" width="70" height="480" fill="#1d5fae" fill-opacity=".35" stroke="#9fc4f0" stroke-width="3"/>
+  <rect x="860" y="300" width="70" height="70" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- hood and flap -->
+  <rect x="930" y="270" width="90" height="130" rx="10" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <path d="M1020 274L1078 352" stroke="#ffd23f" stroke-width="10" stroke-linecap="round"/>
+  <!-- airflow -->
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M1060 380h70M1050 420l60 26M1070 340l46-14"/>
+  </g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M510 250h350M510 240v20M860 240v20"/><path d="M130 110v430M120 110h20M120 540h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

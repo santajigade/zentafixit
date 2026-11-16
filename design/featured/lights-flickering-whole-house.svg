@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- utility pole and transformer -->
+  <rect x="172" y="110" width="18" height="496" fill="#f3f6fa" stroke="#ffffff" stroke-width="3"/>
+  <rect x="110" y="140" width="142" height="16" rx="4" fill="#f3f6fa" stroke="#ffffff" stroke-width="3"/>
+  <rect x="198" y="186" width="58" height="84" rx="12" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <path d="M206 210h42M206 232h42" stroke="#0f2240" stroke-width="3"/>
+  <!-- service drop -->
+  <path d="M244 150Q600 300 950 196" fill="none" stroke="#ffffff" stroke-width="4"/>
+  <!-- house -->
+  <path d="M490 312L750 150L1010 312z" fill="#fff" stroke="#0f2240" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="520" y="306" width="460" height="300" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="944" y="190" width="12" height="216" fill="#fff" stroke="#0f2240" stroke-width="3"/>
+  <circle cx="950" cy="424" r="20" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- windows with pendant lights -->
+  <rect x="566" y="370" width="150" height="140" rx="6" fill="#0f2240" stroke="#0f2240" stroke-width="4"/>
+  <rect x="770" y="370" width="150" height="140" rx="6" fill="#0f2240" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#f3f6fa" stroke-width="3"><path d="M641 370v42M845 370v42"/></g>
+  <circle cx="641" cy="430" r="18" fill="#ffd23f"/>
+  <circle cx="845" cy="430" r="18" fill="#7aace8" fill-opacity=".55"/>
+  <g stroke="#ffd23f" stroke-width="5" stroke-linecap="round"><path d="M603 430h-14M679 430h14M613 402l-10-10M669 402l10-10M613 458l-10 10M669 458l10 10"/></g>
+  <!-- flicker burst -->
+  <path d="M1080 150l-44 86h36l-24 92 72-118h-40l30-60z" fill="#ffd23f"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M520 580h460M520 570v20M980 570v20"/><path d="M120 110v496M110 110h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

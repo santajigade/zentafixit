@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 476" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="476" fill="#f3f6fa"/>
+  <defs><marker id="lfwh" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Whole-house flicker: who to call</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <path d="M190 54l150 32-150 32-150-32z"/>
+    <path d="M190 144l150 32-150 32-150-32z"/>
+    <path d="M190 234l150 32-150 32-150-32z"/>
+    <path d="M190 324l150 32-150 32-150-32z"/>
+    <rect x="370" y="60" width="250" height="52" rx="8"/>
+  </g>
+  <rect x="370" y="150" width="250" height="52" rx="8" fill="#fff" stroke="#d9442b" stroke-width="2"/>
+  <rect x="370" y="240" width="250" height="52" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <rect x="370" y="330" width="250" height="52" rx="8" fill="#fff" stroke="#1f8a5b" stroke-width="2"/>
+  <rect x="40" y="410" width="300" height="52" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#lfwh)">
+    <path d="M340 86h28"/><path d="M340 176h28"/><path d="M340 266h28"/><path d="M340 356h28"/>
+    <path d="M190 118v24"/><path d="M190 208v24"/><path d="M190 298v24"/><path d="M190 388v20"/>
+  </g>
+  <g font-size="12" fill="#566475">
+    <text x="346" y="78">yes</text><text x="346" y="168">yes</text><text x="346" y="258">yes</text><text x="346" y="348">yes</text>
+    <text x="198" y="134">no</text><text x="198" y="224">no</text><text x="198" y="314">no</text><text x="198" y="402">no</text>
+  </g>
+  <g font-size="14" font-weight="700" fill="#14202c" text-anchor="middle">
+    <text x="190" y="82">Only one room or</text><text x="190" y="99">circuit flickers?</text>
+    <text x="190" y="172">Some lights brighter,</text><text x="190" y="189">others dimmer?</text>
+    <text x="190" y="262">Neighbors see</text><text x="190" y="279">it too?</text>
+    <text x="190" y="352">Short dip only when</text><text x="190" y="369">a big motor starts?</text>
+  </g>
+  <g font-size="14" text-anchor="middle" fill="#14202c">
+    <text x="495" y="82" font-weight="700">Not whole-house</text><text x="495" y="100" font-size="13" fill="#566475">Check bulbs, dimmer, cause 8</text>
+    <text x="495" y="172" font-weight="700" fill="#d9442b">Possible loose neutral</text><text x="495" y="190" font-size="13" fill="#566475">Call for help today (cause 3)</text>
+    <text x="495" y="262" font-weight="700" fill="#1d5fae">Likely the utility side</text><text x="495" y="280" font-size="13" fill="#566475">Call utility: causes 2, 6, 7</text>
+    <text x="495" y="352" font-weight="700" fill="#1f8a5b">Usually normal (cause 1)</text><text x="495" y="370" font-size="13" fill="#566475">Get it checked if it worsens</text>
+    <text x="190" y="432" font-weight="700">Log it and call an electrician</text><text x="190" y="450" font-size="13" fill="#566475">Check causes 4 and 5</text>
+  </g>
+</svg>

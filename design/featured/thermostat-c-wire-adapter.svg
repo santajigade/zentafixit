@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- thermostat -->
+  <rect x="180" y="150" width="260" height="260" rx="40" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="310" cy="280" r="92" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <circle cx="310" cy="280" r="62" fill="none" stroke="#0f2240" stroke-width="3"/>
+  <path d="M262 312a62 62 0 0 1 48-94" fill="none" stroke="#ffd23f" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="310" cy="218" r="8" fill="#0f2240"/>
+  <!-- cable from thermostat to adapter -->
+  <g fill="none" stroke-width="7" stroke-linecap="round">
+    <path d="M310 410V470H700" stroke="#f3f6fa"/>
+    <path d="M318 410V462H700" stroke="#9fc4f0"/>
+    <path d="M302 410V478H700" stroke="#ffd23f"/>
+  </g>
+  <!-- adapter module -->
+  <rect x="700" y="420" width="120" height="110" rx="14" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+  <g fill="#0f2240"><circle cx="730" cy="450" r="7"/><circle cx="760" cy="450" r="7"/><circle cx="790" cy="450" r="7"/></g>
+  <path d="M820 475H880V420" fill="none" stroke="#f3f6fa" stroke-width="7" stroke-linecap="round"/>
+  <!-- control board -->
+  <rect x="820" y="110" width="250" height="310" rx="16" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="850" y="140" width="190" height="250" rx="10" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g fill="#fff" stroke="#0f2240" stroke-width="4"><circle cx="880" cy="350" r="11"/><circle cx="915" cy="350" r="11"/><circle cx="950" cy="350" r="11"/><circle cx="985" cy="350" r="11"/><circle cx="1020" cy="350" r="11"/></g>
+  <rect x="880" y="170" width="80" height="70" rx="8" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <rect x="980" y="170" width="40" height="110" rx="6" fill="#0f2240"/>
+  <path d="M880 270h80M880 295h50" stroke="#0f2240" stroke-width="4" stroke-linecap="round"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M180 110h260M180 100v20M440 100v20"/><path d="M130 150v260M120 150h20M120 410h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

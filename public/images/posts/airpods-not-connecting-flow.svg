@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="430" fill="#f3f6fa"/>
+  <defs><marker id="earflow-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where do the earbuds get stuck?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="190" y="54" width="260" height="44" rx="8"/>
+    <rect x="190" y="124" width="260" height="44" rx="8"/>
+    <path d="M320 192l115 36-115 36-115-36z"/>
+    <rect x="30" y="300" width="250" height="56" rx="8"/>
+    <rect x="360" y="300" width="250" height="56" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="30" y="368" width="250" height="48" rx="8"/><rect x="360" y="368" width="250" height="48" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#earflow-arrow)">
+    <path d="M320 98v24"/><path d="M320 168v22"/><path d="M205 228H155v70"/><path d="M435 228h50v70"/><path d="M155 356v10"/><path d="M485 356v10"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">1. Charge the case and buds</text>
+    <text x="320" y="151">2. Open the lid next to phone</text>
+    <text x="320" y="233" font-weight="700">Shows in the list?</text>
+    <text x="180" y="220" font-size="12" fill="#566475">no</text><text x="460" y="220" font-size="12" fill="#566475">yes</text>
+    <text x="155" y="324">Not discoverable: check</text><text x="155" y="342">power, seating, reset</text>
+    <text x="485" y="324">Seen but won't connect</text><text x="485" y="342">or keeps switching away</text>
+    <text x="155" y="390" font-weight="700">Causes 1, 2, 6 and 7</text><text x="155" y="406" font-size="12">power, seating, reset, contacts</text>
+    <text x="485" y="390" font-weight="700">Causes 3, 4 and 5</text><text x="485" y="406" font-size="12">restart, other device, re-pair</text>
+  </g>
+</svg>

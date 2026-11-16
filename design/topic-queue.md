@@ -56,11 +56,11 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] appliances/water-heaters | tankless-water-heater-not-heating | Tankless Water Heater Not Heating? Fixes
 - [x] hvac/heat-pumps | heat-pump-vs-furnace | Heat Pump vs Furnace: Which Is Better for Your Home?
 - [x] solar-power/ups | ups-for-wifi-router | Best Way to Keep Wi-Fi On During a Power Outage
-- [ ] home-safety/fire-safety | dryer-vent-cleaning | Dryer Vent Cleaning: Why It Matters and How to Do It
-- [ ] hvac/thermostat-wiring | thermostat-c-wire-adapter | No C-Wire? Your Options for a Smart Thermostat
+- [x] home-safety/fire-safety | dryer-vent-cleaning | Dryer Vent Cleaning: Why It Matters and How to Do It
+- [x] hvac/thermostat-wiring | thermostat-c-wire-adapter | No C-Wire? Your Options for a Smart Thermostat
 
-- [ ] electrical/lighting-and-ceiling-fans | lights-flickering-whole-house | Lights Flickering in the Whole House? Causes
-- [ ] phones-tablets/bluetooth-and-pairing | airpods-not-connecting | Wireless Earbuds Not Connecting? Fixes
+- [x] electrical/lighting-and-ceiling-fans | lights-flickering-whole-house | Lights Flickering in the Whole House? Causes
+- [x] phones-tablets/bluetooth-and-pairing | airpods-not-connecting | Wireless Earbuds Not Connecting? Fixes
 - [ ] hvac/hvac-error-codes | ac-blowing-hot-air | AC Blowing Warm Air? Fixes
 - [ ] smart-home/cameras-and-doorbells | doorbell-not-ringing | Doorbell Not Ringing? Wired Doorbell Fixes
 - [ ] plumbing/clogged-drains | shower-drain-clogged | Shower Drain Clogged? Fixes
