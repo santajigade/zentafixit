@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Common drain covers and how they come out</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="56" width="140" height="300" rx="8"/><rect x="176" y="56" width="140" height="300" rx="8"/>
+    <rect x="328" y="56" width="140" height="300" rx="8"/><rect x="480" y="56" width="140" height="300" rx="8"/>
+  </g>
+  <g font-size="14" font-weight="700" fill="#0f2240" text-anchor="middle">
+    <text x="94" y="84">Shower</text><text x="94" y="102">strainer</text>
+    <text x="246" y="84">Toe-touch</text><text x="246" y="102">stopper</text>
+    <text x="398" y="84">Lift-and-turn</text><text x="398" y="102">stopper</text>
+    <text x="550" y="84">Trip lever</text><text x="550" y="102">overflow plate</text>
+  </g>
+  <circle cx="94" cy="170" r="44" fill="#d5dee8" stroke="#566475" stroke-width="2"/>
+  <g stroke="#566475" stroke-width="3"><path d="M64 160h60M64 172h60M64 184h60"/></g>
+  <circle cx="94" cy="170" r="6" fill="#ffd23f" stroke="#c9a10a" stroke-width="1.5"/>
+  <ellipse cx="246" cy="190" rx="46" ry="14" fill="#d5dee8" stroke="#566475" stroke-width="2"/>
+  <rect x="216" y="150" width="60" height="34" rx="14" fill="#fff" stroke="#566475" stroke-width="2"/>
+  <ellipse cx="398" cy="190" rx="46" ry="14" fill="#d5dee8" stroke="#566475" stroke-width="2"/>
+  <rect x="368" y="160" width="60" height="26" rx="10" fill="#fff" stroke="#566475" stroke-width="2"/>
+  <rect x="388" y="138" width="20" height="24" rx="6" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <circle cx="550" cy="160" r="38" fill="#d5dee8" stroke="#566475" stroke-width="2"/>
+  <rect x="538" y="150" width="24" height="12" rx="4" fill="#fff" stroke="#566475" stroke-width="2"/>
+  <circle cx="550" cy="134" r="4" fill="#ffd23f" stroke="#c9a10a"/><circle cx="550" cy="186" r="4" fill="#ffd23f" stroke="#c9a10a"/>
+  <path d="M550 198v26" stroke="#566475" stroke-width="3"/><rect x="542" y="224" width="16" height="20" rx="4" fill="#fff" stroke="#566475" stroke-width="2"/>
+  <g font-size="12" fill="#14202c" text-anchor="middle">
+    <text x="94" y="262">Unscrew the center</text><text x="94" y="278">screw, or pry or</text><text x="94" y="294">twist it off</text>
+    <text x="246" y="262">Open it, then</text><text x="246" y="278">unscrew the cap</text><text x="246" y="294">counterclockwise</text>
+    <text x="398" y="262">Loosen the set</text><text x="398" y="278">screw on the knob,</text><text x="398" y="294">or unscrew it</text>
+    <text x="550" y="262">Remove 2 screws,</text><text x="550" y="278">pull the linkage out</text><text x="550" y="294">and clean the hair</text>
+  </g>
+  <text x="320" y="384" font-size="13" fill="#566475" text-anchor="middle">Designs vary. Check the maker's instructions if a part won't budge.</text>
+</svg>

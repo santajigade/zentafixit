@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Sort Task Manager by Disk (simplified)</text>
+  <rect x="24" y="54" width="592" height="270" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="24" y="54" width="592" height="34" rx="8" fill="#0f2240"/>
+  <text x="40" y="76" font-size="13" font-weight="700" fill="#fff">Processes</text>
+  <rect x="438" y="96" width="80" height="40" rx="6" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g font-size="13" font-weight="700" fill="#14202c">
+    <text x="40" y="121">Name</text><text x="270" y="121">CPU</text><text x="350" y="121">Memory</text><text x="450" y="121">Disk</text><text x="536" y="121">Network</text>
+  </g>
+  <path d="M478 102l-6 8h12z" fill="#0f2240"/>
+  <path d="M24 136h592" stroke="#d5dee8" stroke-width="2"/>
+  <rect x="26" y="138" width="588" height="34" fill="#dfe9f7"/>
+  <g font-size="13" fill="#14202c">
+    <text x="40" y="160" font-weight="700">Example app (top user)</text><text x="270" y="160">Low</text><text x="350" y="160">Medium</text><text x="450" y="160" font-weight="700" fill="#d9442b">Very high</text><text x="536" y="160">Low</text>
+    <text x="40" y="196">Background service</text><text x="270" y="196">Low</text><text x="350" y="196">Low</text><text x="450" y="196">Medium</text><text x="536" y="196">Low</text>
+    <text x="40" y="232">Web browser</text><text x="270" y="232">Low</text><text x="350" y="232">High</text><text x="450" y="232">Low</text><text x="536" y="232">Low</text>
+    <text x="40" y="268">System</text><text x="270" y="268">Low</text><text x="350" y="268">Low</text><text x="450" y="268">Low</text><text x="536" y="268">Low</text>
+  </g>
+  <g stroke="#d5dee8" stroke-width="1.5"><path d="M24 174h592M24 210h592M24 246h592M24 282h592"/></g>
+  <text x="40" y="306" font-size="12" fill="#566475">Click the Disk header once to sort from highest to lowest.</text>
+  <text x="24" y="352" font-size="13" fill="#566475">Right-click the top entry and choose Search online to learn what it is.</text>
+  <text x="24" y="372" font-size="13" fill="#566475">Real Task Manager shows percentages and MB/s instead of words.</text>
+</svg>

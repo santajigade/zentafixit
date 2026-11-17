@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="430" fill="#f3f6fa"/>
+  <defs><marker id="abhb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1d5fae"/></marker>
+  <marker id="abhc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#d9442b"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where a central AC system cools the air</text>
+  <text x="140" y="66" font-size="14" font-weight="700" fill="#0f2240" text-anchor="middle">INSIDE: air handler</text>
+  <text x="440" y="66" font-size="14" font-weight="700" fill="#0f2240" text-anchor="middle">OUTSIDE: condenser</text>
+  <rect x="40" y="80" width="200" height="270" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="56" y="96" width="168" height="54" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <text x="140" y="120" font-size="13" font-weight="700" fill="#14202c" text-anchor="middle">Evaporator coil</text>
+  <text x="140" y="138" font-size="12" fill="#566475" text-anchor="middle">gets cold, cools the air</text>
+  <rect x="56" y="162" width="168" height="34" rx="8" fill="#fff" stroke="#d5dee8" stroke-width="2"/>
+  <text x="140" y="184" font-size="13" fill="#14202c" text-anchor="middle">Drain pan and float switch</text>
+  <rect x="56" y="208" width="168" height="54" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <circle cx="140" cy="235" r="18" fill="none" stroke="#0f2240" stroke-width="2"/>
+  <text x="140" y="280" font-size="13" fill="#14202c" text-anchor="middle">Blower fan</text>
+  <rect x="56" y="300" width="168" height="34" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <text x="140" y="322" font-size="13" font-weight="700" fill="#14202c" text-anchor="middle">Air filter</text>
+  <rect x="340" y="80" width="200" height="270" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="356" y="96" width="168" height="54" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <text x="440" y="120" font-size="13" font-weight="700" fill="#14202c" text-anchor="middle">Top fan</text>
+  <text x="440" y="138" font-size="12" fill="#566475" text-anchor="middle">pulls air through the coil</text>
+  <rect x="356" y="162" width="168" height="54" rx="8" fill="#fff" stroke="#d9442b" stroke-width="2"/>
+  <text x="440" y="186" font-size="13" font-weight="700" fill="#14202c" text-anchor="middle">Condenser coil</text>
+  <text x="440" y="204" font-size="12" fill="#566475" text-anchor="middle">releases heat outside</text>
+  <rect x="356" y="228" width="80" height="54" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <text x="396" y="260" font-size="12" fill="#14202c" text-anchor="middle">Compressor</text>
+  <rect x="444" y="228" width="80" height="106" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <text x="484" y="252" font-size="12" font-weight="700" fill="#14202c" text-anchor="middle">Panel</text>
+  <text x="484" y="272" font-size="12" fill="#14202c" text-anchor="middle">capacitor</text>
+  <text x="484" y="290" font-size="12" fill="#14202c" text-anchor="middle">contactor</text>
+  <text x="484" y="316" font-size="12" font-weight="700" fill="#d9442b" text-anchor="middle">Pro only</text>
+  <rect x="562" y="150" width="36" height="60" rx="6" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <text x="580" y="230" font-size="12" fill="#566475" text-anchor="middle">Switch</text>
+  <path d="M540 180h22" stroke="#0f2240" stroke-width="2"/>
+  <g fill="none" stroke-width="3">
+    <path d="M240 115h98" stroke="#1d5fae" marker-end="url(#abhb)"/>
+    <path d="M340 140h-98" stroke="#d9442b" marker-end="url(#abhc)"/>
+  </g>
+  <text x="290" y="106" font-size="12" fill="#566475" text-anchor="middle">copper lines</text>
+  <text x="290" y="160" font-size="12" fill="#566475" text-anchor="middle">refrigerant loop</text>
+  <text x="24" y="384" font-size="13" fill="#566475">If the outdoor side stops, the blower still runs and pushes warm air.</text>
+  <text x="24" y="404" font-size="13" fill="#566475">Switch = the outdoor disconnect box on the wall.</text>
+</svg>

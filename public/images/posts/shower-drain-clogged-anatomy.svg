@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Under a shower drain: where hair clogs form</text>
+  <path d="M190 90V220Q190 280 240 280Q290 280 290 220V196H380V330" fill="none" stroke="#0f2240" stroke-width="50" stroke-linejoin="round"/>
+  <path d="M190 90V220Q190 280 240 280Q290 280 290 220V196H380V330" fill="none" stroke="#fff" stroke-width="44" stroke-linejoin="round"/>
+  <path d="M190 200V220Q190 280 240 280Q290 280 290 220V200" fill="none" stroke="#dfe9f7" stroke-width="44"/>
+  <rect x="40" y="70" width="360" height="22" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="150" y="62" width="80" height="10" rx="3" fill="#d5dee8" stroke="#566475" stroke-width="2"/>
+  <rect x="170" y="100" width="40" height="44" rx="6" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <rect x="320" y="340" width="120" height="40" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <text x="380" y="365" font-size="13" fill="#14202c" text-anchor="middle">to main drain</text>
+  <g fill="none" stroke="#566475" stroke-width="1.5"><path d="M232 66h184"/><path d="M212 122h204"/><path d="M405 230h11"/><path d="M318 262h98"/></g>
+  <g font-size="13" fill="#14202c">
+    <text x="424" y="64" font-weight="700">Strainer cover</text><text x="424" y="80" font-size="12" fill="#566475">unscrews or lifts off</text>
+    <text x="424" y="120" font-weight="700">Drain body</text><text x="424" y="136" font-size="12" fill="#566475">most hair clogs are here</text>
+    <text x="424" y="228" font-weight="700">Drain pipe</text><text x="424" y="244" font-size="12" fill="#566475">slopes to the main drain</text>
+    <text x="424" y="268" font-weight="700">P-trap</text><text x="424" y="284" font-size="12" fill="#566475">water blocks sewer smell</text>
+  </g>
+  <text x="24" y="404" font-size="13" fill="#566475">A barbed strip reaches the drain body. A hand snake reaches past the trap.</text>
+</svg>

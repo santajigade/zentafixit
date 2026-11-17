@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- ceiling vent -->
+  <rect x="140" y="90" width="420" height="40" fill="#f3f6fa" stroke="#ffffff" stroke-width="3"/>
+  <rect x="200" y="130" width="300" height="70" rx="8" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <g stroke="#0f2240" stroke-width="5" stroke-linecap="round"><path d="M224 152h252M224 166h252M224 180h252"/></g>
+  <!-- warm air waves -->
+  <g fill="none" stroke="#ffd23f" stroke-width="7" stroke-linecap="round">
+    <path d="M260 240q-24 40 0 80t0 80"/><path d="M350 240q-24 40 0 80t0 80"/><path d="M440 240q-24 40 0 80t0 80"/>
+  </g>
+  <!-- thermometer -->
+  <rect x="640" y="150" width="56" height="300" rx="28" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <circle cx="668" cy="470" r="48" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <rect x="656" y="220" width="24" height="230" rx="12" fill="#ffd23f"/>
+  <circle cx="668" cy="470" r="30" fill="#ffd23f"/>
+  <g stroke="#0f2240" stroke-width="4"><path d="M696 200h-18M696 250h-18M696 300h-18M696 350h-18"/></g>
+  <!-- outdoor unit -->
+  <rect x="820" y="300" width="300" height="270" rx="10" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="970" cy="420" r="96" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <circle cx="970" cy="420" r="14" fill="#0f2240"/>
+  <g stroke="#0f2240" stroke-width="10" stroke-linecap="round"><path d="M970 420l0-70M970 420l62 34M970 420l-62 34"/></g>
+  <rect x="800" y="570" width="340" height="20" fill="#f3f6fa" stroke="#ffffff" stroke-width="3"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M820 270h300M820 260v20M1120 260v20"/><path d="M100 90v400M90 90h20M90 490h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

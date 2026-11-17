@@ -61,10 +61,10 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 
 - [x] electrical/lighting-and-ceiling-fans | lights-flickering-whole-house | Lights Flickering in the Whole House? Causes
 - [x] phones-tablets/bluetooth-and-pairing | airpods-not-connecting | Wireless Earbuds Not Connecting? Fixes
-- [ ] hvac/hvac-error-codes | ac-blowing-hot-air | AC Blowing Warm Air? Fixes
-- [ ] smart-home/cameras-and-doorbells | doorbell-not-ringing | Doorbell Not Ringing? Wired Doorbell Fixes
-- [ ] plumbing/clogged-drains | shower-drain-clogged | Shower Drain Clogged? Fixes
-- [ ] pc-laptops/slow-pc-fixes | 100-percent-disk-usage | 100% Disk Usage on Windows? Fixes
+- [x] hvac/hvac-error-codes | ac-blowing-hot-air | AC Blowing Warm Air? Fixes
+- [x] smart-home/cameras-and-doorbells | doorbell-not-ringing | Doorbell Not Ringing? Wired Doorbell Fixes
+- [x] plumbing/clogged-drains | shower-drain-clogged | Shower Drain Clogged? Fixes
+- [x] pc-laptops/slow-pc-fixes | 100-percent-disk-usage | 100% Disk Usage on Windows? Fixes
 - [ ] networking/routers-and-modems | router-not-working | Router Not Working? Fixes
 - [ ] tv-audio/smart-tvs | tv-has-sound-but-no-picture | TV Has Sound but No Picture? Fixes
 - [ ] appliances/ovens-and-microwaves | gas-stove-burner-not-lighting | Gas Stove Burner Won't Light? Fixes

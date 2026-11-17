@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- shower floor tiles -->
+  <rect x="120" y="120" width="620" height="440" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <g stroke="#d5dee8" stroke-width="3"><path d="M120 230h620M120 340h620M120 450h620M275 120v440M430 120v440M585 120v440"/></g>
+  <!-- pooled water -->
+  <ellipse cx="430" cy="340" rx="230" ry="120" fill="#7aace8" fill-opacity=".35"/>
+  <!-- drain grate -->
+  <circle cx="430" cy="340" r="80" fill="#fff" stroke="#0f2240" stroke-width="6"/>
+  <g stroke="#0f2240" stroke-width="6" stroke-linecap="round"><path d="M380 310h100M370 340h120M380 370h100"/></g>
+  <!-- drain strip tool -->
+  <rect x="850" y="110" width="26" height="380" rx="8" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <circle cx="863" cy="140" r="8" fill="#0f2240"/>
+  <g stroke="#0f2240" stroke-width="5" stroke-linecap="round"><path d="M850 260l-22-14M876 300l22-14M850 340l-22-14M876 380l22-14M850 420l-22-14M876 460l22-14"/></g>
+  <!-- hair clump -->
+  <g fill="none" stroke="#ffd23f" stroke-width="5" stroke-linecap="round"><path d="M840 500q-30 20 0 40t40 0q30-20-10-40"/><path d="M830 520q30 10 60-10"/><path d="M845 545q10-30 40-20"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M350 470h160M350 460v20M510 460v20"/><path d="M960 110v380M950 110h20M950 490h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

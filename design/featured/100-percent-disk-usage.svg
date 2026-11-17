@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- laptop -->
+  <rect x="130" y="130" width="560" height="350" rx="18" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="160" y="160" width="500" height="290" rx="6" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <path d="M80 480h660l-40 50H120z" fill="#fff" stroke="#0f2240" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="360" y="490" width="100" height="14" rx="6" fill="#f3f6fa" stroke="#0f2240" stroke-width="3"/>
+  <!-- usage bars on screen -->
+  <rect x="200" y="210" width="420" height="40" rx="8" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <rect x="200" y="210" width="420" height="40" rx="8" fill="#ffd23f"/>
+  <rect x="200" y="280" width="420" height="40" rx="8" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <rect x="204" y="284" width="120" height="32" rx="6" fill="#7aace8" fill-opacity=".6"/>
+  <rect x="200" y="350" width="420" height="40" rx="8" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <rect x="204" y="354" width="70" height="32" rx="6" fill="#7aace8" fill-opacity=".6"/>
+  <!-- hard drive -->
+  <rect x="800" y="150" width="280" height="380" rx="20" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="940" cy="300" r="110" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <circle cx="940" cy="300" r="22" fill="#f3f6fa" stroke="#0f2240" stroke-width="5"/>
+  <path d="M1040 480L990 330" stroke="#0f2240" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="1040" cy="480" r="16" fill="#0f2240"/>
+  <g fill="none" stroke="#ffd23f" stroke-width="5" stroke-linecap="round"><path d="M850 210a130 130 0 0 1 60-40"/><path d="M1030 390a130 130 0 0 1-40 40"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M800 120h280M800 110v20M1080 110v20"/><path d="M100 130v350M90 130h20M90 480h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>
