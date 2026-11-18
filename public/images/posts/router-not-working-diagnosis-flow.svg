@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="460" fill="#f3f6fa"/>
+  <defs><marker id="rnwflow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Power, router or upstream?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <path d="M320 54l120 36-120 36-120-36z"/>
+    <rect x="30" y="146" width="250" height="56" rx="8"/>
+    <rect x="360" y="146" width="250" height="56" rx="8"/>
+    <path d="M485 228l125 38-125 38-125-38z"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="30" y="330" width="250" height="70" rx="8"/><rect x="360" y="330" width="250" height="70" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#rnwflow)">
+    <path d="M200 90H155v54"/><path d="M440 90h45v54"/><path d="M485 202v24"/><path d="M360 266H155v62"/><path d="M485 304v24"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="95" font-weight="700">Any lights on?</text>
+    <text x="178" y="82" font-size="12" fill="#566475">no</text><text x="462" y="82" font-size="12" fill="#566475">yes</text>
+    <text x="155" y="170">No power: test the outlet</text><text x="155" y="190" font-size="13">and the adapter (causes 1, 2)</text>
+    <text x="485" y="170">Restart modem, then router</text><text x="485" y="190" font-size="13">wait 2 to 3 minutes</text>
+    <text x="485" y="262" font-weight="700">Laptop on modem</text><text x="485" y="280" font-weight="700">gets online?</text>
+    <text x="300" y="258" font-size="12" fill="#566475">yes</text><text x="500" y="320" font-size="12" fill="#566475" text-anchor="start">no</text>
+    <text x="155" y="354" font-weight="700">The router is at fault</text><text x="155" y="372" font-size="13">Check causes 4 to 8: light,</text><text x="155" y="389" font-size="13">Wi-Fi, heat, firmware</text>
+    <text x="485" y="354" font-weight="700">Modem or ISP is at fault</text><text x="485" y="372" font-size="13">Check for outages and the</text><text x="485" y="389" font-size="13">modem lights (cause 3)</text>
+  </g>
+  <text x="24" y="436" font-size="13" fill="#566475">Modem and router in one box (a gateway)? Call your ISP.</text>
+</svg>

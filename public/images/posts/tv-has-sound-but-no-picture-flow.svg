@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 500" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="500" fill="#f3f6fa"/>
+  <defs><marker id="spf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Can you see the TV's own menu?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="140" y="54" width="360" height="44" rx="8"/>
+    <path d="M320 122l150 38-150 38-150-38z"/>
+    <rect x="20" y="232" width="270" height="56" rx="8"/>
+    <rect x="430" y="232" width="190" height="56" rx="8"/>
+    <path d="M155 312l130 38-130 38-130-38z"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="20" y="420" width="190" height="56" rx="8"/>
+    <rect x="225" y="420" width="190" height="56" rx="8"/>
+    <rect x="430" y="420" width="190" height="56" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#spf)">
+    <path d="M320 98v22"/>
+    <path d="M170 160H155v70"/>
+    <path d="M470 160h55v70"/>
+    <path d="M525 288v130"/>
+    <path d="M155 288v22"/>
+    <path d="M155 388v12H115v18"/>
+    <path d="M285 350h35v68"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">1. Power cycle, then press Home or Menu</text>
+    <text x="320" y="156" font-weight="700">Menu or picture</text><text x="320" y="173" font-weight="700">visible at all?</text>
+    <text x="144" y="152" font-size="12" fill="#566475">no</text><text x="492" y="152" font-size="12" fill="#566475">yes</text>
+    <text x="155" y="256">2. Shine a flashlight on the</text><text x="155" y="274">screen in a dark room</text>
+    <text x="525" y="256">Menu shows, so the</text><text x="525" y="274">screen itself works</text>
+    <text x="155" y="346" font-weight="700">Faint image</text><text x="155" y="363" font-weight="700">in the beam?</text>
+    <text x="172" y="400" font-size="12" fill="#566475">yes</text><text x="300" y="342" font-size="12" fill="#566475">no</text>
+    <text x="115" y="444" font-weight="700">Backlight failed</text><text x="115" y="462" font-size="13">cause 7</text>
+    <text x="320" y="444" font-weight="700">Setting or board</text><text x="320" y="462" font-size="13">causes 1, 4 to 6, 8</text>
+    <text x="525" y="444" font-weight="700">Source or cable</text><text x="525" y="462" font-size="13">causes 2 and 3</text>
+  </g>
+</svg>

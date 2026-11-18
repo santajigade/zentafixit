@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- traveler wires between the two switches -->
+  <g fill="none" stroke-width="8" stroke-linecap="round">
+    <path d="M330 300C390 300 410 270 470 270" stroke="#ffd23f"/>
+    <path d="M330 400C390 400 410 430 470 430" stroke="#f3f6fa"/>
+  </g>
+  <!-- wire from second switch up to the light -->
+  <path d="M630 350C760 350 760 250 850 250" fill="none" stroke="#f3f6fa" stroke-width="8" stroke-linecap="round"/>
+  <!-- left switch plate -->
+  <rect x="170" y="190" width="160" height="300" rx="20" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="222" y="270" width="56" height="140" rx="10" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="232" y="282" width="36" height="58" rx="6" fill="#0f2240"/>
+  <circle cx="250" cy="225" r="8" fill="#0f2240"/><circle cx="250" cy="455" r="8" fill="#0f2240"/>
+  <!-- right switch plate -->
+  <rect x="470" y="190" width="160" height="300" rx="20" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="522" y="270" width="56" height="140" rx="10" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="532" y="340" width="36" height="58" rx="6" fill="#0f2240"/>
+  <circle cx="550" cy="225" r="8" fill="#0f2240"/><circle cx="550" cy="455" r="8" fill="#0f2240"/>
+  <!-- light bulb -->
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round">
+    <path d="M940 110v-34M1030 150l26-26M850 150l-26-26M1070 230h34M810 230h-34"/>
+  </g>
+  <circle cx="940" cy="230" r="90" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <path d="M905 230c0 30 15 45 15 70h40c0-25 15-40 15-70" fill="none" stroke="#0f2240" stroke-width="5" stroke-linecap="round"/>
+  <rect x="900" y="318" width="80" height="22" rx="4" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <rect x="908" y="340" width="64" height="40" rx="6" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <path d="M908 360h64" stroke="#0f2240" stroke-width="4"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none">
+    <path d="M170 530h460M170 520v20M630 520v20"/>
+    <path d="M130 190v300M120 190h20M120 490h20"/>
+  </g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

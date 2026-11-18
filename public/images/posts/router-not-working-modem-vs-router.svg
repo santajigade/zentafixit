@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="360" fill="#f3f6fa"/>
+  <defs><marker id="rnwchain" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Find where the chain breaks</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="60" width="130" height="80" rx="8"/>
+    <rect x="184" y="60" width="130" height="80" rx="8"/>
+    <rect x="344" y="60" width="130" height="80" rx="8"/>
+    <rect x="504" y="60" width="116" height="80" rx="8"/>
+  </g>
+  <rect x="184" y="200" width="130" height="56" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <rect x="344" y="190" width="276" height="48" rx="8" fill="#fff" stroke="#1f8a5b" stroke-width="2"/>
+  <rect x="344" y="256" width="276" height="48" rx="8" fill="#fff" stroke="#d9442b" stroke-width="2"/>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#rnwchain)">
+    <path d="M154 100h26"/><path d="M314 100h26"/><path d="M474 100h26"/><path d="M314 220l26-6"/><path d="M314 238l26 40"/>
+  </g>
+  <path d="M249 140v58" fill="none" stroke="#1d5fae" stroke-width="2" stroke-dasharray="5 4"/>
+  <g font-size="12" fill="#566475" text-anchor="middle">
+    <text x="89" y="88" font-size="14" font-weight="700" fill="#14202c">Your ISP</text><text x="89" y="108">coax, fiber or</text><text x="89" y="124">phone line</text>
+    <text x="249" y="88" font-size="14" font-weight="700" fill="#14202c">Modem</text><text x="249" y="108">brings internet</text><text x="249" y="124">into the home</text>
+    <text x="409" y="88" font-size="14" font-weight="700" fill="#14202c">Router</text><text x="409" y="108">shares it by</text><text x="409" y="124">Wi-Fi and cable</text>
+    <text x="562" y="88" font-size="14" font-weight="700" fill="#14202c">Your devices</text><text x="562" y="108">phones, TVs</text><text x="562" y="124">and laptops</text>
+    <text x="249" y="224" font-size="14" font-weight="700" fill="#14202c">Test laptop</text><text x="249" y="242">on Ethernet</text>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="358" y="219">Online: the router is at fault</text>
+    <text x="358" y="285">No internet: modem or ISP issue</text>
+  </g>
+  <text x="24" y="338" font-size="12" fill="#566475">Gateway (modem and router in one box)? You can't bypass it, so call your ISP.</text>
+</svg>

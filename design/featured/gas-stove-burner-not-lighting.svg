@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- cooktop surface -->
+  <rect x="300" y="90" width="600" height="440" rx="26" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <!-- burner flame ring -->
+  <g fill="#7aace8">
+    <path d="M600 178c10 18 12 30 0 40c-12-10-10-22 0-40z"/>
+    <path d="M600 422c10-18 12-30 0-40c-12 10-10 22 0 40z"/>
+    <path d="M478 300c18-10 30-12 40 0c-10 12-22 10-40 0z"/>
+    <path d="M722 300c-18-10-30-12-40 0c10 12 22 10 40 0z"/>
+    <path d="M514 214c18 4 28 12 28 27c-15 0-23-10-28-27z"/>
+    <path d="M686 214c-18 4-28 12-28 27c15 0 23-10 28-27z"/>
+    <path d="M514 386c18-4 28-12 28-27c-15 0-23 10-28 27z"/>
+  </g>
+  <!-- burner head and cap -->
+  <circle cx="600" cy="300" r="80" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <circle cx="600" cy="300" r="52" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <!-- grate -->
+  <g stroke="#0f2240" stroke-width="10" stroke-linecap="round" fill="none">
+    <path d="M440 140h320v320H440z"/>
+    <path d="M600 140v62M600 398v62M440 300h62M698 300h62"/>
+  </g>
+  <!-- igniter -->
+  <rect x="662" y="356" width="22" height="40" rx="6" fill="#fff" stroke="#0f2240" stroke-width="4" transform="rotate(-45 673 376)"/>
+  <!-- spark accent -->
+  <path d="M700 372l-26 6 16 10-30 4" fill="none" stroke="#ffd23f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- knob -->
+  <circle cx="830" cy="480" r="30" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <path d="M830 456v24" stroke="#0f2240" stroke-width="7" stroke-linecap="round"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M300 60h600M300 50v20M900 50v20"/><path d="M250 90v440M240 90h20M240 530h20"/></g>
+  <!-- click marks -->
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round"><path d="M960 250l44-26M968 310h54M960 370l44 26"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>
