@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- floor and pit -->
+  <path d="M120 200H400M760 200H1080" stroke="#ffffff" stroke-width="5"/>
+  <path d="M400 200v360h360V200" fill="#f3f6fa" stroke="#ffffff" stroke-width="5"/>
+  <rect x="403" y="380" width="354" height="177" fill="#7aace8" fill-opacity=".55"/>
+  <!-- pump -->
+  <rect x="470" y="430" width="130" height="122" rx="14" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <path d="M600 470h50" stroke="#0f2240" stroke-width="5"/>
+  <rect x="650" y="350" width="52" height="72" rx="14" fill="#ffd23f" stroke="#0f2240" stroke-width="5"/>
+  <path d="M676 422v30" stroke="#0f2240" stroke-width="5"/>
+  <!-- discharge pipe -->
+  <path d="M535 430V110h520" fill="none" stroke="#ffffff" stroke-width="22"/>
+  <path d="M535 430V110h520" fill="none" stroke="#0f2240" stroke-width="10"/>
+  <rect x="515" y="250" width="40" height="70" rx="6" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+  <!-- water out -->
+  <g fill="#7aace8"><path d="M1080 140c10 15 16 24 16 32a16 16 0 0 1-32 0c0-8 6-17 16-32z"/><path d="M1110 190c8 12 12 18 12 24a12 12 0 0 1-24 0c0-6 4-12 12-24z"/></g>
+  <!-- cycling arrows -->
+  <g fill="none" stroke="#ffd23f" stroke-width="7" stroke-linecap="round"><path d="M230 380a70 70 0 1 1 70 70"/></g>
+  <path d="M300 430l26 20-26 22z" fill="#ffd23f"/>
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M800 200v360M790 200h20M790 560h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

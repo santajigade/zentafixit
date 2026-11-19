@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- mouse -->
+  <rect x="430" y="120" width="250" height="400" rx="125" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="448" y="138" width="214" height="364" rx="107" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <path d="M555 138v150M448 288h214" stroke="#0f2240" stroke-width="4"/>
+  <rect x="541" y="180" width="28" height="64" rx="14" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+  <!-- broken signal -->
+  <g fill="none" stroke="#ffd23f" stroke-width="6" stroke-linecap="round" stroke-dasharray="18 16"><path d="M720 320h170"/></g>
+  <path d="M790 290l30 60M820 290l-30 60" stroke="#d9442b" stroke-width="7" stroke-linecap="round"/>
+  <!-- usb receiver -->
+  <rect x="910" y="285" width="120" height="70" rx="10" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="1030" y="298" width="70" height="44" rx="4" fill="#dfe9f7" stroke="#ffffff" stroke-width="4"/>
+  <path d="M1050 312h14M1050 328h14" stroke="#0f2240" stroke-width="5"/>
+  <!-- cursor -->
+  <path d="M180 200l0 170 42-40 30 66 26-12-30-64 58-4z" fill="#f3f6fa" stroke="#ffffff" stroke-width="4" stroke-linejoin="round"/>
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M430 560h250M430 550v20M680 550v20"/><path d="M380 120v400M370 120h20M370 520h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

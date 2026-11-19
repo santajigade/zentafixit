@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <defs><marker id="mnw-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Is it the mouse or the PC?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="170" y="54" width="300" height="44" rx="8"/>
+    <rect x="40" y="134" width="240" height="56" rx="8"/>
+    <rect x="360" y="134" width="240" height="56" rx="8"/>
+    <rect x="360" y="226" width="240" height="44" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="40" y="306" width="240" height="90" rx="8"/><rect x="360" y="306" width="240" height="90" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#mnw-arrow)">
+    <path d="M250 98v34"/><path d="M390 98v34"/><path d="M480 190v34"/><path d="M480 270v34"/><path d="M360 248H160v56"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">1. Try a different USB port</text>
+    <text x="160" y="158" font-weight="700">Works now</text><text x="160" y="178" font-size="13">the old port was the problem</text>
+    <text x="480" y="158" font-weight="700">Still dead</text><text x="480" y="178" font-size="13">fresh batteries, switch on</text>
+    <text x="480" y="253">2. Try it on another computer</text>
+  </g>
+  <g font-size="12" fill="#566475" text-anchor="middle">
+    <text x="228" y="120">yes</text><text x="412" y="120">no</text>
+    <text x="502" y="292">works</text><text x="300" y="240">fails</text>
+  </g>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="160" y="330" font-weight="700">The mouse is faulty</text><text x="160" y="350">check warranty</text><text x="160" y="368">or replace it (fix 8)</text>
+    <text x="480" y="330" font-weight="700">The problem is your PC</text><text x="480" y="350">Bluetooth, driver, USB</text><text x="480" y="368">power saving (fixes 3, 6, 7)</text>
+  </g>
+</svg>

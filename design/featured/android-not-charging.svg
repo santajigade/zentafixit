@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- phone -->
+  <rect x="450" y="60" width="270" height="500" rx="40" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="472" y="100" width="226" height="410" rx="16" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="585" cy="80" r="7" fill="#0f2240"/>
+  <!-- battery icon -->
+  <rect x="535" y="230" width="100" height="160" rx="14" fill="#fff" stroke="#0f2240" stroke-width="6"/>
+  <rect x="562" y="214" width="46" height="18" rx="4" fill="#0f2240"/>
+  <rect x="549" y="360" width="72" height="18" rx="4" fill="#d9442b"/>
+  <!-- port -->
+  <rect x="555" y="545" width="60" height="10" rx="5" fill="#0f2240"/>
+  <!-- cable -->
+  <path d="M980 590c0-120-80-170-160-170" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round"/>
+  <rect x="770" y="398" width="60" height="44" rx="8" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="740" y="408" width="32" height="24" rx="6" fill="#dfe9f7" stroke="#ffffff" stroke-width="4"/>
+  <!-- lightning gap -->
+  <path d="M300 200l-50 100h40l-26 104 80-130h-46l34-74z" fill="#ffd23f"/>
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M450 30h270M450 20v20M720 20v20"/><path d="M400 60v500M390 60h20M390 560h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

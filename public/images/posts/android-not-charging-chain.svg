@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="320" fill="#f3f6fa"/>
+  <defs><marker id="anc-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">The charging chain</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="60" width="130" height="70" rx="8"/>
+    <rect x="178" y="60" width="130" height="70" rx="8"/>
+    <rect x="332" y="60" width="130" height="70" rx="8"/>
+    <rect x="486" y="60" width="130" height="70" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#anc-arrow)">
+    <path d="M154 95h22"/><path d="M308 95h22"/><path d="M462 95h22"/>
+  </g>
+  <g font-size="14" font-weight="700" fill="#0f2240" text-anchor="middle">
+    <text x="89" y="100">Wall outlet</text><text x="243" y="100">Charger</text><text x="397" y="100">USB-C cable</text><text x="551" y="100">Phone port</text>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="24" y="154" width="130" height="140" rx="8"/><rect x="178" y="154" width="130" height="140" rx="8"/><rect x="332" y="154" width="130" height="140" rx="8"/><rect x="486" y="154" width="130" height="140" rx="8"/>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="36" y="178" font-weight="700">Can fail</text><text x="36" y="200">dead outlet</text><text x="36" y="220">switched off</text><text x="36" y="240">power strip</text>
+    <text x="190" y="178" font-weight="700">Can fail</text><text x="190" y="200">worn out</text><text x="190" y="220">too low power</text><text x="190" y="240">uncertified</text>
+    <text x="344" y="178" font-weight="700">Can fail</text><text x="344" y="200">frayed ends</text><text x="344" y="220">bent plug</text><text x="344" y="240">broken wire</text>
+    <text x="498" y="178" font-weight="700">Can fail</text><text x="498" y="200">packed lint</text><text x="498" y="220">moisture</text><text x="498" y="240">loose or worn</text>
+  </g>
+  <g font-size="12" fill="#566475">
+    <text x="36" y="274">try another</text><text x="190" y="274">swap it</text><text x="344" y="274">swap it</text><text x="498" y="274">clean or dry it</text>
+  </g>
+</svg>

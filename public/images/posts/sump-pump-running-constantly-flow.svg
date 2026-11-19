@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="430" fill="#f3f6fa"/>
+  <defs><marker id="sprcf-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Watch one cycle</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="180" y="52" width="280" height="44" rx="8"/>
+    <rect x="24" y="130" width="184" height="72" rx="8"/>
+    <rect x="228" y="130" width="184" height="72" rx="8"/>
+    <rect x="432" y="130" width="184" height="72" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="24" y="236" width="184" height="170" rx="8"/>
+    <rect x="228" y="236" width="184" height="170" rx="8"/>
+    <rect x="432" y="236" width="184" height="170" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#sprcf-arrow)">
+    <path d="M320 96v12H116v20"/><path d="M320 96v32"/><path d="M320 108h204v20"/>
+    <path d="M116 202v32"/><path d="M320 202v32"/><path d="M524 202v32"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="79">Look in the pit as it runs</text>
+    <text x="116" y="160" font-weight="700">Pit is empty</text><text x="116" y="180" font-size="13">pump keeps running</text>
+    <text x="320" y="160" font-weight="700">Stops, then refills</text><text x="320" y="180" font-size="13">and starts again fast</text>
+    <text x="524" y="160" font-weight="700">Water won't drop</text><text x="524" y="180" font-size="13">pump runs and runs</text>
+  </g>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="116" y="262" font-weight="700">Check</text><text x="116" y="284">float snagged</text><text x="116" y="304">on cord or wall</text><text x="116" y="324">failed switch</text><text x="116" y="344">(cause 1)</text>
+    <text x="320" y="262" font-weight="700">Check</text><text x="320" y="284">water rushing back:</text><text x="320" y="304">failed check valve</text><text x="320" y="324">high groundwater or</text><text x="320" y="344">discharge too close</text><text x="320" y="364">(causes 2, 4, 6)</text>
+    <text x="524" y="262" font-weight="700">Check</text><text x="524" y="284">discharge line outside</text><text x="524" y="304">clogged intake screen</text><text x="524" y="324">worn or small pump</text><text x="524" y="344">(causes 3, 5)</text>
+  </g>
+</svg>

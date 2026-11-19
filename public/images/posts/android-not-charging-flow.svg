@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="430" fill="#f3f6fa"/>
+  <defs><marker id="ancf-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Find the weak link</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="40" y="54" width="300" height="44" rx="8"/>
+    <rect x="40" y="134" width="300" height="44" rx="8"/>
+    <rect x="40" y="214" width="300" height="44" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="390" y="54" width="226" height="44" rx="8"/>
+    <rect x="390" y="134" width="226" height="44" rx="8"/>
+    <rect x="390" y="214" width="226" height="44" rx="8"/>
+    <rect x="40" y="300" width="576" height="100" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#ancf-arrow)">
+    <path d="M340 76h48"/><path d="M340 156h48"/><path d="M340 236h48"/>
+    <path d="M190 98v34"/><path d="M190 178v34"/><path d="M190 258v40"/>
+  </g>
+  <g font-size="12" fill="#566475">
+    <text x="350" y="68">works</text><text x="350" y="148">found</text><text x="350" y="228">works</text>
+    <text x="198" y="120">no</text><text x="198" y="200">clean, dry</text><text x="198" y="282">no change</text>
+  </g>
+  <g font-size="14" fill="#14202c">
+    <text x="56" y="81">1. Known good cable and charger</text>
+    <text x="56" y="161">2. Check port: lint or moisture</text>
+    <text x="56" y="241">3. Restart, then try safe mode</text>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="404" y="81">Replace the bad part</text>
+    <text x="404" y="161">Clean it or let it dry</text>
+    <text x="404" y="241">Likely an app or glitch</text>
+    <text x="56" y="326" font-weight="700">Still won't charge?</text>
+    <text x="56" y="348">Check battery protection settings if it stops at 80 or 85 percent.</text>
+    <text x="56" y="370">Otherwise the port or battery needs repair by the maker or a shop.</text>
+  </g>
+</svg>

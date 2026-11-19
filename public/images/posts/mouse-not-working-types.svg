@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="360" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Three ways a mouse connects</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="54" width="184" height="150" rx="8"/>
+    <rect x="228" y="54" width="184" height="150" rx="8"/>
+    <rect x="432" y="54" width="184" height="150" rx="8"/>
+  </g>
+  <!-- mice -->
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="56" y="98" width="40" height="62" rx="20"/>
+    <rect x="260" y="98" width="40" height="62" rx="20"/>
+    <rect x="464" y="98" width="40" height="62" rx="20"/>
+  </g>
+  <g stroke="#0f2240" stroke-width="2"><path d="M76 98v18M280 98v18M484 98v18"/></g>
+  <!-- wired cable to port -->
+  <path d="M76 98c0-26 40-26 64-26h20" fill="none" stroke="#0f2240" stroke-width="2"/>
+  <rect x="160" y="64" width="28" height="16" rx="2" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <!-- receiver -->
+  <rect x="356" y="110" width="30" height="16" rx="3" fill="#ffd23f" stroke="#0f2240" stroke-width="2"/>
+  <g fill="none" stroke="#1d5fae" stroke-width="2" stroke-dasharray="4 5"><path d="M308 118h40"/><path d="M512 118h40"/></g>
+  <!-- bluetooth laptop -->
+  <rect x="556" y="100" width="44" height="30" rx="3" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <path d="M550 134h56" stroke="#0f2240" stroke-width="3"/>
+  <g font-size="14" font-weight="700" fill="#0f2240" text-anchor="middle">
+    <text x="116" y="188">Wired USB</text><text x="320" y="188">Wireless receiver</text><text x="524" y="188">Bluetooth</text>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="24" y="220" width="184" height="118" rx="8"/><rect x="228" y="220" width="184" height="118" rx="8"/><rect x="432" y="220" width="184" height="118" rx="8"/>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="38" y="246" font-weight="700">Check</text><text x="38" y="266">the plug and cable</text><text x="38" y="286">a different USB port</text><text x="38" y="306">skip the USB hub</text>
+    <text x="242" y="246" font-weight="700">Check</text><text x="242" y="266">batteries and switch</text><text x="242" y="286">receiver plugged in</text><text x="242" y="306">interference, distance</text>
+    <text x="446" y="246" font-weight="700">Check</text><text x="446" y="266">batteries and switch</text><text x="446" y="286">Bluetooth is on</text><text x="446" y="306">remove and re-pair</text>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <defs><marker id="hth-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1d5fae"/></marker><marker id="hth-out" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1f8a5b"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where indoor moisture comes from</text>
+  <path d="M60 140L220 56L380 140" fill="none" stroke="#0f2240" stroke-width="2"/>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="70" y="140" width="300" height="90"/>
+    <rect x="70" y="230" width="300" height="80"/>
+  </g>
+  <rect x="70" y="310" width="300" height="80" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <path d="M30 310H70M370 310H410" stroke="#566475" stroke-width="2"/>
+  <g font-size="13" fill="#14202c">
+    <text x="84" y="166" font-weight="700">Bathroom</text><text x="84" y="184" fill="#566475">shower steam</text>
+    <text x="230" y="166" font-weight="700">Kitchen</text><text x="230" y="184" fill="#566475">cooking</text>
+    <text x="84" y="256" font-weight="700">Laundry</text><text x="84" y="274" fill="#566475">loose dryer vent</text>
+    <text x="230" y="256" font-weight="700">AC indoor coil</text><text x="230" y="274" fill="#566475">removes moisture</text>
+    <text x="84" y="336" font-weight="700">Basement</text><text x="84" y="354" fill="#566475">damp walls and floor</text>
+  </g>
+  <g fill="none" stroke="#1d5fae" stroke-width="2" marker-end="url(#hth-arrow)">
+    <path d="M150 194v24"/><path d="M270 194v24"/><path d="M150 284v18"/><path d="M110 380V364"/><path d="M200 380V364"/>
+  </g>
+  <path d="M300 284v16h90" fill="none" stroke="#1f8a5b" stroke-width="2" marker-end="url(#hth-out)"/>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="420" y="110" width="196" height="96" rx="8"/><rect x="420" y="226" width="196" height="96" rx="8"/></g>
+  <g font-size="13" fill="#14202c">
+    <text x="434" y="134" font-weight="700" fill="#1d5fae">Adds moisture</text>
+    <text x="434" y="154">showers, cooking,</text><text x="434" y="172">laundry, ground water,</text><text x="434" y="190">humid outdoor air</text>
+    <text x="434" y="250" font-weight="700" fill="#1f8a5b">Removes moisture</text>
+    <text x="434" y="270">AC on long cycles,</text><text x="434" y="288">exhaust fans,</text><text x="434" y="306">a dehumidifier</text>
+  </g>
+  <text x="376" y="324" font-size="12" fill="#566475">drain</text>
+</svg>

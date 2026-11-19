@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="300" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Indoor relative humidity: where you want it</text>
+  <g stroke="#0f2240" stroke-width="2">
+    <rect x="40" y="90" width="168" height="56" fill="#dfe9f7"/>
+    <rect x="208" y="90" width="112" height="56" fill="#1f8a5b"/>
+    <rect x="320" y="90" width="56" height="56" fill="#ffd23f" fill-opacity=".45"/>
+    <rect x="376" y="90" width="224" height="56" fill="#d9442b"/>
+  </g>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="40" y="168">0%</text><text x="208" y="168">30%</text><text x="320" y="168">50%</text><text x="376" y="168">60%</text><text x="590" y="168">100%</text>
+  </g>
+  <g font-size="14" font-weight="700" text-anchor="middle">
+    <text x="124" y="123" fill="#0f2240">Too dry</text>
+    <text x="264" y="123" fill="#fff">Ideal</text>
+    <text x="488" y="123" fill="#fff">Too humid</text>
+  </g>
+  <g fill="none" stroke="#566475" stroke-width="1.5"><path d="M348 86V64"/></g>
+  <text x="348" y="58" font-size="13" fill="#566475" text-anchor="middle">OK</text>
+  <g font-size="13" fill="#14202c">
+    <text x="40" y="206" font-weight="700">Below 30%</text><text x="40" y="224" fill="#566475">dry skin, static,</text><text x="40" y="242" fill="#566475">wood can shrink</text>
+    <text x="230" y="206" font-weight="700">30 to 50%</text><text x="230" y="224" fill="#566475">comfortable, the</text><text x="230" y="242" fill="#566475">EPA's ideal range</text>
+    <text x="410" y="206" font-weight="700">Above 60%</text><text x="410" y="224" fill="#566475">mold, dust mites,</text><text x="410" y="242" fill="#566475">musty smell, sweating</text><text x="410" y="260" fill="#566475">windows and pipes</text>
+  </g>
+</svg>

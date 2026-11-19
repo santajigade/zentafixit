@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- house -->
+  <path d="M250 270L500 90L750 270" fill="none" stroke="#ffffff" stroke-width="6" stroke-linejoin="round"/>
+  <rect x="290" y="260" width="420" height="300" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="340" y="310" width="150" height="130" rx="6" fill="#dfe9f7" stroke="#0f2240" stroke-width="4"/>
+  <path d="M415 310v130M340 375h150" stroke="#0f2240" stroke-width="4"/>
+  <rect x="560" y="380" width="90" height="180" rx="4" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="630" cy="470" r="6" fill="#0f2240"/>
+  <!-- droplets on window -->
+  <g fill="#1d5fae"><path d="M365 330c6 9 10 14 10 19a10 10 0 0 1-20 0c0-5 4-10 10-19z"/><path d="M450 390c6 9 10 14 10 19a10 10 0 0 1-20 0c0-5 4-10 10-19z"/><path d="M380 395c5 7 8 11 8 15a8 8 0 0 1-16 0c0-4 3-8 8-15z"/><path d="M460 330c5 7 8 11 8 15a8 8 0 0 1-16 0c0-4 3-8 8-15z"/></g>
+  <!-- hygrometer dial -->
+  <circle cx="930" cy="300" r="120" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="930" cy="300" r="96" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <path d="M862 368A96 96 0 0 1 930 204" fill="none" stroke="#dfe9f7" stroke-width="14"/>
+  <path d="M930 204A96 96 0 0 1 998 368" fill="none" stroke="#ffd23f" stroke-width="14"/>
+  <path d="M930 300L985 240" stroke="#0f2240" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="930" cy="300" r="12" fill="#0f2240"/>
+  <!-- steam lines -->
+  <g fill="none" stroke="#ffd23f" stroke-width="6" stroke-linecap="round"><path d="M180 420c-20-25 20-45 0-70s20-45 0-70"/><path d="M130 460c-20-25 20-45 0-70"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M290 590h420M290 580v20M710 580v20"/><path d="M810 140h240M810 130v20M1050 130v20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

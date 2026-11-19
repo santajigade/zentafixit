@@ -69,10 +69,10 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] tv-audio/smart-tvs | tv-has-sound-but-no-picture | TV Has Sound but No Picture? Fixes
 - [x] appliances/ovens-and-microwaves | gas-stove-burner-not-lighting | Gas Stove Burner Won't Light? Fixes
 - [x] electrical/switches-and-dimmers | how-to-wire-a-3-way-switch | 3-Way Switch Wiring Explained
-- [ ] hvac/air-filters-and-air-quality | house-too-humid | House Too Humid? Causes and Fixes
-- [ ] gadgets/keyboards-and-mice | mouse-not-working | Mouse Not Working? Fixes
-- [ ] plumbing/sump-pumps | sump-pump-running-constantly | Sump Pump Running Constantly? Fixes
-- [ ] phones-tablets/android-problems | android-not-charging | Android Phone Not Charging? Fixes
+- [x] hvac/air-filters-and-air-quality | house-too-humid | House Too Humid? Causes and Fixes
+- [x] gadgets/keyboards-and-mice | mouse-not-working | Mouse Not Working? Fixes
+- [x] plumbing/sump-pumps | sump-pump-running-constantly | Sump Pump Running Constantly? Fixes
+- [x] phones-tablets/android-problems | android-not-charging | Android Phone Not Charging? Fixes
 - [ ] appliances/washers-and-dryers | dryer-takes-too-long | Dryer Taking Too Long to Dry? Fixes
 
 ## Week 3

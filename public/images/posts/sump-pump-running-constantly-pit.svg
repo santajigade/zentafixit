@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="sprc-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1d5fae"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Three places to check</text>
+  <!-- ground and floor -->
+  <path d="M24 170H110M270 170H330" stroke="#0f2240" stroke-width="2"/>
+  <rect x="330" y="60" width="18" height="320" fill="#d5dee8" stroke="#0f2240" stroke-width="2"/>
+  <text x="300" y="164" font-size="12" fill="#566475" text-anchor="middle">floor</text>
+  <!-- pit -->
+  <path d="M110 170v210h160V170" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="112" y="290" width="156" height="88" fill="#dfe9f7"/>
+  <!-- pump -->
+  <rect x="140" y="310" width="60" height="64" rx="6" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <!-- float -->
+  <path d="M200 340h26" stroke="#0f2240" stroke-width="2"/>
+  <rect x="226" y="322" width="24" height="30" rx="6" fill="#ffd23f" stroke="#0f2240" stroke-width="2"/>
+  <!-- discharge pipe -->
+  <path d="M170 310V100h200" fill="none" stroke="#0f2240" stroke-width="8"/>
+  <path d="M170 310V100h200" fill="none" stroke="#fff" stroke-width="4"/>
+  <rect x="160" y="200" width="20" height="34" rx="3" fill="#ffd23f" stroke="#0f2240" stroke-width="2"/>
+  <path d="M390 100h60" stroke="#1d5fae" stroke-width="2" marker-end="url(#sprc-arrow)"/>
+  <!-- callouts -->
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="400" y="140" width="216" height="64" rx="8"/>
+    <rect x="400" y="228" width="216" height="64" rx="8"/>
+    <rect x="400" y="316" width="216" height="64" rx="8"/>
+  </g>
+  <g fill="none" stroke="#566475" stroke-width="1.5" stroke-dasharray="4 4">
+    <path d="M370 100c20 20 30 40 30 72"/><path d="M182 217h80c40 0 80 43 138 43"/><path d="M252 337h148"/>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="414" y="166" font-weight="700">Discharge line</text><text x="414" y="186" fill="#566475">blocked, frozen, too close</text>
+    <text x="414" y="254" font-weight="700">Check valve</text><text x="414" y="274" fill="#566475">water flows back down</text>
+    <text x="414" y="342" font-weight="700">Float switch</text><text x="414" y="362" fill="#566475">stuck up or failed on</text>
+  </g>
+  <g font-size="12" fill="#566475">
+    <text x="128" y="400">pit</text><text x="154" y="346">pump</text><text x="356" y="88">to outside</text>
+  </g>
+</svg>
