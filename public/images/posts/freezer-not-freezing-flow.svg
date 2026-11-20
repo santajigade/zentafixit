@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 560" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="560" fill="#f3f6fa"/>
+  <defs><marker id="fnf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Why isn't the freezer freezing?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="140" y="54" width="360" height="44" rx="8"/>
+    <rect x="140" y="124" width="360" height="44" rx="8"/>
+    <rect x="140" y="194" width="360" height="44" rx="8"/>
+    <path d="M320 260l170 38-170 38-170-38z"/>
+    <rect x="260" y="370" width="360" height="44" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="20" y="370" width="220" height="56" rx="8"/>
+    <rect x="20" y="470" width="190" height="60" rx="8"/>
+    <rect x="225" y="470" width="190" height="60" rx="8"/>
+    <rect x="430" y="470" width="190" height="60" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#fnf)">
+    <path d="M320 98v24"/><path d="M320 168v24"/><path d="M320 238v20"/>
+    <path d="M150 298H130v70"/><path d="M490 298h50v70"/>
+    <path d="M440 414v28H115v26"/><path d="M320 442v26"/><path d="M440 442h85v26"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">1. Thermometer reads above 0°F</text>
+    <text x="320" y="151">2. Check setting, door seal, vents</text>
+    <text x="320" y="221">3. Listen at the back of the fridge</text>
+    <text x="320" y="294" font-weight="700">Compressor and</text><text x="320" y="311" font-weight="700">condenser fan running?</text>
+    <text x="116" y="290" font-size="12" fill="#566475">no</text><text x="510" y="290" font-size="12" fill="#566475">yes</text>
+    <text x="130" y="394" font-weight="700">Silent or clicking</text><text x="130" y="413" font-size="13">Causes 7 and 8</text>
+    <text x="440" y="397">4. Look at the freezer back wall</text>
+    <text x="115" y="495" font-weight="700">Heavy frost</text><text x="115" y="514" font-size="13">Cause 5: defrost</text>
+    <text x="320" y="495" font-weight="700">No frost, no air</text><text x="320" y="514" font-size="13">Cause 6: fan</text>
+    <text x="525" y="495" font-weight="700" font-size="13">Air flows, still warm</text><text x="525" y="514" font-size="13">Causes 1 to 4, 9</text>
+  </g>
+  <text x="24" y="550" font-size="12" fill="#566475">Unplug the fridge before you touch coils, fans or panels.</text>
+</svg>

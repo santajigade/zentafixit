@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="480" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Apple silicon or Intel: which steps apply</text>
+  <g fill="#0f2240" stroke="#0f2240" stroke-width="2"><rect x="20" y="52" width="180" height="40" rx="8"/><rect x="210" y="52" width="210" height="40" rx="8"/><rect x="430" y="52" width="190" height="40" rx="8"/></g>
+  <g font-size="14" font-weight="700" fill="#fff" text-anchor="middle"><text x="110" y="77">Step</text><text x="315" y="77">Apple silicon (M1+)</text><text x="525" y="77">Intel Mac</text></g>
+  <rect x="20" y="104" width="180" height="50" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <rect x="210" y="104" width="210" height="50" rx="8" fill="#fff" stroke="#d5dee8" stroke-width="2"/>
+  <rect x="430" y="104" width="190" height="50" rx="8" fill="#fff" stroke="#d5dee8" stroke-width="2"/>
+  <text x="34" y="134" font-size="14" font-weight="700" fill="#0f2240">Force restart</text>
+  <g font-size="13" fill="#14202c" text-anchor="middle"><text x="315" y="125">Hold power button</text><text x="315" y="143" fill="#566475">about 10 seconds</text></g>
+  <g font-size="13" fill="#14202c" text-anchor="middle"><text x="525" y="125">Hold power button</text><text x="525" y="143" fill="#566475">about 10 seconds</text></g>
+  <rect x="20" y="160" width="180" height="50" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <rect x="210" y="160" width="210" height="50" rx="8" fill="#fff" stroke="#d5dee8" stroke-width="2"/>
+  <rect x="430" y="160" width="190" height="50" rx="8" fill="#fff" stroke="#d5dee8" stroke-width="2"/>
+  <text x="34" y="190" font-size="14" font-weight="700" fill="#0f2240">macOS Recovery</text>
+  <g font-size="13" fill="#14202c" text-anchor="middle"><text x="315" y="181">Hold power until</text><text x="315" y="199" fill="#566475">startup options appear</text></g>
+  <g font-size="13" fill="#14202c" text-anchor="middle"><text x="525" y="181">Hold Command and R</text><text x="525" y="199" fill="#566475">right after power on</text></g>
+  <rect x="20" y="216" width="180" height="50" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <rect x="210" y="216" width="210" height="50" rx="8" fill="#fff" stroke="#d5dee8" stroke-width="2"/>
+  <rect x="430" y="216" width="190" height="50" rx="8" fill="#fff" stroke="#d5dee8" stroke-width="2"/>
+  <text x="34" y="246" font-size="14" font-weight="700" fill="#0f2240">Safe mode</text>
+  <g font-size="13" fill="#14202c" text-anchor="middle"><text x="315" y="237">Startup options, then</text><text x="315" y="255" fill="#566475">hold Shift, Continue</text></g>
+  <g font-size="13" fill="#14202c" text-anchor="middle"><text x="525" y="237">Hold Shift</text><text x="525" y="255" fill="#566475">right after power on</text></g>
+  <rect x="20" y="272" width="180" height="50" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <rect x="210" y="272" width="210" height="50" rx="8" fill="#fff" stroke="#d5dee8" stroke-width="2"/>
+  <rect x="430" y="272" width="190" height="50" rx="8" fill="#fff" stroke="#d5dee8" stroke-width="2"/>
+  <text x="34" y="302" font-size="14" font-weight="700" fill="#0f2240">SMC reset</text>
+  <g font-size="13" fill="#14202c" text-anchor="middle"><text x="315" y="293">Not needed</text><text x="315" y="311" fill="#566475">(no separate SMC)</text></g>
+  <g font-size="13" fill="#14202c" text-anchor="middle"><text x="525" y="293">Yes, steps vary</text><text x="525" y="311" fill="#566475">see Apple's guide</text></g>
+  <rect x="20" y="328" width="180" height="50" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <rect x="210" y="328" width="210" height="50" rx="8" fill="#fff" stroke="#d5dee8" stroke-width="2"/>
+  <rect x="430" y="328" width="190" height="50" rx="8" fill="#fff" stroke="#d5dee8" stroke-width="2"/>
+  <text x="34" y="358" font-size="14" font-weight="700" fill="#0f2240">NVRAM reset</text>
+  <g font-size="13" fill="#14202c" text-anchor="middle"><text x="315" y="349">Not needed</text><text x="315" y="367" fill="#566475">(resets automatically)</text></g>
+  <g font-size="13" fill="#14202c" text-anchor="middle"><text x="525" y="349">Option Command P R</text><text x="525" y="367" fill="#566475">for about 20 seconds</text></g>
+  <rect x="20" y="384" width="180" height="50" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <rect x="210" y="384" width="210" height="50" rx="8" fill="#fff" stroke="#d5dee8" stroke-width="2"/>
+  <rect x="430" y="384" width="190" height="50" rx="8" fill="#fff" stroke="#d5dee8" stroke-width="2"/>
+  <text x="34" y="414" font-size="14" font-weight="700" fill="#0f2240">Firmware revive</text>
+  <g font-size="13" fill="#14202c" text-anchor="middle"><text x="315" y="405">Yes, needs a second</text><text x="315" y="423" fill="#566475">Mac with Configurator</text></g>
+  <g font-size="13" fill="#14202c" text-anchor="middle"><text x="525" y="405">T2 chip Macs only,</text><text x="525" y="423" fill="#566475">needs a second Mac</text></g>
+  <text x="24" y="460" font-size="12" fill="#566475">Highlighted rows apply to Intel Macs only. Exact keys vary by model.</text>
+</svg>

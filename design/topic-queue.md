@@ -73,12 +73,12 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] gadgets/keyboards-and-mice | mouse-not-working | Mouse Not Working? Fixes
 - [x] plumbing/sump-pumps | sump-pump-running-constantly | Sump Pump Running Constantly? Fixes
 - [x] phones-tablets/android-problems | android-not-charging | Android Phone Not Charging? Fixes
-- [ ] appliances/washers-and-dryers | dryer-takes-too-long | Dryer Taking Too Long to Dry? Fixes
+- [x] appliances/washers-and-dryers | dryer-takes-too-long | Dryer Taking Too Long to Dry? Fixes
 
 ## Week 3
-- [ ] pc-laptops/mac-problems | mac-wont-turn-on | Mac Won't Turn On? Fixes
-- [ ] networking/slow-internet-fixes | how-to-test-internet-speed | How to Test Your Internet Speed (and What the Numbers Mean)
-- [ ] appliances/refrigerators | freezer-not-freezing | Freezer Not Freezing? Fixes
+- [x] pc-laptops/mac-problems | mac-wont-turn-on | Mac Won't Turn On? Fixes
+- [x] networking/slow-internet-fixes | how-to-test-internet-speed | How to Test Your Internet Speed (and What the Numbers Mean)
+- [x] appliances/refrigerators | freezer-not-freezing | Freezer Not Freezing? Fixes
 - [ ] plumbing/leaks-and-drips | leaking-shower-faucet | Shower Faucet Dripping? Fixes
 - [ ] smart-home/smart-speakers | google-home-not-responding | Smart Display or Nest Speaker Not Responding? Fixes
 - [ ] tv-audio/soundbars-and-speakers | bluetooth-speaker-not-connecting | Bluetooth Speaker Not Connecting? Fixes

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- dryer body -->
+  <rect x="360" y="80" width="420" height="480" rx="22" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="360" y="80" width="420" height="90" rx="22" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="430" cy="125" r="22" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <path d="M430 125V108" stroke="#0f2240" stroke-width="4" stroke-linecap="round"/>
+  <rect x="490" y="108" width="150" height="34" rx="6" fill="#f3f6fa" stroke="#0f2240" stroke-width="3"/>
+  <circle cx="705" cy="125" r="14" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- door and drum -->
+  <circle cx="570" cy="365" r="150" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <circle cx="570" cy="365" r="112" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <!-- damp clothes -->
+  <path d="M478 420c20-40 60-52 96-38s62 6 82 30c-6 24-30 38-62 40s-90 2-116-32z" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <path d="M500 330c22-20 52-22 74-6 18 12 40 12 58 0" fill="none" stroke="#0f2240" stroke-width="4" stroke-linecap="round"/>
+  <g fill="#7aace8"><path d="M540 260c9 13 14 20 14 27a14 14 0 0 1-28 0c0-7 5-14 14-27z"/><path d="M612 288c7 10 11 15 11 21a11 11 0 0 1-22 0c0-6 4-11 11-21z" opacity=".75"/><path d="M520 470c6 9 9 13 9 18a9 9 0 0 1-18 0c0-5 3-9 9-18z" opacity=".6"/></g>
+  <!-- feet -->
+  <rect x="390" y="560" width="40" height="16" rx="4" fill="#f3f6fa"/><rect x="710" y="560" width="40" height="16" rx="4" fill="#f3f6fa"/>
+  <!-- clock accent -->
+  <circle cx="960" cy="250" r="78" fill="none" stroke="#ffd23f" stroke-width="10"/>
+  <path d="M960 250V200M960 250l34 22" stroke="#ffd23f" stroke-width="10" stroke-linecap="round"/>
+  <path d="M900 380c18-14 36 14 54 0s36 14 54 0" fill="none" stroke="#ffd23f" stroke-width="6" stroke-linecap="round"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M360 50h420M360 40v20M780 40v20"/><path d="M310 80v480M300 80h20M300 560h20"/></g>
+  <!-- lint vent puff -->
+  <g fill="#7aace8" opacity=".5"><circle cx="200" cy="300" r="26"/><circle cx="236" cy="282" r="18"/><circle cx="172" cy="270" r="14"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- laptop lid -->
+  <rect x="300" y="90" width="520" height="340" rx="18" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="330" y="118" width="460" height="284" rx="6" fill="#14202c" stroke="#0f2240" stroke-width="4"/>
+  <!-- power symbol on dark screen -->
+  <g fill="none" stroke="#ffd23f" stroke-width="12" stroke-linecap="round">
+    <path d="M524 214a62 62 0 1 0 72 0"/>
+    <path d="M560 188v74"/>
+  </g>
+  <!-- laptop base -->
+  <path d="M250 430h620l-30 50H280z" fill="#f3f6fa" stroke="#0f2240" stroke-width="4" stroke-linejoin="round"/>
+  <rect x="500" y="440" width="120" height="22" rx="5" fill="#fff" stroke="#0f2240" stroke-width="3"/>
+  <!-- charging cable and plug -->
+  <path d="M870 455c60 0 70 40 120 40s60-60 60-110" fill="none" stroke="#f3f6fa" stroke-width="8" stroke-linecap="round"/>
+  <rect x="1028" y="320" width="44" height="66" rx="8" fill="#f3f6fa" stroke="#0f2240" stroke-width="3"/>
+  <g stroke="#f3f6fa" stroke-width="8" stroke-linecap="round"><path d="M1040 320v-30M1060 320v-30"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M300 60h520M300 50v20M820 50v20"/><path d="M220 90v390M210 90h20M210 480h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

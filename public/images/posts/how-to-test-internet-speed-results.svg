@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">The four numbers in a speed test</text>
+  <text x="24" y="54" font-size="13" fill="#566475">Speeds in Mbps, ping and jitter in milliseconds (ms)</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="70" width="288" height="114" rx="8"/>
+    <rect x="328" y="70" width="288" height="114" rx="8"/>
+    <rect x="24" y="196" width="288" height="114" rx="8"/>
+    <rect x="328" y="196" width="288" height="114" rx="8"/>
+  </g>
+  <g fill="#1d5fae">
+    <path d="M276 88v20h-8l12 14 12-14h-8V88z"/>
+    <path d="M580 122v-20h-8l12-14 12 14h-8v20z"/>
+  </g>
+  <g fill="none" stroke="#1d5fae" stroke-width="2.5" stroke-linecap="round">
+    <path d="M266 230h28M288 224l6 6-6 6M294 242h-28M272 236l-6 6 6 6"/>
+    <path d="M566 236l8-10 8 14 8-12 8 6"/>
+  </g>
+  <g font-size="14" fill="#14202c">
+    <text x="40" y="98" font-weight="700">Download <tspan fill="#1d5fae">(Mbps)</tspan></text>
+    <text x="40" y="122" font-size="13">Data coming to you</text>
+    <text x="40" y="142" font-size="13" fill="#566475">Streaming, browsing, downloads</text>
+    <text x="40" y="168" font-size="13" font-weight="700" fill="#1f8a5b">Higher is better</text>
+
+    <text x="344" y="98" font-weight="700">Upload <tspan fill="#1d5fae">(Mbps)</tspan></text>
+    <text x="344" y="122" font-size="13">Data you send out</text>
+    <text x="344" y="142" font-size="13" fill="#566475">Video calls, backups, uploads</text>
+    <text x="344" y="168" font-size="13" font-weight="700" fill="#1f8a5b">Higher is better</text>
+
+    <text x="40" y="224" font-weight="700">Ping or latency <tspan fill="#1d5fae">(ms)</tspan></text>
+    <text x="40" y="248" font-size="13">Round trip time to the server</text>
+    <text x="40" y="268" font-size="13" fill="#566475">Felt as lag in games and calls</text>
+    <text x="40" y="294" font-size="13" font-weight="700" fill="#1f8a5b">Lower is better</text>
+
+    <text x="344" y="224" font-weight="700">Jitter <tspan fill="#1d5fae">(ms)</tspan></text>
+    <text x="344" y="248" font-size="13">How much the ping varies</text>
+    <text x="344" y="268" font-size="13" fill="#566475">Causes choppy calls and video</text>
+    <text x="344" y="294" font-size="13" font-weight="700" fill="#1f8a5b">Lower is better</text>
+  </g>
+  <rect x="24" y="322" width="592" height="64" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="348" font-weight="700">Mbps = megabits. MBps = megabytes. 8 bits = 1 byte.</text>
+    <text x="320" y="370" font-size="13">100 Mbps download is at most about 12.5 MB per second</text>
+  </g>
+</svg>

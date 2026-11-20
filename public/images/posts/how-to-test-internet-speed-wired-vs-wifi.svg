@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 392" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="392" fill="#f3f6fa"/>
+  <defs><marker id="tsf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Slower than your plan? Find out where</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="140" y="52" width="360" height="44" rx="8"/>
+    <path d="M320 116l170 36-170 36-170-36z"/>
+    <rect x="20" y="222" width="260" height="58" rx="8"/>
+    <rect x="360" y="222" width="260" height="58" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="20" y="300" width="260" height="58" rx="8"/><rect x="360" y="300" width="260" height="58" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#tsf)">
+    <path d="M320 96v18"/><path d="M150 152v68"/><path d="M490 152v68"/><path d="M150 280v18"/><path d="M490 280v18"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="79">1. Wired test, other devices paused</text>
+    <text x="320" y="148" font-weight="700">Wired result close</text><text x="320" y="166" font-weight="700">to your plan speed?</text>
+    <text x="164" y="200" font-size="12" fill="#566475" text-anchor="start">yes</text><text x="476" y="200" font-size="12" fill="#566475" text-anchor="end">no</text>
+    <text x="150" y="246">Service is fine. Wi-Fi or</text><text x="150" y="266">the device is the limit</text>
+    <text x="490" y="246">Restart modem and router,</text><text x="490" y="266">retest at different times</text>
+    <text x="150" y="324" font-weight="700">Improve the Wi-Fi</text><text x="150" y="344" font-size="12">placement, 5 GHz, mesh or a cable</text>
+    <text x="490" y="324" font-weight="700">Still low every time?</text><text x="490" y="344" font-size="12">Contact your internet provider</text>
+  </g>
+  <text x="24" y="380" font-size="12" fill="#566475">A VPN, a busy network or an older device can also lower your results.</text>
+</svg>
