@@ -15,3 +15,4 @@ dryer-vent-cleaning
 shower-drain-clogged
 gas-stove-burner-not-lighting
 android-not-charging
+freezer-not-freezing
