@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <defs><marker id="dl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1d5fae"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Hoses and connections under a dishwasher</text>
+  <!-- sink cabinet -->
+  <rect x="30" y="60" width="200" height="300" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M60 60h140v40a20 20 0 0 1 -20 20h-100a20 20 0 0 1 -20 -20z" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <rect x="120" y="120" width="20" height="70" fill="#d5dee8" stroke="#0f2240" stroke-width="2"/>
+  <path d="M120 190h20v20h-20z" fill="#d5dee8" stroke="#0f2240" stroke-width="2"/>
+  <circle cx="80" cy="300" r="12" fill="#d9442b" stroke="#0f2240" stroke-width="2"/>
+  <!-- dishwasher -->
+  <rect x="270" y="60" width="170" height="270" rx="4" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="270" y="330" width="170" height="30" fill="#d5dee8" stroke="#0f2240" stroke-width="2"/>
+  <rect x="285" y="300" width="50" height="24" rx="4" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <circle cx="400" cy="306" r="18" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <!-- supply line (blue) -->
+  <path d="M92 300h40v40h178v-16" fill="none" stroke="#1d5fae" stroke-width="4" marker-end="url(#dl)"/>
+  <!-- drain hose (navy) high loop -->
+  <path d="M400 288v-12c0-10-14-14-30-14H260c-10 0-14-150-40-150h-70v80h-10" fill="none" stroke="#0f2240" stroke-width="4"/>
+  <g font-size="13" fill="#14202c">
+    <text x="40" y="282">Hot water valve</text>
+    <text x="36" y="160">Sink drain</text><text x="36" y="176">or disposal</text>
+  </g>
+  <g font-size="14" fill="#14202c">
+    <text x="456" y="80" font-weight="700">Drain hose</text>
+    <text x="456" y="98" font-size="12" fill="#566475">clamp at sink end,</text>
+    <text x="456" y="114" font-size="12" fill="#566475">cracks (cause 5)</text>
+    <text x="456" y="166" font-weight="700">Supply line</text>
+    <text x="456" y="184" font-size="12" fill="#566475">loose fitting or</text>
+    <text x="456" y="200" font-size="12" fill="#566475">worn line (cause 6)</text>
+    <text x="456" y="252" font-weight="700">Under the tub</text>
+    <text x="456" y="270" font-size="12" fill="#566475">inlet valve (left box)</text>
+    <text x="456" y="286" font-size="12" fill="#566475">pump (circle)</text>
+    <text x="456" y="302" font-size="12" fill="#566475">causes 6 and 7</text>
+  </g>
+  <text x="24" y="390" font-size="13" fill="#566475">Exact layout varies by model. Power and water off before you look underneath.</text>
+</svg>

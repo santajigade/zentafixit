@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- round speaker -->
+  <ellipse cx="520" cy="470" rx="190" ry="40" fill="#0f2240" stroke="#9fc4f0" stroke-width="3" stroke-opacity=".5"/>
+  <path d="M330 300v150a190 40 0 0 0 380 0V300z" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <ellipse cx="520" cy="300" rx="190" ry="60" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <ellipse cx="520" cy="300" rx="120" ry="34" fill="none" stroke="#0f2240" stroke-width="6"/>
+  <path d="M400 300a120 34 0 0 1 120 -34" fill="none" stroke="#ffd23f" stroke-width="10" stroke-linecap="round"/>
+  <g stroke="#d5dee8" stroke-width="3"><path d="M350 360h340M352 390h336M356 420h328"/></g>
+  <!-- speech bubble crossed -->
+  <path d="M800 130h240a26 26 0 0 1 26 26v110a26 26 0 0 1 -26 26H880l-50 46v-46h-30a26 26 0 0 1 -26 -26V156a26 26 0 0 1 26 -26z" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="10" stroke-linecap="round"><path d="M830 190h180M830 236h120"/></g>
+  <path d="M790 320L1060 120" stroke="#ffd23f" stroke-width="14" stroke-linecap="round"/>
+  <!-- sound arcs -->
+  <g fill="none" stroke="#7aace8" stroke-width="6" stroke-linecap="round" opacity=".8"><path d="M250 260a120 120 0 0 0 0 120"/><path d="M200 230a180 180 0 0 0 0 180"/></g>
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M330 550h380M330 540v20M710 540v20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

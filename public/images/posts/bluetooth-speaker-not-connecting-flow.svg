@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 430" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="430" fill="#f3f6fa"/>
+  <defs><marker id="bs" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Why won't the speaker connect?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="170" y="54" width="300" height="44" rx="8"/>
+    <rect x="20" y="140" width="180" height="56" rx="8"/><rect x="230" y="140" width="180" height="56" rx="8"/><rect x="440" y="140" width="180" height="56" rx="8"/>
+    <rect x="20" y="226" width="180" height="84" rx="8"/><rect x="230" y="226" width="180" height="84" rx="8"/><rect x="440" y="226" width="180" height="84" rx="8"/>
+  </g>
+  <rect x="20" y="340" width="600" height="62" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#bs)">
+    <path d="M320 98v40"/><path d="M320 116H110v22"/><path d="M320 116H530v22"/>
+    <path d="M110 196v28"/><path d="M320 196v28"/><path d="M530 196v28"/>
+    <path d="M320 310v28"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">Pairing mode on, check your list</text>
+    <text x="110" y="163" font-weight="700">Not in the list</text><text x="110" y="182" font-size="13" fill="#566475">busy or not pairing</text>
+    <text x="320" y="163" font-weight="700">Listed, won't pair</text><text x="320" y="182" font-size="13" fill="#566475">old pairing record</text>
+    <text x="530" y="163" font-weight="700">Pairs, cuts out</text><text x="530" y="182" font-size="13" fill="#566475">battery or distance</text>
+    <g font-size="13"><text x="110" y="250">Turn off Bluetooth on</text><text x="110" y="268">other devices nearby</text>
+    <text x="320" y="250">Forget the speaker,</text><text x="320" y="268">then pair it again</text>
+    <text x="530" y="250">Charge it and move</text><text x="530" y="268">the phone closer</text></g>
+    <text x="110" y="294" font-weight="700">Fixes 1 and 2</text><text x="320" y="294" font-weight="700">Fix 3</text><text x="530" y="294" font-weight="700">Fixes 4 and 5</text>
+    <text x="320" y="366" font-weight="700">Still stuck? Update or reset the speaker (fix 8)</text>
+    <text x="320" y="388" font-size="13">Pairing with a computer or TV? See fix 7</text>
+  </g>
+</svg>

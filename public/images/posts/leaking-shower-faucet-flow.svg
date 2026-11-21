@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="sf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Real leak or leftover water?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="200" y="54" width="240" height="44" rx="8"/>
+    <path d="M320 118l110 34-110 34-110-34z"/>
+    <rect x="460" y="198" width="160" height="56" rx="8"/>
+    <rect x="200" y="206" width="240" height="44" rx="8"/>
+    <rect x="20" y="300" width="180" height="62" rx="8"/>
+    <rect x="230" y="300" width="180" height="62" rx="8"/>
+    <rect x="440" y="300" width="180" height="62" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="20" y="378" width="180" height="40" rx="8"/><rect x="230" y="378" width="180" height="40" rx="8"/><rect x="440" y="378" width="180" height="40" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#sf)">
+    <path d="M320 98v18"/><path d="M430 152h110v44"/><path d="M320 186v18"/>
+    <path d="M320 250v48"/><path d="M320 272H110v26"/><path d="M320 272H530v26"/>
+    <path d="M110 362v14"/><path d="M320 362v14"/><path d="M530 362v14"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">Shower off, wait 5 minutes</text>
+    <text x="320" y="157" font-weight="700">Still dripping?</text>
+    <text x="470" y="144" font-size="12" fill="#566475">no</text>
+    <text x="342" y="200" font-size="12" fill="#566475">yes</text>
+    <text x="540" y="222" font-weight="700">Leftover water</text>
+    <text x="540" y="242" font-size="13" fill="#566475">normal (cause 1)</text>
+    <text x="320" y="233">Where does water come out?</text>
+    <text x="110" y="326" font-weight="700">Head or tub spout</text>
+    <text x="110" y="346" font-size="13" fill="#566475">cartridge or washer</text>
+    <text x="320" y="326" font-weight="700">Around the handle</text>
+    <text x="320" y="346" font-size="13" fill="#566475">O-rings or trim seal</text>
+    <text x="530" y="326" font-weight="700">Ceiling stain below</text>
+    <text x="530" y="346" font-size="13" fill="#566475">leak inside the wall</text>
+    <text x="110" y="403" font-weight="700">Causes 2 to 4</text>
+    <text x="320" y="403" font-weight="700">Cause 6</text>
+    <text x="530" y="403" font-weight="700">Call a plumber</text>
+  </g>
+</svg>

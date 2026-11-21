@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="380" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">One speaker, two devices: the last one wins</text>
+  <!-- laptop -->
+  <rect x="50" y="96" width="140" height="90" rx="6" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="62" y="108" width="116" height="66" rx="3" fill="#dfe9f7"/>
+  <path d="M30 186h180l-12 16H42z" fill="#d5dee8" stroke="#0f2240" stroke-width="2"/>
+  <!-- speaker -->
+  <rect x="260" y="104" width="120" height="88" rx="40" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <circle cx="320" cy="148" r="26" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <circle cx="320" cy="148" r="9" fill="#0f2240"/>
+  <!-- phone -->
+  <rect x="490" y="86" width="70" height="128" rx="12" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="498" y="100" width="54" height="96" rx="4" fill="#dfe9f7"/>
+  <!-- links -->
+  <path d="M190 140h68" stroke="#1f8a5b" stroke-width="4"/>
+  <path d="M382 140h106" stroke="#d9442b" stroke-width="3" stroke-dasharray="8 6"/>
+  <g stroke="#d9442b" stroke-width="4" stroke-linecap="round"><path d="M425 128l20 24M445 128l-20 24"/></g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="120" y="230" font-weight="700">Laptop</text><text x="120" y="248" font-size="13" fill="#566475">connected first</text>
+    <text x="320" y="230" font-weight="700">Speaker</text><text x="320" y="248" font-size="13" fill="#566475">busy with the laptop</text>
+    <text x="525" y="236" font-weight="700">Your phone</text><text x="525" y="254" font-size="13" fill="#566475">can't connect</text>
+    <text x="224" y="128" font-size="12" fill="#1f8a5b">linked</text><text x="435" y="176" font-size="12" fill="#d9442b">blocked</text>
+  </g>
+  <rect x="30" y="284" width="580" height="66" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <text x="320" y="310" font-size="14" font-weight="700" fill="#14202c" text-anchor="middle">Fix: turn off Bluetooth on the laptop</text>
+  <text x="320" y="332" font-size="13" fill="#14202c" text-anchor="middle">then put the speaker in pairing mode and connect your phone</text>
+</svg>

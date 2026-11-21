@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- shower arm and head -->
+  <path d="M180 90h240v40H220v60h-40z" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <path d="M380 130h80l60 90H320z" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <rect x="300" y="216" width="240" height="26" rx="13" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g fill="#0f2240"><circle cx="350" cy="229" r="5"/><circle cx="390" cy="229" r="5"/><circle cx="430" cy="229" r="5"/><circle cx="470" cy="229" r="5"/><circle cx="510" cy="229" r="5"/></g>
+  <!-- falling drops -->
+  <path d="M420 290c18 26 28 40 28 54a28 28 0 0 1-56 0c0-14 10-28 28-54z" fill="#ffd23f"/>
+  <path d="M420 420c10 15 16 23 16 31a16 16 0 0 1-32 0c0-8 6-16 16-31z" fill="#7aace8" opacity=".8"/>
+  <!-- valve trim plate and handle -->
+  <circle cx="860" cy="330" r="150" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="860" cy="330" r="112" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="860" cy="330" r="40" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <path d="M846 322h170a16 16 0 0 1 0 32H846z" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="860" cy="330" r="16" fill="#0f2240"/>
+  <path d="M760 255a130 130 0 0 1 60-38" fill="none" stroke="#d9442b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M960 255a130 130 0 0 0 -60-38" fill="none" stroke="#7aace8" stroke-width="8" stroke-linecap="round"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M710 520h300M710 510v20M1010 510v20"/><path d="M600 230v240M590 230h20M590 470h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

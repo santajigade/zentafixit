@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- portable speaker -->
+  <rect x="150" y="230" width="440" height="230" rx="110" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <circle cx="275" cy="345" r="72" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="275" cy="345" r="26" fill="#0f2240"/>
+  <circle cx="465" cy="345" r="72" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="465" cy="345" r="26" fill="#0f2240"/>
+  <rect x="330" y="244" width="80" height="14" rx="7" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <!-- phone -->
+  <rect x="900" y="170" width="170" height="320" rx="28" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="918" y="205" width="134" height="250" rx="10" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="960" y="186" width="50" height="8" rx="4" fill="#0f2240"/>
+  <!-- broken signal -->
+  <g fill="none" stroke="#7aace8" stroke-width="8" stroke-linecap="round">
+    <path d="M640 280a90 90 0 0 1 0 130"/><path d="M680 250a140 140 0 0 1 0 190" opacity=".6"/>
+    <path d="M850 280a90 90 0 0 0 0 130"/><path d="M810 250a140 140 0 0 0 0 190" opacity=".6"/>
+  </g>
+  <path d="M745 250l-26 70h30l-22 76 58-96h-32l24-50z" fill="#ffd23f"/>
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M150 520h440M150 510v20M590 510v20"/><path d="M1110 170v320M1100 170h20M1100 490h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

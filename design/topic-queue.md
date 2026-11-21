@@ -79,10 +79,10 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] pc-laptops/mac-problems | mac-wont-turn-on | Mac Won't Turn On? Fixes
 - [x] networking/slow-internet-fixes | how-to-test-internet-speed | How to Test Your Internet Speed (and What the Numbers Mean)
 - [x] appliances/refrigerators | freezer-not-freezing | Freezer Not Freezing? Fixes
-- [ ] plumbing/leaks-and-drips | leaking-shower-faucet | Shower Faucet Dripping? Fixes
-- [ ] smart-home/smart-speakers | google-home-not-responding | Smart Display or Nest Speaker Not Responding? Fixes
-- [ ] tv-audio/soundbars-and-speakers | bluetooth-speaker-not-connecting | Bluetooth Speaker Not Connecting? Fixes
-- [ ] appliances/dishwashers | dishwasher-leaking | Dishwasher Leaking? Fixes
+- [x] plumbing/leaks-and-drips | leaking-shower-faucet | Shower Faucet Dripping? Fixes
+- [x] smart-home/smart-speakers | google-home-not-responding | Smart Display or Nest Speaker Not Responding? Fixes
+- [x] tv-audio/soundbars-and-speakers | bluetooth-speaker-not-connecting | Bluetooth Speaker Not Connecting? Fixes
+- [x] appliances/dishwashers | dishwasher-leaking | Dishwasher Leaking? Fixes
 - [ ] electrical/outlets-and-gfci | outlet-sparks-when-plugging-in | Outlet Sparks When You Plug Something In? Is It Dangerous?
 - [ ] gadgets/external-drives-and-usb | usb-not-recognized | USB Device Not Recognized? Fixes
 - [ ] phones-tablets/iphone-problems | iphone-no-sound | iPhone No Sound? Fixes
