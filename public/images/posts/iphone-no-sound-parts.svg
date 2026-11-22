@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where the sound comes from</text>
+  <!-- phone -->
+  <rect x="200" y="56" width="150" height="320" rx="22" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="212" y="78" width="126" height="270" rx="10" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <!-- earpiece -->
+  <rect x="255" y="64" width="40" height="7" rx="3.5" fill="#0f2240"/>
+  <!-- left buttons -->
+  <rect x="193" y="96" width="7" height="22" rx="3" fill="#ffd23f" stroke="#c9a10a" stroke-width="1.5"/>
+  <rect x="193" y="134" width="7" height="34" rx="3" fill="#0f2240"/>
+  <rect x="193" y="176" width="7" height="34" rx="3" fill="#0f2240"/>
+  <!-- bottom: grilles and port -->
+  <g fill="#0f2240"><circle cx="226" cy="362" r="2.5"/><circle cx="234" cy="362" r="2.5"/><circle cx="242" cy="362" r="2.5"/><circle cx="250" cy="362" r="2.5"/><circle cx="300" cy="362" r="2.5"/><circle cx="308" cy="362" r="2.5"/><circle cx="316" cy="362" r="2.5"/><circle cx="324" cy="362" r="2.5"/></g>
+  <rect x="263" y="357" width="24" height="10" rx="5" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <!-- leader lines -->
+  <g fill="none" stroke="#566475" stroke-width="1.5">
+    <path d="M190 107H176"/><path d="M190 172H176"/>
+    <path d="M298 67H372"/><path d="M328 362l24 0 20-60"/><path d="M275 369v12h97"/>
+  </g>
+  <!-- left labels -->
+  <g font-size="13" fill="#14202c" text-anchor="end">
+    <text x="170" y="103" font-weight="700">Silent switch or</text><text x="170" y="119" font-weight="700">Action button</text>
+    <text x="170" y="168">Volume up</text><text x="170" y="184">and down</text>
+  </g>
+  <!-- right labels -->
+  <g font-size="13" fill="#14202c">
+    <text x="378" y="64" font-weight="700">Earpiece speaker</text><text x="378" y="80" fill="#566475">calls held to your ear</text>
+    <text x="378" y="292" font-weight="700">Bottom speaker grille</text><text x="378" y="308" fill="#566475">speakerphone, media, ringer</text>
+    <text x="378" y="378" font-weight="700">Charging port</text><text x="378" y="394" fill="#566475">debris can fake headphones</text>
+    <text x="378" y="410" fill="#566475">one bottom grille may be a mic</text>
+  </g>
+  <text x="24" y="420" font-size="13" fill="#566475">Clean with a dry, soft brush.</text>
+</svg>

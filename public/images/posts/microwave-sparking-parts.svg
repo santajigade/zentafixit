@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 450" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="450" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where sparks start inside a microwave</text>
+  <rect x="24" y="56" width="592" height="296" rx="8" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <rect x="48" y="78" width="380" height="254" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="170" y="80" width="140" height="8" fill="#d5dee8" stroke="#566475" stroke-width="1.5"/>
+  <rect x="410" y="110" width="16" height="70" rx="3" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g fill="#d5dee8" stroke="#566475" stroke-width="1.5"><rect x="50" y="232" width="12" height="6"/><rect x="414" y="232" width="12" height="6"/></g>
+  <ellipse cx="238" cy="306" rx="130" ry="14" fill="#f3f6fa" stroke="#0f2240" stroke-width="2"/>
+  <path d="M378 196l-14 20h10l-8 18 20-26h-10l8-12z" fill="#ffd23f" stroke="#c9a10a" stroke-width="1"/>
+  <rect x="446" y="78" width="150" height="254" rx="8" fill="#fff" stroke="#d9442b" stroke-width="2" stroke-dasharray="7 5"/>
+  <rect x="500" y="120" width="42" height="70" rx="8" fill="#f3f6fa" stroke="#0f2240" stroke-width="2"/>
+  <g fill="#0f2240"><rect x="508" y="110" width="8" height="10"/><rect x="526" y="110" width="8" height="10"/></g>
+  <g text-anchor="middle">
+    <text x="521" y="232" font-size="14" font-weight="700" fill="#d9442b">Never open</text>
+    <text x="521" y="252" font-size="12" fill="#566475">high-voltage</text>
+    <text x="521" y="268" font-size="12" fill="#566475">capacitor inside</text>
+  </g>
+  <g fill="#0f2240"><circle cx="392" cy="145" r="10"/><circle cx="240" cy="106" r="10"/><circle cx="110" cy="150" r="10"/><circle cx="82" cy="235" r="10"/><circle cx="238" cy="306" r="10"/><circle cx="48" cy="290" r="10"/></g>
+  <g font-size="12" font-weight="700" fill="#fff" text-anchor="middle">
+    <text x="392" y="149">1</text><text x="240" y="110">2</text><text x="110" y="154">3</text><text x="82" y="239">4</text><text x="238" y="310">5</text><text x="48" y="294">6</text>
+  </g>
+  <g fill="#0f2240"><circle cx="34" cy="380" r="9"/><circle cx="34" cy="404" r="9"/><circle cx="34" cy="428" r="9"/><circle cx="340" cy="380" r="9"/><circle cx="340" cy="404" r="9"/><circle cx="340" cy="428" r="9"/></g>
+  <g font-size="11" font-weight="700" fill="#fff" text-anchor="middle">
+    <text x="34" y="384">1</text><text x="34" y="408">2</text><text x="34" y="432">3</text><text x="340" y="384">4</text><text x="340" y="408">5</text><text x="340" y="432">6</text>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="50" y="385">Waveguide cover (often mica)</text>
+    <text x="50" y="409">Stirrer cover (some models)</text>
+    <text x="50" y="433">Painted cavity walls</text>
+    <text x="356" y="385">Rack supports</text>
+    <text x="356" y="409">Turntable and floor</text>
+    <text x="356" y="433">Door frame and seal</text>
+  </g>
+</svg>

@@ -83,10 +83,10 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] smart-home/smart-speakers | google-home-not-responding | Smart Display or Nest Speaker Not Responding? Fixes
 - [x] tv-audio/soundbars-and-speakers | bluetooth-speaker-not-connecting | Bluetooth Speaker Not Connecting? Fixes
 - [x] appliances/dishwashers | dishwasher-leaking | Dishwasher Leaking? Fixes
-- [ ] electrical/outlets-and-gfci | outlet-sparks-when-plugging-in | Outlet Sparks When You Plug Something In? Is It Dangerous?
-- [ ] gadgets/external-drives-and-usb | usb-not-recognized | USB Device Not Recognized? Fixes
-- [ ] phones-tablets/iphone-problems | iphone-no-sound | iPhone No Sound? Fixes
-- [ ] appliances/ovens-and-microwaves | microwave-sparking | Microwave Sparking? Causes and What to Do
+- [x] electrical/outlets-and-gfci | outlet-sparks-when-plugging-in | Outlet Sparks When You Plug Something In? Is It Dangerous?
+- [x] gadgets/external-drives-and-usb | usb-not-recognized | USB Device Not Recognized? Fixes
+- [x] phones-tablets/iphone-problems | iphone-no-sound | iPhone No Sound? Fixes
+- [x] appliances/ovens-and-microwaves | microwave-sparking | Microwave Sparking? Causes and What to Do
 - [ ] plumbing/toilets | toilet-leaking-at-base | Toilet Leaking at the Base? Fixes
 - [ ] pc-laptops/windows-problems | windows-11-no-sound | No Sound on Windows 11? Fixes
 - [ ] hvac/air-conditioners | ac-making-noise | AC Making Noise? What Each Sound Means
