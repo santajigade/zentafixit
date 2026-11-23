@@ -87,10 +87,10 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] gadgets/external-drives-and-usb | usb-not-recognized | USB Device Not Recognized? Fixes
 - [x] phones-tablets/iphone-problems | iphone-no-sound | iPhone No Sound? Fixes
 - [x] appliances/ovens-and-microwaves | microwave-sparking | Microwave Sparking? Causes and What to Do
-- [ ] plumbing/toilets | toilet-leaking-at-base | Toilet Leaking at the Base? Fixes
-- [ ] pc-laptops/windows-problems | windows-11-no-sound | No Sound on Windows 11? Fixes
-- [ ] hvac/air-conditioners | ac-making-noise | AC Making Noise? What Each Sound Means
-- [ ] networking/network-security | unknown-devices-on-wifi | Unknown Device on Your Wi-Fi? How to Check and Block It
+- [x] plumbing/toilets | toilet-leaking-at-base | Toilet Leaking at the Base? Fixes
+- [x] pc-laptops/windows-problems | windows-11-no-sound | No Sound on Windows 11? Fixes
+- [x] hvac/air-conditioners | ac-making-noise | AC Making Noise? What Each Sound Means
+- [x] networking/network-security | unknown-devices-on-wifi | Unknown Device on Your Wi-Fi? How to Check and Block It
 - [ ] appliances/washers-and-dryers | washer-smells-bad | Washing Machine Smells Bad? How to Clean It
 - [ ] electrical/surge-protection | power-strip-vs-surge-protector | Power Strip vs Surge Protector: What's the Difference?
 - [ ] tv-audio/home-theater-setup | tv-sound-out-of-sync | TV Sound Out of Sync? Fixes

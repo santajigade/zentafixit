@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="360" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">How to read a MAC address</text>
+  <rect x="60" y="62" width="250" height="64" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <rect x="330" y="62" width="250" height="64" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <g font-size="26" font-weight="700" fill="#0f2240" text-anchor="middle">
+    <text x="185" y="103">3C : 22 : FB</text>
+    <text x="455" y="103">4A : 91 : 0E</text>
+  </g>
+  <g fill="none" stroke="#566475" stroke-width="1.5"><path d="M70 138v8h230v-8"/><path d="M340 138v8h230v-8"/></g>
+  <g text-anchor="middle">
+    <text x="185" y="168" font-size="14" font-weight="700" fill="#14202c">Maker ID (first 3 pairs)</text>
+    <text x="185" y="187" font-size="13" fill="#566475">shows who made the chip</text>
+    <text x="455" y="168" font-size="14" font-weight="700" fill="#14202c">Device part (last 3 pairs)</text>
+    <text x="455" y="187" font-size="13" fill="#566475">different on every device</text>
+  </g>
+  <rect x="60" y="210" width="520" height="126" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="2"/>
+  <text x="80" y="238" font-size="14" font-weight="700" fill="#0f2240">Private (randomized) address?</text>
+  <g font-size="13" fill="#14202c">
+    <text x="80" y="262">Look at the 2nd character. If it is 2, 6, A or E,</text>
+    <text x="80" y="282">the device is using a private Wi-Fi address.</text>
+    <text x="80" y="302">Examples: 92:..., D6:..., 3A:..., FE:... are private.</text>
+    <text x="80" y="322" fill="#566475">Phones do this by default, so the maker often shows blank.</text>
+  </g>
+</svg>

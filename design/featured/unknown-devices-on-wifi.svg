@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- connection lines -->
+  <g stroke="#9fc4f0" stroke-width="3" stroke-dasharray="8 10" fill="none">
+    <path d="M600 330L250 170"/><path d="M600 330L230 440"/><path d="M600 330L960 170"/>
+  </g>
+  <path d="M600 330L960 450" stroke="#ffd23f" stroke-width="4" stroke-dasharray="10 10" fill="none"/>
+  <!-- router -->
+  <g stroke="#0f2240" stroke-width="4">
+    <rect x="490" y="205" width="16" height="120" rx="8" fill="#f3f6fa"/>
+    <rect x="694" y="205" width="16" height="120" rx="8" fill="#f3f6fa"/>
+    <rect x="450" y="300" width="300" height="110" rx="22" fill="#f3f6fa" stroke="#fff"/>
+  </g>
+  <rect x="470" y="320" width="260" height="70" rx="14" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g fill="#0f2240"><circle cx="520" cy="355" r="9"/><circle cx="560" cy="355" r="9"/><circle cx="600" cy="355" r="9"/><circle cx="640" cy="355" r="9"/></g>
+  <circle cx="680" cy="355" r="9" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <!-- wifi arcs -->
+  <g fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round">
+    <path d="M560 250a56 56 0 0 1 80 0"/><path d="M535 222a92 92 0 0 1 130 0"/>
+  </g>
+  <!-- phone -->
+  <rect x="200" y="100" width="92" height="160" rx="16" fill="#f3f6fa" stroke="#fff" stroke-width="4"/>
+  <rect x="212" y="120" width="68" height="112" rx="6" fill="#fff" stroke="#0f2240" stroke-width="3"/>
+  <!-- laptop -->
+  <rect x="160" y="390" width="150" height="96" rx="8" fill="#f3f6fa" stroke="#fff" stroke-width="4"/>
+  <rect x="174" y="404" width="122" height="68" rx="4" fill="#fff" stroke="#0f2240" stroke-width="3"/>
+  <path d="M130 490h210l-16 22H146z" fill="#f3f6fa" stroke="#fff" stroke-width="4"/>
+  <!-- tv -->
+  <rect x="880" y="100" width="170" height="110" rx="10" fill="#f3f6fa" stroke="#fff" stroke-width="4"/>
+  <rect x="894" y="114" width="142" height="82" rx="4" fill="#fff" stroke="#0f2240" stroke-width="3"/>
+  <path d="M950 210v22M920 236h90" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+  <!-- unknown device -->
+  <rect x="900" y="390" width="140" height="120" rx="18" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="970" cy="440" r="22" fill="none" stroke="#0f2240" stroke-width="8"/>
+  <rect x="962" y="472" width="16" height="16" rx="3" fill="#0f2240"/>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

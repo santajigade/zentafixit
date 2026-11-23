@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- tank -->
+  <rect x="430" y="60" width="340" height="40" rx="12" fill="#fff" stroke="#ffffff" stroke-width="4"/>
+  <rect x="450" y="98" width="300" height="190" rx="18" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="470" y="118" width="260" height="150" rx="12" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="404" y="118" width="52" height="20" rx="8" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- bowl -->
+  <path d="M440 310H760c0 100-56 150-104 160v50H544v-50c-48-10-104-60-104-160z" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <path d="M480 330H720c0 66-50 104-120 104s-120-38-120-104z" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <ellipse cx="600" cy="358" rx="70" ry="20" fill="#7aace8" fill-opacity=".55"/>
+  <!-- wax ring accent at base -->
+  <rect x="530" y="516" width="140" height="16" rx="8" fill="#ffd23f"/>
+  <!-- floor and puddle -->
+  <path d="M240 540H960" stroke="#9fc4f0" stroke-width="4"/>
+  <ellipse cx="600" cy="560" rx="300" ry="24" fill="#7aace8" fill-opacity=".5"/>
+  <ellipse cx="820" cy="566" rx="90" ry="10" fill="#7aace8" fill-opacity=".35"/>
+  <!-- drips -->
+  <g fill="#7aace8"><path d="M800 380c16 23 24 35 24 47a24 24 0 0 1-48 0c0-12 8-24 24-47z"/><path d="M380 420c12 17 18 26 18 35a18 18 0 0 1-36 0c0-9 6-18 18-35z" opacity=".75"/><path d="M920 470c9 13 14 20 14 27a14 14 0 0 1-28 0c0-7 5-14 14-27z" opacity=".6"/></g>
+  <!-- supply line -->
+  <path d="M780 270c60 0 80 60 80 120v80" fill="none" stroke="#9fc4f0" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="860" cy="480" r="16" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M450 34h300M450 24v20M750 24v20"/><path d="M380 310v230M370 310h20M370 540h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>
