@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 452" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="452" fill="#f3f6fa"/>
+  <defs><marker id="bsf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Burning smell: what to do first</text>
+  <g fill="#fff" stroke-width="2">
+    <rect x="170" y="54" width="300" height="44" rx="8" stroke="#0f2240"/>
+    <path d="M320 118l140 40-140 40-140-40z" stroke="#0f2240"/>
+    <rect x="30" y="250" width="270" height="110" rx="8" stroke="#d9442b"/>
+    <rect x="340" y="250" width="270" height="110" rx="8" stroke="#1f8a5b"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="30" y="376" width="270" height="60" rx="8"/><rect x="340" y="376" width="270" height="60" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#bsf)">
+    <path d="M320 98v18"/><path d="M180 158H165v90"/><path d="M460 158h15v90"/><path d="M165 360v14"/><path d="M475 360v14"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">You smell burning near an outlet</text>
+    <text x="320" y="153" font-weight="700">Smoke, flames, crackling</text>
+    <text x="320" y="171" font-weight="700">or scorch marks?</text>
+    <text x="150" y="208" font-size="12" fill="#566475">yes</text><text x="490" y="208" font-size="12" fill="#566475">no</text>
+    <text x="165" y="282" font-weight="700" fill="#d9442b">Get everyone out now</text>
+    <text x="165" y="306" font-size="13">Close doors behind you</text>
+    <text x="165" y="326" font-size="13">Call 911 from outside</text>
+    <text x="165" y="346" font-size="13">Don't go back in</text>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="356" y="276">1. Unplug it, if safe to touch</text>
+    <text x="356" y="298">2. Turn off its breaker</text>
+    <text x="356" y="320">3. Don't use the outlet</text>
+    <text x="356" y="342">4. Then find the cause</text>
+  </g>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="165" y="401">After the fire: an electrician</text>
+    <text x="165" y="421">inspects before power is reset</text>
+    <text x="475" y="401">Smell persists, breaker off?</text>
+    <text x="475" y="421">Call 911, then an electrician</text>
+  </g>
+</svg>

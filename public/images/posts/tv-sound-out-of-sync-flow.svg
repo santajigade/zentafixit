@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="440" fill="#f3f6fa"/>
+  <defs><marker id="tvsf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">One app, or everything?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="170" y="54" width="300" height="44" rx="8"/>
+    <path d="M320 122l150 37-150 37-150-37z"/>
+    <rect x="30" y="220" width="260" height="56" rx="8"/>
+    <rect x="350" y="220" width="260" height="56" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="24" y="320" width="190" height="80" rx="8"/>
+    <rect x="225" y="320" width="190" height="80" rx="8"/>
+    <rect x="426" y="320" width="190" height="80" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8">
+    <path d="M480 276v20M119 296H521"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#tvsf)">
+    <path d="M320 98v22"/><path d="M170 159H160v59"/><path d="M470 159h10v59"/>
+    <path d="M119 296v22"/><path d="M320 296v22"/><path d="M521 296v22"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="81">1. Try live TV or another app</text>
+    <text x="320" y="155" font-weight="700">Only one source</text><text x="320" y="172" font-weight="700">out of sync?</text>
+    <text x="146" y="151" font-size="12" fill="#566475">yes</text><text x="494" y="151" font-size="12" fill="#566475">no</text>
+    <text x="160" y="244">Restart the app, try another</text><text x="160" y="262">show, check the stream</text>
+    <text x="480" y="244">Everything is off:</text><text x="480" y="262">which speakers are on?</text>
+    <text x="119" y="343" font-weight="700">TV speakers</text>
+    <text x="119" y="363" font-size="13">Picture processing,</text>
+    <text x="119" y="382" font-size="13">firmware (3, 9)</text>
+    <text x="320" y="343" font-weight="700">Soundbar or receiver</text>
+    <text x="320" y="363" font-size="13">Delay, format, HDMI</text>
+    <text x="320" y="382" font-size="13">(causes 4, 5, 6, 8)</text>
+    <text x="521" y="343" font-weight="700">Bluetooth</text>
+    <text x="521" y="363" font-size="13">Wireless lag</text>
+    <text x="521" y="382" font-size="13">(cause 7)</text>
+    <text x="320" y="426" font-size="13" fill="#566475">One app only? Start with causes 1 and 2.</text>
+  </g>
+</svg>

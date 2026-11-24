@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where a burning smell can start</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="56" width="596" height="56" rx="8"/>
+    <rect x="24" y="122" width="596" height="56" rx="8"/>
+    <rect x="24" y="188" width="596" height="56" rx="8"/>
+    <rect x="24" y="254" width="596" height="56" rx="8"/>
+    <rect x="24" y="320" width="596" height="56" rx="8"/>
+  </g>
+  <g fill="#0f2240"><circle cx="54" cy="84" r="14"/><circle cx="54" cy="150" r="14"/><circle cx="54" cy="216" r="14"/><circle cx="54" cy="282" r="14"/><circle cx="54" cy="348" r="14"/></g>
+  <g font-size="14" font-weight="700" fill="#fff" text-anchor="middle"><text x="54" y="89">1</text><text x="54" y="155">2</text><text x="54" y="221">3</text><text x="54" y="287">4</text><text x="54" y="353">5</text></g>
+  <g font-size="14" font-weight="700" fill="#14202c">
+    <text x="80" y="80">Device or charger</text>
+    <text x="80" y="146">Cord, power strip or adapter</text>
+    <text x="80" y="212">Plug blades and receptacle contacts</text>
+    <text x="80" y="278">Wire connections behind the outlet</text>
+    <text x="80" y="344">Wiring in the box or wall</text>
+  </g>
+  <g font-size="13" fill="#566475">
+    <text x="80" y="100">Hot body, melted case, smell follows it</text>
+    <text x="80" y="166">Hot, overloaded, cheap or damaged</text>
+    <text x="80" y="232">Loose fit, worn grip, browned plastic</text>
+    <text x="80" y="298">Loose screw or push-in (backstab) wire</text>
+    <text x="80" y="364">Arcing, aluminum wire, damaged cable</text>
+  </g>
+  <g stroke-width="1.5">
+    <rect x="486" y="70" width="122" height="28" rx="8" fill="#1f8a5b" fill-opacity=".15" stroke="#1f8a5b"/>
+    <rect x="486" y="136" width="122" height="28" rx="8" fill="#1f8a5b" fill-opacity=".15" stroke="#1f8a5b"/>
+    <rect x="486" y="202" width="122" height="28" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a"/>
+    <rect x="486" y="268" width="122" height="28" rx="8" fill="#d9442b" fill-opacity=".15" stroke="#d9442b"/>
+    <rect x="486" y="334" width="122" height="28" rx="8" fill="#d9442b" fill-opacity=".15" stroke="#d9442b"/>
+  </g>
+  <g font-size="13" font-weight="700" text-anchor="middle">
+    <text x="547" y="89" fill="#1f8a5b">You can check</text>
+    <text x="547" y="155" fill="#1f8a5b">You can check</text>
+    <text x="547" y="221" fill="#14202c">Check, then pro</text>
+    <text x="547" y="287" fill="#d9442b">Electrician</text>
+    <text x="547" y="353" fill="#d9442b">Electrician</text>
+  </g>
+  <text x="24" y="402" font-size="12" fill="#566475">See scorch marks at 3, 4 or 5? Keep the breaker off and call an electrician.</text>
+</svg>

@@ -91,10 +91,10 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] pc-laptops/windows-problems | windows-11-no-sound | No Sound on Windows 11? Fixes
 - [x] hvac/air-conditioners | ac-making-noise | AC Making Noise? What Each Sound Means
 - [x] networking/network-security | unknown-devices-on-wifi | Unknown Device on Your Wi-Fi? How to Check and Block It
-- [ ] appliances/washers-and-dryers | washer-smells-bad | Washing Machine Smells Bad? How to Clean It
-- [ ] electrical/surge-protection | power-strip-vs-surge-protector | Power Strip vs Surge Protector: What's the Difference?
-- [ ] tv-audio/home-theater-setup | tv-sound-out-of-sync | TV Sound Out of Sync? Fixes
-- [ ] home-safety/electrical-safety | burning-smell-from-outlet | Burning Smell From an Outlet? What to Do Now
+- [x] appliances/washers-and-dryers | washer-smells-bad | Washing Machine Smells Bad? How to Clean It
+- [x] electrical/surge-protection | power-strip-vs-surge-protector | Power Strip vs Surge Protector: What's the Difference?
+- [x] tv-audio/home-theater-setup | tv-sound-out-of-sync | TV Sound Out of Sync? Fixes
+- [x] home-safety/electrical-safety | burning-smell-from-outlet | Burning Smell From an Outlet? What to Do Now
 - [ ] gadgets/gaming-controllers | controller-not-connecting-to-pc | Game Controller Not Connecting to PC? Fixes
 - [ ] smart-home/smart-lighting-and-plugs | smart-bulb-not-connecting | Smart Bulb Won't Connect? Fixes
 - [ ] plumbing/water-filters-and-softeners | refrigerator-water-filter | When and How to Change a Refrigerator Water Filter

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <defs><marker id="wsbsp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#d9442b"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Washer standpipe and P-trap</text>
+  <!-- wall -->
+  <rect x="566" y="210" width="50" height="176" fill="#d5dee8"/>
+  <!-- washer -->
+  <rect x="30" y="236" width="170" height="150" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <text x="115" y="316" font-size="14" font-weight="700" fill="#14202c" text-anchor="middle">Washer</text>
+  <!-- pipe outline and inside -->
+  <path d="M315 96V290Q315 340 350 340Q385 340 385 290V270H566" fill="none" stroke="#0f2240" stroke-width="26"/>
+  <path d="M315 96V290Q315 340 350 340Q385 340 385 290V270H566" fill="none" stroke="#fff" stroke-width="20"/>
+  <!-- water seal -->
+  <path d="M315 268V290Q315 340 350 340Q385 340 385 290V276" fill="none" stroke="#1d5fae" stroke-width="20"/>
+  <!-- drain hose -->
+  <path d="M175 236V112Q175 80 207 80H290Q315 80 315 108V128" fill="none" stroke="#566475" stroke-width="8" stroke-linecap="round"/>
+  <!-- sewer gas blocked -->
+  <path d="M540 270H404" fill="none" stroke="#d9442b" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#wsbsp)"/>
+  <g font-size="14" fill="#14202c">
+    <text x="345" y="72" font-weight="700">Hose hooks in loosely</text>
+    <text x="345" y="90" font-size="12" fill="#566475">Leave an air gap. Do not seal it.</text>
+    <text x="345" y="106" font-size="12" fill="#566475">Check your manual for hose depth.</text>
+    <text x="345" y="170" font-weight="700">Standpipe</text>
+    <text x="345" y="188" font-size="12" fill="#566475">Slime and lint can build up here</text>
+    <text x="420" y="306" font-weight="700">To house drain</text>
+    <text x="420" y="324" font-size="12" fill="#566475">Sewer gas (red) stops</text><text x="420" y="340" font-size="12" fill="#566475">at the water seal</text>
+    <text x="240" y="372" font-weight="700">P-trap water seal</text>
+    <text x="240" y="390" font-size="12" fill="#566475">Blocks sewer gas. If it dries out or</text>
+    <text x="240" y="406" font-size="12" fill="#566475">is missing, the smell comes up the pipe.</text>
+  </g>
+</svg>

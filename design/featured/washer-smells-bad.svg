@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- washer body -->
+  <rect x="400" y="90" width="360" height="470" rx="26" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <path d="M400 180H760" stroke="#0f2240" stroke-width="4"/>
+  <rect x="430" y="115" width="120" height="40" rx="8" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="700" cy="135" r="20" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="640" cy="135" r="7" fill="#0f2240"/>
+  <!-- door -->
+  <circle cx="580" cy="365" r="140" fill="#fff" stroke="#0f2240" stroke-width="5"/>
+  <circle cx="580" cy="365" r="112" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="580" cy="365" r="92" fill="#dfe9f7" stroke="#0f2240" stroke-width="3"/>
+  <path d="M520 400q60 28 120 0" fill="none" stroke="#0f2240" stroke-width="4"/>
+  <rect x="690" y="520" width="44" height="26" rx="6" fill="#fff" stroke="#0f2240" stroke-width="3"/>
+  <!-- odor waves -->
+  <g fill="none" stroke="#ffd23f" stroke-width="7" stroke-linecap="round">
+    <path d="M830 330q-22-30 0-60t0-60"/>
+    <path d="M880 360q-22-30 0-60t0-60"/>
+    <path d="M930 330q-22-30 0-60t0-60"/>
+  </g>
+  <!-- bubbles -->
+  <g fill="none" stroke="#7aace8" stroke-width="4">
+    <circle cx="300" cy="300" r="26"/><circle cx="250" cy="220" r="16" opacity=".75"/><circle cx="320" cy="180" r="11" opacity=".55"/>
+  </g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M400 60h360M400 50v20M760 50v20"/><path d="M360 90v470M350 90h20M350 560h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

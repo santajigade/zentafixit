@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- wall plate -->
+  <rect x="380" y="90" width="300" height="470" rx="26" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="425" y="140" width="210" height="160" rx="20" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="425" y="350" width="210" height="160" rx="20" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="9" stroke-linecap="round"><path d="M492 395v42M568 395v34"/></g>
+  <path d="M513 475a17 17 0 0 1 34 0v16h-34z" fill="#0f2240"/>
+  <!-- scorch around upper receptacle -->
+  <ellipse cx="530" cy="215" rx="70" ry="50" fill="#566475" fill-opacity=".35"/>
+  <!-- plug in upper receptacle -->
+  <rect x="455" y="170" width="150" height="100" rx="18" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <path d="M605 220h90c40 0 60 30 100 30h120" fill="none" stroke="#f3f6fa" stroke-width="14" stroke-linecap="round"/>
+  <!-- smoke wisps -->
+  <g fill="none" stroke="#f3f6fa" stroke-linecap="round" stroke-width="8">
+    <path d="M500 160c-25-30 25-50 0-80s25-45 5-70" stroke-opacity=".7"/>
+    <path d="M555 160c-25-30 25-50 0-80s25-45 5-70" stroke-opacity=".5"/>
+    <path d="M610 165c-20-28 22-45 2-72" stroke-opacity=".35"/>
+  </g>
+  <!-- heat accent -->
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round"><path d="M720 150l40-26M730 190h48M350 170l-40-26M340 215h-48"/></g>
+  <circle cx="530" cy="220" r="10" fill="#ffd23f"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M380 590h300M380 580v20M680 580v20"/><path d="M330 300v260M320 300h20M320 560h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

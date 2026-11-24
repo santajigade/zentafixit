@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <defs><marker id="tvsp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where the delay gets added</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="90" width="140" height="60" rx="8"/>
+    <rect x="220" y="60" width="200" height="140" rx="8"/>
+    <rect x="476" y="60" width="140" height="140" rx="8"/>
+    <rect x="24" y="330" width="592" height="52" rx="8"/>
+  </g>
+  <rect x="220" y="250" width="200" height="56" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2" stroke-dasharray="6 4"/>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="236" y="104" width="168" height="80" rx="8"/>
+    <rect x="488" y="114" width="116" height="70" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#tvsp)">
+    <path d="M164 120h54"/><path d="M420 130h54"/>
+  </g>
+  <path d="M320 200v48" fill="none" stroke="#1d5fae" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#tvsp)"/>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="94" y="116">Streaming</text><text x="94" y="134">device</text>
+    <text x="94" y="172" font-size="12" fill="#566475">picture and sound</text>
+    <text x="320" y="88" font-weight="700">TV</text>
+    <text x="320" y="138">Picture processing</text>
+    <text x="320" y="160" font-size="13" fill="#566475">can delay video</text>
+    <text x="546" y="84" font-weight="700">Soundbar or</text><text x="546" y="102" font-weight="700">receiver</text>
+    <text x="546" y="144" font-size="13">Decoding can</text><text x="546" y="162" font-size="13">delay audio</text>
+    <text x="448" y="152" font-size="12" fill="#566475">ARC or</text><text x="448" y="167" font-size="12" fill="#566475">eARC</text>
+    <text x="320" y="274">Bluetooth headphones</text>
+    <text x="320" y="294" font-size="13" fill="#566475">add wireless delay</text>
+    <text x="320" y="352" font-size="13">Remove delay where you can, then match the rest</text>
+    <text x="320" y="370" font-size="13">with an Audio Delay or AV Sync setting.</text>
+  </g>
+</svg>
