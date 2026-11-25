@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <defs><marker id="ccs" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Give the Bluetooth signal a clear path</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="54" width="286" height="270" rx="8"/>
+    <rect x="330" y="54" width="286" height="270" rx="8"/>
+  </g>
+  <g font-size="14" font-weight="700" text-anchor="middle">
+    <text x="167" y="80" fill="#d9442b">Weak signal</text>
+    <text x="473" y="80" fill="#1f8a5b">Strong signal</text>
+  </g>
+  <!-- left: desk and PC under it -->
+  <g stroke="#0f2240" stroke-width="2" fill="none">
+    <path d="M40 150h200M60 150v140M220 150v140"/>
+    <rect x="150" y="190" width="56" height="100" rx="4" fill="#dfe9f7"/>
+    <rect x="76" y="264" width="44" height="26" rx="4" fill="#dfe9f7"/>
+  </g>
+  <rect x="200" y="214" width="14" height="8" fill="#d9442b"/>
+  <rect x="250" y="114" width="44" height="26" rx="4" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <path d="M262 114v-14M282 114v-14" stroke="#0f2240" stroke-width="2"/>
+  <path d="M110 120c-14 0-24 6-24 14s10 14 24 14h18c14 0 24-6 24-14s-10-14-24-14z" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M124 150l74 64" stroke="#d9442b" stroke-width="2" stroke-dasharray="5 5"/>
+  <g font-size="12" fill="#566475">
+    <text x="152" y="304">PC under desk</text>
+    <text x="68" y="256">USB 3 drive</text>
+    <text x="206" y="132">router</text>
+    <text x="40" y="112">controller</text>
+  </g>
+  <!-- right: desk with dongle on extension -->
+  <g stroke="#0f2240" stroke-width="2" fill="none">
+    <path d="M346 150h200M366 150v140M526 150v140"/>
+    <rect x="456" y="190" width="56" height="100" rx="4" fill="#dfe9f7"/>
+    <path d="M470 214c-20 0-30-20-30-40v-24"/>
+  </g>
+  <rect x="432" y="138" width="16" height="12" fill="#1f8a5b"/>
+  <path d="M416 120c-14 0-24 6-24 14s10 14 24 14h18c14 0 24-6 24-14s-10-14-24-14z" transform="translate(-40 -20)" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M400 118l32 24" stroke="#1f8a5b" stroke-width="2"/>
+  <g font-size="12" fill="#566475">
+    <text x="458" y="304">PC under desk</text>
+    <text x="456" y="132">adapter on a</text>
+    <text x="456" y="147">USB extension</text>
+    <text x="346" y="88">controller</text>
+  </g>
+  <g font-size="13" fill="#14202c">
+    <text x="24" y="352">Behind a metal case, next to USB 3 gear and the router: drops and lag.</text>
+    <text x="24" y="374">On the desk with a clear line of sight: steadier connection.</text>
+  </g>
+</svg>

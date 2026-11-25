@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="380" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Breaker size and the most a charger can draw</text>
+  <rect x="24" y="54" width="592" height="270" rx="8" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <rect x="26" y="56" width="588" height="40" rx="6" fill="#0f2240"/>
+  <g font-size="14" font-weight="700" fill="#fff" text-anchor="middle">
+    <text x="124" y="82">Breaker</text>
+    <text x="320" y="82">Max charging current</text>
+    <text x="516" y="82">About, at 240 V</text>
+  </g>
+  <g stroke="#d5dee8" stroke-width="1.5"><path d="M24 141h592M24 186h592M24 231h592M24 276h592"/></g>
+  <rect x="26" y="187" width="588" height="43" fill="#ffd23f" fill-opacity=".45"/>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="124" y="124">20 A</text><text x="320" y="124">16 A</text><text x="516" y="124">3.8 kW</text>
+    <text x="124" y="169">30 A</text><text x="320" y="169">24 A</text><text x="516" y="169">5.8 kW</text>
+    <text x="124" y="214" font-weight="700">40 A</text><text x="320" y="214" font-weight="700">32 A</text><text x="516" y="214" font-weight="700">7.7 kW</text>
+    <text x="124" y="259">50 A</text><text x="320" y="259">40 A</text><text x="516" y="259">9.6 kW</text>
+    <text x="124" y="304">60 A</text><text x="320" y="304">48 A</text><text x="516" y="304">11.5 kW</text>
+  </g>
+  <g font-size="13" fill="#566475">
+    <text x="24" y="348">Charging is a continuous load, so it can use 80% of the breaker rating.</text>
+    <text x="24" y="368">At 208 V, power is about 13% lower. Your car may accept less than this.</text>
+  </g>
+</svg>

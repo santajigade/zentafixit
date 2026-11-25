@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 390" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="390" fill="#f3f6fa"/>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">How the fixture affects the signal</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="56" width="186" height="230" rx="8"/>
+    <rect x="227" y="56" width="186" height="230" rx="8"/>
+    <rect x="430" y="56" width="186" height="230" rx="8"/>
+  </g>
+  <!-- open lamp -->
+  <path d="M87 110h60l18 50H69z" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <circle cx="117" cy="168" r="14" fill="#ffd23f" stroke="#c9a10a" stroke-width="1.5"/>
+  <path d="M117 182v50M92 232h50" stroke="#0f2240" stroke-width="2.5"/>
+  <g fill="none" stroke="#1f8a5b" stroke-width="2" stroke-linecap="round"><path d="M140 176a20 20 0 0 1 0 20"/><path d="M150 170a32 32 0 0 1 0 32"/></g>
+  <!-- metal enclosed fixture -->
+  <rect x="280" y="100" width="80" height="12" fill="#566475"/>
+  <path d="M286 112h68v66a34 34 0 0 1-68 0z" fill="#d5dee8" stroke="#0f2240" stroke-width="2"/>
+  <circle cx="320" cy="160" r="14" fill="#ffd23f" stroke="#c9a10a" stroke-width="1.5"/>
+  <g stroke="#d9442b" stroke-width="2.5" stroke-linecap="round"><path d="M368 150l14 14M382 150l-14 14"/></g>
+  <!-- recessed can -->
+  <path d="M446 100h154" stroke="#0f2240" stroke-width="3"/>
+  <path d="M492 100v-30h62v30" fill="#d5dee8" stroke="#0f2240" stroke-width="2"/>
+  <circle cx="523" cy="96" r="12" fill="#ffd23f" stroke="#c9a10a" stroke-width="1.5"/>
+  <g fill="none" stroke="#c9a10a" stroke-width="2" stroke-linecap="round"><path d="M510 120a18 18 0 0 0 26 0"/></g>
+  <g font-size="14" font-weight="700" text-anchor="middle">
+    <text x="117" y="262" fill="#1f8a5b">Open lamp</text>
+    <text x="320" y="262" fill="#d9442b">Metal enclosed</text>
+    <text x="523" y="262" fill="#c9a10a">Recessed can</text>
+  </g>
+  <g font-size="12" fill="#566475" text-anchor="middle">
+    <text x="117" y="278">good signal</text>
+    <text x="320" y="278">can block signal</text>
+    <text x="523" y="278">signal mostly downward</text>
+    <text x="523" y="160">ceiling and insulation</text>
+    <text x="523" y="176">sit between bulb and</text>
+    <text x="523" y="192">a router upstairs</text>
+  </g>
+  <rect x="24" y="304" width="592" height="66" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <g font-size="13" fill="#14202c">
+    <text x="40" y="330">Test the bulb in an open lamp in the same room. If it connects there,</text>
+    <text x="40" y="352">move the router or hub closer, or add a mesh node or extender.</text>
+  </g>
+</svg>

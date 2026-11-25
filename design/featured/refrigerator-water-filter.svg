@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- fridge body -->
+  <rect x="250" y="60" width="330" height="500" rx="20" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="272" y="82" width="286" height="290" rx="8" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <path d="M250 392h330" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="4"><path d="M272 170h286M272 260h286"/></g>
+  <rect x="490" y="96" width="54" height="64" rx="8" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <rect x="300" y="300" width="230" height="56" rx="8" fill="#f3f6fa" stroke="#0f2240" stroke-width="3"/>
+  <rect x="540" y="420" width="12" height="100" rx="6" fill="#0f2240"/>
+  <!-- big filter cartridge -->
+  <rect x="760" y="170" width="140" height="300" rx="30" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="776" y="190" width="108" height="260" rx="22" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="800" y="130" width="60" height="44" rx="8" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="4"><path d="M800 270h60M800 300h60M800 330h60"/></g>
+  <!-- twist arrow -->
+  <path d="M730 130a110 60 0 0 1 200 0" fill="none" stroke="#ffd23f" stroke-width="7" stroke-linecap="round"/>
+  <path d="M930 130l-26-6 14 24z" fill="#ffd23f"/>
+  <!-- water drops -->
+  <g fill="#7aace8"><path d="M1010 360c14 20 22 31 22 42a22 22 0 0 1-44 0c0-11 8-22 22-42z"/><path d="M1060 300c9 13 14 20 14 27a14 14 0 0 1-28 0c0-7 5-14 14-27z" opacity=".7"/></g>
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M720 170v300M710 170h20M710 470h20"/><path d="M250 590h330M250 580v20M580 580v20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

@@ -95,10 +95,10 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] electrical/surge-protection | power-strip-vs-surge-protector | Power Strip vs Surge Protector: What's the Difference?
 - [x] tv-audio/home-theater-setup | tv-sound-out-of-sync | TV Sound Out of Sync? Fixes
 - [x] home-safety/electrical-safety | burning-smell-from-outlet | Burning Smell From an Outlet? What to Do Now
-- [ ] gadgets/gaming-controllers | controller-not-connecting-to-pc | Game Controller Not Connecting to PC? Fixes
-- [ ] smart-home/smart-lighting-and-plugs | smart-bulb-not-connecting | Smart Bulb Won't Connect? Fixes
-- [ ] plumbing/water-filters-and-softeners | refrigerator-water-filter | When and How to Change a Refrigerator Water Filter
-- [ ] ev-charging/charger-troubleshooting | ev-charging-slow-at-home | EV Charging Slow at Home? Causes
+- [x] gadgets/gaming-controllers | controller-not-connecting-to-pc | Game Controller Not Connecting to PC? Fixes
+- [x] smart-home/smart-lighting-and-plugs | smart-bulb-not-connecting | Smart Bulb Won't Connect? Fixes
+- [x] plumbing/water-filters-and-softeners | refrigerator-water-filter | When and How to Change a Refrigerator Water Filter
+- [x] ev-charging/charger-troubleshooting | ev-charging-slow-at-home | EV Charging Slow at Home? Causes
 
 ## Week 4
 - [ ] pc-laptops/upgrades | how-to-add-ram-to-laptop | How to Add RAM to a Laptop

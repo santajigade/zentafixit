@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="400" fill="#f3f6fa"/>
+  <defs><marker id="evl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Four limits between the wall and the battery</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="64" width="128" height="120" rx="8"/>
+    <rect x="178" y="64" width="128" height="120" rx="8"/>
+    <rect x="332" y="64" width="128" height="120" rx="8"/>
+    <rect x="486" y="64" width="128" height="120" rx="8"/>
+  </g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#evl)">
+    <path d="M152 124h24"/><path d="M306 124h24"/><path d="M460 124h24"/>
+  </g>
+  <g font-size="14" font-weight="700" fill="#0f2240" text-anchor="middle">
+    <text x="88" y="92">1. Circuit</text>
+    <text x="242" y="92">2. Charger</text>
+    <text x="396" y="92">3. Car setting</text>
+    <text x="550" y="92">4. Onboard</text>
+    <text x="550" y="110">charger</text>
+  </g>
+  <g font-size="12" fill="#566475" text-anchor="middle">
+    <text x="88" y="124">breaker size,</text><text x="88" y="140">80% rule,</text><text x="88" y="156">208 or 240 V</text>
+    <text x="242" y="124">max current set</text><text x="242" y="140">in app or at</text><text x="242" y="156">installation</text>
+    <text x="396" y="124">charge current</text><text x="396" y="140">limit, schedule,</text><text x="396" y="156">departure time</text>
+    <text x="550" y="132">car's max AC</text><text x="550" y="148">rate in kW</text>
+  </g>
+  <rect x="24" y="214" width="592" height="70" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="243" font-weight="700">You charge at the lowest of the four</text>
+    <text x="320" y="265" font-size="13">A 48 A charger on a 40 A circuit still gives 32 A at most.</text>
+  </g>
+  <rect x="24" y="304" width="592" height="76" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <g font-size="13" fill="#14202c">
+    <text x="40" y="330">Also slows charging: a cold battery, the last few percent before</text>
+    <text x="40" y="350">full, a warm plug or outlet, and power sharing with another charger.</text>
+    <text x="40" y="370" font-size="12" fill="#566475">kW = amps x volts / 1,000. For example, 32 A x 240 V is about 7.7 kW.</text>
+  </g>
+</svg>

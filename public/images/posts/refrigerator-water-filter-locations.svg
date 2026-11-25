@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <defs><marker id="rwl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where to look for the filter</text>
+  <!-- fridge -->
+  <rect x="60" y="56" width="200" height="330" rx="10" fill="#fff" stroke="#0f2240" stroke-width="2"/>
+  <path d="M60 236h200" stroke="#0f2240" stroke-width="2"/>
+  <rect x="72" y="68" width="176" height="156" rx="4" fill="#dfe9f7" stroke="#1d5fae" stroke-width="1.5"/>
+  <g stroke="#1d5fae" stroke-width="1.5"><path d="M72 120h176M72 170h176"/></g>
+  <rect x="72" y="346" width="176" height="28" rx="4" fill="#d5dee8" stroke="#0f2240" stroke-width="1.5"/>
+  <g stroke="#566475" stroke-width="2"><path d="M90 360h20M120 360h20M150 360h20M180 360h20M210 360h20"/></g>
+  <text x="160" y="300" font-size="12" fill="#566475" text-anchor="middle">freezer</text>
+  <!-- filter spots -->
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5">
+    <rect x="200" y="74" width="40" height="40" rx="6"/>
+    <rect x="140" y="349" width="40" height="22" rx="4"/>
+    <rect x="266" y="190" width="24" height="44" rx="6"/>
+  </g>
+  <path d="M278 190v-40h20" fill="none" stroke="#566475" stroke-width="2"/>
+  <path d="M278 234v60" fill="none" stroke="#566475" stroke-width="2"/>
+  <g font-size="14" font-weight="700" fill="#0f2240" text-anchor="middle"><text x="220" y="99">1</text><text x="160" y="365">2</text><text x="278" y="217">3</text></g>
+  <!-- callouts -->
+  <g fill="none" stroke="#0f2240" stroke-width="1.6" marker-end="url(#rwl)">
+    <path d="M346 94H246"/><path d="M346 340H186"/><path d="M346 212H296"/>
+  </g>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="350" y="62" width="266" height="72" rx="8"/>
+    <rect x="350" y="176" width="266" height="72" rx="8"/>
+    <rect x="350" y="304" width="266" height="72" rx="8"/>
+  </g>
+  <g font-size="14" fill="#14202c">
+    <text x="366" y="88" font-weight="700">1. Inside the fridge</text>
+    <text x="366" y="108" font-size="12" fill="#566475">upper corner, ceiling or near</text>
+    <text x="366" y="124" font-size="12" fill="#566475">the crisper drawers</text>
+    <text x="366" y="202" font-weight="700">3. Behind the fridge</text>
+    <text x="366" y="222" font-size="12" fill="#566475">in-line filter on the water line,</text>
+    <text x="366" y="238" font-size="12" fill="#566475">common on older or basic models</text>
+    <text x="366" y="330" font-weight="700">2. Bottom front grille</text>
+    <text x="366" y="350" font-size="12" fill="#566475">twist cap or push button behind</text>
+    <text x="366" y="366" font-size="12" fill="#566475">the base grille (kick plate)</text>
+  </g>
+</svg>

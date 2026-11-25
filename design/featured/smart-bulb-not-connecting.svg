@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- ceiling cord and socket -->
+  <path d="M520 0v90" stroke="#f3f6fa" stroke-width="6"/>
+  <rect x="482" y="90" width="76" height="70" rx="10" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <!-- bulb -->
+  <rect x="484" y="160" width="72" height="56" rx="6" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <g stroke="#0f2240" stroke-width="4"><path d="M486 178h68M486 198h68"/></g>
+  <path d="M482 216c-80 30-120 90-120 160 0 100 70 170 158 170s158-70 158-170c0-70-40-130-120-160z" fill="#f3f6fa" stroke="#ffffff" stroke-width="5"/>
+  <path d="M492 230c-62 28-96 80-96 146 0 84 56 146 124 146s124-62 124-146c0-66-34-118-96-146z" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="520" cy="390" r="70" fill="#ffd23f" fill-opacity=".45"/>
+  <path d="M476 410l14-36 15 36 15-36 15 36 15-36 14 36" fill="none" stroke="#0f2240" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M476 410v-60M564 410v-60" stroke="#0f2240" stroke-width="4"/>
+  <!-- router -->
+  <rect x="840" y="420" width="220" height="70" rx="14" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <g stroke="#f3f6fa" stroke-width="8" stroke-linecap="round"><path d="M880 420v-70M1020 420v-70"/></g>
+  <g fill="#0f2240"><circle cx="890" cy="455" r="7"/><circle cx="920" cy="455" r="7"/><circle cx="950" cy="455" r="7"/></g>
+  <!-- wifi arcs and break -->
+  <g fill="none" stroke="#ffd23f" stroke-width="7" stroke-linecap="round">
+    <path d="M900 300a80 80 0 0 1 100 0"/><path d="M870 260a130 130 0 0 1 160 0"/>
+    <path d="M720 290l40 40M760 290l-40 40"/>
+  </g>
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M330 216v330M320 216h20M320 546h20"/><path d="M362 580h316M362 570v20M678 570v20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>
