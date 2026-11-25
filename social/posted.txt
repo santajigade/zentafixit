@@ -19,3 +19,4 @@ freezer-not-freezing
 dishwasher-leaking
 microwave-sparking
 toilet-leaking-at-base
+power-strip-vs-surge-protector
