@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- left wall plate and adapter -->
+  <rect x="150" y="120" width="240" height="380" rx="24" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="180" y="170" width="180" height="250" rx="26" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="230" cy="215" r="9" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <circle cx="270" cy="215" r="9" fill="#f3f6fa" stroke="#0f2240" stroke-width="3"/>
+  <circle cx="310" cy="215" r="9" fill="#f3f6fa" stroke="#0f2240" stroke-width="3"/>
+  <rect x="226" y="260" width="88" height="34" rx="8" fill="#f3f6fa" stroke="#0f2240" stroke-width="3"/>
+  <rect x="240" y="350" width="60" height="44" rx="4" fill="#0f2240"/>
+  <rect x="256" y="380" width="28" height="14" fill="#fff"/>
+  <path d="M270 420v80c0 40 20 60 60 60h40" fill="none" stroke="#f3f6fa" stroke-width="10" stroke-linecap="round"/>
+  <!-- right wall plate and adapter -->
+  <rect x="810" y="120" width="240" height="380" rx="24" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="840" y="170" width="180" height="250" rx="26" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="890" cy="215" r="9" fill="#ffd23f" stroke="#0f2240" stroke-width="3"/>
+  <circle cx="930" cy="215" r="9" fill="#f3f6fa" stroke="#0f2240" stroke-width="3"/>
+  <circle cx="970" cy="215" r="9" fill="#f3f6fa" stroke="#0f2240" stroke-width="3"/>
+  <rect x="886" y="260" width="88" height="34" rx="8" fill="#f3f6fa" stroke="#0f2240" stroke-width="3"/>
+  <rect x="900" y="350" width="60" height="44" rx="4" fill="#0f2240"/>
+  <rect x="916" y="380" width="28" height="14" fill="#fff"/>
+  <path d="M930 420v80c0 40-20 60-60 60h-40" fill="none" stroke="#f3f6fa" stroke-width="10" stroke-linecap="round"/>
+  <!-- signal wave through the wiring -->
+  <path d="M410 300q30-60 60 0t60 0t60 0t60 0t60 0t60 0" fill="none" stroke="#ffd23f" stroke-width="7" stroke-linecap="round"/>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M150 80h900M150 70v20M1050 70v20"/><path d="M1100 120v380M1090 120h20M1090 500h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

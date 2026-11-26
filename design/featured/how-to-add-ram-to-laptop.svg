@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- laptop base, panel removed -->
+  <rect x="250" y="90" width="700" height="440" rx="30" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="290" y="130" width="620" height="360" rx="16" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <!-- battery block -->
+  <rect x="320" y="370" width="560" height="96" rx="10" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <path d="M360 418h480" stroke="#0f2240" stroke-width="3" stroke-dasharray="10 10"/>
+  <!-- fan -->
+  <circle cx="790" cy="240" r="70" fill="#f3f6fa" stroke="#0f2240" stroke-width="4"/>
+  <circle cx="790" cy="240" r="16" fill="#0f2240"/>
+  <g stroke="#0f2240" stroke-width="4" stroke-linecap="round" fill="none"><path d="M790 224q30-30 40 0M806 240q30 30 0 40M790 256q-30 30-40 0M774 240q-30-30 0-40"/></g>
+  <!-- slots -->
+  <rect x="340" y="160" width="300" height="22" rx="4" fill="#0f2240"/>
+  <rect x="340" y="280" width="300" height="22" rx="4" fill="#0f2240"/>
+  <!-- installed module -->
+  <rect x="350" y="182" width="280" height="54" rx="4" fill="#dfe9f7" stroke="#0f2240" stroke-width="4"/>
+  <g fill="#fff" stroke="#0f2240" stroke-width="3"><rect x="368" y="194" width="52" height="30" rx="3"/><rect x="434" y="194" width="52" height="30" rx="3"/><rect x="500" y="194" width="52" height="30" rx="3"/><rect x="566" y="194" width="46" height="30" rx="3"/></g>
+  <!-- module being inserted at an angle -->
+  <g transform="rotate(-10 350 302)">
+    <rect x="350" y="302" width="280" height="54" rx="4" fill="#ffd23f" stroke="#0f2240" stroke-width="4"/>
+    <g fill="#fff" stroke="#0f2240" stroke-width="3"><rect x="368" y="314" width="52" height="30" rx="3"/><rect x="434" y="314" width="52" height="30" rx="3"/><rect x="500" y="314" width="52" height="30" rx="3"/><rect x="566" y="314" width="46" height="30" rx="3"/></g>
+  </g>
+  <!-- press-down arrow -->
+  <g stroke="#ffd23f" stroke-width="6" stroke-linecap="round" fill="none"><path d="M690 190q40 50 10 110"/><path d="M684 282l16 18 18-14"/></g>
+  <!-- screw holes -->
+  <g fill="#f3f6fa" stroke="#0f2240" stroke-width="3"><circle cx="275" cy="115" r="9"/><circle cx="925" cy="115" r="9"/><circle cx="275" cy="505" r="9"/><circle cx="925" cy="505" r="9"/></g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M250 60h700M250 50v20M950 50v20"/><path d="M200 90v440M190 90h20M190 530h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

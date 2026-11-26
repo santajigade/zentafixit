@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="420" fill="#f3f6fa"/>
+  <defs><marker id="ramdown" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#1d5fae"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Installing a laptop memory module</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="54" width="284" height="250" rx="8"/>
+    <rect x="332" y="54" width="284" height="250" rx="8"/>
+  </g>
+  <g font-size="14" font-weight="700" fill="#14202c" text-anchor="middle">
+    <text x="166" y="80">1. Insert at an angle</text>
+    <text x="474" y="80">2. Press flat until it clicks</text>
+  </g>
+  <g font-size="12" fill="#566475" text-anchor="middle">
+    <text x="166" y="98">side view</text>
+    <text x="474" y="98">top view</text>
+  </g>
+  <!-- side view: board, slot, angled module -->
+  <path d="M44 256H290" stroke="#566475" stroke-width="2"/>
+  <rect x="52" y="226" width="36" height="30" rx="3" fill="#0f2240"/>
+  <rect x="88" y="236" width="180" height="10" fill="none" stroke="#566475" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <g transform="rotate(-25 84 240)">
+    <rect x="74" y="235" width="190" height="10" rx="2" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+    <rect x="74" y="235" width="14" height="10" fill="#ffd23f"/>
+  </g>
+  <path d="M262 170q34 30 14 62" fill="none" stroke="#1d5fae" stroke-width="2" marker-end="url(#ramdown)"/>
+  <g font-size="13" fill="#566475">
+    <text x="44" y="280">Gold contacts go in first,</text>
+    <text x="44" y="296">then swing it down flat</text>
+  </g>
+  <!-- top view: slot, flat module, clips -->
+  <rect x="372" y="122" width="204" height="16" rx="2" fill="#0f2240"/>
+  <rect x="380" y="138" width="188" height="96" rx="3" fill="#dfe9f7" stroke="#0f2240" stroke-width="2"/>
+  <rect x="380" y="138" width="188" height="12" fill="#ffd23f"/>
+  <rect x="448" y="136" width="6" height="16" fill="#fff"/>
+  <g fill="#fff" stroke="#566475" stroke-width="1.5">
+    <rect x="394" y="164" width="36" height="24" rx="2"/><rect x="438" y="164" width="36" height="24" rx="2"/><rect x="482" y="164" width="36" height="24" rx="2"/><rect x="526" y="164" width="30" height="24" rx="2"/>
+  </g>
+  <g fill="#ffd23f" stroke="#0f2240" stroke-width="2">
+    <path d="M364 196h22v22h-22z"/><path d="M562 196h22v22h-22z"/>
+  </g>
+  <g font-size="13" fill="#566475" text-anchor="middle">
+    <text x="451" y="118">notch</text>
+    <text x="375" y="252">clip</text><text x="573" y="252">clip</text>
+    <text x="474" y="280">Both side clips snap over</text>
+    <text x="474" y="296">the module's edges</text>
+  </g>
+  <g font-size="13" fill="#566475">
+    <text x="24" y="340">Line up the notch with the key in the slot. It only fits one way.</text>
+    <text x="24" y="360">Hold the module by its edges. Don't touch the gold contacts.</text>
+    <text x="24" y="380">To remove one, push both clips outward and it pops up at an angle.</text>
+  </g>
+</svg>

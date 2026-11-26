@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 376" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="376" fill="#f3f6fa"/>
+  <defs><marker id="plp" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Where the powerline signal travels</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <rect x="24" y="56" width="150" height="44" rx="8"/>
+    <rect x="24" y="148" width="150" height="48" rx="8"/>
+    <rect x="466" y="56" width="150" height="44" rx="8"/>
+    <rect x="466" y="148" width="150" height="48" rx="8"/>
+  </g>
+  <rect x="250" y="134" width="140" height="76" rx="8" fill="#dfe9f7" stroke="#1d5fae" stroke-width="2"/>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#plp)">
+    <path d="M99 100v46"/><path d="M541 146V102"/>
+  </g>
+  <g fill="none" stroke="#1d5fae" stroke-width="4"><path d="M174 172h76"/><path d="M390 172h76"/></g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="99" y="83">Router</text>
+    <text x="99" y="168" font-weight="700">Adapter A</text><text x="99" y="186" font-size="12" fill="#566475">in a wall outlet</text>
+    <text x="541" y="83">PC, TV or console</text>
+    <text x="541" y="168" font-weight="700">Adapter B</text><text x="541" y="186" font-size="12" fill="#566475">in a wall outlet</text>
+    <text x="320" y="160" font-weight="700">Breaker panel</text><text x="320" y="180" font-size="12" fill="#566475">two 120 V legs</text><text x="320" y="196" font-size="12" fill="#566475">and many circuits</text>
+    <text x="212" y="162" font-size="12" fill="#566475">wiring</text><text x="428" y="162" font-size="12" fill="#566475">wiring</text>
+  </g>
+  <g font-size="12" fill="#566475"><text x="108" y="128">Ethernet</text><text x="476" y="128">Ethernet</text></g>
+  <rect x="24" y="232" width="184" height="124" rx="8" fill="#fff" stroke="#1f8a5b" stroke-width="2"/>
+  <rect x="228" y="232" width="184" height="124" rx="8" fill="#fff" stroke="#d9442b" stroke-width="2"/>
+  <rect x="432" y="232" width="184" height="124" rx="8" fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"/>
+  <g font-size="13" fill="#14202c" text-anchor="middle">
+    <text x="116" y="258" font-size="14" font-weight="700" fill="#1f8a5b">Plug in here</text>
+    <text x="116" y="282">Directly into a</text><text x="116" y="300">wall outlet. Use the</text><text x="116" y="318">pass-through socket</text><text x="116" y="336">for other gear</text>
+    <text x="320" y="258" font-size="14" font-weight="700" fill="#d9442b">Avoid</text>
+    <text x="320" y="282">Power strips, surge</text><text x="320" y="300">protectors, UPS units</text><text x="320" y="318">and extension cords</text>
+    <text x="524" y="258" font-size="14" font-weight="700" fill="#0f2240">Can weaken it</text>
+    <text x="524" y="282">A different circuit</text><text x="524" y="300">or panel leg, AFCI or</text><text x="524" y="318">GFCI breakers, noisy</text><text x="524" y="336">chargers and motors</text>
+  </g>
+</svg>

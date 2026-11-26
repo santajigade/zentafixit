@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#7aace8" stroke-opacity=".16"/></pattern>
+    <pattern id="G" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" fill="none" stroke="#7aace8" stroke-opacity=".3"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#0f2240"/><rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#G)"/>
+  <!-- refrigerator -->
+  <rect x="470" y="60" width="300" height="500" rx="24" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="495" y="85" width="250" height="150" rx="14" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <rect x="495" y="255" width="250" height="280" rx="14" fill="#fff" stroke="#0f2240" stroke-width="4"/>
+  <g fill="#0f2240"><rect x="711" y="112" width="12" height="80" rx="6"/><rect x="711" y="282" width="12" height="110" rx="6"/></g>
+  <!-- kick plate grille -->
+  <g stroke="#0f2240" stroke-width="4" stroke-linecap="round"><path d="M540 546h160"/></g>
+  <!-- thermometer: warm reading -->
+  <rect x="318" y="150" width="44" height="290" rx="22" fill="#f3f6fa" stroke="#ffffff" stroke-width="4"/>
+  <rect x="330" y="210" width="20" height="240" rx="10" fill="#ffd23f"/>
+  <circle cx="340" cy="460" r="38" fill="#ffd23f" stroke="#ffffff" stroke-width="4"/>
+  <g stroke="#9fc4f0" stroke-width="3" stroke-linecap="round"><path d="M372 190h20M372 240h14M372 290h20M372 340h14M372 390h20"/></g>
+  <!-- heat waves -->
+  <g fill="none" stroke="#ffd23f" stroke-width="6" stroke-linecap="round">
+    <path d="M880 200c16-16 16-32 0-48s-16-32 0-48"/>
+    <path d="M930 230c16-16 16-32 0-48s-16-32 0-48"/>
+    <path d="M980 200c16-16 16-32 0-48s-16-32 0-48"/>
+  </g>
+  <!-- dimension lines -->
+  <g stroke="#9fc4f0" stroke-width="2" stroke-dasharray="6 8" fill="none"><path d="M470 32h300M470 22v20M770 22v20"/><path d="M820 60v500M810 60h20M810 560h20"/></g>
+  <rect x="0" y="606" width="1200" height="24" fill="#ffd23f"/>
+</svg>

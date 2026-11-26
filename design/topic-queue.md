@@ -101,10 +101,10 @@ Slugs must not equal any existing guide slug or any subcategory slug.
 - [x] ev-charging/charger-troubleshooting | ev-charging-slow-at-home | EV Charging Slow at Home? Causes
 
 ## Week 4
-- [ ] pc-laptops/upgrades | how-to-add-ram-to-laptop | How to Add RAM to a Laptop
-- [ ] appliances/refrigerators | refrigerator-not-cooling-at-all | Refrigerator Not Cooling at All? Fixes
-- [ ] electrical/breakers-and-panels | breaker-panel-labels | How to Map and Label Your Breaker Panel
-- [ ] networking/ethernet-and-powerline | powerline-adapter-not-working | Powerline Adapter Not Working? Fixes
+- [x] pc-laptops/upgrades | how-to-add-ram-to-laptop | How to Add RAM to a Laptop
+- [x] appliances/refrigerators | refrigerator-not-cooling-at-all | Refrigerator Not Cooling at All? Fixes
+- [x] electrical/breakers-and-panels | breaker-panel-labels | How to Map and Label Your Breaker Panel
+- [x] networking/ethernet-and-powerline | powerline-adapter-not-working | Powerline Adapter Not Working? Fixes
 - [ ] phones-tablets/charging-and-battery | phone-charging-slowly | Phone Charging Slowly? Fixes
 - [ ] plumbing/clogged-drains | bathtub-draining-slowly | Bathtub Draining Slowly? Fixes
 - [ ] tv-audio/streaming-problems | netflix-not-working-on-tv | Streaming App Not Working on Your TV? Fixes

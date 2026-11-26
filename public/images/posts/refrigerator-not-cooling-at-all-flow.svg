@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 450" font-family="Open Sans, Arial, sans-serif">
+  <rect width="640" height="450" fill="#f3f6fa"/>
+  <defs><marker id="rnca" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#0f2240"/></marker></defs>
+  <text x="24" y="34" font-size="17" font-weight="700" fill="#0f2240">Fridge and freezer both warm?</text>
+  <g fill="#fff" stroke="#0f2240" stroke-width="2">
+    <path d="M320 52l120 34-120 34-120-34z"/>
+    <rect x="472" y="62" width="144" height="48" rx="8"/>
+    <rect x="150" y="142" width="340" height="44" rx="8"/>
+    <rect x="150" y="208" width="340" height="44" rx="8"/>
+    <rect x="24" y="300" width="180" height="62" rx="8"/>
+    <rect x="230" y="300" width="180" height="62" rx="8"/>
+    <rect x="436" y="300" width="180" height="62" rx="8"/>
+  </g>
+  <g fill="#ffd23f" fill-opacity=".45" stroke="#c9a10a" stroke-width="1.5"><rect x="24" y="374" width="180" height="56" rx="8"/><rect x="230" y="374" width="180" height="56" rx="8"/><rect x="436" y="374" width="180" height="56" rx="8"/></g>
+  <g fill="none" stroke="#0f2240" stroke-width="1.8" marker-end="url(#rnca)">
+    <path d="M440 86h30"/><path d="M320 120v20"/><path d="M320 186v20"/>
+    <path d="M320 252v46"/><path d="M320 272H114v26"/><path d="M320 272H526v26"/>
+    <path d="M114 362v10"/><path d="M320 362v10"/><path d="M526 362v10"/>
+  </g>
+  <g font-size="14" fill="#14202c" text-anchor="middle">
+    <text x="320" y="91" font-weight="700">Inside light on?</text>
+    <text x="455" y="78" font-size="12" fill="#566475">no</text>
+    <text x="336" y="135" font-size="12" fill="#566475">yes</text>
+    <text x="544" y="82">No power:</text><text x="544" y="100">see cause 1</text>
+    <text x="320" y="169">2. Controls on, no demo mode</text>
+    <text x="320" y="235">3. Listen near the bottom back</text>
+    <text x="114" y="326" font-weight="700">Silent</text><text x="114" y="346" font-size="13" fill="#566475">no hum, no fan noise</text>
+    <text x="320" y="326" font-weight="700">Clicks, then quiet</text><text x="320" y="346" font-size="13" fill="#566475">every few minutes</text>
+    <text x="526" y="326" font-weight="700">Runs, still warm</text><text x="526" y="346" font-size="13" fill="#566475">hum or fan nonstop</text>
+    <text x="114" y="398" font-weight="700">Causes 2, 6, 8</text><text x="114" y="416" font-size="12">controls, relay, board</text>
+    <text x="320" y="398" font-weight="700">Causes 6, 7</text><text x="320" y="416" font-size="12">relay, overload, power</text>
+    <text x="526" y="398" font-weight="700">Causes 3, 4, 5, 9</text><text x="526" y="416" font-size="12">new, coils, fan, leak</text>
+  </g>
+</svg>
